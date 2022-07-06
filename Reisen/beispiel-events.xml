@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">
+               <desc year="" anchored="true"><placeName>Publication Information</placeName></desc>
+            </p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">
+               <desc year="" anchored="true"><placeName>Information about the source</placeName></desc>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p part="N">
+            <desc year="" anchored="true"><placeName>A 175 Reisen</placeName></desc>
+            <desc year="1887" cert="low" anchored="true"/>
+            <desc year="1868" cert="low" anchored="true"><placeName>Grosskanisza</placeName></desc>
+            <desc year="1869" cert="low" anchored="true"/>
+            <desc year="1870" cert="low" anchored="true"><placeName>71? Sommeraufenthalt in Vöslau</placeName></desc>
+            <desc year="1870" cert="low" anchored="true"><placeName>Gmunden</placeName><placeName>Ischl</placeName><placeName>Aussee</placeName></desc>
+            <desc year="1872" anchored="true"><placeName>Salzburg</placeName><placeName>München</placeName><placeName>Zürich</placeName><placeName>Luzern</placeName><placeName>Genf</placeName></desc>
+            <desc year="1873" anchored="true"><placeName>Võslau</placeName></desc>
+            <desc year="1874" anchored="true"><date-artefact>2. Aug.</date-artefact><placeName>-</placeName><date-artefact>16.Aug.</date-artefact><placeName>Salzburg</placeName><placeName>Reichenhall</placeName><placeName>Innsbruck</placeName><placeName>Achensee</placeName><placeName>Ampezzo</placeName><placeName>Landro</placeName><placeName>Lienz</placeName><placeName>Döl- lach. Heiligenblut</placeName><placeName>Villach</placeName></desc>
+            <desc year="1875" anchored="true"><placeName>7</placeName></desc>
+            <desc year="1876" cert="low" anchored="true"/>
+            <desc year="1877" anchored="true"><date-artefact><date from="1877-07-21"/><date to="1877-08-06"/></date-artefact><placeName>Fusch</placeName><placeName>Veldeser See</placeName></desc>
+            <desc year="1878" anchored="true"><date-artefact>4./8.</date-artefact><placeName>-</placeName><date-artefact>17./8.</date-artefact><placeName>Salzkammergut? a</placeName></desc>
+            <desc year="1879" anchored="true"><date-artefact>30.8.</date-artefact><placeName>Wien</placeName><placeName>-Frankfurt a.M</placeName><date-artefact>1.9.</date-artefact><placeName>Frank- furt-Coblenz-Ems</placeName><day>2.</day><date-artefact>3./9.</date-artefact><placeName>Ems</placeName><date-artefact>4./9.</date-artefact><placeName>-Bonn- Köln</placeName><date-artefact>5.9.</date-artefact><placeName>Köln-Amsterdam</placeName><day type="from">6</day><day type="to">11.</day><placeName>Amsterdam</placeName><date-artefact>12.9.</date-artefact><placeName>Amsterdam</placeName><placeName>HaagScheveningen</placeName><date-artefact>13.9.</date-artefact><placeName>Scheve- ningen-Mainz</placeName><date-artefact>14.9.</date-artefact><placeName>Mainz-München </placeName><date-artefact>15.9.</date-artefact><placeName>Wien</placeName></desc>
+            <desc year="1880" anchored="true"><placeName/><date-artefact>1.8.</date-artefact><placeName>Wien-Klagenfurt-Loretto.3.8 -Vel- den-Klagenfurt</placeName><date-artefact>3.8.</date-artefact><placeName>Klagenfurt-Toblach</placeName><date-artefact>5.8.</date-artefact><placeName>Toblach</placeName><placeName>Cortina</placeName><placeName>Toblach</placeName><date-artefact>6.8.</date-artefact><placeName>Toblach-Innsbruck</placeName><date-artefact>7.8.</date-artefact><placeName>Inusbruck-Zell a.S</placeName><date-artefact>8.8.</date-artefact><placeName>Zell a.S</placeName><date-artefact>9.8.</date-artefact><placeName>Zell</placeName></desc>
+         </p>
+      </body>
+   </text>
+</TEI>

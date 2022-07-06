@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:36.467+02:00</Created>
+        <LastChange>2022-06-14T09:28:30.896+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195899" pageNr="36" tsid="88143665" status="IN_PROGRESS" userId="40391" imgUrl="https://files.transkribus.eu/Get?id=ARNZMBQZPEPNCSGRCRENGZCJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UCGWNVJAODKBJXFHWSGKBIZA" imageId="35435133"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00071.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1657025973665" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="539,468 539,852 1958,852 1958,468"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="1836,532 1845,532 1862,544 1890,535 1910,550 1947,546 1946,489 1930,491 1907,472 1893,482 1872,468 1849,491 1835,491"/>
+                <Baseline points="1845,519 1876,518 1907,519 1938,516"/>
+                <Word id="r1l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1844,478 1844,538 1925,538 1925,478"/>
+                    <TextEquiv>
+                        <Unicode>36</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>36</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="540,633 624,681 855,622 896,643 975,625 1123,638 1124,546 841,583 741,552 540,552"/>
+                <Baseline points="548,618 576,619 604,620 633,621 661,621 689,621 718,621 746,621 774,621 803,621 831,621 859,621 888,620 916,620 944,620 973,620 1001,620 1029,621 1058,621 1086,623 1115,624"/>
+                <Word id="r1l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="546,580 546,640 699,640 699,580"/>
+                    <TextEquiv>
+                        <Unicode>1811.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l2_w2" custom="readingOrder {index:1;}">
+                    <Coords points="717,580 717,640 1116,640 1116,580"/>
+                    <TextEquiv>
+                        <Unicode>Wien-Berlia.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>1811. Wien-Berlia.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="538,734 1967,747 1967,655 539,667"/>
+                <Baseline points="548,722 618,720 689,720 759,720 830,722 900,722 971,722 1041,722 1112,723 1182,723 1253,723 1323,725 1394,725 1464,725 1535,725 1605,726 1676,726 1746,725 1817,725 1887,725 1958,723"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="541,680 541,740 863,740 863,680"/>
+                    <TextEquiv>
+                        <Unicode>19.-27.11.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="909,682 909,742 1100,742 1100,682"/>
+                    <TextEquiv>
+                        <Unicode>Berlin</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1153,684 1153,744 1443,744 1443,684"/>
+                    <TextEquiv>
+                        <Unicode>(Preniere</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1489,685 1489,745 1949,745 1949,685"/>
+                    <TextEquiv>
+                        <Unicode>.Zwischenspiel</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>19.-27.11. Berlin (Preniere .Zwischenspiel</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="531,837 1270,854 1270,803 1108,767 531,770"/>
+                <Baseline points="539,819 575,821 611,822 647,824 683,825 719,825 755,825 791,825 827,825 863,825 899,825 935,825 971,824 1007,824 1043,824 1079,824 1115,824 1151,825 1187,825 1223,827 1260,828"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="534,785 534,845 939,845 939,785"/>
+                    <TextEquiv>
+                        <Unicode>28.11.wieder</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="993,784 993,844 1046,844 1046,784"/>
+                    <TextEquiv>
+                        <Unicode>in</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1093,785 1093,845 1259,845 1259,785"/>
+                    <TextEquiv>
+                        <Unicode>Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>28.11.wieder in Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
