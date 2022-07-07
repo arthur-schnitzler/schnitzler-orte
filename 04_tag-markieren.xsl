@@ -14,18 +14,24 @@
                 <xsl:element name="date-artefact" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:element name="date">
                         <xsl:attribute name="from">
-                        <xsl:value-of select="$jahr"/><xsl:text>-</xsl:text>
-                        <xsl:value-of select="foo:nullerHinzu(regex-group(3))"/><xsl:text>-</xsl:text><xsl:value-of select="foo:nullerHinzu(regex-group(1))"/>
+                            <xsl:value-of select="$jahr"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(3))"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(1))"/>
                         </xsl:attribute>
                     </xsl:element>
                     <xsl:element name="date">
                         <xsl:attribute name="to">
-                            <xsl:value-of select="$jahr"/><xsl:text>-</xsl:text>
-                            <xsl:value-of select="foo:nullerHinzu(regex-group(7))"/><xsl:text>-</xsl:text><xsl:value-of select="foo:nullerHinzu(regex-group(5))"/>
+                            <xsl:value-of select="$jahr"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(7))"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(5))"/>
                         </xsl:attribute>
                     </xsl:element>
-                    
-                    
+
+
                 </xsl:element>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
@@ -49,7 +55,17 @@
                                     <xsl:matching-substring>
                                         <xsl:element name="day"
                                             namespace="http://www.tei-c.org/ns/1.0">
+                                            <xsl:attribute name="type">
+                                                <xsl:text>from</xsl:text>
+                                            </xsl:attribute>
                                             <xsl:value-of select="substring-before(., 'u.')"/>
+                                        </xsl:element>
+                                        <xsl:element name="day-month"
+                                            namespace="http://www.tei-c.org/ns/1.0">
+                                            <xsl:attribute name="type">
+                                                <xsl:text>to</xsl:text>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="substring-after(., 'u.')"/>
                                         </xsl:element>
                                     </xsl:matching-substring>
                                     <xsl:non-matching-substring>
@@ -124,7 +140,7 @@
     <xsl:function name="foo:nullerHinzu">
         <xsl:param name="zahl" as="xs:string?"/>
         <xsl:choose>
-            <xsl:when test="string-length($zahl)=1">
+            <xsl:when test="string-length($zahl) = 1">
                 <xsl:value-of select="concat('0', $zahl)"/>
             </xsl:when>
             <xsl:otherwise>
