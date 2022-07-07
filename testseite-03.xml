@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <desc>Publication Information</desc>
+            </p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>
+               <desc>Information about the source</desc>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p part="N">
+            <desc year="" anchored="true">A 175
+               Reisen.
+            </desc>
+            <desc year="1887" cert="low" anchored="true"> </desc>
+            <desc year="1868" cert="low" anchored="true"> Grosskanisza.
+            </desc>
+            <desc year="1869" cert="low" anchored="true"> </desc>
+            <desc year="1870" cert="low" anchored="true"> 71? Sommeraufenthalt in Vöslau.
+            </desc>
+            <desc year="1870" cert="low" anchored="true"> Gmunden,Ischl,Aussee.
+            </desc>
+            <desc year="1872" anchored="true"> Salzburg, München, Zürich,Luzern,Genf.
+            </desc>
+            <desc year="1873" anchored="true"> Võslau.
+            </desc>
+            <desc year="1874" anchored="true"> 2. Aug.-16.Aug. Salzburg, Reichenhall,
+               Innsbruck,Achensee,Ampezzo,Landro,Lienz,Döl-
+               lach. Heiligenblut, Villach.
+            </desc>
+            <desc year="1875" anchored="true">7
+            </desc>
+            <desc year="1876" cert="low" anchored="true">
+            </desc>
+            <desc year="1877" anchored="true"> 21.7.-6.8. Fusch, Veldeser See.
+            </desc>
+            <desc year="1878" anchored="true">4./8.-17./8. Salzkammergut?
+               a
+            </desc>
+            <desc year="1879" anchored="true"> 30.8. Wien, -Frankfurt a.M. 1.9. Frank-
+               furt-Coblenz-Ems.2.u.3./9.Ems.4./9.-Bonn-
+               Köln.5.9.Köln-Amsterdam.6.-11.Amsterdam.
+               12.9.Amsterdam,HaagScheveningen.13.9. Scheve-
+               ningen-Mainz.14.9.Mainz-München .15.9.Wien.
+            </desc>
+            <desc year="1880" anchored="true">. 1.8.Wien-Klagenfurt-Loretto.3.8 -Vel-
+               den-Klagenfurt. 3.8.Klagenfurt-Toblach.5.8.
+               Toblach, Cortina,Toblach.6.8. Toblach-Innsbruck
+               7.8. Inusbruck-Zell a.S.8.8.Zell a.S.9.8.Zell</desc>
+         </p>
+      </body>
+   </text>
+</TEI>
