@@ -22,14 +22,16 @@
             <event  from="1877-07-21" to="1877-08-06">
                <desc>
                   <placeName ref="geonamesId">Fusch</placeName>
+                 
                </desc>
+               <note>Sommerurlaub</note>
             </event>
             <event from="1877-07-21" to="1877-08-06">
                
                <desc>
                   <placeName>Veldeser See</placeName>
                </desc>
-               
+               <note>Sommerurlaub</note>
             </event>
          </listEvent>
       </body>
