@@ -14,18 +14,22 @@
                 <xsl:element name="date-artefact" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:element name="date">
                         <xsl:attribute name="from">
-                        <xsl:value-of select="$jahr"/><xsl:text>-</xsl:text>
-                        <xsl:value-of select="foo:nullerHinzu(regex-group(3))"/><xsl:text>-</xsl:text><xsl:value-of select="foo:nullerHinzu(regex-group(1))"/>
+                            <xsl:value-of select="$jahr"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(3))"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(1))"/>
                         </xsl:attribute>
                     </xsl:element>
                     <xsl:element name="date">
                         <xsl:attribute name="to">
-                            <xsl:value-of select="$jahr"/><xsl:text>-</xsl:text>
-                            <xsl:value-of select="foo:nullerHinzu(regex-group(7))"/><xsl:text>-</xsl:text><xsl:value-of select="foo:nullerHinzu(regex-group(5))"/>
+                            <xsl:value-of select="$jahr"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(7))"/>
+                            <xsl:text>-</xsl:text>
+                            <xsl:value-of select="foo:nullerHinzu(regex-group(5))"/>
                         </xsl:attribute>
                     </xsl:element>
-                    
-                    
                 </xsl:element>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
@@ -84,42 +88,45 @@
                                                   />
                                                   </xsl:element>
                                                   </xsl:matching-substring>
-                                                  <xsl:non-matching-substring><!-- Dinge in runder Klammer als note -->
-                                                      <xsl:analyze-string select="." regex="\(.+\)">
-                                                          <xsl:matching-substring>
-                                                              <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
-                                                                  <xsl:value-of select="normalize-space(substring-before(substring-after(.,'('), ')'))"/>
-                                                              </xsl:element>
-                                                          </xsl:matching-substring>
-                                                          <xsl:non-matching-substring>
-                                                              <xsl:for-each select="tokenize(., ',')"><!-- mit Beistrich getrennte placeNames trennen -->
-                                                                  <xsl:choose>
-                                                                      <xsl:when test="normalize-space(.) = ''"/>
-                                                                      <xsl:otherwise>
-                                                                          <xsl:choose>
-                                                                              <xsl:when test="contains(., '-')"> <!-- mit Bindestrich getrennte placeNames trennen -->
-                                                                                  <xsl:for-each select="tokenize(.,'-')">
-                                                                                      <xsl:element name="placeName">
-                                                                                          <xsl:value-of
-                                                                                              select="foo:punktAmEndeWeg(normalize-space(.))"/>
-                                                                                      </xsl:element>
-                                                                                  </xsl:for-each>
-                                                                              </xsl:when>
-                                                                              <xsl:otherwise>
-                                                                                  <xsl:element name="placeName">
-                                                                                      <xsl:value-of
-                                                                                          select="foo:punktAmEndeWeg(normalize-space(.))"/>
-                                                                                  </xsl:element>
-                                                                              </xsl:otherwise>
-                                                                          </xsl:choose>
-                                                                      </xsl:otherwise>
-                                                                  </xsl:choose>
-                                                              </xsl:for-each>
-                                                          </xsl:non-matching-substring>
-                                                          
-                                                      </xsl:analyze-string>
-                                                      
-                                                
+                                                  <xsl:non-matching-substring>
+                                                  <!-- Dinge in runder Klammer als note -->
+                                                  <xsl:analyze-string select="." regex="\(.+\)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:element name="note"
+                                                  namespace="http://www.tei-c.org/ns/1.0">
+                                                  <xsl:value-of
+                                                  select="normalize-space(substring-before(substring-after(., '('), ')'))"
+                                                  />
+                                                  </xsl:element>
+                                                  </xsl:matching-substring>
+                                                  <xsl:non-matching-substring>
+                                                  <xsl:for-each select="tokenize(., ',')">
+                                                  <!-- mit Beistrich getrennte placeNames trennen -->
+                                                  <xsl:choose>
+                                                  <xsl:when test="normalize-space(.) = ''"/>
+                                                  <xsl:otherwise>
+                                                  <xsl:choose>
+                                                  <xsl:when test="contains(., '-')">
+                                                  <!-- mit Bindestrich getrennte placeNames trennen -->
+                                                  <xsl:for-each select="tokenize(., '-')">
+                                                  <xsl:element name="placeName">
+                                                  <xsl:value-of
+                                                  select="foo:punktAmEndeWeg(normalize-space(.))"/>
+                                                  </xsl:element>
+                                                  </xsl:for-each>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <xsl:element name="placeName">
+                                                  <xsl:value-of
+                                                  select="foo:punktAmEndeWeg(normalize-space(.))"/>
+                                                  </xsl:element>
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
+                                                  </xsl:for-each>
+                                                  </xsl:non-matching-substring>
+                                                  </xsl:analyze-string>
                                                   </xsl:non-matching-substring>
                                                 </xsl:analyze-string>
                                             </xsl:non-matching-substring>
@@ -148,7 +155,7 @@
     <xsl:function name="foo:nullerHinzu">
         <xsl:param name="zahl" as="xs:string?"/>
         <xsl:choose>
-            <xsl:when test="string-length($zahl)=1">
+            <xsl:when test="string-length($zahl) = 1">
                 <xsl:value-of select="concat('0', $zahl)"/>
             </xsl:when>
             <xsl:otherwise>
