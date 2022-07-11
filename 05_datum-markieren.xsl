@@ -116,6 +116,7 @@
                                                   <xsl:when test="normalize-space(.) = ''"/>
                                                   <xsl:otherwise>
                                                   <xsl:choose>
+                                                      <xsl:when test="normalize-space(.)='' or normalize-space(.)='.' or normalize-space(.)=':' "/>
                                                   <xsl:when test="contains(., '-')">
                                                   <!-- mit Bindestrich getrennte placeNames trennen -->
                                                   <xsl:for-each select="tokenize(., '-')">

@@ -155,5 +155,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+    
+    <xsl:template match="tei:placeName[fn:normalize-space(.)='' and not(child::*)]"/>
 
 </xsl:stylesheet>
