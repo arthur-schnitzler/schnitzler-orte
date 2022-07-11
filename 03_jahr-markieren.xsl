@@ -6,7 +6,7 @@
     <xsl:mode on-no-match="shallow-copy" />
     
     
-    <xsl:template match="tei:body//tei:p/text()">
+    <xsl:template match="tei:body//tei:div/text()">
         
             
         <xsl:analyze-string select="." regex="[1]{{1}}[8-9]{{1}}[0-9]{{2}}\?">

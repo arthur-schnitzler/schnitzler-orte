@@ -19,7 +19,9 @@
                     <xsl:value-of select="../@to"/>
                 </xsl:attribute>
             </xsl:when>
-            <xsl:otherwise/>
+            <xsl:otherwise>
+                <xsl:value-of select="."/>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
@@ -35,7 +37,9 @@
                     <xsl:value-of select="../@from"/>
                 </xsl:attribute>
             </xsl:when>
-            <xsl:otherwise/>
+            <xsl:otherwise>
+                <xsl:value-of select="."/>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 

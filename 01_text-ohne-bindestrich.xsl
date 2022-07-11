@@ -11,5 +11,13 @@
             <xsl:otherwise><xsl:text> </xsl:text></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
+    <xsl:template match="//tei:pb">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="//tei:seite">
+        <xsl:apply-templates/>
+    </xsl:template>
 
 </xsl:stylesheet>
