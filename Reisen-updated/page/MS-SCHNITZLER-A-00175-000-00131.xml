@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:41.274+02:00</Created>
+        <LastChange>2022-07-12T11:55:01.177+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195959" pageNr="65" tsid="90440412" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=NRLEQHGUJJEPAQPIKRLGMSBW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OIBTZVINNLSRQFOXZLJIKXMW" imageId="35435193"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00131.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1657620185841" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="540,93 540,1233 2033,1233 2033,93"/>
+            <TextLine id="r1l4" custom="readingOrder {index:0;}">
+                <Coords points="535,707 1937,702 2043,691 2042,629 534,649"/>
+                <Baseline points="545,689 619,690 693,690 768,690 842,690 917,689 991,687 1065,687 1140,686 1214,684 1289,683 1363,681 1437,680 1512,678 1586,677 1661,676 1735,675 1809,674 1884,674 1958,672 2033,672"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="529,649 529,709 633,709 633,649"/>
+                    <TextEquiv>
+                        <Unicode>6.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="684,647 684,707 1417,707 1417,647"/>
+                    <TextEquiv>
+                        <Unicode>Cellerjna,Chiavenna,7.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1428,637 1428,697 1666,697 1666,637"/>
+                    <TextEquiv>
+                        <Unicode>Mailand.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1704,634 1704,694 1975,694 1975,634"/>
+                    <TextEquiv>
+                        <Unicode>xxz</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>6.9. Celerina,Chiavenna,7.9. Mailand</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:1;}">
+                <Coords points="538,842 675,797 832,840 1144,798 1764,826 1763,736 1679,711 1585,759 537,747"/>
+                <Baseline points="546,798 606,798 666,798 727,797 787,797 848,797 908,795 968,795 1029,794 1089,792 1150,792 1210,791 1270,789 1331,789 1391,788 1452,788 1512,786 1572,786 1633,785 1693,785 1754,785"/>
+                <Word id="r1l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="532,758 532,818 639,818 639,758"/>
+                    <TextEquiv>
+                        <Unicode>8.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="683,756 683,816 1017,816 1017,756"/>
+                    <TextEquiv>
+                        <Unicode>Genua,Forte</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1060,752 1060,812 1109,812 1109,752"/>
+                    <TextEquiv>
+                        <Unicode>de</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1147,749 1147,809 1449,809 1449,749"/>
+                    <TextEquiv>
+                        <Unicode>Marmi,dort</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1498,746 1498,806 1573,806 1573,746"/>
+                    <TextEquiv>
+                        <Unicode>bis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1616,745 1616,805 1757,805 1757,745"/>
+                    <TextEquiv>
+                        <Unicode>14.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>8.9.-14.9. Genua,Forte de Marmi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:2;}">
+                <Coords points="549,907 885,953 1029,914 1895,911 1830,825 1595,863 868,838 819,878 548,846"/>
+                <Baseline points="558,897 624,897 690,899 757,899 823,897 890,897 956,897 1022,896 1089,895 1155,894 1222,893 1288,891 1354,891 1421,890 1487,888 1554,888 1620,887 1686,886 1753,885 1819,885 1886,885"/>
+                <Word id="r1l6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="549,858 549,918 807,918 807,858"/>
+                    <TextEquiv>
+                        <Unicode>14.-16.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w2" custom="readingOrder {index:1;}">
+                    <Coords points="847,852 847,912 1611,912 1611,852"/>
+                    <TextEquiv>
+                        <Unicode>Florenz.17.-20.9.Venedig.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1651,845 1651,905 1795,905 1795,845"/>
+                    <TextEquiv>
+                        <Unicode>21.21</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1841,845 1841,905 1887,905 1887,845"/>
+                    <TextEquiv>
+                        <Unicode>9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>14.-16.9. Florenz.17.-20.9.Venedig. 21.9.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:3;}">
+                <Coords points="551,1015 726,1016 761,1001 821,1015 878,998 987,1022 1035,1014 1035,951 962,963 858,937 835,960 707,970 660,949 551,956"/>
+                <Baseline points="560,998 585,999 611,999 637,999 663,998 689,998 715,998 740,998 766,998 792,998 818,996 844,996 870,996 895,996 921,996 947,996 973,997 999,998 1025,998"/>
+                <Word id="r1l7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="546,959 546,1019 715,1019 715,959"/>
+                    <TextEquiv>
+                        <Unicode>wieder</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l7_w2" custom="readingOrder {index:1;}">
+                    <Coords points="769,958 769,1018 811,1018 811,958"/>
+                    <TextEquiv>
+                        <Unicode>in</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l7_w3" custom="readingOrder {index:2;}">
+                    <Coords points="890,956 890,1016 1033,1016 1033,956"/>
+                    <TextEquiv>
+                        <Unicode>Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>wieder in Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:4;}">
+                <Coords points="530,1219 637,1252 817,1203 955,1257 1113,1222 1112,1159 1079,1150 530,1145"/>
+                <Baseline points="540,1202 568,1202 596,1202 624,1202 652,1202 680,1202 708,1202 737,1202 765,1200 793,1200 821,1200 849,1199 877,1199 905,1199 934,1198 962,1197 990,1197 1018,1197 1046,1197 1074,1199 1103,1199"/>
+                <Word id="r1l8_w1" custom="readingOrder {index:0;}">
+                    <Coords points="532,1162 532,1222 845,1222 845,1162"/>
+                    <TextEquiv>
+                        <Unicode>12.-20.10.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l8_w2" custom="readingOrder {index:1;}">
+                    <Coords points="894,1157 894,1217 1110,1217 1110,1157"/>
+                    <TextEquiv>
+                        <Unicode>Berlin.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>12.-20.10. Berlin.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>6.9. Celerina,Chiavenna,7.9. Mailand&#13;
+8.9.-14.9. Genua,Forte de Marmi&#13;
+14.-16.9. Florenz.17.-20.9.Venedig. 21.9.&#13;
+wieder in Wien.&#13;
+12.-20.10. Berlin.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

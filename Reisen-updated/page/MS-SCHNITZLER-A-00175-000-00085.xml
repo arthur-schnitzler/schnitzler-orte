@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:37.641+02:00</Created>
+        <LastChange>2022-07-12T10:13:34.582+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195914" pageNr="43" tsid="90436331" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WHLWPIKUVIXBNMAQZEUWRGAT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZNEDDNEBSMDULVNDCZFGEDZY" imageId="35435148"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00085.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1657620185506" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="330,454 330,987 1890,987 1890,454"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="331,704 592,719 692,696 728,715 873,669 948,681 948,623 885,598 859,616 755,596 729,618 333,576"/>
+                <Baseline points="341,654 370,656 400,658 430,660 460,662 490,662 520,662 550,663 580,663 610,662 640,662 669,662 699,662 729,662 759,662 789,662 819,663 849,664 879,665 909,668 939,669"/>
+                <Word id="r1l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="327,622 327,682 950,682 950,622"/>
+                    <TextEquiv>
+                        <Unicode>4.-6.12.Semmering.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>4.-6.12.Semmering.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="337,870 1666,906 1845,871 1845,800 337,803"/>
+                <Baseline points="347,858 421,860 495,861 570,861 644,862 719,863 793,863 867,863 942,864 1016,864 1091,864 1165,864 1239,864 1314,864 1388,864 1463,864 1537,863 1611,863 1686,863 1760,863 1835,861"/>
+                <Word id="r1l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="340,822 340,882 969,882 969,822"/>
+                    <TextEquiv>
+                        <Unicode>17.-20.12.Budapest.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l2_w2" custom="readingOrder {index:1;}">
+                    <Coords points="995,824 995,884 1139,884 1139,824"/>
+                    <TextEquiv>
+                        <Unicode>(18..</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l2_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1185,824 1185,884 1408,884 1408,824"/>
+                    <TextEquiv>
+                        <Unicode>Liebele</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l2_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1434,824 1434,884 1481,884 1481,824"/>
+                    <TextEquiv>
+                        <Unicode>i'</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l2_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1526,823 1526,883 1578,883 1578,823"/>
+                    <TextEquiv>
+                        <Unicode>im</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l2_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1625,823 1625,883 1847,883 1847,823"/>
+                    <TextEquiv>
+                        <Unicode>Ungari-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>17.-20.12.Budapest. (18. "Liebelei" im Ungari-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="321,1033 496,1054 580,1013 686,1051 801,987 877,1012 1080,990 1108,973 1108,915 851,917 790,891 719,920 537,901 321,924"/>
+                <Baseline points="330,959 368,960 406,961 445,962 483,962 522,962 560,963 598,963 637,963 675,963 714,962 752,962 790,962 829,962 867,962 906,962 944,962 982,962 1021,962 1059,962 1098,962"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="317,920 317,980 480,980 480,920"/>
+                    <TextEquiv>
+                        <Unicode>schen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="529,922 529,982 1111,982 1111,922"/>
+                    <TextEquiv>
+                        <Unicode>Nationaltheater).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>schen Nationaltheater).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>4.-6.12.Semmering.&#13;
+17.-20.12.Budapest. (18. "Liebelei" im Ungari-&#13;
+schen Nationaltheater).</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

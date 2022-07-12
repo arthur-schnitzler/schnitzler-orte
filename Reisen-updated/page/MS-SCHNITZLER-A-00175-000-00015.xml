@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:31.807+02:00</Created>
+        <LastChange>2022-07-12T09:23:53.782+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195863" pageNr="8" tsid="90434815" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=TPDOMWZDZNIWWCZVLOSWEWEB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VNWCCIYILHOIFADCDYSTRCVW" imageId="35435097"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00015.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1657620184684" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="290,481 290,2650 1965,2650 1965,481"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="281,628 307,633 321,624 354,626 369,628 391,642 416,639 416,562 389,569 372,558 361,564 321,538 312,546 281,553"/>
+                <Baseline points="290,602 319,602 348,603 377,602 407,602"/>
+                <Word id="r1l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="287,562 287,622 416,622 416,562"/>
+                    <TextEquiv>
+                        <Unicode>1894</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>1894</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:1;}">
+                <Coords points="505,661 1958,665 1959,594 1817,557 1726,594 507,562"/>
+                <Baseline points="516,611 587,611 659,611 730,612 802,612 874,614 945,615 1017,617 1089,618 1160,620 1232,620 1304,622 1375,623 1447,624 1519,626 1590,626 1662,627 1734,627 1805,627 1877,627 1949,626"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="515,580 515,640 1824,640 1824,580"/>
+                    <TextEquiv>
+                        <Unicode>24.5.Rekawinkel-Hainfeld-Lilienfeld-St.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1839,586 1839,646 1961,646 1961,586"/>
+                    <TextEquiv>
+                        <Unicode>Pöl-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>24.5.Rekawinkel-Hainfeld-Lilienfeld-St. Pöl-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:2;}">
+                <Coords points="513,731 607,716 768,749 809,721 934,755 995,737 998,646 776,673 666,640 623,661 515,657"/>
+                <Baseline points="524,702 549,704 575,706 601,708 626,709 652,710 678,710 704,711 729,711 755,711 781,711 806,711 832,711 858,713 884,714 909,714 935,716 961,718 987,720"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="517,664 517,724 604,724 604,664"/>
+                    <TextEquiv>
+                        <Unicode>ten</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="663,671 663,731 985,731 985,671"/>
+                    <TextEquiv>
+                        <Unicode>(Bycicle).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>ten. (Bycicle)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:3;}">
+                <Coords points="500,829 1916,852 1917,768 501,760"/>
+                <Baseline points="509,809 578,810 648,810 718,812 788,813 858,813 928,815 998,816 1068,818 1138,819 1208,821 1277,821 1347,822 1417,824 1487,825 1557,827 1627,827 1697,828 1767,828 1837,828 1907,828"/>
+                <Word id="r1l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="502,772 502,832 1068,832 1068,772"/>
+                    <TextEquiv>
+                        <Unicode>2.6.Wien-München.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1087,778 1087,838 1170,838 1170,778"/>
+                    <TextEquiv>
+                        <Unicode>Bis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1220,783 1220,843 1576,843 1576,783"/>
+                    <TextEquiv>
+                        <Unicode>8.6.München</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1640,788 1640,848 1927,848 1927,788"/>
+                    <TextEquiv>
+                        <Unicode>(Richard,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>2.6.Wien-München. Bis 8.6.München (Richard,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:4;}">
+                <Coords points="500,946 1717,974 1951,941 1952,899 502,860"/>
+                <Baseline points="509,911 580,911 652,912 724,912 795,914 867,915 939,915 1010,917 1082,918 1154,920 1226,921 1297,923 1369,924 1441,925 1512,926 1584,927 1656,928 1727,929 1799,929 1871,929 1943,929"/>
+                <Word id="r1l6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="503,871 503,931 663,931 663,871"/>
+                    <TextEquiv>
+                        <Unicode>Bahr)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w2" custom="readingOrder {index:1;}">
+                    <Coords points="710,881 710,941 1747,941 1747,881"/>
+                    <TextEquiv>
+                        <Unicode>8.6.München-Salzburg-lschl.9.6.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1767,889 1767,949 1954,949 1954,889"/>
+                    <TextEquiv>
+                        <Unicode>Ischl-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Bahr) 8.6.München-Salzburg-lschl.9.6. Ischl-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:5;}">
+                <Coords points="500,1027 1713,1067 1714,1018 1391,965 986,1000 900,962 501,965"/>
+                <Baseline points="509,1016 568,1017 628,1019 688,1020 748,1022 807,1023 867,1025 927,1025 987,1026 1046,1026 1106,1028 1166,1028 1226,1029 1285,1030 1345,1031 1405,1032 1465,1032 1524,1034 1584,1035 1644,1036 1704,1038"/>
+                <Word id="r1l7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="503,985 503,1045 1353,1045 1353,985"/>
+                    <TextEquiv>
+                        <Unicode>Wels.10.6.Wels-Hall.11.6.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l7_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1359,994 1359,1054 1689,1054 1689,994"/>
+                    <TextEquiv>
+                        <Unicode>Hall-Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Wels.10.6.Wels-Hall.11.6. Hall-Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:6;}">
+                <Coords points="491,1130 1884,1145 1885,1085 493,1050"/>
+                <Baseline points="500,1109 568,1110 637,1112 706,1112 774,1113 843,1115 912,1115 980,1116 1049,1118 1118,1119 1187,1121 1255,1121 1324,1122 1393,1124 1461,1125 1530,1125 1599,1127 1667,1128 1736,1128 1805,1130 1874,1130"/>
+                <Word id="r1l8_w1" custom="readingOrder {index:0;}">
+                    <Coords points="505,1081 505,1141 1881,1141 1881,1081"/>
+                    <TextEquiv>
+                        <Unicode>23.6.Neustadt-Payerbach-Singering-Gutten-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>23.6.Neustadt-Payerbach-Singering-Gutten-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:7;}">
+                <Coords points="502,1228 776,1219 810,1241 957,1219 1000,1247 1062,1231 1142,1260 1142,1170 837,1187 773,1162 700,1183 640,1153 503,1164"/>
+                <Baseline points="512,1209 543,1211 574,1211 605,1212 636,1212 667,1213 698,1214 729,1214 760,1214 791,1215 823,1215 854,1215 885,1215 916,1215 947,1217 978,1217 1009,1217 1040,1217 1071,1218 1102,1218 1134,1220"/>
+                <Word id="r1l9_w1" custom="readingOrder {index:0;}">
+                    <Coords points="503,1175 503,1235 1140,1235 1140,1175"/>
+                    <TextEquiv>
+                        <Unicode>stein-Solenau-Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>stein-Solenau-Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:8;}">
+                <Coords points="492,1327 1937,1359 1938,1293 1811,1257 493,1267"/>
+                <Baseline points="501,1308 572,1310 643,1311 715,1313 786,1314 858,1316 929,1317 1000,1318 1072,1319 1143,1320 1215,1322 1286,1323 1357,1325 1429,1326 1500,1326 1572,1328 1643,1328 1714,1329 1786,1329 1857,1329 1929,1329"/>
+                <Word id="r1l10_w1" custom="readingOrder {index:0;}">
+                    <Coords points="502,1279 502,1339 1774,1339 1774,1279"/>
+                    <TextEquiv>
+                        <Unicode>13.7.Wien-Linz.14.7.Linz-Lambach-Ischl</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l10_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1815,1289 1815,1349 1905,1349 1905,1289"/>
+                    <TextEquiv>
+                        <Unicode>bis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>13.7.Wien-Linz.14.7.Linz-Lambach-Ischl bis</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:9;}">
+                <Coords points="486,1420 739,1422 921,1455 1044,1427 1151,1440 1152,1396 942,1337 870,1370 692,1342 487,1365"/>
+                <Baseline points="495,1406 527,1407 559,1410 592,1411 624,1412 657,1413 689,1414 721,1415 754,1415 786,1416 819,1416 851,1416 883,1416 916,1418 948,1418 981,1419 1013,1419 1045,1420 1078,1421 1110,1422 1143,1424"/>
+                <Word id="r1l11_w1" custom="readingOrder {index:0;}">
+                    <Coords points="497,1376 497,1436 1139,1436 1139,1376"/>
+                    <TextEquiv>
+                        <Unicode>24.7.Ischl.24.Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>24.7.Ischl.24.Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:10;}">
+                <Coords points="497,1523 1974,1555 1976,1473 498,1459"/>
+                <Baseline points="506,1512 582,1512 659,1512 736,1512 813,1514 889,1514 966,1515 1043,1517 1120,1518 1197,1520 1273,1521 1350,1523 1427,1524 1504,1526 1581,1527 1657,1529 1734,1529 1811,1530 1888,1530 1965,1529"/>
+                <Word id="r1l12_w1" custom="readingOrder {index:0;}">
+                    <Coords points="501,1480 501,1540 1971,1540 1971,1480"/>
+                    <TextEquiv>
+                        <Unicode>1.8.Wien-Salzburg-4.Salzburg.5.8.Ischl-17.8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>1.8.Wien-Salzburg 4.Salzburg. 5.8. Ischl 17.8.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:11;}">
+                <Coords points="487,1648 871,1621 1766,1679 1874,1659 1876,1573 489,1563"/>
+                <Baseline points="498,1610 566,1611 634,1613 703,1614 771,1616 840,1617 908,1618 976,1619 1045,1620 1113,1622 1182,1623 1250,1623 1318,1625 1387,1626 1455,1626 1524,1628 1592,1628 1660,1629 1729,1629 1797,1631 1866,1631"/>
+                <Word id="r1l13_w1" custom="readingOrder {index:0;}">
+                    <Coords points="498,1579 498,1639 1569,1639 1569,1579"/>
+                    <TextEquiv>
+                        <Unicode>17.-21.Salzburg.21.8.-4.9.Ischl.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l13_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1597,1588 1597,1648 1670,1648 1670,1588"/>
+                    <TextEquiv>
+                        <Unicode>(am</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l13_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1720,1591 1720,1651 1877,1651 1877,1591"/>
+                    <TextEquiv>
+                        <Unicode>31.8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>17.-21.Salzburg. 21.8.-4.9.Ischl. (am 31.8.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:12;}">
+                <Coords points="491,1736 533,1734 552,1720 568,1731 603,1731 631,1715 725,1735 756,1732 755,1662 722,1656 659,1676 610,1678 558,1651 525,1659 494,1652"/>
+                <Baseline points="501,1706 528,1709 555,1710 583,1712 610,1712 637,1712 665,1712 692,1713 719,1715 747,1718"/>
+                <Word id="r1l14_w1" custom="readingOrder {index:0;}">
+                    <Coords points="492,1672 492,1732 761,1732 761,1672"/>
+                    <TextEquiv>
+                        <Unicode>Aussee).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Aussee).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>1894&#13;
+24.5.Rekawinkel-Hainfeld-Lilienfeld-St. Pöl-&#13;
+ten. (Bycicle)&#13;
+2.6.Wien-München. Bis 8.6.München (Richard,&#13;
+Bahr) 8.6.München-Salzburg-lschl.9.6. Ischl-&#13;
+Wels.10.6.Wels-Hall.11.6. Hall-Wien.&#13;
+23.6.Neustadt-Payerbach-Singering-Gutten-&#13;
+stein-Solenau-Wien.&#13;
+13.7.Wien-Linz.14.7.Linz-Lambach-Ischl bis&#13;
+24.7.Ischl.24.Wien.&#13;
+1.8.Wien-Salzburg 4.Salzburg. 5.8. Ischl 17.8.&#13;
+17.-21.Salzburg. 21.8.-4.9.Ischl. (am 31.8.&#13;
+Aussee).</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

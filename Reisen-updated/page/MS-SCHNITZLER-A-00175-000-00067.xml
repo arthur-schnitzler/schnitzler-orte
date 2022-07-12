@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:36.082+02:00</Created>
+        <LastChange>2022-07-12T10:07:02.550+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195895" pageNr="34" tsid="90436186" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ZKYVFJWJHVYMHMUEIFBRTFYW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JBJMAAOWGPOFLCYMSNRLACXZ" imageId="35435129"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00067.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1657620185365" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="545,460 545,2436 1914,2436 1914,460"/>
+            <TextLine id="r1l2" custom="readingOrder {index:0;}">
+                <Coords points="540,684 630,683 654,695 694,684 712,689 725,680 752,690 774,686 776,649 751,653 722,643 661,593 609,611 589,602 578,611 544,607"/>
+                <Baseline points="549,659 576,659 603,659 630,659 658,661 685,662 712,665 739,668 767,672"/>
+                <Word id="r1l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="558,619 558,679 726,679 726,619"/>
+                    <TextEquiv>
+                        <Unicode>1905.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>1905.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:1;}">
+                <Coords points="539,816 680,836 785,811 1007,832 1063,816 1063,783 1029,788 972,760 909,774 866,756 765,774 715,753 659,774 539,764"/>
+                <Baseline points="546,809 571,810 596,810 622,810 647,810 673,810 698,810 724,810 749,809 775,809 800,807 825,807 851,807 876,807 902,807 927,807 953,807 978,808 1004,809 1029,811 1055,813"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="548,770 548,830 674,830 674,770"/>
+                    <TextEquiv>
+                        <Unicode>3.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="687,767 687,827 1065,827 1065,767"/>
+                    <TextEquiv>
+                        <Unicode>Wien-Genua.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>3.3. Wien-Genua.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:2;}">
+                <Coords points="543,926 685,909 1028,941 1095,914 1393,915 1393,878 1318,843 1266,873 1121,845 1064,873 543,859"/>
+                <Baseline points="551,906 592,908 634,909 676,909 718,911 759,911 801,911 843,911 885,911 926,910 968,909 1010,909 1052,909 1093,908 1135,908 1177,908 1219,908 1260,908 1302,908 1344,908 1386,909"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="539,868 539,928 661,928 661,868"/>
+                    <TextEquiv>
+                        <Unicode>4.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="674,871 674,931 867,931 867,871"/>
+                    <TextEquiv>
+                        <Unicode>Genua.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w3" custom="readingOrder {index:2;}">
+                    <Coords points="893,868 893,928 1389,928 1389,868"/>
+                    <TextEquiv>
+                        <Unicode>(Auf.Meteor").</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>4.3. Genua. (Auf "Meteor").</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:3;}">
+                <Coords points="547,1020 1573,1024 1591,950 1314,985 547,957"/>
+                <Baseline points="555,1010 606,1010 657,1010 709,1010 760,1010 812,1010 863,1010 914,1010 966,1008 1017,1008 1069,1008 1120,1008 1171,1007 1223,1007 1274,1007 1326,1007 1377,1007 1428,1007 1480,1007 1531,1007 1583,1007"/>
+                <Word id="r1l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="549,970 549,1030 672,1030 672,970"/>
+                    <TextEquiv>
+                        <Unicode>5.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="685,970 685,1030 1048,1030 1048,970"/>
+                    <TextEquiv>
+                        <Unicode>Genaa-Villa</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1094,967 1094,1027 1289,1027 1289,967"/>
+                    <TextEquiv>
+                        <Unicode>Franca</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1341,967 1341,1027 1601,1027 1601,967"/>
+                    <TextEquiv>
+                        <Unicode>(Schiff)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>5.3. Genua-Villa Franca (Schiff)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:4;}">
+                <Coords points="541,1110 1739,1108 1738,1061 1452,1049 541,1061"/>
+                <Baseline points="549,1110 608,1110 667,1109 726,1109 785,1107 844,1107 903,1107 962,1106 1021,1106 1080,1106 1140,1106 1199,1104 1258,1104 1317,1104 1376,1104 1435,1104 1494,1104 1553,1103 1612,1103 1671,1103 1731,1101"/>
+                <Word id="r1l6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="536,1069 536,1129 824,1129 824,1069"/>
+                    <TextEquiv>
+                        <Unicode>6.3.Villa</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w2" custom="readingOrder {index:1;}">
+                    <Coords points="879,1066 879,1126 1064,1126 1064,1066"/>
+                    <TextEquiv>
+                        <Unicode>Franca</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1118,1064 1118,1124 1586,1124 1586,1064"/>
+                    <TextEquiv>
+                        <Unicode>-Monacco-Monte</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1628,1062 1628,1122 1749,1122 1749,1062"/>
+                    <TextEquiv>
+                        <Unicode>Car)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>6.3.Villa Franca -Monacco-Monte Carlo-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:5;}">
+                <Coords points="797,1164 812,1162 826,1170 834,1166 850,1178 865,1170 899,1170 901,1126 883,1129 865,1116 853,1113 838,1116 824,1110 815,1116 800,1117"/>
+                <Baseline points="806,1146 835,1152 864,1152 893,1152"/>
+                <Word id="r1l7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="668,1120 687,1166 1914,1166 1914,1118"/>
+                    <TextEquiv>
+                        <Unicode>Man</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Kap Martin-Mentone-Monte Carlo-Villa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:6;}">
+                <Coords points="670,1228 1756,1212 1709,1150 1382,1185 951,1160 906,1192 670,1163"/>
+                <Baseline points="677,1203 730,1205 784,1206 837,1208 891,1208 945,1209 998,1209 1052,1209 1105,1209 1159,1209 1213,1209 1266,1208 1320,1208 1373,1208 1427,1206 1481,1206 1534,1206 1588,1206 1641,1206 1695,1206 1749,1206"/>
+                <Word id="r1l9_w1" custom="readingOrder {index:0;}">
+                    <Coords points="672,1165 672,1225 861,1225 861,1165"/>
+                    <TextEquiv>
+                        <Unicode>Franca</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l9_w2" custom="readingOrder {index:1;}">
+                    <Coords points="919,1169 919,1229 1348,1229 1348,1169"/>
+                    <TextEquiv>
+                        <Unicode>(Spazierzänge</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l9_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1392,1166 1392,1226 1758,1226 1758,1166"/>
+                    <TextEquiv>
+                        <Unicode>u.Fahrten).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Franca (Spaziergänge u.Fahrten).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:7;}">
+                <Coords points="544,1314 749,1346 862,1328 887,1310 958,1332 958,1264 921,1279 845,1238 734,1249 681,1276 544,1264"/>
+                <Baseline points="551,1305 577,1308 604,1309 630,1311 657,1311 684,1311 710,1311 737,1311 763,1311 790,1310 817,1310 843,1308 870,1308 896,1308 923,1308 950,1308"/>
+                <Word id="r1l10_w1" custom="readingOrder {index:0;}">
+                    <Coords points="542,1269 542,1329 667,1329 667,1269"/>
+                    <TextEquiv>
+                        <Unicode>7.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l10_w2" custom="readingOrder {index:1;}">
+                    <Coords points="692,1269 692,1329 958,1329 958,1269"/>
+                    <TextEquiv>
+                        <Unicode>Ajiccio.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>7.3. Ajaccio.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:8;}">
+                <Coords points="545,1433 651,1417 685,1434 712,1418 794,1440 834,1416 920,1420 920,1355 871,1353 842,1375 781,1378 746,1378 716,1359 657,1372 633,1358 605,1375 544,1364"/>
+                <Baseline points="552,1406 577,1408 603,1411 629,1413 654,1413 680,1413 706,1412 732,1412 757,1410 783,1410 809,1409 834,1409 860,1409 886,1410 912,1412"/>
+                <Word id="r1l11_w1" custom="readingOrder {index:0;}">
+                    <Coords points="540,1372 540,1432 922,1432 922,1372"/>
+                    <TextEquiv>
+                        <Unicode>8.3.N.apel.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>8.3.Neapel.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:9;}">
+                <Coords points="538,1529 715,1538 914,1513 1071,1534 1159,1515 1159,1453 1010,1472 890,1447 840,1473 736,1474 600,1450 538,1472"/>
+                <Baseline points="546,1511 576,1511 606,1512 636,1512 667,1512 697,1512 727,1512 758,1512 788,1511 818,1511 849,1511 879,1509 909,1509 939,1509 970,1508 1000,1508 1030,1508 1061,1507 1091,1506 1121,1506 1152,1508"/>
+                <Word id="r1l12_w1" custom="readingOrder {index:0;}">
+                    <Coords points="541,1472 541,1532 881,1532 881,1472"/>
+                    <TextEquiv>
+                        <Unicode>9.3.Neapel</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l12_w2" custom="readingOrder {index:1;}">
+                    <Coords points="927,1467 927,1527 1161,1527 1161,1467"/>
+                    <TextEquiv>
+                        <Unicode>-Pompei</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>9.3.Neapel -Pompei</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:10;}">
+                <Coords points="544,1625 954,1615 988,1627 988,1589 938,1571 815,1556 769,1570 729,1554 699,1578 671,1561 636,1582 544,1560"/>
+                <Baseline points="552,1611 577,1610 602,1610 627,1610 652,1610 678,1610 703,1610 728,1610 753,1610 779,1610 804,1610 829,1610 854,1610 880,1610 905,1611 930,1611 955,1611 981,1611"/>
+                <Word id="r1l13_w1" custom="readingOrder {index:0;}">
+                    <Coords points="547,1570 547,1630 990,1630 990,1570"/>
+                    <TextEquiv>
+                        <Unicode>10.3.Palerno.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>10.3.Palermo.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:11;}">
+                <Coords points="542,1721 622,1718 656,1740 758,1713 973,1727 973,1686 883,1660 840,1679 740,1650 698,1663 672,1650 626,1674 542,1661"/>
+                <Baseline points="549,1710 575,1712 601,1712 627,1712 653,1712 679,1712 705,1711 731,1710 757,1710 783,1710 809,1710 835,1710 861,1710 887,1710 913,1710 939,1712 966,1713"/>
+                <Word id="r1l14_w1" custom="readingOrder {index:0;}">
+                    <Coords points="544,1672 544,1732 638,1732 638,1672"/>
+                    <TextEquiv>
+                        <Unicode>11.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l14_w2" custom="readingOrder {index:1;}">
+                    <Coords points="651,1670 651,1730 983,1730 983,1670"/>
+                    <TextEquiv>
+                        <Unicode>3.Messina.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>11. 3.Messina.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l15" custom="readingOrder {index:12;}">
+                <Coords points="542,1821 577,1820 610,1839 802,1818 899,1842 926,1836 926,1791 867,1780 843,1760 805,1775 725,1763 700,1777 542,1747"/>
+                <Baseline points="549,1809 575,1812 601,1814 628,1815 654,1815 680,1814 707,1814 733,1812 759,1812 786,1811 812,1811 838,1811 865,1812 891,1814 918,1817"/>
+                <Word id="r1l15_w1" custom="readingOrder {index:0;}">
+                    <Coords points="545,1774 545,1834 705,1834 705,1774"/>
+                    <TextEquiv>
+                        <Unicode>12.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l15_w2" custom="readingOrder {index:1;}">
+                    <Coords points="719,1771 719,1831 914,1831 914,1771"/>
+                    <TextEquiv>
+                        <Unicode>Corfu,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>12.3. Corfu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l16" custom="readingOrder {index:13;}">
+                <Coords points="545,1924 913,1926 913,1870 797,1872 755,1854 600,1859 578,1872 545,1859"/>
+                <Baseline points="552,1911 577,1911 602,1911 627,1911 653,1911 678,1911 703,1913 729,1913 754,1913 779,1913 804,1913 830,1913 855,1914 880,1914 906,1914"/>
+                <Word id="r1l16_w1" custom="readingOrder {index:0;}">
+                    <Coords points="548,1871 548,1931 629,1931 629,1871"/>
+                    <TextEquiv>
+                        <Unicode>13.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l16_w2" custom="readingOrder {index:1;}">
+                    <Coords points="650,1871 650,1931 705,1931 705,1871"/>
+                    <TextEquiv>
+                        <Unicode>3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l16_w3" custom="readingOrder {index:2;}">
+                    <Coords points="718,1873 718,1933 915,1933 915,1873"/>
+                    <TextEquiv>
+                        <Unicode>Corfu.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>13. 3. Corfu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l17" custom="readingOrder {index:14;}">
+                <Coords points="537,2020 601,2036 620,2019 734,2034 801,2018 951,2049 994,2023 995,1981 860,1952 779,1975 736,1955 644,1977 538,1967"/>
+                <Baseline points="545,2006 571,2008 597,2010 623,2010 649,2012 675,2012 701,2012 727,2012 753,2012 779,2012 805,2012 831,2012 857,2012 883,2012 909,2012 935,2012 961,2013 987,2013"/>
+                <Word id="r1l17_w1" custom="readingOrder {index:0;}">
+                    <Coords points="540,1970 540,2030 705,2030 705,1970"/>
+                    <TextEquiv>
+                        <Unicode>14.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l17_w2" custom="readingOrder {index:1;}">
+                    <Coords points="719,1972 719,2032 984,2032 984,1972"/>
+                    <TextEquiv>
+                        <Unicode>Cattaro.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>14.3. Cattaro.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l18" custom="readingOrder {index:15;}">
+                <Coords points="540,2122 684,2119 729,2137 777,2122 806,2134 861,2120 897,2136 954,2123 954,2087 899,2061 859,2085 842,2073 771,2079 734,2061 700,2086 604,2048 540,2069"/>
+                <Baseline points="548,2111 574,2112 601,2112 627,2113 654,2114 681,2114 707,2114 734,2114 760,2114 787,2114 814,2112 840,2112 867,2112 893,2112 920,2112 947,2111"/>
+                <Word id="r1l18_w1" custom="readingOrder {index:0;}">
+                    <Coords points="543,2074 543,2134 956,2134 956,2074"/>
+                    <TextEquiv>
+                        <Unicode>15.3.Razusa.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>15.3.Razusa.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l19" custom="readingOrder {index:16;}">
+                <Coords points="548,2225 765,2249 892,2216 1294,2228 1312,2150 1186,2176 704,2161 644,2188 547,2151"/>
+                <Baseline points="555,2211 592,2213 629,2213 667,2213 704,2213 742,2213 779,2211 817,2211 854,2211 892,2211 929,2211 966,2210 1004,2210 1041,2210 1079,2210 1116,2210 1154,2210 1191,2210 1229,2211 1266,2211 1304,2213"/>
+                <Word id="r1l19_w1" custom="readingOrder {index:0;}">
+                    <Coords points="550,2171 550,2231 979,2231 979,2171"/>
+                    <TextEquiv>
+                        <Unicode>16.3.Spalatto</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l19_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1034,2170 1034,2230 1322,2230 1322,2170"/>
+                    <TextEquiv>
+                        <Unicode>[Zalona).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>16.3.Spalatto (Zalona).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l20" custom="readingOrder {index:17;}">
+                <Coords points="547,2334 655,2349 788,2314 917,2335 967,2308 1195,2329 1195,2289 1140,2270 636,2281 547,2253"/>
+                <Baseline points="554,2309 585,2312 617,2312 648,2313 680,2313 712,2313 743,2313 775,2312 807,2312 838,2311 870,2310 902,2309 933,2309 965,2307 997,2307 1028,2307 1060,2307 1092,2309 1123,2310 1155,2312 1187,2313"/>
+                <Word id="r1l20_w1" custom="readingOrder {index:0;}">
+                    <Coords points="550,2272 550,2332 708,2332 708,2272"/>
+                    <TextEquiv>
+                        <Unicode>17.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l20_w2" custom="readingOrder {index:1;}">
+                    <Coords points="728,2267 728,2327 1197,2327 1197,2267"/>
+                    <TextEquiv>
+                        <Unicode>Abbazia-Fiune.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>17.3. Abbazia-Fiume.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l21" custom="readingOrder {index:18;}">
+                <Coords points="547,2418 654,2446 942,2408 1054,2437 1230,2422 1230,2393 1112,2357 1075,2375 843,2362 821,2382 547,2362"/>
+                <Baseline points="554,2409 587,2411 620,2412 654,2414 687,2414 721,2414 754,2414 788,2414 821,2414 855,2413 888,2412 921,2412 955,2412 988,2411 1022,2411 1055,2411 1089,2411 1122,2411 1156,2411 1189,2412 1223,2414"/>
+                <Word id="r1l21_w1" custom="readingOrder {index:0;}">
+                    <Coords points="549,2372 549,2432 702,2432 702,2372"/>
+                    <TextEquiv>
+                        <Unicode>18.3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l21_w2" custom="readingOrder {index:1;}">
+                    <Coords points="715,2374 715,2434 907,2434 907,2374"/>
+                    <TextEquiv>
+                        <Unicode>wieder</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l21_w3" custom="readingOrder {index:2;}">
+                    <Coords points="958,2371 958,2431 1009,2431 1009,2371"/>
+                    <TextEquiv>
+                        <Unicode>in</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l21_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1054,2371 1054,2431 1220,2431 1220,2371"/>
+                    <TextEquiv>
+                        <Unicode>wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>18.3. wieder in wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>1905.&#13;
+3.3. Wien-Genua.&#13;
+4.3. Genua. (Auf "Meteor").&#13;
+5.3. Genua-Villa Franca (Schiff)&#13;
+6.3.Villa Franca -Monacco-Monte Carlo-&#13;
+Kap Martin-Mentone-Monte Carlo-Villa&#13;
+Franca (Spaziergänge u.Fahrten).&#13;
+7.3. Ajaccio.&#13;
+8.3.Neapel.&#13;
+9.3.Neapel -Pompei&#13;
+10.3.Palermo.&#13;
+11. 3.Messina.&#13;
+12.3. Corfu.&#13;
+13. 3. Corfu.&#13;
+14.3. Cattaro.&#13;
+15.3.Razusa.&#13;
+16.3.Spalatto (Zalona).&#13;
+17.3. Abbazia-Fiume.&#13;
+18.3. wieder in wien.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

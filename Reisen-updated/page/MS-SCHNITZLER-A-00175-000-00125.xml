@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:40.728+02:00</Created>
+        <LastChange>2022-07-12T11:45:23.826+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195953" pageNr="62" tsid="90440258" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=BQXYMWSJGUDIRPGTOQIGVYHC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DRJAZLFBQLQDIYJMYEEYBHQI" imageId="35435187"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00125.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1657620185800" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="447,106 447,1602 2064,1602 2064,106"/>
+            <TextLine id="r1l4" custom="readingOrder {index:0;}">
+                <Coords points="454,589 482,589 513,602 550,596 560,602 576,588 598,591 598,522 581,524 569,535 555,535 547,527 529,533 508,523 498,523 480,536 455,528"/>
+                <Baseline points="464,576 494,579 525,579 556,578 587,579"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="457,539 457,599 586,599 586,539"/>
+                    <TextEquiv>
+                        <Unicode>1923</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>1923</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:1;}">
+                <Coords points="452,693 916,723 1230,669 1725,708 1725,612 452,636"/>
+                <Baseline points="462,678 524,678 587,678 650,678 712,677 775,677 838,677 900,677 963,675 1026,675 1089,675 1151,675 1214,674 1277,674 1339,674 1402,674 1465,674 1527,674 1590,674 1653,674 1716,675"/>
+                <Word id="r1l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="452,638 452,698 586,698 586,638"/>
+                    <TextEquiv>
+                        <Unicode>14.8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="634,637 634,697 954,697 954,637"/>
+                    <TextEquiv>
+                        <Unicode>Baden-Baden</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1002,635 1002,695 1019,695 1019,635"/>
+                    <TextEquiv>
+                        <Unicode>-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1061,635 1061,695 1136,695 1136,635"/>
+                    <TextEquiv>
+                        <Unicode>Ulm</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1184,634 1184,694 1200,694 1200,634"/>
+                    <TextEquiv>
+                        <Unicode>-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1248,634 1248,694 1723,694 1723,634"/>
+                    <TextEquiv>
+                        <Unicode>Friedrichshafen.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>14.8. Baden-Baden - Ulm - Friedrichshafen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:2;}">
+                <Coords points="442,800 2032,792 2032,725 441,717"/>
+                <Baseline points="452,779 530,780 609,780 687,780 766,779 844,779 923,779 1001,777 1080,777 1158,776 1237,774 1315,774 1394,773 1472,773 1551,771 1629,771 1708,771 1786,771 1865,771 1943,771 2022,773"/>
+                <Word id="r1l6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="441,739 441,799 580,799 580,739"/>
+                    <TextEquiv>
+                        <Unicode>15.8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w2" custom="readingOrder {index:1;}">
+                    <Coords points="623,739 623,799 1067,799 1067,739"/>
+                    <TextEquiv>
+                        <Unicode>Friedrichshafen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1121,736 1121,796 1137,796 1137,736"/>
+                    <TextEquiv>
+                        <Unicode>-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1179,734 1179,794 1409,794 1409,734"/>
+                    <TextEquiv>
+                        <Unicode>Bodensee</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1453,733 1453,793 1474,793 1474,733"/>
+                    <TextEquiv>
+                        <Unicode>-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1517,731 1517,791 1805,791 1805,731"/>
+                    <TextEquiv>
+                        <Unicode>Romanshorn</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w7" custom="readingOrder {index:6;}">
+                    <Coords points="1849,731 1849,791 2025,791 2025,731"/>
+                    <TextEquiv>
+                        <Unicode>-Chhr.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>15.8. Friedrichshafen - Bodensee - Romanshorn -Chur.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:3;}">
+                <Coords points="454,914 1929,882 1864,817 1628,810 1057,861 454,839"/>
+                <Baseline points="464,879 536,879 609,879 682,879 755,879 828,879 900,878 973,878 1046,878 1119,878 1192,878 1264,876 1337,876 1410,876 1483,876 1556,876 1628,876 1701,876 1774,876 1847,876 1920,876"/>
+                <Word id="r1l7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="455,839 455,899 594,899 594,839"/>
+                    <TextEquiv>
+                        <Unicode>16.8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l7_w2" custom="readingOrder {index:1;}">
+                    <Coords points="640,839 640,899 744,899 744,839"/>
+                    <TextEquiv>
+                        <Unicode>Chur</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l7_w3" custom="readingOrder {index:2;}">
+                    <Coords points="791,839 791,899 808,899 808,839"/>
+                    <TextEquiv>
+                        <Unicode>-</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l7_w4" custom="readingOrder {index:3;}">
+                    <Coords points="854,838 854,898 1057,898 1057,838"/>
+                    <TextEquiv>
+                        <Unicode>Bergün.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l7_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1109,836 1109,896 1932,896 1932,836"/>
+                    <TextEquiv>
+                        <Unicode>(17.8.Pontresina,Cellerina,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>16.8. Chur - Bergün. (17.8.Pontresina,Cellerina,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:4;}">
+                <Coords points="455,1009 1336,1019 1552,982 1552,939 454,927"/>
+                <Baseline points="464,980 517,981 571,981 625,981 679,981 733,981 787,981 841,981 895,980 949,980 1003,980 1056,980 1110,978 1164,978 1218,978 1272,977 1326,977 1380,977 1434,977 1488,977 1542,978"/>
+                <Word id="r1l8_w1" custom="readingOrder {index:0;}">
+                    <Coords points="449,940 449,1000 522,1000 522,940"/>
+                    <TextEquiv>
+                        <Unicode>bis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l8_w2" custom="readingOrder {index:1;}">
+                    <Coords points="567,941 567,1001 709,1001 709,941"/>
+                    <TextEquiv>
+                        <Unicode>18.8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l8_w3" custom="readingOrder {index:2;}">
+                    <Coords points="759,940 759,1000 957,1000 957,940"/>
+                    <TextEquiv>
+                        <Unicode>Bergün,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l8_w4" custom="readingOrder {index:3;}">
+                    <Coords points="974,940 974,1000 1053,1000 1053,940"/>
+                    <TextEquiv>
+                        <Unicode>18.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l8_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1064,938 1064,998 1172,998 1172,938"/>
+                    <TextEquiv>
+                        <Unicode>nach</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l8_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1223,937 1223,997 1550,997 1550,937"/>
+                    <TextEquiv>
+                        <Unicode>Cellerina).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>bis 18.8. Bergün, 18. nach Cellerina).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:5;}">
+                <Coords points="452,1092 764,1106 960,1084 1108,1111 1108,1043 947,1037 886,1009 760,1053 452,1029"/>
+                <Baseline points="462,1079 493,1079 525,1079 557,1079 589,1079 620,1079 652,1079 684,1079 716,1079 747,1079 779,1079 811,1079 843,1079 874,1079 906,1079 938,1079 970,1079 1001,1079 1033,1079 1065,1079 1097,1079"/>
+                <Word id="r1l9_w1" custom="readingOrder {index:0;}">
+                    <Coords points="453,1039 453,1099 754,1099 754,1039"/>
+                    <TextEquiv>
+                        <Unicode>18.8.-3.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l9_w2" custom="readingOrder {index:1;}">
+                    <Coords points="804,1039 804,1099 1106,1099 1106,1039"/>
+                    <TextEquiv>
+                        <Unicode>Cellerina.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>18.8.-3.9. Cellerina.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:6;}">
+                <Coords points="454,1194 1798,1181 1731,1120 454,1141"/>
+                <Baseline points="464,1178 530,1178 596,1179 662,1179 728,1179 795,1179 861,1179 927,1178 993,1178 1059,1178 1126,1176 1192,1176 1258,1176 1324,1175 1390,1175 1457,1175 1523,1175 1589,1175 1655,1175 1721,1175 1788,1176"/>
+                <Word id="r1l10_w1" custom="readingOrder {index:0;}">
+                    <Coords points="455,1138 455,1198 652,1198 652,1138"/>
+                    <TextEquiv>
+                        <Unicode>3.-5.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l10_w2" custom="readingOrder {index:1;}">
+                    <Coords points="691,1138 691,1198 1086,1198 1086,1138"/>
+                    <TextEquiv>
+                        <Unicode>Schulz-Tarasp</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l10_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1137,1135 1137,1195 1390,1195 1390,1135"/>
+                    <TextEquiv>
+                        <Unicode>(5.9.Chur</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l10_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1441,1135 1441,1195 1796,1195 1796,1135"/>
+                    <TextEquiv>
+                        <Unicode>-6.9.Arosa).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>3.-5.9. Schulz-Tarasp (5.9.Chur -6.9.Arosa).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:7;}">
+                <Coords points="452,1307 999,1301 1047,1275 1280,1296 1296,1222 1125,1245 1043,1208 939,1246 624,1221 579,1250 451,1229"/>
+                <Baseline points="461,1277 502,1278 543,1278 584,1278 626,1278 667,1278 708,1278 749,1278 791,1278 832,1278 873,1278 914,1277 956,1277 997,1277 1038,1277 1079,1277 1121,1277 1162,1277 1203,1277 1244,1277 1286,1278"/>
+                <Word id="r1l11_w1" custom="readingOrder {index:0;}">
+                    <Coords points="446,1237 446,1297 556,1297 556,1237"/>
+                    <TextEquiv>
+                        <Unicode>7.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l11_w2" custom="readingOrder {index:1;}">
+                    <Coords points="605,1237 605,1297 1299,1297 1299,1237"/>
+                    <TextEquiv>
+                        <Unicode>Chur-Feldkirch-Bregenz.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>7.9. Chur-Feldkirch-Bregenz.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:8;}">
+                <Coords points="446,1380 1153,1399 1323,1385 1323,1328 1039,1312 929,1348 711,1352 597,1299 445,1317"/>
+                <Baseline points="456,1377 498,1377 541,1377 584,1377 627,1377 670,1377 713,1377 756,1377 799,1377 842,1377 885,1377 927,1376 970,1376 1013,1376 1056,1376 1099,1376 1142,1376 1185,1376 1228,1376 1271,1377 1314,1377"/>
+                <Word id="r1l12_w1" custom="readingOrder {index:0;}">
+                    <Coords points="440,1337 440,1397 679,1397 679,1337"/>
+                    <TextEquiv>
+                        <Unicode>9.-14.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l12_w2" custom="readingOrder {index:1;}">
+                    <Coords points="719,1337 719,1397 894,1397 894,1337"/>
+                    <TextEquiv>
+                        <Unicode>Lochau</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l12_w3" custom="readingOrder {index:2;}">
+                    <Coords points="946,1336 946,1396 1333,1396 1333,1336"/>
+                    <TextEquiv>
+                        <Unicode>(11.Constanz)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>9.9.-14.9. Lochau (11.9. Constanz)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:9;}">
+                <Coords points="459,1524 685,1486 1451,1483 1450,1446 1346,1443 1293,1403 1181,1443 1050,1412 967,1446 690,1419 600,1461 459,1426"/>
+                <Baseline points="468,1478 516,1478 565,1478 613,1478 662,1478 711,1476 759,1476 808,1476 856,1476 905,1475 954,1475 1002,1475 1051,1475 1099,1475 1148,1475 1197,1475 1245,1475 1294,1475 1342,1475 1391,1475 1440,1476"/>
+                <Word id="r1l13_w1" custom="readingOrder {index:0;}">
+                    <Coords points="460,1438 460,1498 599,1498 599,1438"/>
+                    <TextEquiv>
+                        <Unicode>14.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l13_w2" custom="readingOrder {index:1;}">
+                    <Coords points="640,1436 640,1496 750,1496 750,1436"/>
+                    <TextEquiv>
+                        <Unicode>über</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l13_w3" custom="readingOrder {index:2;}">
+                    <Coords points="797,1435 797,1495 1286,1495 1286,1435"/>
+                    <TextEquiv>
+                        <Unicode>Bregenz,Arlberg,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l13_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1297,1435 1297,1495 1442,1495 1442,1435"/>
+                    <TextEquiv>
+                        <Unicode>Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>14.9. über Bregenz,Arlberg, Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:10;}">
+                <Coords points="437,1600 608,1586 630,1603 704,1583 809,1609 865,1579 934,1608 985,1588 1013,1600 1013,1551 916,1547 851,1518 437,1532"/>
+                <Baseline points="447,1578 474,1578 502,1578 530,1578 558,1578 585,1578 613,1578 641,1578 669,1578 696,1577 724,1577 752,1577 780,1577 807,1575 835,1575 863,1575 891,1575 918,1576 946,1577 974,1577 1002,1578"/>
+                <Word id="r1l14_w1" custom="readingOrder {index:0;}">
+                    <Coords points="438,1538 438,1598 582,1598 582,1538"/>
+                    <TextEquiv>
+                        <Unicode>15.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l14_w2" custom="readingOrder {index:1;}">
+                    <Coords points="595,1537 595,1597 812,1597 812,1537"/>
+                    <TextEquiv>
+                        <Unicode>Ankunft</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l14_w3" custom="readingOrder {index:2;}">
+                    <Coords points="853,1536 853,1596 1004,1596 1004,1536"/>
+                    <TextEquiv>
+                        <Unicode>Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>15.9. Ankunft Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>1923&#13;
+14.8. Baden-Baden - Ulm - Friedrichshafen.&#13;
+15.8. Friedrichshafen - Bodensee - Romanshorn -Chur.&#13;
+16.8. Chur - Bergün. (17.8.Pontresina,Cellerina,&#13;
+bis 18.8. Bergün, 18. nach Cellerina).&#13;
+18.8.-3.9. Cellerina.&#13;
+3.-5.9. Schulz-Tarasp (5.9.Chur -6.9.Arosa).&#13;
+7.9. Chur-Feldkirch-Bregenz.&#13;
+9.9.-14.9. Lochau (11.9. Constanz)&#13;
+14.9. über Bregenz,Arlberg, Wien.&#13;
+15.9. Ankunft Wien.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
