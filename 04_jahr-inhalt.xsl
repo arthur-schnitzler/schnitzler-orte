@@ -8,7 +8,7 @@
     <xsl:template match="tei:div/text()">
         <xsl:choose>
             <xsl:when test="fn:string-length(preceding-sibling::tei:year[1]) &gt; 1">
-                <xsl:element name="desc">
+                <xsl:element name="desc" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:attribute name="year">
                         <xsl:value-of select="preceding-sibling::tei:year[1]"/>
                     </xsl:attribute>

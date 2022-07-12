@@ -5,6 +5,14 @@
     <xsl:output method="xml"/>
     <xsl:mode on-no-match="shallow-copy"/>
     
+    <xsl:template match="//tei:pb">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="//tei:seite">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="text()">
         <xsl:analyze-string select="." regex="(\w+)(-+)(\n+)(\s+)(\w+)">
             <xsl:matching-substring>
