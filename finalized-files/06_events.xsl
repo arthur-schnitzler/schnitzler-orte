@@ -6,8 +6,7 @@
     <xsl:mode on-no-match="shallow-copy"/>
     
     <!-- Dieses XSLT angewandt auf desc mit date, placeName und note wie bspw.
-    <desc><date from="1879-08-30"
-               /><placeName ref="dflfdgk">Vienna</placeName><placeName>Frankfurt</placeName><note>Zug</note>
+    <desc><date from="1879-08-30"/><placeName ref="dflfdgk">Vienna</placeName><placeName>Frankfurt</placeName><note>Zug</note>
             <date from="1879-09-01" to="1879-09-01"/><placeName>Frankfurt</placeName>
             <placeName>Coblenz</placeName><placeName>Ems</placeName>
             <date from="1879-09-04" to="1879-09-04"/><placeName>Bonn</placeName>
@@ -25,12 +24,11 @@
          </event>
          <event from="1879-09-01" to="1879-09-01">
             <placeName>Coblenz</placeName>
-         </event>
-         -->
+         </event>    -->
     
  
     <xsl:template match="//tei:desc">
-
+            
             <xsl:variable name="certainty">
                 <xsl:choose>
                     <xsl:when test="@cert">
@@ -76,14 +74,28 @@
                            <xsl:attribute name="ref"/>
                            <xsl:value-of select="."/>
                    </xsl:element>
+                   </xsl:element>
+                   <xsl:if test="following-sibling::node()"></xsl:if>
+               </xsl:element> 
+            </xsl:for-each>
+        </xsl:for-each-group>
+    </xsl:template>
+    
+    <xsl:template match="//tei:note">
+        
+        <xsl:if>
+            <xsl:for-each-group select="*" group-by="//tei:note">
+                <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:value-of select="."/>
+                </xsl:element>
+            </xsl:for-each-group>
+        </xsl:if>    
+        
+        <!-- 
                    <xsl:for-each select="current-group()[name()='note']">
                            <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
                                <xsl:value-of select="."/>
                            </xsl:element>
-                   </xsl:for-each>
-                   </xsl:element>
-               </xsl:element> 
-            </xsl:for-each>
-        </xsl:for-each-group>
+                   </xsl:for-each> -->
     </xsl:template>
 </xsl:stylesheet>

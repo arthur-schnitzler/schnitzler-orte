@@ -3,43 +3,43 @@
       <div>
       Reisen.
       
-         <event from="" to="">
+         <event from="" to="" cert="low">
             <desc>
                <placeName ref="">Grosskanisza</placeName>
                <note>genaues Datum unbekannt</note>
             </desc>
          </event>
-         <event from="" to="">
+         <event from="" to="" cert="low">
             <desc>
                <placeName ref="">Vöslau</placeName>
                <note>Sommeraufenthalt</note>
             </desc>
          </event>
-         <event from="" to="">
+         <event from="" to="" cert="low">
             <desc>
                <placeName ref="">Vöslau</placeName>
                <note>Sommeraufenthalt</note>
             </desc>
          </event>
-         <event from="" to="">
+         <event from="" to="" cert="low">
             <desc>
                <placeName ref="">Vöslau</placeName>
                <note>Sommeraufenthalt</note>
             </desc>
          </event>
-         <event from="" to="">
+         <event from="" to="" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2778436/">Gmunden</placeName>
                <note>genaues Datum unbekannt</note>
             </desc>
          </event>
-         <event from="" to="">
+         <event from="" to="" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
                <note>genaues Datum unbekannt</note>
             </desc>
          </event>
-         <event from="" to="">
+         <event from="" to="" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2782070/">Aussee</placeName>
                <note>genaues Datum unbekannt</note>

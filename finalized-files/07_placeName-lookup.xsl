@@ -10,18 +10,14 @@
     <xsl:key name="place-lookup" match="tei:place" use="tei:placeName"/>
     
     <xsl:template match="tei:placeName">
-        
         <xsl:variable name="ortsname" select="."/>
         <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:attribute name="ref">
                 <xsl:copy-of select="key('place-lookup', $ortsname, $place)/tei:idno[@type='geonames'][1]"/>
             </xsl:attribute>
-            <xsl:value-of select="."/>
-        
+            <xsl:value-of select="."/>      
         </xsl:element>
     </xsl:template>
-    
-    
-    
+ 
 </xsl:stylesheet>
     
