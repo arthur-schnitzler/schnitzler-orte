@@ -37,6 +37,17 @@
                 </xsl:choose>
             </xsl:variable>
         
+        <!-- Note ab hier!! -->
+            <xsl:variable name="note-inhalt">
+                <xsl:for-each-group select="*" group-starting-with="tei:placeName">
+                    <xsl:if test="following-sibling::tei:note[1]">
+                        <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:value-of select="following-sibling::tei:note[1]"/>
+                        </xsl:element>
+                    </xsl:if>
+                </xsl:for-each-group>
+            </xsl:variable>
+        
         <xsl:for-each-group select="*" group-starting-with="tei:date">
             <xsl:variable name="from">
                 <xsl:choose>
@@ -75,27 +86,14 @@
                            <xsl:value-of select="."/>
                    </xsl:element>
                    </xsl:element>
-                   <xsl:if test="following-sibling::node()"></xsl:if>
-               </xsl:element> 
+                   <xsl:if test="$note-inhalt !=''">
+                       <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
+                           <xsl:value-of select="$note-inhalt"/>
+                       </xsl:element>
+                   </xsl:if>
+               </xsl:element>
             </xsl:for-each>
         </xsl:for-each-group>
     </xsl:template>
     
-    <xsl:template match="//tei:note">
-        
-        <xsl:if>
-            <xsl:for-each-group select="*" group-by="//tei:note">
-                <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:value-of select="."/>
-                </xsl:element>
-            </xsl:for-each-group>
-        </xsl:if>    
-        
-        <!-- 
-                   <xsl:for-each select="current-group()[name()='note']">
-                           <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
-                               <xsl:value-of select="."/>
-                           </xsl:element>
-                   </xsl:for-each> -->
-    </xsl:template>
 </xsl:stylesheet>
