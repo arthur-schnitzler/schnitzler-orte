@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:33.559+02:00</Created>
+        <LastChange>2022-07-18T10:49:44.173+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195874" pageNr="19" tsid="91053307" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=SMARVMSUWUSGADXLNQUACIQE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YJUHBRQIASLELUMGWMFIEPEI" imageId="35435108"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00037.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1658151285574" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="443,612 443,1295 1853,1295 1853,612"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="448,691 564,667 639,707 907,670 1208,691 1222,608 1171,591 1129,624 1002,628 610,596 448,621"/>
+                <Baseline points="456,659 493,660 531,660 569,662 607,662 645,662 683,662 721,662 759,662 797,662 835,662 872,661 910,660 948,660 986,660 1024,660 1062,660 1100,660 1138,662 1176,662 1214,663"/>
+                <Word id="r1l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="444,622 444,682 1047,682 1047,622"/>
+                    <TextEquiv>
+                        <Unicode>20.-23.9,Frankfurt</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1093,622 1093,682 1224,682 1224,622"/>
+                    <TextEquiv>
+                        <Unicode>a.M.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>20.-23.9.Frankfurt am Main</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="454,790 732,769 879,800 1200,767 1311,791 1311,731 1205,702 1133,735 1085,705 706,735 454,704"/>
+                <Baseline points="462,761 504,761 546,762 588,762 630,762 672,762 714,762 756,762 798,761 840,761 882,761 924,759 966,759 1008,759 1050,759 1092,759 1134,759 1176,761 1218,762 1260,764 1302,767"/>
+                <Word id="r1l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="449,721 449,781 1302,781 1302,721"/>
+                    <TextEquiv>
+                        <Unicode>24.9.Frankfurt-Wiesbaden.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>24.9.Frankfurt am Main-Wiesbaden.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="434,888 1848,884 1862,818 434,828"/>
+                <Baseline points="443,863 513,863 584,863 654,864 725,864 795,864 866,864 936,864 1007,864 1077,864 1148,864 1218,864 1289,864 1359,863 1430,863 1500,863 1571,863 1641,861 1712,861 1782,861 1853,860"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="436,824 436,884 1140,884 1140,824"/>
+                    <TextEquiv>
+                        <Unicode>25.9.-2.10.Wiesbaden.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1167,824 1167,884 1346,884 1346,824"/>
+                    <TextEquiv>
+                        <Unicode>(27.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1365,821 1365,881 1864,881 1864,821"/>
+                    <TextEquiv>
+                        <Unicode>Biberich,Mainz,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>25.9.-2.10.Wiesbaden. 27.9. Biberich,Mainz</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="438,975 660,1004 874,974 911,992 1004,978 1005,915 971,902 832,935 805,915 756,933 652,900 604,921 562,903 439,918"/>
+                <Baseline points="447,960 474,962 501,963 529,963 556,965 584,965 611,965 639,965 666,965 694,964 721,963 748,963 776,963 803,963 831,963 858,963 886,965 913,965 941,966 968,968 996,971"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="441,923 441,983 1000,983 1000,923"/>
+                    <TextEquiv>
+                        <Unicode>30.9.Rüdesheim).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>30.9.Rüdesheim</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="441,1092 954,1065 1160,1091 1220,1080 1220,1018 440,1004"/>
+                <Baseline points="450,1067 488,1067 526,1068 564,1067 602,1067 640,1067 678,1066 716,1065 754,1065 792,1064 831,1063 869,1062 907,1062 945,1061 983,1061 1021,1061 1059,1061 1097,1061 1135,1061 1173,1061 1212,1062"/>
+                <Word id="r1l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="448,1027 448,1087 497,1087 497,1027"/>
+                    <TextEquiv>
+                        <Unicode>3.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="515,1027 515,1087 669,1087 669,1027"/>
+                    <TextEquiv>
+                        <Unicode>16.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w3" custom="readingOrder {index:2;}">
+                    <Coords points="681,1021 681,1081 1217,1081 1217,1021"/>
+                    <TextEquiv>
+                        <Unicode>Wiesbaden-Berlin</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>8.-9.10.Wiesbaden-Berlin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="438,1172 474,1188 530,1165 617,1171 737,1208 789,1183 1001,1179 1001,1148 943,1111 826,1132 780,1104 747,1123 646,1103 438,1135"/>
+                <Baseline points="447,1161 474,1163 501,1163 528,1163 556,1164 583,1164 610,1164 638,1164 665,1164 692,1164 720,1163 747,1163 774,1163 801,1163 829,1162 856,1161 883,1161 911,1162 938,1163 965,1163 993,1163"/>
+                <Word id="r1l6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="435,1123 435,1183 996,1183 996,1123"/>
+                    <TextEquiv>
+                        <Unicode>4.-11.10.Berlin.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>4.-11.10.Berlin.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>20.-23.9.Frankfurt am Main&#13;
+24.9.Frankfurt am Main-Wiesbaden.&#13;
+25.9.-2.10.Wiesbaden. 27.9. Biberich,Mainz&#13;
+30.9.Rüdesheim&#13;
+8.-9.10.Wiesbaden-Berlin&#13;
+4.-11.10.Berlin.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

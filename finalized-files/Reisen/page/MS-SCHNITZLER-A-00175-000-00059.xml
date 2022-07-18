@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:35.341+02:00</Created>
+        <LastChange>2022-07-11T17:35:08.819+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195887" pageNr="30" tsid="90416408" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=XVAXKACDUMDEPKSDRQDAWKWY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GRFLCIBSMNMMVTWRWHRSSIKC" imageId="35435121"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00059.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1658151285761" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="323,572 323,1150 1340,1150 1340,572"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="330,635 1336,652 1347,593 978,559 866,591 331,576"/>
+                <Baseline points="336,620 386,621 436,621 486,621 536,623 587,623 637,623 687,624 737,624 787,624 838,626 888,626 938,627 988,627 1038,629 1089,630 1139,632 1189,633 1239,635 1289,636 1340,639"/>
+                <Word id="r1l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="332,581 332,641 515,641 515,581"/>
+                    <TextEquiv>
+                        <Unicode>19.10.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="567,584 567,644 893,644 893,584"/>
+                    <TextEquiv>
+                        <Unicode>Wien-Brünn</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l1_w3" custom="readingOrder {index:2;}">
+                    <Coords points="952,592 952,652 1343,652 1343,592"/>
+                    <TextEquiv>
+                        <Unicode>(Vorlesun:).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>19.10. Wien-Brünn (Vorlesung).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="330,736 621,743 722,721 888,740 901,699 820,691 777,664 676,691 547,668 331,677"/>
+                <Baseline points="336,717 363,719 391,721 419,722 447,723 475,723 503,723 531,723 559,723 587,723 615,723 642,723 670,723 698,723 726,723 754,723 782,723 810,725 838,726 866,728 894,729"/>
+                <Word id="r1l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="332,683 332,743 903,743 903,683"/>
+                    <TextEquiv>
+                        <Unicode>20.10.Brünn-Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>20.10.Brünn-Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="326,926 1006,941 1004,873 868,888 714,857 602,892 520,853 388,888 327,860"/>
+                <Baseline points="332,915 365,918 398,920 432,921 465,923 498,923 532,923 565,923 598,923 632,923 665,923 698,923 732,923 765,923 798,923 832,924 865,924 898,926 932,927 965,929 999,932"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="334,880 334,940 490,940 490,880"/>
+                    <TextEquiv>
+                        <Unicode>6.11.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="502,883 502,943 1002,943 1002,883"/>
+                    <TextEquiv>
+                        <Unicode>Wien-Senneriag.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>6.11. Wien-Semmering.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="326,1021 399,1022 476,1074 515,1038 606,1026 930,1051 939,1010 821,972 570,987 490,962 443,988 402,962 327,966"/>
+                <Baseline points="332,1014 362,1017 392,1019 422,1020 452,1022 482,1022 512,1023 542,1023 572,1023 602,1023 632,1023 662,1023 692,1022 722,1023 752,1023 782,1023 812,1024 842,1025 872,1026 902,1028 933,1031"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="323,975 323,1035 380,1035 380,975"/>
+                    <TextEquiv>
+                        <Unicode>7.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="396,980 396,1040 453,1040 453,980"/>
+                    <TextEquiv>
+                        <Unicode>8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w3" custom="readingOrder {index:2;}">
+                    <Coords points="477,982 477,1042 940,1042 940,982"/>
+                    <TextEquiv>
+                        <Unicode>.11.Senmerinz.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>7.-8.11.Senmering.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="317,1123 515,1149 584,1128 1010,1142 1010,1106 880,1075 803,1097 723,1073 637,1091 615,1072 317,1071"/>
+                <Baseline points="323,1119 357,1119 391,1121 425,1122 459,1122 493,1122 527,1124 561,1124 595,1124 629,1124 663,1124 697,1125 731,1125 765,1125 799,1125 833,1126 867,1127 901,1127 935,1127 969,1127 1004,1127"/>
+                <Word id="r1l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="313,1081 313,1141 470,1141 470,1081"/>
+                    <TextEquiv>
+                        <Unicode>9.11.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="489,1085 489,1145 1000,1145 1000,1085"/>
+                    <TextEquiv>
+                        <Unicode>Semzering-Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>9.11. Semmering-Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>19.10. Wien-Brünn (Vorlesung).&#13;
+20.10.Brünn-Wien.&#13;
+6.11. Wien-Semmering.&#13;
+7.-8.11.Senmering.&#13;
+9.11. Semmering-Wien.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

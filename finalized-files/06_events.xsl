@@ -41,11 +41,9 @@
          </event>
          <event from="1879-09-04" to="1879-09-04">
             <placeName>Cologne</placeName>
-         </event>
+         </event>    -->
     
-    -->
-    
-    
+
     <xsl:template match="//tei:desc">
         <xsl:for-each-group select="*" group-starting-with="tei:date">
             <xsl:variable name="from">
@@ -65,7 +63,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-
+            
             <xsl:for-each select="current-group()[name()='placeName']">
                <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
                    <xsl:attribute name="from">
@@ -74,9 +72,6 @@
                    <xsl:attribute name="to">
                        <xsl:value-of select="$to"/>
                    </xsl:attribute>
-                   <xsl:if test="">
-                       <!-- certainty attribute -->
-                   </xsl:if>
                    <xsl:element name="desc" namespace="http://www.tei-c.org/ns/1.0">
                    <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
                            <xsl:attribute name="ref"/>
@@ -92,4 +87,5 @@
             </xsl:for-each>
         </xsl:for-each-group>
     </xsl:template>
+    
 </xsl:stylesheet>
