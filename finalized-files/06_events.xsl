@@ -10,7 +10,6 @@
                /><placeName ref="dflfdgk">Vienna</placeName><placeName>Frankfurt</placeName><note>Zug</note>
             <date from="1879-09-01" to="1879-09-01"/><placeName>Frankfurt</placeName>
             <placeName>Coblenz</placeName><placeName>Ems</placeName>
-            <date from="1879-09-02" to="1879-09-03"/><placeName>Ems</placeName>
             <date from="1879-09-04" to="1879-09-04"/><placeName>Bonn</placeName>
             <placeName>Cologne</placeName></desc>
             
@@ -25,26 +24,21 @@
             <note>Zug</note>
          </event>
          <event from="1879-09-01" to="1879-09-01">
-            <placeName>Frankfurt</placeName>
-         </event>
-         <event from="1879-09-01" to="1879-09-01">
             <placeName>Coblenz</placeName>
          </event>
-         <event from="1879-09-01" to="1879-09-01">
-            <placeName>Ems</placeName>
-         </event>
-         <event from="1879-09-02" to="1879-09-03">
-            <placeName>Ems</placeName>
-         </event>
-         <event from="1879-09-04" to="1879-09-04">
-            <placeName>Bonn</placeName>
-         </event>
-         <event from="1879-09-04" to="1879-09-04">
-            <placeName>Cologne</placeName>
-         </event>    -->
+         -->
     
-
+ 
     <xsl:template match="//tei:desc">
+
+            <xsl:variable name="certainty">
+                <xsl:choose>
+                    <xsl:when test="@cert">
+                        <xsl:value-of select="@cert"/>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:variable>
+        
         <xsl:for-each-group select="*" group-starting-with="tei:date">
             <xsl:variable name="from">
                 <xsl:choose>
@@ -63,7 +57,7 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:variable>
-            
+           
             <xsl:for-each select="current-group()[name()='placeName']">
                <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
                    <xsl:attribute name="from">
@@ -72,6 +66,11 @@
                    <xsl:attribute name="to">
                        <xsl:value-of select="$to"/>
                    </xsl:attribute>
+                   <xsl:if test="$certainty !=''">
+                        <xsl:attribute name="cert">
+                            <xsl:value-of select="$certainty"/>
+                        </xsl:attribute>
+                   </xsl:if>
                    <xsl:element name="desc" namespace="http://www.tei-c.org/ns/1.0">
                    <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
                            <xsl:attribute name="ref"/>
@@ -87,5 +86,4 @@
             </xsl:for-each>
         </xsl:for-each-group>
     </xsl:template>
-    
 </xsl:stylesheet>
