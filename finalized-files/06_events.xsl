@@ -27,7 +27,7 @@
          </event>    -->
     
  
-    <xsl:template match="//tei:desc">
+    <xsl:template match="tei:desc">
             
             <xsl:variable name="certainty">
                 <xsl:choose>
@@ -38,15 +38,7 @@
             </xsl:variable>
         
         <!-- Note ab hier!! -->
-            <xsl:variable name="note-inhalt">
-                <xsl:for-each select="tei:placeName">
-                    <xsl:if test="following-sibling::tei:note[1]">
-                        <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:value-of select="following-sibling::tei:note[1]"/>
-                        </xsl:element>
-                    </xsl:if>
-                </xsl:for-each>
-            </xsl:variable>
+        <xsl:variable name="note-inhalt" select="tei:placeName/following-sibling::tei:note[1]"/>
         
         <xsl:for-each-group select="*" group-starting-with="tei:date">
             <xsl:variable name="from">
