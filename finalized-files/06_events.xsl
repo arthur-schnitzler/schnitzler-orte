@@ -39,13 +39,13 @@
         
         <!-- Note ab hier!! -->
             <xsl:variable name="note-inhalt">
-                <xsl:for-each-group select="*" group-starting-with="tei:placeName">
+                <xsl:for-each select="//tei:placeName">
                     <xsl:if test="following-sibling::tei:note[1]">
                         <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:value-of select="following-sibling::tei:note[1]"/>
                         </xsl:element>
                     </xsl:if>
-                </xsl:for-each-group>
+                </xsl:for-each>
             </xsl:variable>
         
         <xsl:for-each-group select="*" group-starting-with="tei:date">
