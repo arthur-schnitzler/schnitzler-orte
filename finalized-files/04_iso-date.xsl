@@ -12,7 +12,7 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
     <!-- "u." zwischen Datumsintervall, z.B. 16. u. 17.8. -->
     <xsl:analyze-string select="." regex="([0-9]{{1,2}})\s*\.\s*[u]{{1}}\s*\.\s*([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.">
         <xsl:matching-substring>
-            <xsl:element name="date">
+            <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="from">
                     <xsl:value-of select="$jahr"/>
                     <xsl:text>-</xsl:text>
@@ -34,7 +34,7 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
           <!-- "und" zwischen Tagen - zweistellig, z.B. 18.8. und 19.8. -->
           <xsl:analyze-string select="." regex="([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.\s*[und]{{3}}\s*([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.">
               <xsl:matching-substring>
-                  <xsl:element name="date">
+                  <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
                       <xsl:attribute name="from">
                           <xsl:value-of select="$jahr"/>
                           <xsl:text>-</xsl:text>
@@ -56,7 +56,7 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
              <!-- "und" zwischen den Tagen - einstellig, z.B. 18. und 19.8. -->
           <xsl:analyze-string select="." regex="([0-9]{{1,2}})\s*\.\s*[und]{{3}}\s*([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.">
               <xsl:matching-substring>
-                  <xsl:element name="date">
+                  <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
                       <xsl:attribute name="from">
                           <xsl:value-of select="$jahr"/>
                           <xsl:text>-</xsl:text>
@@ -79,7 +79,7 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
                   <xsl:analyze-string select="."
                       regex="([0-9]{{1,2}})(\s*\.{{0,1}}\s*)([0-9]{{1,2}})(\s*\.{{0,1}}\s*\-\s*)([0-9]{{1,2}})(\s*\.\s*)([0-9]{{1,2}})\s*\.">
                       <xsl:matching-substring>
-                          <xsl:element name="date">
+                          <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
                               <xsl:attribute name="from">
                                   <xsl:value-of select="$jahr"/>
                                   <xsl:text>-</xsl:text>
@@ -101,7 +101,7 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
                   <!-- Intervall ohne Monatsangabe, z.B. 5.-12.8.  -->
                 <xsl:analyze-string select="." regex="([0-9]{{1,2}}?)(\s*?\.{{0,1}}\s*?[-]{{1}}\s*?)([0-9]{{1,2}}?)(\s*?\.{{1}}\s*?)([0-9]{{1,2}}?)(\s*?\.{{1}})">
                 <xsl:matching-substring>
-                    <xsl:element name="date">
+                    <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:attribute name="from">
                             <xsl:value-of select="$jahr"/>
                             <xsl:text>-</xsl:text>
@@ -123,7 +123,7 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
                     <!-- "," zwischen den Tagen, z.B.: 12.,13.5. -->
                     <xsl:analyze-string select="." regex="([0-9]{{1,2}})\s*\.\s*[,]\s*([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.">       
                     <xsl:matching-substring>
-                        <xsl:element name="date">
+                        <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:attribute name="from">
                                 <xsl:value-of select="$jahr"/>
                                 <xsl:text>-</xsl:text>
@@ -144,7 +144,7 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
                         <!-- Single Date, z.B. 12.3. -->
                     <xsl:analyze-string select="." regex="([0-9]{{1,2}})\s*\.\s*([0-1]{{0,1}}[1-9]{{0,1}})\s*\.">
                         <xsl:matching-substring>
-                            <xsl:element name="date">
+                            <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:attribute name="from">
                                     <xsl:value-of select="$jahr"/>
                                     <xsl:text>-</xsl:text>

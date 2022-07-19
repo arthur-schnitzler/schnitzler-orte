@@ -29,14 +29,14 @@
                                     
                                     <!-- mit Bindestrich getrennte placeNames trennen -->
                                     <xsl:for-each select="tokenize(., '-')">
-                                        <xsl:element name="placeName">
+                                        <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
                                             <xsl:value-of
                                                 select="foo:punktAmEndeWeg(normalize-space(.))"/>
                                         </xsl:element>
                                     </xsl:for-each>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:element name="placeName">
+                                    <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
                                         <xsl:value-of
                                             select="foo:punktAmEndeWeg(normalize-space(.))"/>
                                     </xsl:element>
