@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:33.887+02:00</Created>
-        <LastChange>2022-07-18T14:50:58.958+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195876" pageNr="21" tsid="91062833" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=INQILXXJAZXZYBBMBYBYAHJV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UQEUPBZWCXMLSXJUUJCPQYCP" imageId="35435110"/>
+        <LastChange>2022-07-19T17:29:32.820+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195876" pageNr="21" tsid="91109677" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=INQILXXJAZXZYBBMBYBYAHJV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NPHPLQELRJZUDSBUELXFGDEV" imageId="35435110"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00041.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285602" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877207" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -95,7 +95,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(20.7.in St.Michael).</Unicode>
+                    <Unicode>20.7. St.Michael</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l6" custom="readingOrder {index:4;}">
@@ -144,7 +144,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>28.-31.7. Aussee (am 29.7. Kainisch)</Unicode>
+                    <Unicode>28.-31.7. Aussee 29.7. Kainisch</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l7" custom="readingOrder {index:5;}">
@@ -212,7 +212,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(am 6.8.in Obertraun am 8.8. in Aussee).</Unicode>
+                    <Unicode>6.8.Obertraun 8.8. Aussee</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:7;}">
@@ -337,7 +337,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Kesselfall. (mit Richard Beer-Hofmann, Leo)</Unicode>
+                    <Unicode>Kesselfall. (mit Richard Beer-Hofmann, Leo Van-Jung)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:12;}">
@@ -449,7 +449,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>17.8.(mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred Kerr) Innsbruck-Blu-</Unicode>
+                    <Unicode>17.8.Innsbruck-Blu-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:16;}">
@@ -462,7 +462,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>denz,Schrunz.</Unicode>
+                    <Unicode>denz,Schrunz. (mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred Kerr) </Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l19" custom="readingOrder {index:17;}">
@@ -526,20 +526,20 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                 <Unicode>boden,Johnsbad-Admost.&#13;
 5.7. Admont - Reichenau.&#13;
 6.7.-23.7. Reichenau.&#13;
-(20.7.in St.Michael).&#13;
-28.-31.7. Aussee (am 29.7. Kainisch)&#13;
+20.7. St.Michael&#13;
+28.-31.7. Aussee 29.7. Kainisch&#13;
 1.8 -9.8. Ischl.&#13;
-(am 6.8.in Obertraun am 8.8. in Aussee).&#13;
+6.8.Obertraun 8.8. Aussee&#13;
 10.8.lschl,Salzburg, Bischofshofen.&#13;
 11.8.Bischofshofen.&#13;
 12. 8. Bischofshofen-Salzburg.&#13;
 13.8.  Salzburg, Zell am See,&#13;
-Kesselfall. (mit Richard Beer-Hofmann, Leo)&#13;
+Kesselfall. (mit Richard Beer-Hofmann, Leo Van-Jung)&#13;
 14.8.Kesselfall, Moserboden, Kesselfall-Krimel.&#13;
 15.8.Krimel,Zell am See,Innsbruck.&#13;
 16.8.Innsbruck (mit Alfred Kerr, Paul Goldmann).&#13;
-17.8.(mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred Kerr) Innsbruck-Blu-&#13;
-denz,Schrunz.&#13;
+17.8.Innsbruck-Blu-&#13;
+denz,Schrunz. (mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred Kerr) &#13;
 18.8. Schrunz-Cargellen.&#13;
 19. 8.Gargellen-Lapiner Joch-Klosters.&#13;
 Klosters,Thur-Tusis.</Unicode>

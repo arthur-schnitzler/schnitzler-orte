@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:38.919+02:00</Created>
-        <LastChange>2022-07-18T11:20:07.193+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195931" pageNr="51" tsid="91055097" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WSVSTYCTVPDZHXKZXQEBUSSK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NCPIAFLCCHMRXJZWWRUVQJPS" imageId="35435165"/>
+        <LastChange>2022-07-20T10:07:14.880+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195931" pageNr="51" tsid="91118575" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WSVSTYCTVPDZHXKZXQEBUSSK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RRRARHTVIUKBUCMKAZBWQLMQ" imageId="35435165"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00101.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286108" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877684" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -363,7 +363,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>13.11. München-Partenkirchen</Unicode>
+                    <Unicode>13.11. München- Garmisch-Partenkirchen</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l17" custom="readingOrder {index:14;}">
@@ -382,7 +382,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>14.-16.11. Partenkirchen</Unicode>
+                    <Unicode>14.-16.11. Garmisch-Partenkirchen</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
@@ -399,8 +399,8 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 (6.11. Weites Land,7.11.Beatrico,8.11.Anatol)&#13;
 (9.11. Lübeck und Travemünde,10.11. Blankenese)&#13;
 11.-13.11.München (12.11. Das weite Land)&#13;
-13.11. München-Partenkirchen&#13;
-14.-16.11. Partenkirchen</Unicode>
+13.11. München- Garmisch-Partenkirchen&#13;
+14.-16.11. Garmisch-Partenkirchen</Unicode>
             </TextEquiv>
         </TextRegion>
     </Page>

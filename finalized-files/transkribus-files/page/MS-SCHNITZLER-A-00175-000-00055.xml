@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:35.010+02:00</Created>
-        <LastChange>2022-07-18T11:03:23.613+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195883" pageNr="28" tsid="91053961" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=GZTOEDPXZUHVMRTPEOMYYZOJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PESNDFOEYNDYRCVXRUNFJZLU" imageId="35435117"/>
+        <LastChange>2022-07-20T10:11:21.640+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195883" pageNr="28" tsid="91118716" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=GZTOEDPXZUHVMRTPEOMYYZOJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=QNXXNPAEZNHANWWNSKIUPCKY" imageId="35435117"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00055.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285697" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877317" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -271,7 +271,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>28.-31.5.-1.6. Venedig. 29.5. Murano,31.5.</Unicode>
+                    <Unicode>28.5.-1.6. Venedig. 29.5. Murano 31.5.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l15" custom="readingOrder {index:12;}">
@@ -418,7 +418,7 @@ der Beatrice")&#13;
 10.4.Gmunden.&#13;
 11.4.Gmunden-Wien.&#13;
 24.5. Wien-Venedig.&#13;
-28.-31.5.-1.6. Venedig. 29.5. Murano,31.5.&#13;
+28.5.-1.6. Venedig. 29.5. Murano 31.5.&#13;
 Torcello&#13;
 2. 6. Venedig, Padua-Vicenca.&#13;
 3.6. Vicenca-Verona-Mailand.&#13;

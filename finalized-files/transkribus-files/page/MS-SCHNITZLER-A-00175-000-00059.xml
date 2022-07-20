@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:35.341+02:00</Created>
-        <LastChange>2022-07-11T17:35:08.819+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195887" pageNr="30" tsid="90416408" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=XVAXKACDUMDEPKSDRQDAWKWY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GRFLCIBSMNMMVTWRWHRSSIKC" imageId="35435121"/>
+        <LastChange>2022-07-20T10:10:31.942+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195887" pageNr="30" tsid="91118665" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=XVAXKACDUMDEPKSDRQDAWKWY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JUOPPWUUABFGVHWQTZOXZJHJ" imageId="35435121"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00059.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285761" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877347" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -95,7 +95,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>7.-8.11.Senmering.</Unicode>
+                    <Unicode>7.-8.11.Semmering.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l5" custom="readingOrder {index:4;}">
@@ -121,7 +121,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                 <Unicode>19.10. Wien-Brünn (Vorlesung).&#13;
 20.10.Brünn-Wien.&#13;
 6.11. Wien-Semmering.&#13;
-7.-8.11.Senmering.&#13;
+7.-8.11.Semmering.&#13;
 9.11. Semmering-Wien.</Unicode>
             </TextEquiv>
         </TextRegion>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><text xmlns="http://www.tei-c.org/ns/1.0"><body><div>
       Reisen.
-      <year cert="low">1867</year> <year cert="low">1868</year> Grosskanisza. (genaues Datum unbekannt)
-      <year cert="low">1869</year> Vöslau (Sommeraufenthalt) <year cert="low">1870</year> Vöslau (Sommeraufenthalt) <year cert="low">1871</year> Vöslau (Sommeraufenthalt)
+      <year cert="low">1867</year> <year cert="low">1868</year> Grosskanizsa. (genaues Datum unbekannt)
+      <year cert="low">1869</year> Bad Vöslau (Sommeraufenthalt) <year cert="low">1870</year> Bad Vöslau (Sommeraufenthalt) <year cert="low">1871</year> Bad Vöslau (Sommeraufenthalt)
       <year cert="low">1870</year> Gmunden,Ischl,Aussee. (genaues Datum unbekannt)
       <year>1872</year> Salzburg, München, Zürich,Luzern,Genf. (genaues Datum unbekannt)
-      <year>1873</year> Vöslau. (genaues Datum unbekannt)
+      <year>1873</year> Bad Vöslau. (genaues Datum unbekannt)
       <year>1874</year> 2. 8.-16.8. Salzburg, Reichenhall,
       Innsbruck,Achensee,Ampezzo,Landro,Lienz,Döllach. Heiligenblut, Villach.
       <year>1877</year> 21.7.-6.8. Fusch, Veldeser See.
@@ -25,7 +25,7 @@
       7.-22.8. Ischl.
       <year>1882</year>. 31.7.Ragaz.1.8.-2.8.Ragaz.
       3.8.Ragaz-Davos.4.8.Davos-Albula-Pontresina.
-      6.8.Pontresina-St.Moritz-Pontresina.7.8.Pontresina-Morteratsch. 8.8.Pontresina-Bernina-
+      6.8.Pontresina-St. Moritz-Pontresina.7.8.Pontresina-Morteratsch. 8.8.Pontresina-Bernina-
       
        Boschiavo-Leprese. 9.8. Leprese-Boladore-Bormio.10.8.Bormio-Stilfsezjoch- Spondini.11.8.
       Spondini-Meran-Bozen.12.8.Bozen-Innsbruck.
@@ -37,13 +37,13 @@
       <year>1884</year>. Ostern Fiume und Abbazia. 15.7-1.9. Ischl.
       <year>1885</year>. Ende Juni Budapest und Plattensee.
       5.-30.7. Reichenau.8.8.Wien-Kammer.9.8. Unterach. 10.8.Weissenbach. 11.8.lschl.12.-13.8.
-      Ischl.14.8. (Reise mit Max Weinberg) IschlInnsbruck. 15.8.Innsbruck-Zürich. 16.8.Zürich.
+      Ischl.14.8.  IschlInnsbruck (Reise mit Max Weinberg). 15.8.Innsbruck-Zürich. 16.8.Zürich.
       17.8.Zürich-Arth-Rigi-Kulm. 18.8.RigiKulm-Vitznau- Flüelen-Brunnen-AxensteinLuzern.19.8.Luzern (mit Johann Schnitzler, Louise Schnitzler) 20.8.Luzern-Brunnen-Axenstein-Brunnen-Luzern.21.8.Luzern-Lucarno.22.8.Lucarno-Isola Bella-Luino-LuganoPorlezza-Menaggio.23.8.Menaggio-BelaggioCadenabbia-Tremezo.24.8.Bellagio-Como.25.8.
       Como-Mailand.26.8.Mailand.27.8.Mailand-Inns-
       bruck. 28.8. Innsbruck-Ischl.29.8.-30.8. Ischl.
       31. 8. Ischl-Wien.
       <year>1886</year>. 28.3.-10.4.Meran.
-      (Pfingsten Reichenau.)
+      Reichenau (Pfingsten)
       18.5. Reichenau.
       31.7.-6.9. Reichenau (mit einer Unterbrechung
       Ischl 8 Tage.)
@@ -82,7 +82,7 @@
       7. 2. Salzburg
       5.3. Salzburg.
       30.u.31.5. Ungarisches Erbgut.
-      1.6.-31.7. (häufige Ausflüge nach Baden)
+      1.6.-31.7. Baden (häufige Ausflüge, genaues Datum unbekannt)
       15.u.16.8. Ischl
       19.-26.9. Halle (Naturforscherversamml.
       Ausflug nach Leipzig über Dresden zurück)
@@ -268,13 +268,13 @@
       19.7.Faakersee,20.7.Krumpendorf-Pörtschach,22.7.Krumpendorf.23.7. Um den See.26.7.Um den See.28.7.VeldenVillach. 29.7.Villach-Tarvis (Bahn). Raiblsee
        (Wagen), Predil (Fuss), Tarvis (Wagen), Villach
       (Rad).
-      30.7.Villach-Spital (Bahn) -Seeboden (Rad)
-      (mit Richard Beer-Hofmann,vorher mit Jakob Wassermann) -Spital.
+      30.7.Villach-Spital (Bahn) - Seeboden (Rad, mit Richard Beer-Hofmann,vorher mit Jakob Wassermann)
+       -Spital.
       31.7. Spital-Toblach (Bic. Innichen).
       1.-4.8. Toblach.
       2.8.Niederdorf,3.8.Prags und Pragsersee.
-      4.8.Toblach-Niederdorf
-      (Fusstour mit Richard Beer-Hofmann, Jakob Wassermann)
+      4.8.Toblach-Niederdorf (Fusstour mit Richard Beer-Hofmann, Jakob Wassermann)
+      
       5.8. Niederdorf -Plätzwiesen-Schluderbach.
       6.8.Schluderbach-Missurina-Tre Croce-Cortina.
       7.8. Cortina-Giau-Caprile.
@@ -308,40 +308,40 @@
       31. 3. Ragusa (Ombla)
       1. 4. Pagusa, 2.4.Ragusa (Lapad). 3.4.Ragusa-Spalato (Zalona). 4.-7.4. Abbazia. 
       
-      24.5. Puchberg-27.5. (über Baumgartnerhaus-Payerbach nach Wien).
+      24.5.-27.5. Puchberg (über Baumgartnerhaus-Payerbach nach Wien).
       30.5.Melk. 31.5. Krems.
       12.6.Waidhofen.13.6.Gstatterböden.
       28.6.Wien-lschl.
-      29.6.-1.7.Alt-Aussee.21.7.Alt-Aussee nach
+      29.6.-1.7.Aussee.21.7.Aussee -
       Selzthal (Rad).
-      3. 7. Selzthal,Admont (Rad) 4.7.Admomt,Gstatter-
+      3. 7. Selzthal,Admond (Rad) 4.7.Admond,Gstatter-
       boden,Johnsbad-Admost.
       5.7. Admont - Reichenau.
       6.7.-23.7. Reichenau.
-      (20.7.in St.Michael).
-      28.-31.7. Aussee (am 29.7. Kainisch)
+      20.7. St.Michael
+      28.-31.7. Aussee 29.7. Kainisch
       1.8 -9.8. Ischl.
-      (am 6.8.in Obertraun am 8.8. in Aussee).
+      6.8.Obertraun 8.8. Aussee
       10.8.lschl,Salzburg, Bischofshofen.
       11.8.Bischofshofen.
       12. 8. Bischofshofen-Salzburg.
       13.8.  Salzburg, Zell am See,
-      Kesselfall. (mit Richard Beer-Hofmann, Leo)
+      Kesselfall. (mit Richard Beer-Hofmann, Leo Van-Jung)
       14.8.Kesselfall, Moserboden, Kesselfall-Krimel.
       15.8.Krimel,Zell am See,Innsbruck.
       16.8.Innsbruck (mit Alfred Kerr, Paul Goldmann).
-      17.8.(mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred Kerr) Innsbruck-Bludenz,Schrunz.
+      17.8.Innsbruck-Bludenz,Schrunz. (mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred Kerr) 
       18.8. Schrunz-Cargellen.
       19. 8.Gargellen-Lapiner Joch-Klosters.
       Klosters,Thur-Tusis.
       20.8. Tusis-Pontresina.
       21.8.-24.8. Pontresina
-       21.8. Morteratsch, Sankt Moritz 22.8.Sankt Moritz)
+       21.8. Morteratsch, S7. Moritz 22.8.St. Moritz
       25.8.Pontresina-Bernina-Leprese (mit Paul Goldmann)
       26.8. Leprese-Boladore-Bormio.
       27.8.Bormio-Stilferserjoch-Trafoi.
       28.8. Trafoi-Meran.
-      29.8.Meran (Fuldas,Salten).
+      29.8.Meran (mit Fuldas, Felix Salten).
       30.8.Meran-Bozen (Siegmundskron).
       31. 8.Runkelstein.
       12.10.-17.10. Baden bei Wien. (am 13.10.Sulz, am 14.10.Meierling).
@@ -893,13 +893,13 @@
       17.-23.5.Stockholm 20.5. Salsjöbaden,21.5.Drontingholm
       24.-27.5. Berlin (über Trelleborg, Sassnitz)
       12.-14.6. Gösing.
-      27.6.-7.7. Baden-Baden 7.7.Stuttgart,Nürnberg.
+      27.6.-7.7. Baden Baden 7.7.Stuttgart,Nürnberg.
       7.9.-9.7.Nürnberg.
       3.8.-5.8. Wien-Salzburg
-      5.8.Salzburg - Stuttgart 6.8.Stuttgart, Badenden.
-      6.8.-14.8. Baden-Baden.
+      5.8.Salzburg - Stuttgart 6.8.Stuttgart, Baden Baden.
+      6.8.-14.8. Baden Baden.
       <year>1923</year>
-      14.8. Baden-Baden - Ulm - Friedrichshafen.
+      14.8. Baden Baden - Ulm - Friedrichshafen.
       15.8. Friedrichshafen - Bodensee - Romanshorn -Chur.
       16.8. Chur - Bergün. 17.8.Pontresina,Cellerina,
        18.8. Bergün, 18.8.  Cellerina
@@ -909,20 +909,20 @@
       9.9.-14.9. Lochau 11.9. Constanz
       14.9. Bregenz,Arlberg, Wien.
       <year>1924</year>.
-      27.6.-3.7. Baden-Baden.
+      27.6.-3.7. Baden Baden.
       2.7. München 6.7. Salzburg.
-      6.8.Ragaz.7.8.Chur, Cellerina 22.8. (Oft Zuoz).
+      6.8.Ragaz.7.8.Chur, Cellerina 22.8. Zuoz
       22.8.Cellerina-Luzern, 23.8.-27.8. Lugano.
       29.8. Stresa,30.8. Cadenabbia,31.8.Locarno 1.9.-4.9.Zürich
       <year>1925</year>.
-      8.1.München ,9.1. Stuttgart (Vorlesung), 10.,11.Baden-Baden,
-      (Vorlesung), 12.1.Freiburg (Vorlesung),13.14.
+      8.1.München ,9.1. Stuttgart (Vorlesung), 10.,11.1. Baden Baden (Vorlesung)
+      12.1.Freiburg (Vorlesung),13.14.
       Basel (Vorlesung), 15.1. Bern (Vorlesung), 16.1.
       St.Gallen (Vorlesung), 17.-20.1.Zürich (Vorlesung).
       21.-31.1. St. Moritz.
       14.-24.3. Berlin.
       14.-15.5. Semmering.
-      17.-21.6. Baden-Baden.
+      17.-21.6. Baden Baden.
       22.6.München 23.-24.6. Meran, 25.-3.7. Bozen
       27.6. Karersee, Martino, 30.6.Ritten,
       1.7.Molveno, Trient, 2.7.Grödnertal, Wolkenstein
@@ -938,7 +938,7 @@
       5.2.-16.2. Berlin.
       16.4.Triest ("Martha Washington").
       18.4. Patras,20.4. Neapel.
-      24.4. Lissabon-26.4. (Cintra)
+      24.4. Lissabon-26.4. Cintra
       29.4.-4.5. Las Palmas (Ausflug Brigida)
       6.5. Lissabon, 11.5.-19.5. Hamburg, Berlin
       20.7.-9.8. Zürich, Adelboden 8.8.Mürren 
@@ -949,12 +949,12 @@
       4.9. Interlaken-Luzern
       7.9. Rigi 11.9. Burgenstock
       <year>1927</year>.
-      (Vom 24.12.<year>1926</year>-9.1.<year>1927</year> in Berlin.)
+      24.12.<year>1926</year>-9.1.<year>1927</year> Berlin
       12.-14.2. Edlach.
       1.4.-2.5. Venedig.
       19.u.20.5. Semmering.
-      10.8. Bozen -Campiglio -14.8.-15.8.wieder in Bozen.
-      (17.8.Klobenstein). 19.8. nach Karersee (Waldhaus)-
+      10.8.-14.8. Bozen -Campiglio 15.8. Bozen.
+      17.8.Klobenstein 19.8.  Karersee (Waldhaus)
       23.8. Bozen 24.8.Sulden, 25.8.-3.9.Gardone
       3.9.-5.9. Verona
       5.9.-15.9.Venedig (Lido)

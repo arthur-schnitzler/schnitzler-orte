@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:33.256+02:00</Created>
-        <LastChange>2022-07-18T14:51:32.677+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195872" pageNr="17" tsid="91062860" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=HMHQWKIQWALTUZLQWJCTWQCJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RHCWFCIGFBKMBONSFDKFQCNE" imageId="35435106"/>
+        <LastChange>2022-07-19T16:48:08.525+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195872" pageNr="17" tsid="91108105" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=HMHQWKIQWALTUZLQWJCTWQCJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JOBBMUUBZIRCJYFKVCBSFRNO" imageId="35435106"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00033.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285545" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877122" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -409,7 +409,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>30.7.Villach-Spital (Bahn) -Seeboden (Rad)</Unicode>
+                    <Unicode>30.7.Villach-Spital (Bahn) - Seeboden (Rad, mit Richard Beer-Hofmann,vorher mit Jakob Wassermann)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l20" custom="readingOrder {index:19;}">
@@ -446,7 +446,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(mit Richard Beer-Hofmann,vorher mit Jakob Wassermann) -Spital.</Unicode>
+                    <Unicode> -Spital.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l21" custom="readingOrder {index:20;}">
@@ -493,8 +493,8 @@ pendorf.23.7. Um den See.26.7.Um den See.28.7.Velden-&#13;
 Villach. 29.7.Villach-Tarvis (Bahn). Raiblsee&#13;
  (Wagen), Predil (Fuss), Tarvis (Wagen), Villach&#13;
 (Rad).&#13;
-30.7.Villach-Spital (Bahn) -Seeboden (Rad)&#13;
-(mit Richard Beer-Hofmann,vorher mit Jakob Wassermann) -Spital.&#13;
+30.7.Villach-Spital (Bahn) - Seeboden (Rad, mit Richard Beer-Hofmann,vorher mit Jakob Wassermann)&#13;
+ -Spital.&#13;
 31.7. Spital-Toblach (Bic. Innichen).</Unicode>
             </TextEquiv>
         </TextRegion>

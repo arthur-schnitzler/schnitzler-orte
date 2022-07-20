@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:30.595+02:00</Created>
-        <LastChange>2022-07-18T11:21:34.557+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195851" pageNr="1" tsid="91055130" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=KBXOBLCHGYKMFJLVOOLUZUMK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YPTWSTFXTZMDBEXDBVLHEJQH" imageId="35435085"/>
+        <LastChange>2022-07-19T16:03:53.877+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195851" pageNr="1" tsid="91107241" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=KBXOBLCHGYKMFJLVOOLUZUMK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PMYEXCVQBETBKCVZWNUYRARW" imageId="35435085"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00005.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151284900" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304876568" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -45,7 +45,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1867? 1868? Grosskanisza. (genaues Datum unbekannt)</Unicode>
+                    <Unicode>1867? 1868? Grosskanizsa. (genaues Datum unbekannt)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l3" custom="readingOrder {index:2;}">
@@ -70,7 +70,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1869? Vöslau (Sommeraufenthalt) 1870? Vöslau (Sommeraufenthalt) 1871? Vöslau (Sommeraufenthalt)</Unicode>
+                    <Unicode>1869? Bad Vöslau (Sommeraufenthalt) 1870? Bad Vöslau (Sommeraufenthalt) 1871? Bad Vöslau (Sommeraufenthalt)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l4" custom="readingOrder {index:3;}">
@@ -163,7 +163,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1873 Vöslau. (genaues Datum unbekannt)</Unicode>
+                    <Unicode>1873 Bad Vöslau. (genaues Datum unbekannt)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l7" custom="readingOrder {index:6;}">
@@ -519,11 +519,11 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             </TextLine>
             <TextEquiv>
                 <Unicode>Reisen.&#13;
-1867? 1868? Grosskanisza. (genaues Datum unbekannt)&#13;
-1869? Vöslau (Sommeraufenthalt) 1870? Vöslau (Sommeraufenthalt) 1871? Vöslau (Sommeraufenthalt)&#13;
+1867? 1868? Grosskanizsa. (genaues Datum unbekannt)&#13;
+1869? Bad Vöslau (Sommeraufenthalt) 1870? Bad Vöslau (Sommeraufenthalt) 1871? Bad Vöslau (Sommeraufenthalt)&#13;
 1870? Gmunden,Ischl,Aussee. (genaues Datum unbekannt)&#13;
 1872 Salzburg, München, Zürich,Luzern,Genf. (genaues Datum unbekannt)&#13;
-1873 Vöslau. (genaues Datum unbekannt)&#13;
+1873 Bad Vöslau. (genaues Datum unbekannt)&#13;
 1874 2. 8.-16.8. Salzburg, Reichenhall,&#13;
 Innsbruck,Achensee,Ampezzo,Landro,Lienz,Döl-&#13;
 lach. Heiligenblut, Villach.&#13;

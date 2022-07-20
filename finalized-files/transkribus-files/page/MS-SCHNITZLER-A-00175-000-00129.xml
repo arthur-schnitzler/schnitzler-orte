@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:41.134+02:00</Created>
-        <LastChange>2022-07-18T11:41:34.318+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195957" pageNr="64" tsid="91055562" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=XNPTICLSFDXCKSXGPRFKHBQG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=INGMYBLNETLIBBIOLOKLQWQV" imageId="35435191"/>
+        <LastChange>2022-07-20T10:12:48.488+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195957" pageNr="64" tsid="91118957" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=XNPTICLSFDXCKSXGPRFKHBQG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DRCNUAIRQTOZMULPEKEAWJRJ" imageId="35435191"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00129.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286343" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877886" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -57,7 +57,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>8.1.München ,9.1. Stuttgart (Vorlesung), 10.,11.Baden-Baden,</Unicode>
+                    <Unicode>8.1.München ,9.1. Stuttgart (Vorlesung), 10.,11.1. Baden-Baden (Vorlesung)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l8" custom="readingOrder {index:2;}">
@@ -88,7 +88,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(Vorlesung), 12.1.Freiburg (Vorlesung),13.14.</Unicode>
+                    <Unicode>12.1.Freiburg (Vorlesung),13.14.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:3;}">
@@ -454,8 +454,8 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             </TextLine>
             <TextEquiv>
                 <Unicode>1925.&#13;
-8.1.München ,9.1. Stuttgart (Vorlesung), 10.,11.Baden-Baden,&#13;
-(Vorlesung), 12.1.Freiburg (Vorlesung),13.14.&#13;
+8.1.München ,9.1. Stuttgart (Vorlesung), 10.,11.1. Baden-Baden (Vorlesung)&#13;
+12.1.Freiburg (Vorlesung),13.14.&#13;
 Basel (Vorlesung), 15.1. Bern (Vorlesung), 16.1.&#13;
 St.Gallen (Vorlesung), 17.-20.1.Zürich (Vorlesung).&#13;
 21.-31.1. St. Moritz.&#13;

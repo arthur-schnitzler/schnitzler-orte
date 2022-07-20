@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:41.434+02:00</Created>
-        <LastChange>2022-07-18T11:42:26.470+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195961" pageNr="66" tsid="91055594" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=KWTGEDLWIVYHZMWYOMAWYXPM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IFQVDUBSWRONQTIKMHYSIAHS" imageId="35435195"/>
+        <LastChange>2022-07-19T16:22:19.466+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195961" pageNr="66" tsid="91107656" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=KWTGEDLWIVYHZMWYOMAWYXPM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LSOYBTMBVKEJVKVNYVJVLFAA" imageId="35435195"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00133.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286368" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877909" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -138,7 +138,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>24.4. Lissabon-26.4. (Cintra)</Unicode>
+                    <Unicode>24.4. Lissabon-26.4. Cintra</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:5;}">
@@ -445,7 +445,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 5.2.-16.2. Berlin.&#13;
 16.4.Triest ("Martha Washington").&#13;
 18.4. Patras,20.4. Neapel.&#13;
-24.4. Lissabon-26.4. (Cintra)&#13;
+24.4. Lissabon-26.4. Cintra&#13;
 29.4.-4.5. Las Palmas (Ausflug Brigida)&#13;
 6.5. Lissabon, 11.5.-19.5. Hamburg, Berlin&#13;
 20.7.-9.8. Zürich, Adelboden 8.8.Mür-&#13;

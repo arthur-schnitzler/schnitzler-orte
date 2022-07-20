@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:37.477+02:00</Created>
-        <LastChange>2022-07-11T18:34:32.030+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195912" pageNr="42" tsid="90417869" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=EFCWNDFUDZXYJDKRAYCVJKHE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FEMDTEAHPYHEWPKLKWUSCDJL" imageId="35435146"/>
+        <LastChange>2022-07-20T10:08:48.448+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195912" pageNr="42" tsid="91118587" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=EFCWNDFUDZXYJDKRAYCVJKHE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DDRBHZFEDTNGFZGLAMKBCLVY" imageId="35435146"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00083.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285973" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877549" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -44,7 +44,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(7.7.-9.7.Gossensass und Sterzing 4.8. Weislahn-</Unicode>
+                    <Unicode>7.7.-9.7.Gossensass, Sterzing 4.8. Weislahn-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l3" custom="readingOrder {index:1;}">
@@ -57,7 +57,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>bad,5.5.Schlern).</Unicode>
+                    <Unicode>bad 5.5.Schlern</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l4" custom="readingOrder {index:2;}">
@@ -180,26 +180,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     <Unicode>7.9.-13.9. München.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r1l10" custom="readingOrder {index:8;}">
-                <Coords points="361,1531 976,1506 976,1475 876,1467 837,1442 741,1465 529,1467 492,1448 456,1467 415,1442 361,1462"/>
-                <Baseline points="371,1499 400,1500 430,1501 460,1502 490,1502 519,1502 549,1502 579,1502 609,1502 638,1502 668,1502 698,1501 728,1500 757,1500 787,1500 817,1500 847,1500 876,1500 906,1501 936,1502 966,1503"/>
-                <Word id="r1l10_w1" custom="readingOrder {index:0;}">
-                    <Coords points="363,1462 363,1522 789,1522 789,1462"/>
-                    <TextEquiv>
-                        <Unicode>14.9.wieder.</Unicode>
-                    </TextEquiv>
-                </Word>
-                <Word id="r1l10_w2" custom="readingOrder {index:1;}">
-                    <Coords points="795,1460 795,1520 965,1520 965,1460"/>
-                    <TextEquiv>
-                        <Unicode>Wien.</Unicode>
-                    </TextEquiv>
-                </Word>
-                <TextEquiv>
-                    <Unicode>14.9.wieder Wien.</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l11" custom="readingOrder {index:9;}">
+            <TextLine id="r1l11" custom="readingOrder {index:8;}">
                 <Coords points="365,1725 1325,1722 1324,1643 910,1660 820,1633 639,1664 465,1628 365,1656"/>
                 <Baseline points="374,1698 421,1698 468,1700 515,1700 562,1700 609,1700 656,1700 703,1700 750,1700 797,1698 844,1698 891,1698 938,1698 985,1698 1032,1697 1079,1697 1126,1697 1173,1697 1220,1698 1267,1698 1314,1698"/>
                 <Word id="r1l11_w1" custom="readingOrder {index:0;}">
@@ -212,7 +193,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     <Unicode>24.9.Wien-Edlach-Knappenhof.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r1l12" custom="readingOrder {index:10;}">
+            <TextLine id="r1l12" custom="readingOrder {index:9;}">
                 <Coords points="365,1820 1295,1812 1295,1776 1238,1749 1120,1738 1047,1763 918,1736 829,1767 365,1756"/>
                 <Baseline points="375,1800 420,1800 466,1800 511,1800 557,1800 602,1800 648,1800 693,1800 739,1800 784,1800 830,1799 876,1799 921,1799 967,1799 1012,1799 1058,1799 1103,1799 1149,1799 1194,1799 1240,1799 1286,1799"/>
                 <Word id="r1l12_w1" custom="readingOrder {index:0;}">
@@ -225,7 +206,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     <Unicode>25.9.Knappenhof-Rax-Edlach.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r1l13" custom="readingOrder {index:11;}">
+            <TextLine id="r1l13" custom="readingOrder {index:10;}">
                 <Coords points="371,1905 529,1930 570,1912 772,1932 824,1907 951,1924 951,1856 885,1839 754,1873 727,1852 515,1837 371,1861"/>
                 <Baseline points="380,1901 408,1901 436,1901 464,1901 492,1901 520,1901 548,1901 576,1901 604,1901 632,1901 660,1901 688,1901 716,1901 744,1901 772,1899 800,1899 828,1899 856,1899 884,1899 912,1899 941,1899"/>
                 <Word id="r1l13_w1" custom="readingOrder {index:0;}">
@@ -238,7 +219,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     <Unicode>26.9.Edlach-Wien.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r1l14" custom="readingOrder {index:12;}">
+            <TextLine id="r1l14" custom="readingOrder {index:11;}">
                 <Coords points="367,2120 584,2129 650,2104 875,2129 962,2109 962,2055 941,2049 617,2064 590,2046 525,2064 469,2031 367,2055"/>
                 <Baseline points="377,2103 405,2103 434,2103 463,2103 492,2103 521,2103 549,2103 578,2103 607,2102 636,2102 665,2102 693,2102 722,2102 751,2102 780,2102 809,2102 837,2102 866,2102 895,2102 924,2102 953,2103"/>
                 <Word id="r1l14_w1" custom="readingOrder {index:0;}">
@@ -257,7 +238,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     <Unicode>6.10.Wien Edlach.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r1l15" custom="readingOrder {index:13;}">
+            <TextLine id="r1l15" custom="readingOrder {index:12;}">
                 <Coords points="363,2220 533,2248 656,2210 737,2245 858,2209 1328,2215 1328,2165 1187,2131 898,2168 493,2129 363,2153"/>
                 <Baseline points="372,2202 419,2204 466,2205 514,2205 561,2207 608,2207 656,2207 703,2205 750,2205 798,2204 845,2204 892,2202 940,2202 987,2201 1034,2201 1082,2199 1129,2199 1176,2199 1224,2201 1271,2201 1319,2202"/>
                 <Word id="r1l15_w1" custom="readingOrder {index:0;}">
@@ -276,7 +257,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     <Unicode>7.10.Edlach (Nasswald)-Wien.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r1l16" custom="readingOrder {index:14;}">
+            <TextLine id="r1l16" custom="readingOrder {index:13;}">
                 <Coords points="364,2442 713,2453 834,2410 1015,2447 1054,2433 1054,2354 566,2361 501,2326 435,2371 364,2367"/>
                 <Baseline points="374,2403 407,2405 441,2406 474,2408 508,2409 541,2409 575,2409 608,2409 642,2409 675,2409 709,2409 742,2409 776,2408 809,2408 843,2407 876,2406 910,2406 943,2406 977,2406 1010,2406 1044,2406"/>
                 <Word id="r1l16_w1" custom="readingOrder {index:0;}">
@@ -290,15 +271,14 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
-                <Unicode>(7.7.-9.7.Gossensass und Sterzing 4.8. Weislahn-&#13;
-bad,5.5.Schlern).&#13;
+                <Unicode>7.7.-9.7.Gossensass, Sterzing 4.8. Weislahn-&#13;
+bad 5.5.Schlern&#13;
 2.9.Seis-Bozen.&#13;
 3. 9.Bozen-San Martino.&#13;
 4.9.San Martino.&#13;
 5.9. San Martino-Bozen.&#13;
 6.9.Bozen (Gries)-München.&#13;
 7.9.-13.9. München.&#13;
-14.9.wieder Wien.&#13;
 24.9.Wien-Edlach-Knappenhof.&#13;
 25.9.Knappenhof-Rax-Edlach.&#13;
 26.9.Edlach-Wien.&#13;

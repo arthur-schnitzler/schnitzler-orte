@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:40.369+02:00</Created>
-        <LastChange>2022-07-18T11:38:41.515+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195949" pageNr="60" tsid="91055473" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=GSRWJWBHZQHYJOPQTTLOFTOY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MLBKWCWEKQZTAHXSVRDRKAAZ" imageId="35435183"/>
+        <LastChange>2022-07-20T10:14:03.758+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195949" pageNr="60" tsid="91119190" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=GSRWJWBHZQHYJOPQTTLOFTOY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ISSFVFAVCWYYYDMJNQROEEAZ" imageId="35435183"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00121.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286291" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877800" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -288,7 +288,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>5.7.Mönichkirchen (6.7.St.Peter,Corona)</Unicode>
+                    <Unicode>5.7.Mönichkirchen 6.7.St. Peter,Corona</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l16" custom="readingOrder {index:11;}">
@@ -432,7 +432,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>15.9. Salzburg-Wien (mit Lili Schnitzler)</Unicode>
+                    <Unicode>15.9. Salzburg-Wien (mit Lili Schnitzler).</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l22" custom="readingOrder {index:17;}">
@@ -469,7 +469,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>24.10. Brünn, 25.10.-31.10 Prag, 31.10.Aussig,</Unicode>
+                    <Unicode>24.10. Brünn 25.10.-31.10 Prag 31.10.Aussig</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l23" custom="readingOrder {index:18;}">
@@ -539,14 +539,14 @@ Amsterdam&#13;
 15.5.  Nürnberg (60. Geburtstag)&#13;
 16.5.-19.5. München (17.5. Possenhofen) &#13;
 8.6.-11.6. Graz (Vorlesung)&#13;
-5.7.Mönichkirchen (6.7.St.Peter,Corona)&#13;
+5.7.Mönichkirchen 6.7.St. Peter,Corona&#13;
 19.7. Payerbach, 20.7.Kreuzberg&#13;
 26.7.Wien-München 26.7.-7.8.Feldafing &#13;
 7.8.-9.8 München.&#13;
 9.8.-15.9. Berchtesgaden 22.8.Königssee, 2.9.Hinter-&#13;
 see&#13;
-15.9. Salzburg-Wien (mit Lili Schnitzler)&#13;
-24.10. Brünn, 25.10.-31.10 Prag, 31.10.Aussig,&#13;
+15.9. Salzburg-Wien (mit Lili Schnitzler).&#13;
+24.10. Brünn 25.10.-31.10 Prag 31.10.Aussig&#13;
 2.11.Reichenberg, 3.11.-5.11.Teplitz &#13;
 5.11. Ausssig (Vorlesungsreise)</Unicode>
             </TextEquiv>

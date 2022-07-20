@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:31.296+02:00</Created>
-        <LastChange>2022-07-18T10:05:19.046+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195858" pageNr="5" tsid="91048459" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=QGPAZNAYOTBYCJHTGLGPSSBX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RHIZKWKUROXEQMIAVRBHGPTY" imageId="35435092"/>
+        <LastChange>2022-07-19T17:41:11.817+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195858" pageNr="5" tsid="91111067" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=QGPAZNAYOTBYCJHTGLGPSSBX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JOMWAGFVUVSHOVNYHDPIMPRJ" imageId="35435092"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00009.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285287" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304876882" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -38,7 +38,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden-</Unicode>
+                    <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden </Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l2" custom="readingOrder {index:1;}">
@@ -51,7 +51,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Baden.24.8.Baden-Baden.</Unicode>
+                    <Unicode>Baden.24.8.Baden Baden.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l3" custom="readingOrder {index:2;}">
@@ -566,8 +566,8 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
-                <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden-&#13;
-Baden.24.8.Baden-Baden.&#13;
+                <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden &#13;
+Baden.24.8.Baden Baden.&#13;
 1889: 27.7.-29.7. Ischl.&#13;
 3.8.-9.8. Ischl (Unterach etc.)&#13;
 10.8. Traunkirchen -Lainau-Grünau - Almsee.&#13;

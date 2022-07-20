@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:33.718+02:00</Created>
-        <LastChange>2022-07-18T10:50:21.071+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195875" pageNr="20" tsid="91053358" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=UAVICOMIRHSGQYIDJHJULESS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OTFILKBTXMAHHLYYPZBDDBZF" imageId="35435109"/>
+        <LastChange>2022-07-19T16:27:17.295+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195875" pageNr="20" tsid="91107759" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=UAVICOMIRHSGQYIDJHJULESS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=THSIEZMMISYFNDDTJQHPWPXT" imageId="35435109"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00039.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285587" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877190" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -337,7 +337,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>24.5. Puchberg-27.5. (über Baumgartnerhaus-Payer-</Unicode>
+                    <Unicode>24.5.-27.5. Puchberg (über Baumgartnerhaus-Payer-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l15" custom="readingOrder {index:12;}">
@@ -438,7 +438,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>29.6.-1.7.Alt-Aussee.21.7.Alt-Aussee nach</Unicode>
+                    <Unicode>29.6.-1.7.Aussee.21.7.Aussee -</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l20" custom="readingOrder {index:17;}">
@@ -494,7 +494,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>3. 7. Selzthal,Admont (Rad) 4.7.Admomt,Gstatter-</Unicode>
+                    <Unicode>3. 7. Selzthal,Admond (Rad) 4.7.Admond,Gstatter-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
@@ -509,14 +509,14 @@ Zara,Spalato,Ragusa.&#13;
 1. 4. Pagusa, 2.4.Ragusa (Lapad). 3.4.Ragusa-Spala-&#13;
 to (Zalona). 4.-7.4. Abbazia. &#13;
 &#13;
-24.5. Puchberg-27.5. (über Baumgartnerhaus-Payer-&#13;
+24.5.-27.5. Puchberg (über Baumgartnerhaus-Payer-&#13;
 bach nach Wien).&#13;
 30.5.Melk. 31.5. Krems.&#13;
 12.6.Waidhofen.13.6.Gstatterböden.&#13;
 28.6.Wien-lschl.&#13;
-29.6.-1.7.Alt-Aussee.21.7.Alt-Aussee nach&#13;
+29.6.-1.7.Aussee.21.7.Aussee -&#13;
 Selzthal (Rad).&#13;
-3. 7. Selzthal,Admont (Rad) 4.7.Admomt,Gstatter-</Unicode>
+3. 7. Selzthal,Admond (Rad) 4.7.Admond,Gstatter-</Unicode>
             </TextEquiv>
         </TextRegion>
     </Page>

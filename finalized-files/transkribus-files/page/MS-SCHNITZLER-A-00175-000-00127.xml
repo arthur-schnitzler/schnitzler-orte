@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:40.974+02:00</Created>
-        <LastChange>2022-07-18T11:40:55.052+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195955" pageNr="63" tsid="91055545" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ACZMUEKMORRARWDVAJBEYCUR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PNKJMZVUNNHAJSXIVYEVVVKO" imageId="35435189"/>
+        <LastChange>2022-07-20T10:13:04.915+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195955" pageNr="63" tsid="91119021" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ACZMUEKMORRARWDVAJBEYCUR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DALAHTGQMCRSGZQFUSRWBTMD" imageId="35435189"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00127.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286332" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877873" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="r2"/>
             </OrderedGroup>
@@ -102,7 +102,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>6.8.Ragaz.7.8.Chur, Cellerina 22.8. (Oft Zuoz).</Unicode>
+                    <Unicode>6.8.Ragaz.7.8.Chur, Cellerina 22.8. Zuoz</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l8" custom="readingOrder {index:4;}">
@@ -153,7 +153,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                 <Unicode>1924.&#13;
 27.6.-3.7. Baden-Baden.&#13;
 2.7. München 6.7. Salzburg.&#13;
-6.8.Ragaz.7.8.Chur, Cellerina 22.8. (Oft Zuoz).&#13;
+6.8.Ragaz.7.8.Chur, Cellerina 22.8. Zuoz&#13;
 22.8.Cellerina-Luzern, 23.8.-27.8. Lugano.&#13;
 29.8. Stresa,30.8. Cadenabbia,31.8.Locarno 1.9.-4.9.Zürich</Unicode>
             </TextEquiv>

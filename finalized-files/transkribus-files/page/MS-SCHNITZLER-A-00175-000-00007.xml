@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:30.966+02:00</Created>
-        <LastChange>2022-07-15T17:08:29.930+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195855" pageNr="3" tsid="90760502" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ZLWLRGNRAACGGTDNUSPHCFVC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KHBLIQONLZPVGZXMSLAPUYBP" imageId="35435089"/>
+        <LastChange>2022-07-19T17:40:29.636+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195855" pageNr="3" tsid="91111058" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ZLWLRGNRAACGGTDNUSPHCFVC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ICTMNWRBSZLTHRDXDUNMGGRR" imageId="35435089"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00007.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285251" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304876617" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -57,7 +57,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>mio.10.8.Bormio-Stilfsezjoch- Spondini.11.8.</Unicode>
+                    <Unicode>mio.10.8.Bormio-Stilfserjoch- Spondini.11.8.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l6" custom="readingOrder {index:2;}">
@@ -214,7 +214,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1884. Ostern Fiume und Abbazia. 15.7-1.9. Ischl.</Unicode>
+                    <Unicode>1884. Fiume (Ostern, genaues Datum unbekannt), Abbazia (Ostern, genaues Datum unbekannt) 15.7-1.9. Ischl.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l13" custom="readingOrder {index:9;}">
@@ -257,7 +257,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1885. Ende Juni Budapest und Plattensee.</Unicode>
+                    <Unicode>1885. Budapest (Ende Juni, genaues Datum unbekannt), Plattensee (Ende Juni, genaues Datum unbekannt)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:10;}">
@@ -350,7 +350,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Ischl.14.8. (Reise mit Max Weinberg) Ischl-</Unicode>
+                    <Unicode>Ischl.14.8.  Ischl-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l17" custom="readingOrder {index:13;}">
@@ -375,7 +375,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Innsbruck. 15.8.Innsbruck-Zürich. 16.8.Zürich.</Unicode>
+                    <Unicode>Innsbruck (Reise mit Max Weinberg). 15.8.Innsbruck-Zürich. 16.8.Zürich.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:14;}">
@@ -514,19 +514,19 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             </TextLine>
             <TextEquiv>
                 <Unicode> Boschiavo-Leprese. 9.8. Leprese-Boladore-Bor-&#13;
-mio.10.8.Bormio-Stilfsezjoch- Spondini.11.8.&#13;
+mio.10.8.Bormio-Stilfserjoch- Spondini.11.8.&#13;
 Spondini-Meran-Bozen.12.8.Bozen-Innsbruck.&#13;
 13.8. Innsbruck-Ischl.14.-15.8.Ischl.16.8.&#13;
 Gmunden-Altmünster. 17.8.Aussee. 18.8.Ischl.&#13;
 19.8.Ischl-Wien.&#13;
 10.9.Pressburg.&#13;
 1883. 29.6.-14.7. Ischl.&#13;
-1884. Ostern Fiume und Abbazia. 15.7-1.9. Ischl.&#13;
-1885. Ende Juni Budapest und Plattensee.&#13;
+1884. Fiume (Ostern, genaues Datum unbekannt), Abbazia (Ostern, genaues Datum unbekannt) 15.7-1.9. Ischl.&#13;
+1885. Budapest (Ende Juni, genaues Datum unbekannt), Plattensee (Ende Juni, genaues Datum unbekannt)&#13;
 5.-30.7. Reichenau.8.8.Wien-Kammer.9.8. Un-&#13;
 terach. 10.8.Weissenbach. 11.8.lschl.12.-13.8.&#13;
-Ischl.14.8. (Reise mit Max Weinberg) Ischl-&#13;
-Innsbruck. 15.8.Innsbruck-Zürich. 16.8.Zürich.&#13;
+Ischl.14.8.  Ischl-&#13;
+Innsbruck (Reise mit Max Weinberg). 15.8.Innsbruck-Zürich. 16.8.Zürich.&#13;
 17.8.Zürich-Arth-Rigi-Kulm. 18.8.Rigi-&#13;
 Kulm-Vitznau- Flüelen-Brunnen-Axenstein-&#13;
 Luzern.19.8.Luzern (mit Johann Schnitzler, Louise Schnitzler) 20.8.Luzern-Brun-&#13;

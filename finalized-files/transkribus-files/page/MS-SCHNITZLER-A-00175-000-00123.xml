@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:40.528+02:00</Created>
-        <LastChange>2022-07-18T11:40:10.800+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195951" pageNr="61" tsid="91055521" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WBILMGQNVJXMEWVNVZWFFCEU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZIPCGFWLTZWEZUIVWBCNIMZP" imageId="35435185"/>
+        <LastChange>2022-07-20T10:13:28.491+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195951" pageNr="61" tsid="91119095" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WBILMGQNVJXMEWVNVZWFFCEU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PHUKPBUUNUBSBKECWJHCNMSU" imageId="35435185"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00123.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286306" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877815" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -339,23 +339,10 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>5.8.Salzburg - Stuttgart 6.8.Stuttgart, Baden-</Unicode>
+                    <Unicode>5.8.Salzburg - Stuttgart 6.8.Stuttgart, Baden-Baden.</Unicode>
                 </TextEquiv>
             </TextLine>
-            <TextLine id="r1l22" custom="readingOrder {index:14;}">
-                <Coords points="475,2556 521,2546 543,2563 567,2548 587,2551 597,2541 606,2542 608,2499 596,2497 572,2511 534,2498 514,2503 505,2497 478,2500"/>
-                <Baseline points="485,2538 512,2537 540,2538 568,2540 596,2541"/>
-                <Word id="r1l22_w1" custom="readingOrder {index:0;}">
-                    <Coords points="476,2497 476,2557 599,2557 599,2497"/>
-                    <TextEquiv>
-                        <Unicode>den.</Unicode>
-                    </TextEquiv>
-                </Word>
-                <TextEquiv>
-                    <Unicode>den.</Unicode>
-                </TextEquiv>
-            </TextLine>
-            <TextLine id="r1l23" custom="readingOrder {index:15;}">
+            <TextLine id="r1l23" custom="readingOrder {index:14;}">
                 <Coords points="475,2645 712,2672 910,2645 1086,2711 1177,2681 1176,2593 474,2583"/>
                 <Baseline points="485,2637 519,2639 553,2639 587,2640 621,2640 655,2640 689,2640 723,2639 757,2639 791,2637 825,2637 859,2636 893,2636 927,2634 961,2634 995,2634 1029,2634 1063,2634 1097,2634 1131,2636 1166,2637"/>
                 <Word id="r1l23_w1" custom="readingOrder {index:0;}">
@@ -388,8 +375,7 @@ holm&#13;
 27.6.-7.7. Baden-Baden 7.7.Stuttgart,Nürnberg.&#13;
 7.9.-9.7.Nürnberg.&#13;
 3.8.-5.8. Wien-Salzburg&#13;
-5.8.Salzburg - Stuttgart 6.8.Stuttgart, Baden-&#13;
-den.&#13;
+5.8.Salzburg - Stuttgart 6.8.Stuttgart, Baden-Baden.&#13;
 6.8.-14.8. Baden-Baden.</Unicode>
             </TextEquiv>
         </TextRegion>

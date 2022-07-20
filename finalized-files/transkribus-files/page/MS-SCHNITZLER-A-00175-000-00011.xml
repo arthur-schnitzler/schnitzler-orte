@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:31.470+02:00</Created>
-        <LastChange>2022-07-18T10:06:35.763+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195860" pageNr="6" tsid="91048545" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=IKDJCKWZMVIYFBOXHDWPIMYD&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=SODKCZCRZMVPPKMQFVWRYREL" imageId="35435094"/>
+        <LastChange>2022-07-19T15:52:49.506+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195860" pageNr="6" tsid="91106857" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=IKDJCKWZMVIYFBOXHDWPIMYD&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RGCXWNDLICUOPQYCZEOCMXJF" imageId="35435094"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00011.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285303" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304876935" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -157,7 +157,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1.6.-31.7. (häufige Ausflüge nach Baden)</Unicode>
+                    <Unicode>1.6.-31.7. Baden (häufige Ausflüge, genaues Datum unbekannt)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:6;}">
@@ -447,7 +447,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 7. 2. Salzburg&#13;
 5.3. Salzburg.&#13;
 30.u.31.5. Ungarisches Erbgut.&#13;
-1.6.-31.7. (häufige Ausflüge nach Baden)&#13;
+1.6.-31.7. Baden (häufige Ausflüge, genaues Datum unbekannt)&#13;
 15.u.16.8. Ischl&#13;
 19.-26.9. Halle (Naturforscherversamml.&#13;
 Ausflug nach Leipzig über Dresden zurück)&#13;

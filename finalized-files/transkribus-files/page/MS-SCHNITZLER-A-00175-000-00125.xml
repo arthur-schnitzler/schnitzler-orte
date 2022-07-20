@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:40.728+02:00</Created>
-        <LastChange>2022-07-18T11:40:40.428+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195953" pageNr="62" tsid="91055536" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=BQXYMWSJGUDIRPGTOQIGVYHC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WFMRHKNNVTNLQBRRGJYTTMEU" imageId="35435187"/>
+        <LastChange>2022-07-20T10:13:14.415+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195953" pageNr="62" tsid="91119054" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=BQXYMWSJGUDIRPGTOQIGVYHC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DMPPXOJABZSXVDXKNHJTZXDD" imageId="35435187"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00125.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286319" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877857" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>

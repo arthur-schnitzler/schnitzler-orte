@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:30.799+02:00</Created>
-        <LastChange>2022-07-18T09:58:01.823+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195853" pageNr="2" tsid="91047709" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=JLYVLKHRYTVJASVKTHPKQXJB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TMGXUVIREMONUKBVZPIUVORB" imageId="35435087"/>
+        <LastChange>2022-07-19T17:39:01.306+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195853" pageNr="2" tsid="91111007" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=JLYVLKHRYTVJASVKTHPKQXJB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IIJUMJKIYULSNXDVAOMZDAKZ" imageId="35435087"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00006.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285202" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304876593" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -177,7 +177,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>serfall)-St.Johann (Lichtensteinklamm)-Lend.</Unicode>
+                    <Unicode>serfall)-St. Johann (Lichtensteinklamm)-Lend.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:8;}">
@@ -502,7 +502,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>6.8.Pontresina-St.Moritz-Pontresina.7.8.Pon-</Unicode>
+                    <Unicode>6.8.Pontresina-St. Moritz-Pontresina.7.8.Pon-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l22" custom="readingOrder {index:21;}">
@@ -545,7 +545,7 @@ den-Aussee.12.8.-13.8.Aussee. 14.8.Aussee-lschl.&#13;
 Berchtesgaden (Salzbergwerk)-Königssee (Fuss-&#13;
 tour) 12.7.Rundfahrt Königssee-Hallein (Fuss-&#13;
 tour)-Golling (Eisenbahn).13.7.Golling (Was-&#13;
-serfall)-St.Johann (Lichtensteinklamm)-Lend.&#13;
+serfall)-St. Johann (Lichtensteinklamm)-Lend.&#13;
 14.7.Lend-Gastein (Wagen)-Böckstein.15.7.&#13;
 Böckstein-Nassfeld,Malnitzer Tauern-Obervel-&#13;
 lach (Fusstour) 16.7. Obervellach-Winklern-&#13;
@@ -558,7 +558,7 @@ städter See-Villach. 22.7.Villach -Pörtschach.&#13;
 7.-22.8. Ischl.&#13;
 1882. 31.7.Ragaz.1.8.-2.8.Ragaz.&#13;
 3.8.Ragaz-Davos.4.8.Davos-Albula-Pontresina.&#13;
-6.8.Pontresina-St.Moritz-Pontresina.7.8.Pon-&#13;
+6.8.Pontresina-St. Moritz-Pontresina.7.8.Pon-&#13;
 tresina-Morteratsch. 8.8.Pontresina-Bernina-&#13;
 </Unicode>
             </TextEquiv>

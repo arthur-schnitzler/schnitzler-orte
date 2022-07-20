@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:34.050+02:00</Created>
-        <LastChange>2022-07-18T10:57:07.602+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195877" pageNr="22" tsid="91053629" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=PISLJOSUDQGYCXRJVSWMDUPW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=QDECKBNDPXMEIGLUWORMRCEL" imageId="35435111"/>
+        <LastChange>2022-07-19T16:24:06.276+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195877" pageNr="22" tsid="91107697" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=PISLJOSUDQGYCXRJVSWMDUPW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OZZPLZBKJIJZKKHCZTOPLSHS" imageId="35435111"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00043.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285616" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877222" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -94,7 +94,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode> 21.8. Morteratsch, Sankt Moritz 22.8.Sankt Moritz)</Unicode>
+                    <Unicode> 21.8. Morteratsch, S7. Moritz 22.8.St. Moritz</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l5" custom="readingOrder {index:3;}">
@@ -195,7 +195,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>29.8.Meran (Fuldas,Salten).</Unicode>
+                    <Unicode>29.8.Meran (mit Fuldas, Felix Salten).</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l10" custom="readingOrder {index:8;}">
@@ -433,12 +433,12 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             <TextEquiv>
                 <Unicode>20.8. Tusis-Pontresina.&#13;
 21.8.-24.8. Pontresina&#13;
- 21.8. Morteratsch, Sankt Moritz 22.8.Sankt Moritz)&#13;
+ 21.8. Morteratsch, S7. Moritz 22.8.St. Moritz&#13;
 25.8.Pontresina-Bernina-Leprese (mit Paul Goldmann)&#13;
 26.8. Leprese-Boladore-Bormio.&#13;
 27.8.Bormio-Stilferserjoch-Trafoi.&#13;
 28.8. Trafoi-Meran.&#13;
-29.8.Meran (Fuldas,Salten).&#13;
+29.8.Meran (mit Fuldas, Felix Salten).&#13;
 30.8.Meran-Bozen (Siegmundskron).&#13;
 31. 8.Runkelstein.&#13;
 12.10.-17.10. Baden bei Wien. (am 13.10.Sulz, am 14.10.Mei-&#13;

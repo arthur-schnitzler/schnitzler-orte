@@ -75,7 +75,7 @@
                            <xsl:value-of select="."/>
                    </xsl:element>
                    </xsl:element>
-                   <xsl:if test=".[./following-sibling::*[position()=1 and name()='note']]">
+                   <xsl:if test="following-sibling::*[position()=1 and name()='note']">
                        <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
                            <xsl:value-of select="following-sibling::tei:note[1]"/>
                        </xsl:element>

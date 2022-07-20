@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:40.223+02:00</Created>
-        <LastChange>2022-07-18T11:37:25.930+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195947" pageNr="59" tsid="91055437" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=TFHTNXPWACQXGXPCMOVEEJKF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DQRSKQLIIVDGMJFSIKKIOPEQ" imageId="35435181"/>
+        <LastChange>2022-07-20T10:05:48.670+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195947" pageNr="59" tsid="91118554" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=TFHTNXPWACQXGXPCMOVEEJKF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FXJIUNGGCYAECUVNBVHFOMHC" imageId="35435181"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00119.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286276" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877784" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -308,7 +308,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>16.6.-19.6. Aussee,19.6. Ischl,20.6.Salzburg</Unicode>
+                    <Unicode>16.6.-19.6. Aussee, 19.6. Ischl, 20.6.Salzburg</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:13;}">
@@ -603,7 +603,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 1921.&#13;
 3.5.-11.5. München.&#13;
 11.5. Salzburg, 12.5. Wien.&#13;
-16.6.-19.6. Aussee,19.6. Ischl,20.6.Salzburg&#13;
+16.6.-19.6. Aussee, 19.6. Ischl, 20.6.Salzburg&#13;
 München 20.6.-27.6.  Salzburg, Wien. (Scheidung)&#13;
 11.7. Kreuzberg bei Payerbach.&#13;
 26.7.-24.8. Aussee.&#13;

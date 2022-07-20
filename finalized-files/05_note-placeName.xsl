@@ -17,34 +17,54 @@
                 </xsl:element>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
-                <xsl:for-each select="tokenize(., ',')">
-                    
-                    <!-- mit Beistrich getrennte placeNames trennen -->
-                    <xsl:choose>
-                        <xsl:when test="normalize-space(.) = ''"/>
-                        <xsl:otherwise>
-                            <xsl:choose>
-                                <xsl:when test="normalize-space(.)='' or normalize-space(.)='.' or normalize-space(.)=':' "/>
-                                <xsl:when test="contains(., '-')">
-                                    
-                                    <!-- mit Bindestrich getrennte placeNames trennen -->
-                                    <xsl:for-each select="tokenize(., '-')">
-                                        <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
-                                            <xsl:value-of
-                                                select="foo:punktAmEndeWeg(normalize-space(.))"/>
-                                        </xsl:element>
-                                    </xsl:for-each>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
-                                        <xsl:value-of
-                                            select="foo:punktAmEndeWeg(normalize-space(.))"/>
-                                    </xsl:element>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:for-each>
+                <xsl:analyze-string select="." regex="(Garmisch-Partenkirchen){{1}}">
+                    <xsl:matching-substring>
+                        <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:value-of
+                                select="foo:punktAmEndeWeg(normalize-space(.))"/>
+                        </xsl:element>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <xsl:analyze-string select="." regex="(Baden-Baden){{1}}">
+                            <xsl:matching-substring>
+                                <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
+                                    <xsl:value-of
+                                        select="foo:punktAmEndeWeg(normalize-space(.))"/>
+                                </xsl:element>
+                            </xsl:matching-substring>
+                            <xsl:non-matching-substring>
+                                <xsl:for-each select="tokenize(., ',')">
+                                
+                                <!-- mit Beistrich getrennte placeNames trennen -->
+                                <xsl:choose>
+                                    <xsl:when test="normalize-space(.) = ''"/>
+                                    <xsl:otherwise>
+                                        <xsl:choose>
+                                            <xsl:when test="normalize-space(.)='' or normalize-space(.)='.' or normalize-space(.)=':' "/>
+                                            <xsl:when test="contains(., '-')" >
+                                                
+                                                <!-- mit Bindestrich getrennte placeNames trennen -->
+                                                <xsl:for-each select="tokenize(., '-')">
+                                                    <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
+                                                        <xsl:value-of
+                                                            select="foo:punktAmEndeWeg(normalize-space(.))"/>
+                                                    </xsl:element>
+                                                </xsl:for-each>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
+                                                    <xsl:value-of
+                                                        select="foo:punktAmEndeWeg(normalize-space(.))"/>
+                                                </xsl:element>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:for-each>
+                     </xsl:non-matching-substring>
+                  </xsl:analyze-string>
+               </xsl:non-matching-substring>
+             </xsl:analyze-string>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>

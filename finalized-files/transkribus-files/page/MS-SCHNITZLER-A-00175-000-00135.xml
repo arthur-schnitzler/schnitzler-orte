@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:41.593+02:00</Created>
-        <LastChange>2022-07-15T14:49:35.958+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195963" pageNr="67" tsid="90755353" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WCKSQSNNGXQFEHDEPPBDMBFX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FTUTBDRPXEDQQVKWBPTRVHRO" imageId="35435197"/>
+        <LastChange>2022-07-19T16:21:58.691+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195963" pageNr="67" tsid="91107647" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WCKSQSNNGXQFEHDEPPBDMBFX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WXBVZTZTZQHVPLKKFODNZOGY" imageId="35435197"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00135.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151286381" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877921" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="r2"/>
             </OrderedGroup>
@@ -58,7 +58,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(Vom 24.12.1926-9.1.1927 in Berlin.)</Unicode>
+                    <Unicode>24.12.1926-9.1.1927 Berlin</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l8" custom="readingOrder {index:2;}">
@@ -158,7 +158,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>10.8. Bozen -Campiglio -14.8.-15.8.wieder in Bozen.</Unicode>
+                    <Unicode>10.8.-14.8. Bozen -Campiglio 15.8. Bozen.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l13" custom="readingOrder {index:6;}">
@@ -195,7 +195,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(17.8.Klobenstein). 19.8. nach Karersee (Waldhaus)-</Unicode>
+                    <Unicode>17.8.Klobenstein 19.8.  Karersee (Waldhaus)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:7;}">
@@ -313,12 +313,12 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             </TextLine>
             <TextEquiv>
                 <Unicode>1927.&#13;
-(Vom 24.12.1926-9.1.1927 in Berlin.)&#13;
+24.12.1926-9.1.1927 Berlin&#13;
 12.-14.2. Edlach.&#13;
 1.4.-2.5. Venedig.&#13;
 19.u.20.5. Semmering.&#13;
-10.8. Bozen -Campiglio -14.8.-15.8.wieder in Bozen.&#13;
-(17.8.Klobenstein). 19.8. nach Karersee (Waldhaus)-&#13;
+10.8.-14.8. Bozen -Campiglio 15.8. Bozen.&#13;
+17.8.Klobenstein 19.8.  Karersee (Waldhaus)&#13;
 23.8. Bozen 24.8.Sulden, 25.8.-3.9.Gardone&#13;
 3.9.-5.9. Verona&#13;
 5.9.-15.9.Venedig (Lido)&#13;

@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:33.401+02:00</Created>
-        <LastChange>2022-07-18T14:51:18.996+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195873" pageNr="18" tsid="91062851" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=AFMBBCVWECRHXPTBWDLJYOQR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RTKJSDGSJPOJPLPYQLHXQWZU" imageId="35435107"/>
+        <LastChange>2022-07-19T16:48:26.486+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195873" pageNr="18" tsid="91108111" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=AFMBBCVWECRHXPTBWDLJYOQR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DJBVGZOHFEVGQKNVRIVNYGDW" imageId="35435107"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00035.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658151285561" caption="Regions reading order">
+            <OrderedGroup id="ro_1658304877140" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -70,7 +70,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>4.8.Toblach-Niederdorf</Unicode>
+                    <Unicode>4.8.Toblach-Niederdorf (Fusstour mit Richard Beer-Hofmann, Jakob Wassermann)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l4" custom="readingOrder {index:3;}">
@@ -113,7 +113,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(Fusstour mit Richard Beer-Hofmann, Jakob Wassermann)</Unicode>
+                    <Unicode></Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l5" custom="readingOrder {index:4;}">
@@ -412,8 +412,8 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             <TextEquiv>
                 <Unicode>1.-4.8. Toblach.&#13;
 2.8.Niederdorf,3.8.Prags und Pragsersee.&#13;
-4.8.Toblach-Niederdorf&#13;
-(Fusstour mit Richard Beer-Hofmann, Jakob Wassermann)&#13;
+4.8.Toblach-Niederdorf (Fusstour mit Richard Beer-Hofmann, Jakob Wassermann)&#13;
+&#13;
 5.8. Niederdorf -Plätzwiesen-Schluderbach.&#13;
 6.8.Schluderbach-Missurina-Tre Croce-Cortina.&#13;
 7.8. Cortina-Giau-Caprile.&#13;
