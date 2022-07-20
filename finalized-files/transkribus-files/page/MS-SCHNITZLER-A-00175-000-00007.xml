@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:30.966+02:00</Created>
-        <LastChange>2022-07-19T17:40:29.636+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195855" pageNr="3" tsid="91111058" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ZLWLRGNRAACGGTDNUSPHCFVC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ICTMNWRBSZLTHRDXDUNMGGRR" imageId="35435089"/>
+        <LastChange>2022-07-20T10:57:38.741+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195855" pageNr="3" tsid="91120863" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ZLWLRGNRAACGGTDNUSPHCFVC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FWTKHHPYKNRAZAOVPJUBXJTO" imageId="35435089"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00007.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876617" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171139" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -165,7 +165,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1883. 29.6.-14.7. Ischl.</Unicode>
+                    <Unicode>1883 29.6.-14.7. Ischl.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l12" custom="readingOrder {index:8;}">
@@ -214,7 +214,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1884. Fiume (Ostern, genaues Datum unbekannt), Abbazia (Ostern, genaues Datum unbekannt) 15.7-1.9. Ischl.</Unicode>
+                    <Unicode>1884 Fiume (Ostern, genaues Datum unbekannt), Abbazia (Ostern, genaues Datum unbekannt) 15.7-1.9. Ischl.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l13" custom="readingOrder {index:9;}">
@@ -257,7 +257,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1885. Budapest (Ende Juni, genaues Datum unbekannt), Plattensee (Ende Juni, genaues Datum unbekannt)</Unicode>
+                    <Unicode>1885 Budapest (Ende Juni, genaues Datum unbekannt), Plattensee (Ende Juni, genaues Datum unbekannt)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:10;}">
@@ -307,7 +307,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>terach. 10.8.Weissenbach. 11.8.lschl.12.-13.8.</Unicode>
+                    <Unicode>terach. 10.8.Weissenbach. 11.8.Ischl 12.-13.8.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l16" custom="readingOrder {index:12;}">
@@ -350,7 +350,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Ischl.14.8.  Ischl-</Unicode>
+                    <Unicode>Ischl14.8.  Ischl</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l17" custom="readingOrder {index:13;}">
@@ -400,7 +400,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>17.8.Zürich-Arth-Rigi-Kulm. 18.8.Rigi-</Unicode>
+                    <Unicode>17.8.Zürich-Arth-Rigi-Kulm. 18.8.Rigi,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l19" custom="readingOrder {index:15;}">
@@ -419,7 +419,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Kulm-Vitznau- Flüelen-Brunnen-Axenstein-</Unicode>
+                    <Unicode>Kulm-Vitznau- Flüelen-Brunnen-Axenstein,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l20" custom="readingOrder {index:16;}">
@@ -470,7 +470,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>carno.22.8.Lucarno-Isola Bella-Luino-Lugano-</Unicode>
+                    <Unicode>carno.22.8.Lucarno-Isola Bella-Luino-Lugano,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l23" custom="readingOrder {index:19;}">
@@ -483,7 +483,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Porlezza-Menaggio.23.8.Menaggio-Belaggio-</Unicode>
+                    <Unicode>Porlezza-Menaggio.23.8.Menaggio-Belaggio,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l24" custom="readingOrder {index:20;}">
@@ -496,7 +496,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Cadenabbia-Tremezo.24.8.Bellagio-Como.25.8.</Unicode>
+                    <Unicode>Cadenabbia-Tremezzo.24.8.Bellagio-Como.25.8.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l25" custom="readingOrder {index:21;}">
@@ -509,7 +509,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Como-Mailand.26.8.Mailand.27.8.Mailand-Inns-</Unicode>
+                    <Unicode>Como-Mailand.26.8.Mailand.27.8.Mailand-Innsbruck</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
@@ -520,21 +520,21 @@ Spondini-Meran-Bozen.12.8.Bozen-Innsbruck.&#13;
 Gmunden-Altmünster. 17.8.Aussee. 18.8.Ischl.&#13;
 19.8.Ischl-Wien.&#13;
 10.9.Pressburg.&#13;
-1883. 29.6.-14.7. Ischl.&#13;
-1884. Fiume (Ostern, genaues Datum unbekannt), Abbazia (Ostern, genaues Datum unbekannt) 15.7-1.9. Ischl.&#13;
-1885. Budapest (Ende Juni, genaues Datum unbekannt), Plattensee (Ende Juni, genaues Datum unbekannt)&#13;
+1883 29.6.-14.7. Ischl.&#13;
+1884 Fiume (Ostern, genaues Datum unbekannt), Abbazia (Ostern, genaues Datum unbekannt) 15.7-1.9. Ischl.&#13;
+1885 Budapest (Ende Juni, genaues Datum unbekannt), Plattensee (Ende Juni, genaues Datum unbekannt)&#13;
 5.-30.7. Reichenau.8.8.Wien-Kammer.9.8. Un-&#13;
-terach. 10.8.Weissenbach. 11.8.lschl.12.-13.8.&#13;
-Ischl.14.8.  Ischl-&#13;
+terach. 10.8.Weissenbach. 11.8.Ischl 12.-13.8.&#13;
+Ischl14.8.  Ischl&#13;
 Innsbruck (Reise mit Max Weinberg). 15.8.Innsbruck-Zürich. 16.8.Zürich.&#13;
-17.8.Zürich-Arth-Rigi-Kulm. 18.8.Rigi-&#13;
-Kulm-Vitznau- Flüelen-Brunnen-Axenstein-&#13;
+17.8.Zürich-Arth-Rigi-Kulm. 18.8.Rigi,&#13;
+Kulm-Vitznau- Flüelen-Brunnen-Axenstein,&#13;
 Luzern.19.8.Luzern (mit Johann Schnitzler, Louise Schnitzler) 20.8.Luzern-Brun-&#13;
 nen-Axenstein-Brunnen-Luzern.21.8.Luzern-Lu-&#13;
-carno.22.8.Lucarno-Isola Bella-Luino-Lugano-&#13;
-Porlezza-Menaggio.23.8.Menaggio-Belaggio-&#13;
-Cadenabbia-Tremezo.24.8.Bellagio-Como.25.8.&#13;
-Como-Mailand.26.8.Mailand.27.8.Mailand-Inns-</Unicode>
+carno.22.8.Lucarno-Isola Bella-Luino-Lugano,&#13;
+Porlezza-Menaggio.23.8.Menaggio-Belaggio,&#13;
+Cadenabbia-Tremezzo.24.8.Bellagio-Como.25.8.&#13;
+Como-Mailand.26.8.Mailand.27.8.Mailand-Innsbruck</Unicode>
             </TextEquiv>
         </TextRegion>
     </Page>

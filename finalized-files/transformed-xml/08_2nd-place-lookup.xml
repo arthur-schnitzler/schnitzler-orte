@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><text xmlns="http://www.tei-c.org/ns/1.0">
    <body>
       <div>
-      Reisen.
-      
+         <head>Reisen</head>
+         <listEvent>
          <event from="" to="" cert="low">
             <desc>
-               <placeName ref="">Grosskanizsa</placeName>
+               <placeName ref="http://www.geonames.org/3047679/">Groß-Kanizsa</placeName>
             </desc>
             <note>genaues Datum unbekannt</note>
          </event>
@@ -169,11 +169,6 @@
          <event from="1879-09-02" to="1879-09-03">
             <desc>
                <placeName ref="http://www.geonames.org/2953507/">Ems</placeName>
-            </desc>
-         </event>
-         <event from="1879-09-04" to="1879-09-04">
-            <desc>
-               <placeName ref=""/>
             </desc>
          </event>
          <event from="1879-09-04" to="1879-09-04">
@@ -411,11 +406,6 @@
          </event>
          <event from="1881-07-13" to="1881-07-13">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1881-07-13" to="1881-07-13">
-            <desc>
                <placeName ref="http://www.geonames.org/7872240/">Lend</placeName>
             </desc>
          </event>
@@ -429,11 +419,6 @@
                <placeName ref="http://www.geonames.org/2782058/">Gastein</placeName>
             </desc>
             <note>Wagen</note>
-         </event>
-         <event from="1881-07-14" to="1881-07-14">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1881-07-14" to="1881-07-14">
             <desc>
@@ -506,11 +491,6 @@
          </event>
          <event from="1881-07-18" to="1881-07-18">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1881-07-18" to="1881-07-18">
-            <desc>
                <placeName ref="http://www.geonames.org/2772505/">Lienz</placeName>
             </desc>
             <note>Fahrt</note>
@@ -542,12 +522,12 @@
          </event>
          <event from="1881-07-20" to="1881-07-20">
             <desc>
-               <placeName ref="">Millstädter See</placeName>
+               <placeName ref="">Millstädtersee</placeName>
             </desc>
          </event>
          <event from="1881-07-21" to="1881-07-21">
             <desc>
-               <placeName ref="">Millstädter See</placeName>
+               <placeName ref="">Millstädtersee</placeName>
             </desc>
          </event>
          <event from="1881-07-21" to="1881-07-21">
@@ -598,7 +578,7 @@
          </event>
          <event from="1882-08-04" to="1882-08-04">
             <desc>
-               <placeName ref="">Albula</placeName>
+               <placeName ref="">Albulapass</placeName>
             </desc>
          </event>
          <event from="1882-08-04" to="1882-08-04">
@@ -643,22 +623,22 @@
          </event>
          <event from="1882-08-08" to="1882-08-08">
             <desc>
-               <placeName ref="">Boschiavo</placeName>
+               <placeName ref="http://www.geonames.org/2659165/">Poschiavo</placeName>
             </desc>
          </event>
          <event from="1882-08-08" to="1882-08-08">
             <desc>
-               <placeName ref="">Leprese</placeName>
+               <placeName ref="http://www.geonames.org/2659944/">Le Prese</placeName>
             </desc>
          </event>
          <event from="1882-08-09" to="1882-08-09">
             <desc>
-               <placeName ref="">Leprese</placeName>
+               <placeName ref="http://www.geonames.org/2659944/">Le Prese</placeName>
             </desc>
          </event>
          <event from="1882-08-09" to="1882-08-09">
             <desc>
-               <placeName ref="">Boladore</placeName>
+               <placeName ref="">Bolladore</placeName>
             </desc>
          </event>
          <event from="1882-08-09" to="1882-08-09">
@@ -678,12 +658,12 @@
          </event>
          <event from="1882-08-10" to="1882-08-10">
             <desc>
-               <placeName ref="">Spondini</placeName>
+               <placeName ref="http://www.geonames.org/3166233/">Spondinig</placeName>
             </desc>
          </event>
          <event from="1882-08-11" to="1882-08-11">
             <desc>
-               <placeName ref="">Spondini</placeName>
+               <placeName ref="http://www.geonames.org/3166233/">Spondinig</placeName>
             </desc>
          </event>
          <event from="1882-08-11" to="1882-08-11">
@@ -753,7 +733,7 @@
          </event>
          <event from="1882-09-10" to="1882-09-10">
             <desc>
-               <placeName ref="">Pressburg</placeName>
+               <placeName ref="http://www.geonames.org/3060972/">Preßburg</placeName>
             </desc>
          </event>
          <event from="1883-06-29" to="1883-07-14">
@@ -815,7 +795,13 @@
          </event>
          <event from="1885-08-14" to="1885-08-14">
             <desc>
-               <placeName ref="">Ischl Innsbruck</placeName>
+               <placeName ref="http://www.geonames.org/2775220/">Innsbruck</placeName>
+            </desc>
+            <note>Reise mit Max Weinberg</note>
+         </event>
+         <event from="1885-08-14" to="1885-08-14">
+            <desc>
+               <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
             <note>Reise mit Max Weinberg</note>
          </event>
@@ -846,22 +832,12 @@
          </event>
          <event from="1885-08-17" to="1885-08-17">
             <desc>
-               <placeName ref="">Rigi</placeName>
-            </desc>
-         </event>
-         <event from="1885-08-17" to="1885-08-17">
-            <desc>
-               <placeName ref="http://www.geonames.org/7290080/">Kulm</placeName>
+               <placeName ref="http://www.geonames.org/2660093/">Rigi Kulm</placeName>
             </desc>
          </event>
          <event from="1885-08-18" to="1885-08-18">
             <desc>
-               <placeName ref="">Rigi</placeName>
-            </desc>
-         </event>
-         <event from="1885-08-18" to="1885-08-18">
-            <desc>
-               <placeName ref="http://www.geonames.org/7290080/">Kulm</placeName>
+               <placeName ref="http://www.geonames.org/2660093/">Rigi Kulm</placeName>
             </desc>
          </event>
          <event from="1885-08-18" to="1885-08-18">
@@ -967,7 +943,7 @@
          </event>
          <event from="1885-08-23" to="1885-08-23">
             <desc>
-               <placeName ref="">Belaggio</placeName>
+               <placeName ref="">Bellaggio</placeName>
             </desc>
          </event>
          <event from="1885-08-23" to="1885-08-23">
@@ -1058,8 +1034,9 @@
          </event>
          <event from="1886-07-31" to="1886-09-06">
             <desc>
-               <placeName ref="">Reichenau. (mit einer Unterbrechung Ischl 8 Tage.)</placeName>
+               <placeName ref="http://www.geonames.org/2767773/">Reichenau</placeName>
             </desc>
+            <note>mit einer Unterbrechung Ischl 8 Tage</note>
          </event>
          <event from="1886-09-12" to="1886-09-12">
             <desc>
@@ -1089,7 +1066,7 @@
          </event>
          <event from="1887-09-17" to="1887-09-22">
             <desc>
-               <placeName ref="">Frankfurt</placeName>
+               <placeName ref="http://www.geonames.org/2925533/">Frankfurt am Main</placeName>
             </desc>
          </event>
          <event from="1887-09-17" to="1887-09-22">
@@ -1097,9 +1074,9 @@
                <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
          </event>
-         <event from="1887-09-17" to="1887-09-22">
+         <event from="1887-10-10" to="1887-10-10">
             <desc>
-               <placeName ref="">10.10.Reichenau</placeName>
+               <placeName ref="http://www.geonames.org/2767773/">Reichenau</placeName>
             </desc>
          </event>
          <event from="1888-04-05" to="1888-05-12">
@@ -1255,11 +1232,6 @@
          </event>
          <event from="1888-08-23" to="1888-08-23">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1888-08-23" to="1888-08-23">
-            <desc>
                <placeName ref="http://www.geonames.org/2953504/">Baden-Baden</placeName>
             </desc>
          </event>
@@ -1301,11 +1273,6 @@
          </event>
          <event from="1889-08-11" to="1889-08-11">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1889-08-11" to="1889-08-11">
-            <desc>
                <placeName ref="http://www.geonames.org/2769471/">Offensee</placeName>
             </desc>
          </event>
@@ -1326,17 +1293,12 @@
          </event>
          <event from="1889-08-12" to="1889-08-12">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1889-08-12" to="1889-08-12">
-            <desc>
                <placeName ref="http://www.geonames.org/2778263/">Gössl</placeName>
             </desc>
          </event>
          <event from="1889-08-12" to="1889-08-12">
             <desc>
-               <placeName ref="">Toplitzer Kammersee</placeName>
+               <placeName ref="">Kammersee</placeName>
             </desc>
          </event>
          <event from="1889-08-13" to="1889-08-13">
@@ -1351,17 +1313,12 @@
          </event>
          <event from="1889-08-15" to="1889-08-15">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1889-08-15" to="1889-08-15">
-            <desc>
                <placeName ref="http://www.geonames.org/2780205/">Eisenerzerhöhe</placeName>
             </desc>
          </event>
          <event from="1889-08-15" to="1889-08-15">
             <desc>
-               <placeName ref="">Wildalpe</placeName>
+               <placeName ref="http://www.geonames.org/2761261/">Wildalpen</placeName>
             </desc>
          </event>
          <event from="1889-08-15" to="1889-08-15">
@@ -1372,17 +1329,7 @@
          </event>
          <event from="1889-08-16" to="1889-08-16">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1889-08-16" to="1889-08-16">
-            <desc>
                <placeName ref="http://www.geonames.org/2771893/">Mariazell</placeName>
-            </desc>
-         </event>
-         <event from="1889-08-17" to="1889-08-17">
-            <desc>
-               <placeName ref=""/>
             </desc>
          </event>
          <event from="1889-08-17" to="1889-08-17">
@@ -1402,11 +1349,6 @@
          </event>
          <event from="1889-08-20" to="1889-08-20">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1889-08-20" to="1889-08-20">
-            <desc>
                <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
          </event>
@@ -1422,7 +1364,12 @@
          </event>
          <event from="1890-09-18" to="1890-10-04">
             <desc>
-               <placeName ref="">Salzburg. 19.10. Salzburg</placeName>
+               <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
+            </desc>
+         </event>
+         <event from="1890-10-19" to="1890-10-19">
+            <desc>
+               <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
             </desc>
          </event>
          <event from="1890-11-06" to="1890-11-06">
@@ -1471,10 +1418,11 @@
                <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
-         <event from="1891-09-01" to="1891-09-26">
+         <event from="1891-09-19" to="1891-09-26">
             <desc>
-               <placeName ref="">Halle (Naturforscherversamml. Ausflug nach Leipzig über Dresden zurück)</placeName>
+               <placeName ref="http://www.geonames.org/2911522/">Halle</placeName>
             </desc>
+            <note>Naturforscherversamml. Ausflug nach Leipzig über Dresden zurück</note>
          </event>
          <event from="1892-07-24" to="1892-07-24">
             <desc>
@@ -1487,14 +1435,9 @@
                <placeName ref="http://www.geonames.org/2774429/">Kirchau</placeName>
             </desc>
          </event>
-         <event from="1892-08-26" to="1892-08-26">
+         <event from="1892-08-26" to="1892-09-10">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1892-08-26" to="1892-08-26">
-            <desc>
-               <placeName ref="">10.9 Ischl</placeName>
+               <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
          <event from="1892-09-11" to="1892-09-11">
@@ -1582,8 +1525,9 @@
          </event>
          <event from="1893-08-24" to="1893-08-24">
             <desc>
-               <placeName ref="">Pieve di Cadore (Byciclepartie mit Felix Salten)</placeName>
+               <placeName ref="http://www.geonames.org/3170754/">Pieve di Cadore</placeName>
             </desc>
+            <note>Byciclepartie mit Felix Salten</note>
          </event>
          <event from="1893-08-25" to="1893-08-25">
             <desc>
@@ -1702,25 +1646,25 @@
             </desc>
             <note>mit Paul Goldmann</note>
          </event>
-         <event from="1893-09-17" to="1893-09-20">
+         <event from="1893-10-08" to="1893-10-08">
             <desc>
-               <placeName ref="">8.10.Pressburg</placeName>
+               <placeName ref="http://www.geonames.org/3060972/">Preßburg</placeName>
             </desc>
             <note>Bycicle</note>
          </event>
-         <event from="1893-09-17" to="1893-09-20">
+         <event from="1893-10-29" to="1893-10-29">
             <desc>
-               <placeName ref="">29.10. Gloggnitz</placeName>
+               <placeName ref="http://www.geonames.org/2778455/">Gloggnitz</placeName>
             </desc>
          </event>
-         <event from="1893-09-17" to="1893-09-20">
+         <event from="1893-10-29" to="1893-10-29">
             <desc>
                <placeName ref="">Sebenshein</placeName>
             </desc>
          </event>
-         <event from="1893-09-17" to="1893-09-20">
+         <event from="1893-10-29" to="1893-10-29">
             <desc>
-               <placeName ref="">Kirchberg</placeName>
+               <placeName ref="http://www.geonames.org/2774405/">Kirchberg am W.</placeName>
             </desc>
          </event>
          <event from="1893-12-08" to="1893-12-08">
@@ -1762,23 +1706,10 @@
          </event>
          <event from="1894-06-08" to="1894-06-08">
             <desc>
-               <placeName ref="">München (mit Richard Beer</placeName>
-            </desc>
-         </event>
-         <event from="1894-06-08" to="1894-06-08">
-            <desc>
-               <placeName ref="">Hofmann</placeName>
-            </desc>
-         </event>
-         <event from="1894-06-08" to="1894-06-08">
-            <desc>
-               <placeName ref="">Hermann Bahr)</placeName>
-            </desc>
-         </event>
-         <event from="1894-06-08" to="1894-06-08">
-            <desc>
                <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
+            <note>mit Richard Beer-Hofmann,
+               Hermann Bahr</note>
          </event>
          <event from="1894-06-08" to="1894-06-08">
             <desc>
@@ -1837,7 +1768,7 @@
          </event>
          <event from="1894-06-23" to="1894-06-23">
             <desc>
-               <placeName ref="">Guttenstein</placeName>
+               <placeName ref="http://www.geonames.org/7873053/">Gutenstein</placeName>
             </desc>
          </event>
          <event from="1894-06-23" to="1894-06-23">
@@ -1939,7 +1870,7 @@
          </event>
          <event from="1895-06-02" to="1895-06-02">
             <desc>
-               <placeName ref="">Rekalwinkel</placeName>
+               <placeName ref="http://www.geonames.org/2767581/">Rekawinkel</placeName>
             </desc>
          </event>
          <event from="1895-06-02" to="1895-06-02">
@@ -1970,7 +1901,7 @@
          </event>
          <event from="1895-06-09" to="1895-06-09">
             <desc>
-               <placeName ref="">Sebenstein</placeName>
+               <placeName ref="http://www.geonames.org/2765292/">Seebenstein</placeName>
             </desc>
          </event>
          <event from="1895-06-23" to="1895-06-23">
@@ -1998,11 +1929,6 @@
                <placeName ref="http://www.geonames.org/2773549/">Krems</placeName>
             </desc>
             <note>Bycicle</note>
-         </event>
-         <event from="1895-06-27" to="1895-06-27">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1895-06-27" to="1895-06-27">
             <desc>
@@ -2161,15 +2087,11 @@
                <placeName ref="">Achsen</placeName>
             </desc>
          </event>
-         <event from="1895-08-25" to="1895-08-25">
+         <event from="1895-08-25" to="1895-08-26">
             <desc>
                <placeName ref="http://www.geonames.org/2953324/">Tölz</placeName>
             </desc>
-         </event>
-         <event from="1895-08-26" to="1895-08-26">
-            <desc>
-               <placeName ref="">Tölz (mit Paul Goldmann)</placeName>
-            </desc>
+            <note>mit Paul Goldmann</note>
          </event>
          <event from="1895-08-27" to="1895-08-27">
             <desc>
@@ -2236,11 +2158,6 @@
          </event>
          <event from="1896-05-17" to="1896-05-17">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1896-05-17" to="1896-05-17">
-            <desc>
                <placeName ref="http://www.geonames.org/7872833/">Alland</placeName>
             </desc>
          </event>
@@ -2262,7 +2179,7 @@
          </event>
          <event from="1896-05-31" to="1896-05-31">
             <desc>
-               <placeName ref="">Meierling</placeName>
+               <placeName ref="http://www.geonames.org/2771734/">Mayerling</placeName>
             </desc>
          </event>
          <event from="1896-05-31" to="1896-05-31">
@@ -2282,7 +2199,7 @@
          </event>
          <event from="1896-06-28" to="1896-06-28">
             <desc>
-               <placeName ref="">Guttenstein</placeName>
+               <placeName ref="http://www.geonames.org/7873053/">Gutenstein</placeName>
             </desc>
          </event>
          <event from="1896-07-03" to="1896-07-03">
@@ -2319,7 +2236,12 @@
          </event>
          <event from="1896-07-09" to="1896-07-09">
             <desc>
-               <placeName ref="">Stavanger 10 7.Ode</placeName>
+               <placeName ref="http://www.geonames.org/3137115/">Stavanger</placeName>
+            </desc>
+         </event>
+         <event from="1896-07-10" to="1896-07-10">
+            <desc>
+               <placeName ref="">Ode</placeName>
             </desc>
             <note>Lotefos</note>
          </event>
@@ -2331,7 +2253,7 @@
          </event>
          <event from="1896-07-12" to="1896-07-12">
             <desc>
-               <placeName ref="">Fossevangen</placeName>
+               <placeName ref="http://www.geonames.org/3131329/">Vossevangen</placeName>
             </desc>
          </event>
          <event from="1896-07-12" to="1896-07-12">
@@ -2374,7 +2296,7 @@
          </event>
          <event from="1896-07-15" to="1896-07-15">
             <desc>
-               <placeName ref="">Trontheim</placeName>
+               <placeName ref="http://www.geonames.org/3133880/">Trondhjem</placeName>
             </desc>
             <note>an Bord des Sigurd Jarl</note>
          </event>
@@ -2421,7 +2343,7 @@
          </event>
          <event from="1896-07-23" to="1896-07-23">
             <desc>
-               <placeName ref="">Trontheim</placeName>
+               <placeName ref="http://www.geonames.org/3133880/">Trondhjem</placeName>
             </desc>
          </event>
          <event from="1896-07-24" to="1896-07-24">
@@ -2463,7 +2385,7 @@
          </event>
          <event from="1896-08-01" to="1896-08-01">
             <desc>
-               <placeName ref="">Gotheborg</placeName>
+               <placeName ref="http://www.geonames.org/2711537/">Goeteborg</placeName>
             </desc>
             <note>Trollhatan</note>
          </event>
@@ -2484,7 +2406,7 @@
          </event>
          <event from="1896-08-08" to="1896-08-08">
             <desc>
-               <placeName ref="">Insel Hven</placeName>
+               <placeName ref="http://www.geonames.org/2663383/">Hven</placeName>
             </desc>
             <note>häufige Besuche in Kopenhagen</note>
          </event>
@@ -2535,8 +2457,10 @@
          </event>
          <event from="1897-04-12" to="1897-05-24">
             <desc>
-               <placeName ref="">Paris. (</placeName>
+               <placeName ref="http://www.geonames.org/2988507/">Paris</placeName>
             </desc>
+            <note>21.5.Villain
+               s.M.,22.5.Joinville le Pont,23.5.Ville d'Avrée</note>
          </event>
          <event from="1897-05-18" to="1897-05-18">
             <desc>
@@ -2546,21 +2470,6 @@
          <event from="1897-05-19" to="1897-05-19">
             <desc>
                <placeName ref="http://www.geonames.org/2994144/">Meudon</placeName>
-            </desc>
-         </event>
-         <event from="1897-05-21" to="1897-05-21">
-            <desc>
-               <placeName ref="">Villain s.M</placeName>
-            </desc>
-         </event>
-         <event from="1897-05-22" to="1897-05-22">
-            <desc>
-               <placeName ref="">Joinville le Pont</placeName>
-            </desc>
-         </event>
-         <event from="1897-05-23" to="1897-05-23">
-            <desc>
-               <placeName ref="">Ville d'Avrée)</placeName>
             </desc>
          </event>
          <event from="1897-05-24" to="1897-05-24">
@@ -2590,7 +2499,7 @@
          </event>
          <event from="1897-06-06" to="1897-06-06">
             <desc>
-               <placeName ref="">Sankt Pölten</placeName>
+               <placeName ref="http://www.geonames.org/2766429/">St. Pölten</placeName>
             </desc>
          </event>
          <event from="1897-06-06" to="1897-06-06">
@@ -2600,7 +2509,7 @@
          </event>
          <event from="1897-06-06" to="1897-06-06">
             <desc>
-               <placeName ref="">Gamming</placeName>
+               <placeName ref="http://www.geonames.org/2778949/">Gaming</placeName>
             </desc>
             <note>Bic.</note>
          </event>
@@ -2642,8 +2551,9 @@
          </event>
          <event from="1897-11-24" to="1897-11-27">
             <desc>
-               <placeName ref="">Prag (Erstaufführung "Freiwild" und Vorlesung.)</placeName>
+               <placeName ref="http://www.geonames.org/3067696/">Prag</placeName>
             </desc>
+            <note>Erstaufführung "Freiwild" und Vorlesung</note>
          </event>
          <event from="1898-02-04" to="1898-02-12">
             <desc>
@@ -2673,11 +2583,6 @@
          </event>
          <event from="1898-06-05" to="1898-06-05">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1898-06-05" to="1898-06-05">
-            <desc>
                <placeName ref="http://www.geonames.org/2773447/">Krieglach</placeName>
             </desc>
          </event>
@@ -2688,7 +2593,7 @@
          </event>
          <event from="1898-06-06" to="1898-06-06">
             <desc>
-               <placeName ref="">Bruck</placeName>
+               <placeName ref="http://www.geonames.org/2781371/">Bruck an der Mur</placeName>
             </desc>
          </event>
          <event from="1898-06-06" to="1898-06-06">
@@ -2698,7 +2603,7 @@
          </event>
          <event from="1898-06-06" to="1898-06-06">
             <desc>
-               <placeName ref="">St.Veit</placeName>
+               <placeName ref="http://www.geonames.org/2766359/">St. Veit</placeName>
             </desc>
          </event>
          <event from="1898-06-07" to="1898-06-07">
@@ -2810,7 +2715,7 @@
          </event>
          <event from="1898-07-26" to="1898-07-26">
             <desc>
-               <placeName ref="">St.Johann</placeName>
+               <placeName ref="http://www.geonames.org/2766643/">St. Johann</placeName>
             </desc>
          </event>
          <event from="1898-07-26" to="1898-07-26">
@@ -2931,25 +2836,20 @@
          </event>
          <event from="1898-08-13" to="1898-08-13">
             <desc>
-               <placeName ref="">Neuchatel</placeName>
+               <placeName ref="http://www.geonames.org/2659496/">Neuchâtel</placeName>
             </desc>
             <note>Bicycle</note>
          </event>
          <event from="1898-08-14" to="1898-08-14">
             <desc>
-               <placeName ref="">Neuchatel</placeName>
+               <placeName ref="http://www.geonames.org/2659496/">Neuchâtel</placeName>
             </desc>
          </event>
          <event from="1898-08-14" to="1898-08-14">
             <desc>
-               <placeName ref="">Yverdun</placeName>
+               <placeName ref="http://www.geonames.org/2657941/">Yverdon</placeName>
             </desc>
             <note>Bicycle</note>
-         </event>
-         <event from="1898-08-14" to="1898-08-14">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1898-08-14" to="1898-08-14">
             <desc>
@@ -2964,7 +2864,7 @@
          </event>
          <event from="1898-08-14" to="1898-08-14">
             <desc>
-               <placeName ref="">Territée</placeName>
+               <placeName ref="http://www.geonames.org/2658399/">Territet</placeName>
             </desc>
             <note>Bahn</note>
          </event>
@@ -2980,7 +2880,7 @@
          </event>
          <event from="1898-08-15" to="1898-08-15">
             <desc>
-               <placeName ref="">Roger de Ne</placeName>
+               <placeName ref="http://www.geonames.org/2659002/">Rochers de Naye</placeName>
             </desc>
          </event>
          <event from="1898-08-15" to="1898-08-15">
@@ -2990,7 +2890,7 @@
          </event>
          <event from="1898-08-15" to="1898-08-15">
             <desc>
-               <placeName ref="">Territee</placeName>
+               <placeName ref="http://www.geonames.org/2658399/">Territet</placeName>
             </desc>
             <note>Bahn</note>
          </event>
@@ -3018,7 +2918,7 @@
          </event>
          <event from="1898-08-17" to="1898-08-17">
             <desc>
-               <placeName ref="">Genfersee</placeName>
+               <placeName ref="http://www.geonames.org/2660647/">Genfer See</placeName>
             </desc>
             <note>Bic. um den See</note>
          </event>
@@ -3060,12 +2960,17 @@
          </event>
          <event from="1898-08-19" to="1898-08-19">
             <desc>
-               <placeName ref="">Scheideck</placeName>
+               <placeName ref="http://www.geonames.org/7670232/">Scheidegg</placeName>
             </desc>
          </event>
          <event from="1898-08-19" to="1898-08-19">
             <desc>
-               <placeName ref="">GrindlwaldInterlaken</placeName>
+               <placeName ref="">Grindlwald</placeName>
+            </desc>
+         </event>
+         <event from="1898-08-19" to="1898-08-19">
+            <desc>
+               <placeName ref="http://www.geonames.org/2660253/">Interlaken</placeName>
             </desc>
          </event>
          <event from="1898-08-19" to="1898-08-19">
@@ -3108,11 +3013,6 @@
                <placeName ref="http://www.geonames.org/2660553/">Göschenen</placeName>
             </desc>
             <note>Wagen</note>
-         </event>
-         <event from="1898-08-21" to="1898-08-21">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1898-08-21" to="1898-08-21">
             <desc>
@@ -3274,17 +3174,12 @@
          </event>
          <event from="1899-05-28" to="1899-05-29">
             <desc>
-               <placeName ref="">Siegmundsherberg</placeName>
+               <placeName ref="http://www.geonames.org/2765065/">Sigmundsherberg</placeName>
             </desc>
          </event>
          <event from="1899-05-28" to="1899-05-29">
             <desc>
-               <placeName ref="">Rosen</placeName>
-            </desc>
-         </event>
-         <event from="1899-05-28" to="1899-05-29">
-            <desc>
-               <placeName ref="">burg</placeName>
+               <placeName ref="http://www.geonames.org/2767197/">Rosenburg</placeName>
             </desc>
          </event>
          <event from="1899-05-28" to="1899-05-29">
@@ -3334,12 +3229,12 @@
          </event>
          <event from="1899-06-20" to="1899-06-20">
             <desc>
-               <placeName ref="">Guttenstein</placeName>
+               <placeName ref="http://www.geonames.org/7873053/">Gutenstein</placeName>
             </desc>
          </event>
          <event from="1899-06-20" to="1899-06-20">
             <desc>
-               <placeName ref="">VöslauWien</placeName>
+               <placeName ref="http://www.geonames.org/2782043/">Bad Vöslau</placeName>
             </desc>
             <note>Bic.</note>
          </event>
@@ -3360,7 +3255,7 @@
          </event>
          <event from="1899-05-02" to="1899-06-27">
             <desc>
-               <placeName ref="">Ora Hovica</placeName>
+               <placeName ref="http://www.geonames.org/3194064/">Orahovica</placeName>
             </desc>
          </event>
          <event from="1899-06-28" to="1899-06-28">
@@ -3405,7 +3300,7 @@
          </event>
          <event from="1899-07-19" to="1899-07-19">
             <desc>
-               <placeName ref="">Faakersee</placeName>
+               <placeName ref="http://www.geonames.org/2779867/">Faaker See</placeName>
             </desc>
          </event>
          <event from="1899-07-20" to="1899-07-20">
@@ -3422,23 +3317,14 @@
             <desc>
                <placeName ref="http://www.geonames.org/2773321/">Krumpendorf</placeName>
             </desc>
-         </event>
-         <event from="1899-07-23" to="1899-07-23">
-            <desc>
-               <placeName ref="">Um den See</placeName>
-            </desc>
-         </event>
-         <event from="1899-07-26" to="1899-07-26">
-            <desc>
-               <placeName ref="">Um den See</placeName>
-            </desc>
+            <note>23.7. Um den See. 26.7.Um den See</note>
          </event>
          <event from="1899-07-28" to="1899-07-28">
             <desc>
-               <placeName ref="">VeldenVillach</placeName>
+               <placeName ref="http://www.geonames.org/2762453/">Velden</placeName>
             </desc>
          </event>
-         <event from="1899-07-29" to="1899-07-29">
+         <event from="1899-07-28" to="1899-07-29">
             <desc>
                <placeName ref="http://www.geonames.org/2762372/">Villach</placeName>
             </desc>
@@ -3451,7 +3337,7 @@
          </event>
          <event from="1899-07-29" to="1899-07-29">
             <desc>
-               <placeName ref="">. Raiblsee</placeName>
+               <placeName ref="">Raiblsee</placeName>
             </desc>
             <note>Wagen</note>
          </event>
@@ -3471,11 +3357,6 @@
                <placeName ref="http://www.geonames.org/2764789/">Spital</placeName>
             </desc>
             <note>Bahn</note>
-         </event>
-         <event from="1899-07-30" to="1899-07-30">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1899-07-30" to="1899-07-30">
             <desc>
@@ -3505,8 +3386,9 @@
          </event>
          <event from="1899-08-03" to="1899-08-03">
             <desc>
-               <placeName ref="">Prags und Pragsersee</placeName>
+               <placeName ref="http://www.geonames.org/6534775/">Prags</placeName>
             </desc>
+            <note>Stadt und Pragser See</note>
          </event>
          <event from="1899-08-04" to="1899-08-04">
             <desc>
@@ -3541,12 +3423,12 @@
          </event>
          <event from="1899-08-06" to="1899-08-06">
             <desc>
-               <placeName ref="">Missurina</placeName>
+               <placeName ref="http://www.geonames.org/3173342/">Misurina</placeName>
             </desc>
          </event>
          <event from="1899-08-06" to="1899-08-06">
             <desc>
-               <placeName ref="">Tre Croce</placeName>
+               <placeName ref="http://www.geonames.org/3165269/">Tre Croci</placeName>
             </desc>
          </event>
          <event from="1899-08-06" to="1899-08-06">
@@ -3606,17 +3488,17 @@
          </event>
          <event from="1899-08-10" to="1899-08-10">
             <desc>
-               <placeName ref="">Panneveggio</placeName>
+               <placeName ref="http://www.geonames.org/3171525/">Paneveggio</placeName>
             </desc>
          </event>
          <event from="1899-08-10" to="1899-08-10">
             <desc>
-               <placeName ref="">Rolle</placeName>
+               <placeName ref="http://www.geonames.org/3169074/">Rollepass</placeName>
             </desc>
          </event>
          <event from="1899-08-10" to="1899-08-10">
             <desc>
-               <placeName ref="">Martino di Castrozza</placeName>
+               <placeName ref="http://www.geonames.org/3168019/">Martino</placeName>
             </desc>
          </event>
          <event from="1899-08-11" to="1899-08-11">
@@ -3661,7 +3543,17 @@
          </event>
          <event from="1899-08-14" to="1899-08-14">
             <desc>
-               <placeName ref="">Innsbruck Igls Salzburg</placeName>
+               <placeName ref="http://www.geonames.org/2775220/">Innsbruck</placeName>
+            </desc>
+         </event>
+         <event from="1899-08-14" to="1899-08-14">
+            <desc>
+               <placeName ref="http://www.geonames.org/2775338/">Igls</placeName>
+            </desc>
+         </event>
+         <event from="1899-08-14" to="1899-08-14">
+            <desc>
+               <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
             </desc>
          </event>
          <event from="1899-08-15" to="1899-08-15">
@@ -3671,7 +3563,7 @@
          </event>
          <event from="1899-08-15" to="1899-08-15">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
          <event from="1899-08-19" to="1899-09-12">
@@ -3741,7 +3633,7 @@
          </event>
          <event from="1899-09-27" to="1899-09-27">
             <desc>
-               <placeName ref="">Biberich</placeName>
+               <placeName ref="http://www.geonames.org/2949235/">Biebrich</placeName>
             </desc>
          </event>
          <event from="1899-09-27" to="1899-09-27">
@@ -3784,32 +3676,27 @@
                <placeName ref="http://www.geonames.org/3165185/">Triest</placeName>
             </desc>
          </event>
-         <event from="1900-08-02" to="1900-03-29">
+         <event from="1900-03-27" to="1900-03-30">
             <desc>
-               <placeName ref="">Triest. 29</placeName>
+               <placeName ref="http://www.geonames.org/3165185/">Triest</placeName>
             </desc>
          </event>
-         <event from="1900-08-02" to="1900-03-29">
-            <desc>
-               <placeName ref="">30. Triest</placeName>
-            </desc>
-         </event>
-         <event from="1900-08-02" to="1900-03-29">
+         <event from="1900-03-27" to="1900-03-30">
             <desc>
                <placeName ref="http://www.geonames.org/3192224/">Pola</placeName>
             </desc>
          </event>
-         <event from="1900-08-02" to="1900-03-29">
+         <event from="1900-03-27" to="1900-03-30">
             <desc>
                <placeName ref="http://www.geonames.org/3186952/">Zara</placeName>
             </desc>
          </event>
-         <event from="1900-08-02" to="1900-03-29">
+         <event from="1900-03-27" to="1900-03-30">
             <desc>
                <placeName ref="http://www.geonames.org/3190261/">Spalato</placeName>
             </desc>
          </event>
-         <event from="1900-08-02" to="1900-03-29">
+         <event from="1900-03-30" to="1900-03-30">
             <desc>
                <placeName ref="http://www.geonames.org/3201047/">Ragusa</placeName>
             </desc>
@@ -3837,7 +3724,7 @@
          </event>
          <event from="1900-04-01" to="1900-04-01">
             <desc>
-               <placeName ref="">Pagusa</placeName>
+               <placeName ref="http://www.geonames.org/3201047/">Ragusa</placeName>
             </desc>
          </event>
          <event from="1900-04-02" to="1900-04-02">
@@ -3864,7 +3751,7 @@
          </event>
          <event from="1900-05-24" to="1900-05-27">
             <desc>
-               <placeName ref="">Puchberg</placeName>
+               <placeName ref="http://www.geonames.org/2768279/">Puchberg a/Sch.</placeName>
             </desc>
             <note>über Baumgartnerhaus-Payerbach nach Wien</note>
          </event>
@@ -3885,7 +3772,7 @@
          </event>
          <event from="1900-06-13" to="1900-06-13">
             <desc>
-               <placeName ref="">Gstatterböden</placeName>
+               <placeName ref="http://www.geonames.org/2777331/">Gstatterboden</placeName>
             </desc>
          </event>
          <event from="1900-06-28" to="1900-06-28">
@@ -3895,7 +3782,7 @@
          </event>
          <event from="1900-06-28" to="1900-06-28">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
          <event from="1900-06-29" to="1900-07-01">
@@ -3921,23 +3808,18 @@
          </event>
          <event from="1900-07-03" to="1900-07-03">
             <desc>
-               <placeName ref="">Admond</placeName>
+               <placeName ref="http://www.geonames.org/2782979/">Admont</placeName>
             </desc>
             <note>Rad</note>
          </event>
          <event from="1900-07-04" to="1900-07-04">
             <desc>
-               <placeName ref="">Admond</placeName>
+               <placeName ref="http://www.geonames.org/2782979/">Admont</placeName>
             </desc>
          </event>
          <event from="1900-07-04" to="1900-07-04">
             <desc>
-               <placeName ref="">Gstatter</placeName>
-            </desc>
-         </event>
-         <event from="1900-07-04" to="1900-07-04">
-            <desc>
-               <placeName ref="">boden</placeName>
+               <placeName ref="http://www.geonames.org/2777331/">Gstatterboden</placeName>
             </desc>
          </event>
          <event from="1900-07-04" to="1900-07-04">
@@ -3947,7 +3829,7 @@
          </event>
          <event from="1900-07-04" to="1900-07-04">
             <desc>
-               <placeName ref="">Admost</placeName>
+               <placeName ref="http://www.geonames.org/2782979/">Admont</placeName>
             </desc>
          </event>
          <event from="1900-07-05" to="1900-07-05">
@@ -3967,7 +3849,7 @@
          </event>
          <event from="1900-07-20" to="1900-07-20">
             <desc>
-               <placeName ref="">St.Michael</placeName>
+               <placeName ref="">St. Michael</placeName>
             </desc>
          </event>
          <event from="1900-08-02" to="1900-07-31">
@@ -3997,7 +3879,7 @@
          </event>
          <event from="1900-08-10" to="1900-08-10">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
          <event from="1900-08-10" to="1900-08-10">
@@ -4058,12 +3940,12 @@
          </event>
          <event from="1900-08-14" to="1900-08-14">
             <desc>
-               <placeName ref="">Krimel</placeName>
+               <placeName ref="http://www.geonames.org/3323923/">Krimml</placeName>
             </desc>
          </event>
          <event from="1900-08-15" to="1900-08-15">
             <desc>
-               <placeName ref="">Krimel</placeName>
+               <placeName ref="http://www.geonames.org/3323923/">Krimml</placeName>
             </desc>
          </event>
          <event from="1900-08-15" to="1900-08-15">
@@ -4105,7 +3987,7 @@
          </event>
          <event from="1900-08-18" to="1900-08-18">
             <desc>
-               <placeName ref="">Cargellen</placeName>
+               <placeName ref="http://www.geonames.org/2778859/">Gargellen</placeName>
             </desc>
          </event>
          <event from="1900-08-19" to="1900-08-19">
@@ -4120,7 +4002,7 @@
          </event>
          <event from="1900-08-19" to="1900-08-19">
             <desc>
-               <placeName ref="">Klosters. Klosters</placeName>
+               <placeName ref="http://www.geonames.org/2660130/">Klosters</placeName>
             </desc>
          </event>
          <event from="1900-08-19" to="1900-08-19">
@@ -4155,7 +4037,7 @@
          </event>
          <event from="1900-08-21" to="1900-08-21">
             <desc>
-               <placeName ref="">S7. Moritz</placeName>
+               <placeName ref="http://www.geonames.org/2658813/">St. Moritz</placeName>
             </desc>
          </event>
          <event from="1900-08-22" to="1900-08-22">
@@ -4175,18 +4057,18 @@
          </event>
          <event from="1900-08-25" to="1900-08-25">
             <desc>
-               <placeName ref="">Leprese</placeName>
+               <placeName ref="http://www.geonames.org/2659944/">Le Prese</placeName>
             </desc>
             <note>mit Paul Goldmann</note>
          </event>
          <event from="1900-08-26" to="1900-08-26">
             <desc>
-               <placeName ref="">Leprese</placeName>
+               <placeName ref="http://www.geonames.org/2659944/">Le Prese</placeName>
             </desc>
          </event>
          <event from="1900-08-26" to="1900-08-26">
             <desc>
-               <placeName ref="">Boladore</placeName>
+               <placeName ref="">Bolladore</placeName>
             </desc>
          </event>
          <event from="1900-08-26" to="1900-08-26">
@@ -4201,7 +4083,7 @@
          </event>
          <event from="1900-08-27" to="1900-08-27">
             <desc>
-               <placeName ref="">Stilferserjoch</placeName>
+               <placeName ref="http://www.geonames.org/3166165/">Stilfserjoch</placeName>
             </desc>
          </event>
          <event from="1900-08-27" to="1900-08-27">
@@ -4243,7 +4125,7 @@
          </event>
          <event from="1900-10-12" to="1900-10-17">
             <desc>
-               <placeName ref="">Baden bei Wien</placeName>
+               <placeName ref="http://www.geonames.org/2782067/">Baden</placeName>
             </desc>
             <note>am 13.10.Sulz, am 14.10.Meierling</note>
          </event>
@@ -4280,23 +4162,21 @@
          </event>
          <event from="1900-11-29" to="1900-12-02">
             <desc>
-               <placeName ref="">Breslau (</placeName>
+               <placeName ref="http://www.geonames.org/3081368/">Breslau</placeName>
             </desc>
-         </event>
-         <event from="1900-12-01" to="1900-12-01">
-            <desc>
-               <placeName ref="">Premiere "Beatrice".)</placeName>
-            </desc>
+            <note>1.12. Premiere
+               "Beatrice"</note>
          </event>
          <event from="1901-03-02" to="1901-03-02">
             <desc>
-               <placeName ref="">Wien Berlin</placeName>
+               <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
          </event>
-         <event from="1901-03-03" to="1901-03-10">
+         <event from="1901-03-02" to="1901-03-10">
             <desc>
-               <placeName ref="">Berlin (Aufführung "Marionetten" im Bunten Theater)</placeName>
+               <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
+            <note>Aufführung "Marionetten" im Bunten Theater</note>
          </event>
          <event from="1901-03-26" to="1901-03-26">
             <desc>
@@ -4411,7 +4291,7 @@
          </event>
          <event from="1901-06-14" to="1901-06-14">
             <desc>
-               <placeName ref="">Königsee</placeName>
+               <placeName ref="http://www.geonames.org/2885777/">Königssee</placeName>
             </desc>
          </event>
          <event from="1901-06-22" to="1901-06-22">
@@ -4426,7 +4306,7 @@
          </event>
          <event from="1901-06-25" to="1901-06-25">
             <desc>
-               <placeName ref="">lnnsbruck</placeName>
+               <placeName ref="http://www.geonames.org/2775220/">Innsbruck</placeName>
             </desc>
          </event>
          <event from="1901-06-02" to="1901-06-27">
@@ -4436,7 +4316,7 @@
          </event>
          <event from="1901-06-28" to="1901-06-28">
             <desc>
-               <placeName ref="">lnnsbruck</placeName>
+               <placeName ref="http://www.geonames.org/2775220/">Innsbruck</placeName>
             </desc>
          </event>
          <event from="1901-06-28" to="1901-06-28">
@@ -4456,14 +4336,9 @@
          </event>
          <event from="1901-06-30" to="1901-06-30">
             <desc>
-               <placeName ref="">Langen</placeName>
+               <placeName ref="http://www.geonames.org/2773017">Langen am Arlberg</placeName>
             </desc>
             <note>Bahn</note>
-         </event>
-         <event from="1901-06-30" to="1901-06-30">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1901-06-30" to="1901-06-30">
             <desc>
@@ -4473,7 +4348,7 @@
          </event>
          <event from="1901-07-01" to="1901-07-12">
             <desc>
-               <placeName ref="">St.Anton</placeName>
+               <placeName ref="http://www.geonames.org/2766757/">St. Anton</placeName>
             </desc>
          </event>
          <event from="1901-07-10" to="1901-07-10">
@@ -4483,7 +4358,7 @@
          </event>
          <event from="1901-07-13" to="1901-07-13">
             <desc>
-               <placeName ref="">lnnsbruck</placeName>
+               <placeName ref="http://www.geonames.org/2775220/">Innsbruck</placeName>
             </desc>
          </event>
          <event from="1901-07-13" to="1901-07-13">
@@ -4491,11 +4366,6 @@
                <placeName ref="http://www.geonames.org/2781423/">Brenner</placeName>
             </desc>
             <note>Bahn</note>
-         </event>
-         <event from="1901-07-13" to="1901-07-13">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1901-07-13" to="1901-07-13">
             <desc>
@@ -4534,7 +4404,7 @@
          </event>
          <event from="1901-07-24" to="1901-07-24">
             <desc>
-               <placeName ref="">Weislahnbad</placeName>
+               <placeName ref="http://www.geonames.org/3182539/">Weißlahnbad</placeName>
             </desc>
          </event>
          <event from="1901-08-07" to="1901-08-07">
@@ -4620,7 +4490,7 @@
          </event>
          <event from="1901-09-19" to="1901-09-20">
             <desc>
-               <placeName ref="">Sommering</placeName>
+               <placeName ref="http://www.geonames.org/2765171/">Semmering</placeName>
             </desc>
          </event>
          <event from="1901-01-01" to="1901-11-14">
@@ -4652,8 +4522,9 @@
          </event>
          <event from="1902-02-04" to="1902-02-26">
             <desc>
-               <placeName ref="">Mödling Kurhaus</placeName>
+               <placeName ref="http://www.geonames.org/2771335/">Mödling</placeName>
             </desc>
+            <note>Kurhaus</note>
          </event>
          <event from="1902-03-21" to="1902-03-29">
             <desc>
@@ -4663,13 +4534,11 @@
          </event>
          <event from="1902-06-07" to="1902-06-08">
             <desc>
-               <placeName ref="">Budapest. (Erstaufführung der "Lebendigen Stunden" durch das Deutsche Theater</placeName>
+               <placeName ref="http://www.geonames.org/3054643/">Budapest</placeName>
             </desc>
-         </event>
-         <event from="1902-06-07" to="1902-06-08">
-            <desc>
-               <placeName ref="">Brahm)</placeName>
-            </desc>
+            <note>Erstaufführung der
+               "Lebendigen Stunden" durch das Deutsche
+               Theater,Brahm</note>
          </event>
          <event from="1902-06-27" to="1902-06-27">
             <desc>
@@ -4714,7 +4583,7 @@
          </event>
          <event from="1902-07-02" to="1902-07-02">
             <desc>
-               <placeName ref="">lnnsbruck</placeName>
+               <placeName ref="http://www.geonames.org/2775220/">Innsbruck</placeName>
             </desc>
          </event>
          <event from="1902-07-03" to="1902-07-03">
@@ -4734,7 +4603,7 @@
          </event>
          <event from="1902-07-03" to="1902-07-03">
             <desc>
-               <placeName ref="">Matrei</placeName>
+               <placeName ref="http://www.geonames.org/7873609/">Matrei am Brenner</placeName>
             </desc>
          </event>
          <event from="1902-07-03" to="1902-07-03">
@@ -4770,7 +4639,7 @@
          </event>
          <event from="1902-07-07" to="1902-07-07">
             <desc>
-               <placeName ref="">Welsberz</placeName>
+               <placeName ref="http://www.geonames.org/3173140/">Welsberg</placeName>
             </desc>
          </event>
          <event from="1902-07-07" to="1902-07-07">
@@ -4801,11 +4670,6 @@
          </event>
          <event from="1902-09-03" to="1902-09-03">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1902-09-03" to="1902-09-03">
-            <desc>
                <placeName ref="http://www.geonames.org/2781371/">Bruck an der Mur</placeName>
             </desc>
             <note>Rad</note>
@@ -4827,8 +4691,9 @@
          </event>
          <event from="1902-09-03" to="1902-09-03">
             <desc>
-               <placeName ref="">Hieflau (zum Teil Rad)</placeName>
+               <placeName ref="http://www.geonames.org/2776433/">Hieflau</placeName>
             </desc>
+            <note>zum Teil Rad</note>
          </event>
          <event from="1902-09-05" to="1902-09-05">
             <desc>
@@ -4852,7 +4717,7 @@
          </event>
          <event from="1902-09-05" to="1902-09-05">
             <desc>
-               <placeName ref="">Pyhrenpass</placeName>
+               <placeName ref="http://www.geonames.org/2768193/">Pyhrnpass</placeName>
             </desc>
          </event>
          <event from="1902-09-05" to="1902-09-05">
@@ -4883,12 +4748,7 @@
          </event>
          <event from="1902-09-07" to="1902-09-07">
             <desc>
-               <placeName ref="">Klein</placeName>
-            </desc>
-         </event>
-         <event from="1902-09-07" to="1902-09-07">
-            <desc>
-               <placeName ref="">Reifling</placeName>
+               <placeName ref="http://www.geonames.org/2774045/">Kleinreifling</placeName>
             </desc>
             <note>Rad</note>
          </event>
@@ -4904,34 +4764,24 @@
          </event>
          <event from="1902-09-07" to="1902-09-07">
             <desc>
-               <placeName ref="">Brühl. 12.10.Wien</placeName>
+               <placeName ref="">Brühl</placeName>
             </desc>
          </event>
-         <event from="1902-09-07" to="1902-09-07">
+         <event from="1902-10-12" to="1902-10-18">
             <desc>
                <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
          </event>
-         <event from="1902-03-01" to="1902-10-17">
+         <event from="1902-10-18" to="1902-10-19">
             <desc>
-               <placeName ref="">Berlin. 18.10.Berlin</placeName>
+               <placeName ref="http://www.geonames.org/3081368/">Breslau</placeName>
             </desc>
          </event>
-         <event from="1902-03-01" to="1902-10-17">
-            <desc>
-               <placeName ref="">Breslau. 19.10.Breslau</placeName>
-            </desc>
-         </event>
-         <event from="1902-03-01" to="1902-10-17">
+         <event from="1902-10-19" to="1902-10-20">
             <desc>
                <placeName ref="http://www.geonames.org/7534771/">Agnetendorf</placeName>
             </desc>
             <note>Hauptmann</note>
-         </event>
-         <event from="1902-03-01" to="1902-10-17">
-            <desc>
-               <placeName ref="">. 20.10.Agnetendorf</placeName>
-            </desc>
          </event>
          <event from="1902-03-01" to="1902-10-17">
             <desc>
@@ -4943,14 +4793,9 @@
                <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
          </event>
-         <event from="1903-01-12" to="1903-01-12">
+         <event from="1903-01-12" to="1903-01-19">
             <desc>
-               <placeName ref="">Salzburg. 13</placeName>
-            </desc>
-         </event>
-         <event from="1903-01-12" to="1903-01-12">
-            <desc>
-               <placeName ref="">19.Salzburg</placeName>
+               <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
             </desc>
          </event>
          <event from="1903-01-16" to="1903-01-16">
@@ -4970,8 +4815,9 @@
          </event>
          <event from="1903-02-22" to="1903-03-09">
             <desc>
-               <placeName ref="">Berlin. (Erstaufführung "Schleier der Beatrice")</placeName>
+               <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
+            <note>Erstaufführung "Schleier der Beatrice"</note>
          </event>
          <event from="1903-04-08" to="1903-04-08">
             <desc>
@@ -5045,12 +4891,12 @@
          </event>
          <event from="1903-06-02" to="1903-06-02">
             <desc>
-               <placeName ref="">Vicenca</placeName>
+               <placeName ref="http://www.geonames.org/3164419/">Vicenza</placeName>
             </desc>
          </event>
          <event from="1903-06-03" to="1903-06-03">
             <desc>
-               <placeName ref="">Vicenca</placeName>
+               <placeName ref="http://www.geonames.org/3164419/">Vicenza</placeName>
             </desc>
          </event>
          <event from="1903-06-03" to="1903-06-03">
@@ -5146,11 +4992,6 @@
          </event>
          <event from="1903-08-04" to="1903-08-04">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1903-08-04" to="1903-08-04">
-            <desc>
                <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
          </event>
@@ -5202,7 +5043,7 @@
          </event>
          <event from="1903-08-17" to="1903-08-17">
             <desc>
-               <placeName ref="">Malee</placeName>
+               <placeName ref="http://www.geonames.org/3174186/">Malè</placeName>
             </desc>
             <note>Rad</note>
          </event>
@@ -5223,7 +5064,7 @@
          </event>
          <event from="1903-08-18" to="1903-08-18">
             <desc>
-               <placeName ref="">Ledro</placeName>
+               <placeName ref="http://www.geonames.org/6535802/">Pieve di Ledro</placeName>
             </desc>
          </event>
          <event from="1903-08-18" to="1903-08-18">
@@ -5249,7 +5090,7 @@
          </event>
          <event from="1903-08-20" to="1903-08-20">
             <desc>
-               <placeName ref="">Caldonazo</placeName>
+               <placeName ref="http://www.geonames.org/3181207/">Caldonazzo</placeName>
             </desc>
             <note>Bahn</note>
          </event>
@@ -5260,12 +5101,12 @@
          </event>
          <event from="1903-08-21" to="1903-08-21">
             <desc>
-               <placeName ref="">Caldonazo</placeName>
+               <placeName ref="http://www.geonames.org/3181207/">Caldonazzo</placeName>
             </desc>
          </event>
          <event from="1903-08-21" to="1903-08-21">
             <desc>
-               <placeName ref="">Trient. 19.10. Wien</placeName>
+               <placeName ref="http://www.geonames.org/3165243/">Trient</placeName>
             </desc>
          </event>
          <event from="1903-08-21" to="1903-08-21">
@@ -5274,12 +5115,12 @@
             </desc>
             <note>Vorlesung</note>
          </event>
-         <event from="1903-08-21" to="1903-08-21">
+         <event from="1903-10-20" to="1903-10-20">
             <desc>
-               <placeName ref="">. 20.10.Brünn</placeName>
+               <placeName ref="http://www.geonames.org/3078610/">Brünn</placeName>
             </desc>
          </event>
-         <event from="1903-08-21" to="1903-08-21">
+         <event from="1903-10-20" to="1903-10-20">
             <desc>
                <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
@@ -5326,8 +5167,9 @@
          </event>
          <event from="1904-02-05" to="1904-02-16">
             <desc>
-               <placeName ref="">Berlin. (Uraufführung "Einsamen Wegs")</placeName>
+               <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
+            <note>Uraufführung "Einsamen Wegs"</note>
          </event>
          <event from="1904-02-17" to="1904-02-17">
             <desc>
@@ -5366,25 +5208,20 @@
          </event>
          <event from="1904-05-02" to="1904-05-02">
             <desc>
-               <placeName ref="">Abbazia Fiume nach Ancona</placeName>
+               <placeName ref="http://www.geonames.org/3194099/">Abbazia</placeName>
             </desc>
          </event>
-         <event from="1904-05-03" to="1904-05-03">
+         <event from="1904-05-02" to="1904-05-02">
+            <desc>
+               <placeName ref="http://www.geonames.org/3191648/">Fiume</placeName>
+            </desc>
+         </event>
+         <event from="1904-05-02" to="1904-05-03">
             <desc>
                <placeName ref="http://www.geonames.org/3183089/">Ancona</placeName>
             </desc>
          </event>
-         <event from="1904-05-03" to="1904-05-03">
-            <desc>
-               <placeName ref="">Ron</placeName>
-            </desc>
-         </event>
-         <event from="1904-05-04" to="1904-05-07">
-            <desc>
-               <placeName ref="">Ron</placeName>
-            </desc>
-         </event>
-         <event from="1904-05-08" to="1904-05-08">
+         <event from="1904-05-03" to="1904-05-08">
             <desc>
                <placeName ref="http://www.geonames.org/3169070/">Rom</placeName>
             </desc>
@@ -5463,11 +5300,6 @@
          </event>
          <event from="1904-05-14" to="1904-05-14">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1904-05-14" to="1904-05-14">
-            <desc>
                <placeName ref="http://www.geonames.org/2523920/">Palermo</placeName>
             </desc>
          </event>
@@ -5514,11 +5346,6 @@
          </event>
          <event from="1904-05-24" to="1904-05-24">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1904-05-24" to="1904-05-24">
-            <desc>
                <placeName ref="http://www.geonames.org/3172395/">Neapel</placeName>
             </desc>
          </event>
@@ -5552,11 +5379,6 @@
                <placeName ref="http://www.geonames.org/3183089/">Ancona</placeName>
             </desc>
             <note>auf "Daniel Ernö"</note>
-         </event>
-         <event from="1904-05-28" to="1904-05-28">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1904-05-28" to="1904-05-28">
             <desc>
@@ -5654,10 +5476,11 @@
                <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
          </event>
-         <event from="1904-03-01" to="1904-11-23">
+         <event from="1904-11-13" to="1904-11-23">
             <desc>
-               <placeName ref="">Berlin.(Aufführung "Cassian" und "Kakadu" bei Reinhardt)</placeName>
+               <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
+            <note>Aufführung "Cassian" und "Kakadu" bei Reinhardt</note>
          </event>
          <event from="1904-12-26" to="1904-12-26">
             <desc>
@@ -5702,23 +5525,28 @@
          </event>
          <event from="1905-03-05" to="1905-03-05">
             <desc>
-               <placeName ref="">Villa Franca</placeName>
+               <placeName ref="http://www.geonames.org/3164240/">Villafranca</placeName>
             </desc>
             <note>Schiff</note>
          </event>
          <event from="1905-03-06" to="1905-03-06">
             <desc>
-               <placeName ref="">Villa Franca</placeName>
+               <placeName ref="http://www.geonames.org/3164240/">Villafranca</placeName>
             </desc>
          </event>
          <event from="1905-03-06" to="1905-03-06">
             <desc>
-               <placeName ref="">Monacco</placeName>
+               <placeName ref="http://www.geonames.org/2993458/">Monaco</placeName>
             </desc>
          </event>
          <event from="1905-03-06" to="1905-03-06">
             <desc>
-               <placeName ref="">Monte CarloKap Martin</placeName>
+               <placeName ref="http://www.geonames.org/2992741/">Monte Carlo</placeName>
+            </desc>
+         </event>
+         <event from="1905-03-06" to="1905-03-06">
+            <desc>
+               <placeName ref="http://www.geonames.org/2982876/">Cap Martino</placeName>
             </desc>
          </event>
          <event from="1905-03-06" to="1905-03-06">
@@ -5733,7 +5561,7 @@
          </event>
          <event from="1905-03-06" to="1905-03-06">
             <desc>
-               <placeName ref="">Villa Franca</placeName>
+               <placeName ref="http://www.geonames.org/3164240/">Villafranca</placeName>
             </desc>
             <note>Spaziergänge u.Fahrten</note>
          </event>
@@ -5769,12 +5597,12 @@
          </event>
          <event from="1905-03-12" to="1905-03-12">
             <desc>
-               <placeName ref="">Corfu</placeName>
+               <placeName ref="http://www.geonames.org/2463678/">Korfu</placeName>
             </desc>
          </event>
          <event from="1905-03-13" to="1905-03-13">
             <desc>
-               <placeName ref="">Corfu</placeName>
+               <placeName ref="http://www.geonames.org/2463678/">Korfu</placeName>
             </desc>
          </event>
          <event from="1905-03-14" to="1905-03-14">
@@ -5789,7 +5617,7 @@
          </event>
          <event from="1905-03-16" to="1905-03-16">
             <desc>
-               <placeName ref="">Spalatto</placeName>
+               <placeName ref="http://www.geonames.org/3190261/">Spalato</placeName>
             </desc>
             <note>Zalona</note>
          </event>
@@ -5973,12 +5801,7 @@
             </desc>
             <note>Vorlesung</note>
          </event>
-         <event from="1906-01-21" to="1906-01-21">
-            <desc>
-               <placeName ref="">. 22</placeName>
-            </desc>
-         </event>
-         <event from="1906-01-23" to="1906-01-23">
+         <event from="1906-01-22" to="1906-01-23">
             <desc>
                <placeName ref="http://www.geonames.org/3081368/">Breslau</placeName>
             </desc>
@@ -6004,24 +5827,14 @@
                <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
          </event>
-         <event from="1906-02-12" to="1906-02-12">
+         <event from="1906-02-12" to="1906-02-18">
             <desc>
                <placeName ref="http://www.geonames.org/2935022/">Dresden</placeName>
             </desc>
          </event>
-         <event from="1906-18-17" to="1906-18-17">
+         <event from="1906-02-18" to="1906-02-27">
             <desc>
-               <placeName ref="">2. Dresden. 18. Dresden</placeName>
-            </desc>
-         </event>
-         <event from="1906-18-17" to="1906-18-17">
-            <desc>
-               <placeName ref="">Berlin. 19</placeName>
-            </desc>
-         </event>
-         <event from="1906-18-17" to="1906-18-17">
-            <desc>
-               <placeName ref="">27. Berlin</placeName>
+               <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
             <note>Premiere "Ruf", Urauff.</note>
          </event>
@@ -6092,12 +5905,12 @@
          </event>
          <event from="1906-07-05" to="1906-07-05">
             <desc>
-               <placeName ref="">Gilleleie</placeName>
+               <placeName ref="http://www.geonames.org/2621471/">Gilleleje</placeName>
             </desc>
          </event>
          <event from="1906-07-05" to="1906-07-05">
             <desc>
-               <placeName ref="">Hornsbaek</placeName>
+               <placeName ref="http://www.geonames.org/2619807/">Hornbaek</placeName>
             </desc>
          </event>
          <event from="1906-07-07" to="1906-07-07">
@@ -6112,7 +5925,7 @@
          </event>
          <event from="1906-07-24" to="1906-07-24">
             <desc>
-               <placeName ref="">Fredericksborg</placeName>
+               <placeName ref="http://www.geonames.org/2621938/">Frederiksborg</placeName>
             </desc>
          </event>
          <event from="1906-07-24" to="1906-07-24">
@@ -6155,9 +5968,9 @@
                <placeName ref="http://www.geonames.org/2812482/">Weimar</placeName>
             </desc>
          </event>
-         <event from="1906-03-01" to="1906-08-16">
+         <event from="1906-08-13" to="1906-08-16">
             <desc>
-               <placeName ref="">Weinar. 16. Weimar</placeName>
+               <placeName ref="http://www.geonames.org/2812482/">Weimar</placeName>
             </desc>
          </event>
          <event from="1906-03-01" to="1906-08-16">
@@ -6252,17 +6065,7 @@
                <placeName ref="http://www.geonames.org/2774326/">Klagenfurt</placeName>
             </desc>
          </event>
-         <event from="1907-06-28" to="1907-06-28">
-            <desc>
-               <placeName ref="">Wochein. 29</placeName>
-            </desc>
-         </event>
-         <event from="1907-06-30" to="1907-06-30">
-            <desc>
-               <placeName ref="">Wochein</placeName>
-            </desc>
-         </event>
-         <event from="1907-07-01" to="1907-07-01">
+         <event from="1907-06-28" to="1907-07-01">
             <desc>
                <placeName ref="">Wochein</placeName>
             </desc>
@@ -6284,7 +6087,7 @@
          </event>
          <event from="1907-07-02" to="1907-07-02">
             <desc>
-               <placeName ref="">Presegger See</placeName>
+               <placeName ref="http://www.geonames.org/2768347/">Pressegger See</placeName>
             </desc>
          </event>
          <event from="1907-07-02" to="1907-07-02">
@@ -6329,12 +6132,22 @@
          </event>
          <event from="1907-07-03" to="1907-07-03">
             <desc>
-               <placeName ref="">Fischlainboden</placeName>
+               <placeName ref="">Fischleinboden</placeName>
             </desc>
          </event>
          <event from="1907-07-03" to="1907-07-03">
             <desc>
-               <placeName ref="">Wildbad InnichenWelsberg</placeName>
+               <placeName ref="">Wildbad</placeName>
+            </desc>
+         </event>
+         <event from="1907-07-03" to="1907-07-03">
+            <desc>
+               <placeName ref="http://www.geonames.org/3173140/">Welsberg</placeName>
+            </desc>
+         </event>
+         <event from="1907-07-03" to="1907-07-03">
+            <desc>
+               <placeName ref="http://www.geonames.org/3168508/">Innichen</placeName>
             </desc>
          </event>
          <event from="1907-07-05" to="1907-08-26">
@@ -6355,7 +6168,7 @@
          </event>
          <event from="1907-07-16" to="1907-07-16">
             <desc>
-               <placeName ref="">Niederndorf</placeName>
+               <placeName ref="http://www.geonames.org/3164301/">Niederdorf</placeName>
             </desc>
          </event>
          <event from="1907-07-17" to="1907-07-17">
@@ -6365,7 +6178,12 @@
          </event>
          <event from="1907-07-18" to="1907-07-18">
             <desc>
-               <placeName ref="">Brunneck. 21.Grieser Thal</placeName>
+               <placeName ref="http://www.geonames.org/3181480/">Bruneck</placeName>
+            </desc>
+         </event>
+         <event from="1907-07-21" to="1907-07-21">
+            <desc>
+               <placeName ref="">Grieser Thal</placeName>
             </desc>
          </event>
          <event from="1907-07-25" to="1907-07-25">
@@ -6378,14 +6196,14 @@
                <placeName ref="http://www.geonames.org/3173140/">Welsberg</placeName>
             </desc>
          </event>
-         <event from="1907-08-12" to="1907-08-12">
+         <event from="1907-08-12" to="1907-08-13">
             <desc>
                <placeName ref="http://www.geonames.org/3180559/">Schluderbach</placeName>
             </desc>
          </event>
          <event from="1907-08-13" to="1907-08-13">
             <desc>
-               <placeName ref="">SchluderbuchMissurina</placeName>
+               <placeName ref="">Missurina</placeName>
             </desc>
          </event>
          <event from="1907-08-13" to="1907-08-13">
@@ -6420,17 +6238,17 @@
          </event>
          <event from="1907-08-26" to="1907-08-26">
             <desc>
-               <placeName ref="">Weidbruck</placeName>
+               <placeName ref="http://www.geonames.org/3170259/">Waidbruck</placeName>
             </desc>
          </event>
          <event from="1907-08-27" to="1907-08-27">
             <desc>
-               <placeName ref="">Weidbruck</placeName>
+               <placeName ref="http://www.geonames.org/3170259/">Waidbruck</placeName>
             </desc>
          </event>
          <event from="1907-08-27" to="1907-08-27">
             <desc>
-               <placeName ref="">Sankt Ullrich Wolkenstein</placeName>
+               <placeName ref="http://www.geonames.org/3171891/">Ulrich</placeName>
             </desc>
          </event>
          <event from="1907-08-28" to="1907-08-28">
@@ -6495,7 +6313,7 @@
          </event>
          <event from="1907-09-08" to="1907-09-08">
             <desc>
-               <placeName ref="">St.Wallentin</placeName>
+               <placeName ref="">St. Wallentin</placeName>
             </desc>
          </event>
          <event from="1907-09-09" to="1907-09-09">
@@ -6533,44 +6351,35 @@
                <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
             </desc>
          </event>
-         <event from="1907-09-12" to="1907-09-12">
+         <event from="1907-10-02" to="1907-10-02">
             <desc>
-               <placeName ref="">Wien. 2.10.Wien</placeName>
+               <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
          </event>
-         <event from="1907-09-12" to="1907-09-12">
+         <event from="1907-10-03" to="1907-10-03">
             <desc>
-               <placeName ref="">Puchberg 3.10.Puchberg</placeName>
+               <placeName ref="">Puchberg</placeName>
             </desc>
+            <note>Baumgartnerhaus</note>
          </event>
-         <event from="1907-09-12" to="1907-09-12">
-            <desc>
-               <placeName ref="">Baumgartnerhaus</placeName>
-            </desc>
-         </event>
-         <event from="1907-09-12" to="1907-09-12">
+         <event from="1907-10-03" to="1907-10-03">
             <desc>
                <placeName ref="http://www.geonames.org/2769182/">Payerbach</placeName>
             </desc>
          </event>
-         <event from="1907-09-12" to="1907-09-12">
+         <event from="1907-10-03" to="1907-10-03">
             <desc>
                <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
             </desc>
          </event>
-         <event from="1907-13-12" to="1907-13-12">
+         <event from="1907-10-12" to="1907-10-13">
             <desc>
-               <placeName ref="">10.Rodaun. 26.10.Wien</placeName>
+               <placeName ref="http://www.geonames.org/2767332/">Rodaun</placeName>
             </desc>
          </event>
-         <event from="1907-13-12" to="1907-13-12">
+         <event from="1907-10-26" to="1907-10-28">
             <desc>
-               <placeName ref="">Semmering. 27.10.Semmering. 28.10.Semmering</placeName>
-            </desc>
-         </event>
-         <event from="1907-13-12" to="1907-13-12">
-            <desc>
-               <placeName ref="http://www.geonames.org/2761369/">Wien</placeName>
+               <placeName ref="http://www.geonames.org/2765171/">Semmering</placeName>
             </desc>
          </event>
          <event from="1908-02-04" to="1908-02-22">
@@ -6585,24 +6394,14 @@
          </event>
          <event from="1908-04-25" to="1908-04-25">
             <desc>
-               <placeName ref="">Riva. 26</placeName>
+               <placeName ref="http://www.geonames.org/3169272/">Riva</placeName>
             </desc>
          </event>
-         <event from="1908-04-25" to="1908-04-25">
+         <event from="1908-04-26" to="1908-04-29">
             <desc>
-               <placeName ref="">29.Riva</placeName>
+               <placeName ref="http://www.geonames.org/3169272/">Riva</placeName>
             </desc>
             <note>Gardasee</note>
-         </event>
-         <event from="1908-04-25" to="1908-04-25">
-            <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1908-04-25" to="1908-04-25">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1908-04-30" to="1908-04-30">
             <desc>
@@ -6642,7 +6441,7 @@
          </event>
          <event from="1908-05-11" to="1908-05-11">
             <desc>
-               <placeName ref="">Starmbergersee</placeName>
+               <placeName ref="http://www.geonames.org/2829454/">Starnberger See</placeName>
             </desc>
          </event>
          <event from="1908-05-11" to="1908-05-11">
@@ -6652,7 +6451,7 @@
          </event>
          <event from="1908-05-11" to="1908-05-11">
             <desc>
-               <placeName ref="">Garmisch</placeName>
+               <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1908-05-11" to="1908-05-11">
@@ -6682,12 +6481,12 @@
          </event>
          <event from="1908-05-12" to="1908-05-12">
             <desc>
-               <placeName ref="">Kochlsee</placeName>
+               <placeName ref="http://www.geonames.org/2886920/">Kochelsee</placeName>
             </desc>
          </event>
          <event from="1908-05-12" to="1908-05-12">
             <desc>
-               <placeName ref="">lsarthal</placeName>
+               <placeName ref="">Isarthal</placeName>
             </desc>
          </event>
          <event from="1908-06-19" to="1908-06-19">
@@ -6719,7 +6518,7 @@
          </event>
          <event from="1908-06-22" to="1908-06-22">
             <desc>
-               <placeName ref="">lnnsbruck</placeName>
+               <placeName ref="http://www.geonames.org/2775220/">Innsbruck</placeName>
             </desc>
          </event>
          <event from="1908-06-23" to="1908-06-23">
@@ -6760,7 +6559,7 @@
          </event>
          <event from="1908-08-04" to="1908-08-04">
             <desc>
-               <placeName ref="">Weislahnbad</placeName>
+               <placeName ref="http://www.geonames.org/3182539/">Weißlahnbad</placeName>
             </desc>
          </event>
          <event from="1908-05-05" to="1908-05-05">
@@ -6785,17 +6584,17 @@
          </event>
          <event from="1908-09-03" to="1908-09-03">
             <desc>
-               <placeName ref="">San Martino</placeName>
+               <placeName ref="http://www.geonames.org/3168019/">Martino</placeName>
             </desc>
          </event>
          <event from="1908-09-04" to="1908-09-04">
             <desc>
-               <placeName ref="">San Martino</placeName>
+               <placeName ref="http://www.geonames.org/3168019/">Martino</placeName>
             </desc>
          </event>
          <event from="1908-09-05" to="1908-09-05">
             <desc>
-               <placeName ref="">San Martino</placeName>
+               <placeName ref="http://www.geonames.org/3168019/">Martino</placeName>
             </desc>
          </event>
          <event from="1908-09-05" to="1908-09-05">
@@ -6808,11 +6607,6 @@
                <placeName ref="http://www.geonames.org/3181913/">Bozen</placeName>
             </desc>
             <note>Gries</note>
-         </event>
-         <event from="1908-09-06" to="1908-09-06">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1908-09-06" to="1908-09-06">
             <desc>
@@ -6859,16 +6653,11 @@
                <placeName ref="http://www.geonames.org/2780428/">Edlach</placeName>
             </desc>
          </event>
-         <event from="1908-09-26" to="1908-09-26">
+         <event from="1908-10-06" to="1908-10-06">
             <desc>
-               <placeName ref="">Wien. 6.10.Wien Edlach. 7.10.Edlach</placeName>
+               <placeName ref="http://www.geonames.org/2780428/">Edlach</placeName>
             </desc>
             <note>Nasswald</note>
-         </event>
-         <event from="1908-09-26" to="1908-09-26">
-            <desc>
-               <placeName ref=""/>
-            </desc>
          </event>
          <event from="1908-09-26" to="1908-09-26">
             <desc>
@@ -6929,17 +6718,17 @@
          </event>
          <event from="1909-05-10" to="1909-05-13">
             <desc>
-               <placeName ref="">Edlach (</placeName>
+               <placeName ref="http://www.geonames.org/2780428/">Edlach</placeName>
             </desc>
          </event>
          <event from="1909-05-12" to="1909-05-12">
             <desc>
-               <placeName ref="">Semmering)</placeName>
+               <placeName ref="http://www.geonames.org/2765171/">Semmering</placeName>
             </desc>
          </event>
          <event from="1909-04-01" to="1909-06-20">
             <desc>
-               <placeName ref="">St.Gilgen</placeName>
+               <placeName ref="http://www.geonames.org/2766683/">St. Gilgen</placeName>
             </desc>
          </event>
          <event from="1909-06-30" to="1909-08-21">
@@ -6984,7 +6773,7 @@
          </event>
          <event from="1909-08-30" to="1909-08-30">
             <desc>
-               <placeName ref="">NeuSchwanstein</placeName>
+               <placeName ref="http://www.geonames.org/2864198/">Neuschwanstein</placeName>
             </desc>
          </event>
          <event from="1909-11-11" to="1909-11-14">
@@ -7002,15 +6791,12 @@
                <placeName ref="http://www.geonames.org/2935022/">Dresden</placeName>
             </desc>
          </event>
-         <event from="1910-00-02" to="1910-01-23">
+         <event from="1910-01-20" to="1910-01-23">
             <desc>
-               <placeName ref="">Dresden (</placeName>
+               <placeName ref="http://www.geonames.org/2935022/">Dresden</placeName>
             </desc>
-         </event>
-         <event from="1910-01-22" to="1910-01-22">
-            <desc>
-               <placeName ref="">Uraufführung "Pierrette")</placeName>
-            </desc>
+            <note>22.1.Uraufführung "Pierret-
+               te"</note>
          </event>
          <event from="1910-02-08" to="1910-02-10">
             <desc>
@@ -7153,7 +6939,7 @@
          </event>
          <event from="1910-07-28" to="1910-07-28">
             <desc>
-               <placeName ref="">Kirchberg</placeName>
+               <placeName ref="http://www.geonames.org/2774405/">Kirchberg am W.</placeName>
             </desc>
          </event>
          <event from="1910-07-28" to="1910-07-28">
@@ -7183,12 +6969,12 @@
          </event>
          <event from="1910-00-02" to="1910-08-25">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1910-08-26" to="1910-08-26">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1910-08-26" to="1910-08-26">
@@ -7264,12 +7050,12 @@
          </event>
          <event from="1910-09-17" to="1910-09-17">
             <desc>
-               <placeName ref="">Bibrich</placeName>
+               <placeName ref="http://www.geonames.org/2949235/">Biebrich</placeName>
             </desc>
          </event>
          <event from="1910-09-17" to="1910-09-17">
             <desc>
-               <placeName ref="">Rüdesheim)</placeName>
+               <placeName ref="http://www.geonames.org/2843395/">Rüdesheim</placeName>
             </desc>
          </event>
          <event from="1910-09-18" to="1910-09-18">
@@ -7311,13 +7097,10 @@
          </event>
          <event from="1910-12-10" to="1910-12-10">
             <desc>
-               <placeName ref="">München ("Letzte Masken"</placeName>
+               <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
-         </event>
-         <event from="1910-12-10" to="1910-12-10">
-            <desc>
-               <placeName ref="">"Literatur" Comtesse Mizi")</placeName>
-            </desc>
+            <note>"Letzte Masken", "Literatur"
+               Comtesse Mizi"</note>
          </event>
          <event from="1910-12-11" to="1910-12-11">
             <desc>
@@ -7326,12 +7109,12 @@
          </event>
          <event from="1910-12-11" to="1910-12-11">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1910-12-12" to="1910-12-12">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1911-04-02" to="1911-01-27">
@@ -7365,24 +7148,20 @@
                <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
          </event>
-         <event from="1911-02-02" to="1911-02-28">
+         <event from="1911-02-22" to="1911-02-28">
             <desc>
-               <placeName ref="">Berlin. (am</placeName>
+               <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
-         </event>
-         <event from="1911-02-23" to="1911-02-23">
-            <desc>
-               <placeName ref="">Konzert von Olga Schnitzler)</placeName>
-            </desc>
+            <note>am 23.2. Konzert von Olga Schnitzler</note>
          </event>
          <event from="1911-04-11" to="1911-04-13">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1911-04-13" to="1911-04-13">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1911-04-13" to="1911-04-13">
@@ -7422,7 +7201,7 @@
          </event>
          <event from="1911-04-13" to="1911-04-13">
             <desc>
-               <placeName ref="">Protofino</placeName>
+               <placeName ref="http://www.geonames.org/3170092/">Portofino</placeName>
             </desc>
          </event>
          <event from="1911-04-13" to="1911-04-13">
@@ -7447,7 +7226,7 @@
          </event>
          <event from="1911-04-17" to="1911-04-17">
             <desc>
-               <placeName ref="">Cap Martin</placeName>
+               <placeName ref="http://www.geonames.org/2982876/">Cap Martino</placeName>
             </desc>
          </event>
          <event from="1911-04-19" to="1911-04-19">
@@ -7497,11 +7276,6 @@
          </event>
          <event from="1911-04-27" to="1911-04-27">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1911-04-27" to="1911-04-27">
-            <desc>
                <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
@@ -7513,11 +7287,6 @@
          <event from="1911-05-01" to="1911-05-01">
             <desc>
                <placeName ref="http://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
-            </desc>
-         </event>
-         <event from="1911-05-01" to="1911-05-01">
-            <desc>
-               <placeName ref=""/>
             </desc>
          </event>
          <event from="1911-05-01" to="1911-05-01">
@@ -7577,14 +7346,9 @@
             </desc>
             <note>Berchtesgaden,Gilgen, Lueg</note>
          </event>
-         <event from="1911-05-02" to="1911-07-28">
+         <event from="1911-07-25" to="1911-07-29">
             <desc>
-               <placeName ref="">Sankt Gilgen</placeName>
-            </desc>
-         </event>
-         <event from="1911-07-29" to="1911-07-29">
-            <desc>
-               <placeName ref="">Sankt Gilgen</placeName>
+               <placeName ref="http://www.geonames.org/2766683/">St. Gilgen</placeName>
             </desc>
          </event>
          <event from="1911-07-29" to="1911-07-29">
@@ -7662,53 +7426,30 @@
          </event>
          <event from="1911-11-06" to="1911-11-10">
             <desc>
-               <placeName ref="">Hamburg (</placeName>
+               <placeName ref="http://www.geonames.org/2911298/">Hamburg</placeName>
             </desc>
+            <note>6.11. Weites Land,7.11.Beatrico,8.11.Anatol</note>
          </event>
-         <event from="1911-11-06" to="1911-11-06">
+         <event from="1911-11-09" to="1911-11-09">
             <desc>
-               <placeName ref="">Weites Land</placeName>
-            </desc>
-         </event>
-         <event from="1911-11-07" to="1911-11-07">
-            <desc>
-               <placeName ref="">Beatrico</placeName>
-            </desc>
-         </event>
-         <event from="1911-11-08" to="1911-11-08">
-            <desc>
-               <placeName ref="">Anatol) (</placeName>
+               <placeName ref="http://www.geonames.org/2875601/">Lübeck</placeName>
             </desc>
          </event>
          <event from="1911-11-09" to="1911-11-09">
             <desc>
-               <placeName ref="">Lübeck und Travemünde</placeName>
+               <placeName ref="http://www.geonames.org/2821480/">Travemünde</placeName>
             </desc>
          </event>
          <event from="1911-11-10" to="1911-11-10">
             <desc>
-               <placeName ref="">Blankenese)</placeName>
-            </desc>
-         </event>
-         <event from="1911-01-01" to="1911-11-13">
-            <desc>
-               <placeName ref="">München (</placeName>
-            </desc>
-         </event>
-         <event from="1911-11-12" to="1911-11-12">
-            <desc>
-               <placeName ref="">Das weite Land)</placeName>
+               <placeName ref="http://www.geonames.org/2948066/">Blankenese</placeName>
             </desc>
          </event>
          <event from="1911-11-13" to="1911-11-13">
             <desc>
                <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
-         </event>
-         <event from="1911-11-13" to="1911-11-13">
-            <desc>
-               <placeName ref=""/>
-            </desc>
+            <note>12.11. Das weite Land</note>
          </event>
          <event from="1911-11-13" to="1911-11-13">
             <desc>
@@ -7780,7 +7521,7 @@
          </event>
          <event from="1912-05-20" to="1912-05-20">
             <desc>
-               <placeName ref="">Ausflug Padua</placeName>
+               <placeName ref="http://www.geonames.org/3171728/">Padua</placeName>
             </desc>
          </event>
          <event from="1912-05-21" to="1912-05-21">
@@ -7800,19 +7541,11 @@
          </event>
          <event from="1912-06-14" to="1912-06-14">
             <desc>
-               <placeName ref="">Prag ("Der einsame Weg"</placeName>
+               <placeName ref="http://www.geonames.org/3067696/">Prag</placeName>
             </desc>
-         </event>
-         <event from="1912-06-14" to="1912-06-14">
-            <desc>
-               <placeName ref="">12.Vorstellung im S</placeName>
-            </desc>
-         </event>
-         <event from="1912-06-14" to="1912-06-14">
-            <desc>
-               <placeName ref="">Zyklus)</placeName>
-            </desc>
-         </event>
+            <note>"Der einsame Weg",12.Vorstellung im
+               S.-Zyklus</note>
+         </event>     
          <event from="1912-07-08" to="1912-07-09">
             <desc>
                <placeName ref="http://www.geonames.org/2765816/">Schneeberg</placeName>
@@ -7911,13 +7644,9 @@
          </event>
          <event from="1912-11-24" to="1912-12-01">
             <desc>
-               <placeName ref="">Berlin. (</placeName>
+               <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
-         </event>
-         <event from="1912-12-28" to="1912-12-28">
-            <desc>
-               <placeName ref="">Premiere "Bernhardi")</placeName>
-            </desc>
+            <note>28.12. Premiere "Bernhardi"</note>
          </event>
          <event from="1913-01-01" to="1913-01-14">
             <desc>
@@ -7995,7 +7724,7 @@
          </event>
          <event from="1913-08-26" to="1913-09-03">
             <desc>
-               <placeName ref="">Sankt Moritz</placeName>
+               <placeName ref="http://www.geonames.org/2658813/">St. Moritz</placeName>
             </desc>
          </event>
          <event from="1913-09-04" to="1913-09-11">
@@ -8005,7 +7734,7 @@
          </event>
          <event from="1913-09-30" to="1913-10-02">
             <desc>
-               <placeName ref="">Neuhas bei Baden</placeName>
+               <placeName ref="http://www.geonames.org/2770778/">Neuhaus</placeName>
             </desc>
          </event>
          <event from="1913-05-01" to="1913-09-16">
@@ -8029,14 +7758,10 @@
                <placeName ref="http://www.geonames.org/2849483/">Regensburg</placeName>
             </desc>
          </event>
-         <event from="1914-01-25" to="1914-01-25">
+
+         <event from="1914-01-25" to="1914-02-01">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1914-01-25" to="1914-01-25">
-            <desc>
-               <placeName ref="">1.2 München</placeName>
+               <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
          </event>
          <event from="1914-02-01" to="1914-02-03">
@@ -8064,66 +7789,64 @@
             <desc>
                <placeName ref="http://www.geonames.org/3176219/">Genua</placeName>
             </desc>
-            <note>Abreise mit dem "York".</note>
-         </event>
-         <event from="1914-05-12" to="1914-05-13">
-            <desc>
-               <placeName ref="">(</placeName>
-            </desc>
-         </event>
-         <event from="1914-05-14" to="1914-05-14">
-            <desc>
-               <placeName ref="">Meerfahrt.)</placeName>
-            </desc>
+            <note>Abreise mit dem "York". 14.5. Meerfahrt</note>
          </event>
          <event from="1914-05-15" to="1914-05-15">
             <desc>
                <placeName ref="http://www.geonames.org/2507480/">Algier</placeName>
             </desc>
-         </event>
-         <event from="1914-05-15" to="1914-05-15">
-            <desc>
-               <placeName ref="">(</placeName>
-            </desc>
-         </event>
-         <event from="1914-05-16" to="1914-05-16">
-            <desc>
-               <placeName ref="">Meer an Gibraltar vorbei)</placeName>
-            </desc>
+            <note>16.5. Meer an Gibraltar vorbei</note>
          </event>
          <event from="1914-05-17" to="1914-05-17">
             <desc>
-               <placeName ref="">Lissabon. (</placeName>
+               <placeName ref="http://www.geonames.org/2267057/">Lissabon</placeName>
             </desc>
-         </event>
-         <event from="1914-05-18" to="1914-05-19">
-            <desc>
-               <placeName ref="">Meer.)</placeName>
-            </desc>
+            <note>18. und 19. auf dem Meer</note>
          </event>
          <event from="1914-05-20" to="1914-05-20">
             <desc>
-               <placeName ref="">Southhampton</placeName>
+               <placeName ref="http://www.geonames.org/2637487/">Southampton</placeName>
             </desc>
          </event>
          <event from="1914-05-21" to="1914-05-21">
             <desc>
-               <placeName ref="">Antwerpen. (</placeName>
+               <placeName ref="http://www.geonames.org/2803138/">Antwerpen</placeName>
             </desc>
          </event>
-         <event from="1914-05-22" to="1914-05-22">
+         <note>22.5. auf dem Meer</note>
+         <event from="1914-05-23" to="1914-05-27">
             <desc>
-               <placeName ref="">Meer.)</placeName>
+               <placeName ref="http://www.geonames.org/2759794/">Amsterdam</placeName>
             </desc>
          </event>
-         <event from="1914-03-02" to="1914-05-27">
+         <event from="1914-05-25" to="1914-05-25">
             <desc>
-               <placeName ref="">Amsterdam 25.Haag und Scheveningen</placeName>
+               <placeName ref="http://www.geonames.org/2747373/">Haag</placeName>
             </desc>
          </event>
-         <event from="1914-03-02" to="1914-05-27">
+         <event from="1914-05-25" to="1914-05-25">
             <desc>
-               <placeName ref="">26. Harlem und Sandford.27.Utrecht. 29.und 30.Köln</placeName>
+               <placeName ref="http://www.geonames.org/2747599/">Scheveningen</placeName>
+            </desc>
+         </event>
+         <event from="1914-05-26" to="1914-05-26">
+            <desc>
+               <placeName ref="">Harlem</placeName>
+            </desc>
+         </event>
+         <event from="1914-05-26" to="1914-05-26">
+            <desc>
+               <placeName ref="">Sandford</placeName>
+            </desc>
+         </event>
+         <event from="1914-05-27" to="1914-05-27">
+            <desc>
+               <placeName ref="http://www.geonames.org/2745912/">Utrecht</placeName>
+            </desc>
+         </event>
+         <event from="1914-05-29" to="1914-05-30">
+            <desc>
+               <placeName ref="http://www.geonames.org/2886242/">Köln</placeName>
             </desc>
          </event>
          <event from="1914-05-31" to="1914-06-06">
@@ -8133,9 +7856,9 @@
          </event>
          <event from="1914-07-14" to="1914-07-14">
             <desc>
-               <placeName ref="">Wien Waidhofen</placeName>
+               <placeName ref="http://www.geonames.org/2762077/">Waidhofen</placeName>
             </desc>
-            <note>Bahn</note>
+            <note>von Wien, Bahn</note>
          </event>
          <event from="1914-07-15" to="1914-07-15">
             <desc>
@@ -8149,17 +7872,12 @@
          </event>
          <event from="1914-07-15" to="1914-07-15">
             <desc>
-               <placeName ref="">Weixlboden</placeName>
+               <placeName ref="">Weiselboden</placeName>
             </desc>
          </event>
          <event from="1914-07-15" to="1914-07-15">
             <desc>
-               <placeName ref="">Maria</placeName>
-            </desc>
-         </event>
-         <event from="1914-07-15" to="1914-07-15">
-            <desc>
-               <placeName ref="">Zell</placeName>
+               <placeName ref="http://www.geonames.org/2771893/">Mariazell</placeName>
             </desc>
             <note>Auto</note>
          </event>
@@ -8200,7 +7918,7 @@
          </event>
          <event from="1914-07-23" to="1914-08-08">
             <desc>
-               <placeName ref="">nach Celerina</placeName>
+               <placeName ref="http://www.geonames.org/2661241/">Celerina</placeName>
             </desc>
          </event>
          <event from="1914-08-08" to="1914-08-15">
@@ -8265,7 +7983,7 @@
          </event>
          <event from="1914-08-31" to="1914-08-31">
             <desc>
-               <placeName ref="">Sankt Gilgen</placeName>
+               <placeName ref="http://www.geonames.org/2766683/">St. Gilgen</placeName>
             </desc>
          </event>
          <event from="1914-08-31" to="1914-08-31">
@@ -8275,7 +7993,7 @@
          </event>
          <event from="1914-08-21" to="1914-09-01">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
          <event from="1914-01-02" to="1914-10-28">
@@ -8377,8 +8095,9 @@
          </event>
          <event from="1917-05-14" to="1917-05-16">
             <desc>
-               <placeName ref="">Salzburg (Rückreise wegen des Todes von Stefanie Bachrach)</placeName>
+               <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
             </desc>
+            <note>Rückreise wegen des Todes von Stefanie Bachrach</note>
          </event>
          <event from="1917-06-04" to="1917-06-22">
             <desc>
@@ -8462,12 +8181,7 @@
             </desc>
             <note>mit Lili Schnitzler</note>
          </event>
-         <event from="1920-06-21" to="1920-06-24">
-            <desc>
-               <placeName ref="">26</placeName>
-            </desc>
-         </event>
-         <event from="1920-07-07" to="1920-07-27">
+         <event from="1920-07-26" to="1920-07-27">
             <desc>
                <placeName ref="http://www.geonames.org/2767773/">Reichenau</placeName>
             </desc>
@@ -8529,7 +8243,12 @@
          </event>
          <event from="1921-06-20" to="1921-06-20">
             <desc>
-               <placeName ref="">Salzburg München</placeName>
+               <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
+            </desc>
+         </event>
+         <event from="1921-06-20" to="1921-06-20">
+            <desc>
+               <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
          </event>
          <event from="1921-06-20" to="1921-06-27">
@@ -8545,7 +8264,7 @@
          </event>
          <event from="1921-07-11" to="1921-07-11">
             <desc>
-               <placeName ref="">Kreuzberg bei Payerbach</placeName>
+               <placeName ref="http://www.geonames.org/2773510/">Kreuzberg</placeName>
             </desc>
          </event>
          <event from="1921-07-26" to="1921-08-24">
@@ -8589,9 +8308,14 @@
             </desc>
             <note>auch Prasch</note>
          </event>
-         <event from="1921-00-02" to="1921-09-22">
+         <event from="1921-09-20" to="1921-09-22">
             <desc>
-               <placeName ref="">Kreuzberg bei Payerbach. 11.10. Zögersdorf</placeName>
+               <placeName ref="http://www.geonames.org/2773510/">Kreuzberg</placeName>
+            </desc>
+         </event>
+         <event from="1921-10-11" to="1921-10-11">
+            <desc>
+               <placeName ref="">Zögersdorf</placeName>
             </desc>
             <note>Jagdhaus F.S.</note>
          </event>
@@ -8611,24 +8335,19 @@
                <placeName ref="http://www.geonames.org/2747891/">Rotterdam</placeName>
             </desc>
          </event>
-         <event from="1922-04-26" to="1922-04-26">
+         <event from="1922-04-28" to="1922-04-30">
             <desc>
-               <placeName ref="">28</placeName>
+               <placeName ref="http://www.geonames.org/2759794/">Amsterdam</placeName>
             </desc>
          </event>
-         <event from="1922-04-26" to="1922-04-26">
-            <desc>
-               <placeName ref="">30.4 Amsterdam</placeName>
-            </desc>
-         </event>
-         <event from="1922-04-26" to="1922-04-26">
+         <event from="1922-04-28" to="1922-04-30">
             <desc>
                <placeName ref="">Zuidersee</placeName>
             </desc>
          </event>
          <event from="1922-05-01" to="1922-05-01">
             <desc>
-               <placeName ref="">Leyden</placeName>
+               <placeName ref="http://www.geonames.org/2751773/">Leiden</placeName>
             </desc>
          </event>
          <event from="1922-05-02" to="1922-05-02">
@@ -8648,12 +8367,12 @@
          </event>
          <event from="1922-05-06" to="1922-05-08">
             <desc>
-               <placeName ref="">Osterbeck (</placeName>
+               <placeName ref="">Osterbeck</placeName>
             </desc>
          </event>
          <event from="1922-05-07" to="1922-05-07">
             <desc>
-               <placeName ref="">Nymwegen)</placeName>
+               <placeName ref="http://www.geonames.org/2750053/">Nymwegen</placeName>
             </desc>
          </event>
          <event from="1922-05-09" to="1922-05-14">
@@ -8669,12 +8388,12 @@
          </event>
          <event from="1922-05-16" to="1922-05-19">
             <desc>
-               <placeName ref="">München (</placeName>
+               <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
          </event>
          <event from="1922-05-17" to="1922-05-17">
             <desc>
-               <placeName ref="">Possenhofen)</placeName>
+               <placeName ref="http://www.geonames.org/2852520/">Possenhofen</placeName>
             </desc>
          </event>
          <event from="1922-06-08" to="1922-06-11">
@@ -8692,11 +8411,7 @@
             <desc>
                <placeName ref="http://www.geonames.org/6269268/http://www.geonames.org/2766441/">St. Peter</placeName>
             </desc>
-         </event>
-         <event from="1922-07-06" to="1922-07-06">
-            <desc>
-               <placeName ref="">Corona</placeName>
-            </desc>
+            <note>Corona</note>
          </event>
          <event from="1922-07-19" to="1922-07-19">
             <desc>
@@ -8723,14 +8438,9 @@
                <placeName ref="http://www.geonames.org/2927464/">Feldafing</placeName>
             </desc>
          </event>
-         <event from="1922-08-07" to="1922-08-07">
+         <event from="1922-08-07" to="1922-08-09">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1922-08-07" to="1922-08-07">
-            <desc>
-               <placeName ref="">9.8 München</placeName>
+               <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
          </event>
          <event from="1922-08-09" to="1922-09-15">
@@ -8759,14 +8469,19 @@
             </desc>
             <note>mit Lili Schnitzler</note>
          </event>
-         <event from="1922-09-15" to="1922-09-15">
+         <event from="1922-10-24" to="1922-10-24">
             <desc>
-               <placeName ref="">. 24.10. Brünn 25.10</placeName>
+               <placeName ref="http://www.geonames.org/3078610/">Brünn</placeName>
             </desc>
          </event>
-         <event from="1922-09-15" to="1922-09-15">
+         <event from="1922-10-25" to="1922-10-31">
             <desc>
-               <placeName ref="">31.10 Prag 31.10.Aussig</placeName>
+               <placeName ref="http://www.geonames.org/3067696/">Prag</placeName>
+            </desc>
+         </event>
+         <event from="1922-10-31" to="1922-10-31">
+            <desc>
+               <placeName ref="http://www.geonames.org/2953927/">Aussig</placeName>
             </desc>
          </event>
          <event from="1922-11-02" to="1922-11-02">
@@ -8781,7 +8496,7 @@
          </event>
          <event from="1922-11-05" to="1922-11-05">
             <desc>
-               <placeName ref="">Ausssig</placeName>
+               <placeName ref="http://www.geonames.org/2953927/">Aussig</placeName>
             </desc>
             <note>Vorlesungsreise</note>
          </event>
@@ -8792,7 +8507,7 @@
          </event>
          <event from="1923-04-16" to="1923-04-18">
             <desc>
-               <placeName ref="">Pressburg</placeName>
+               <placeName ref="http://www.geonames.org/3060972/">Preßburg</placeName>
             </desc>
             <note>Aufführung "Weites Land"</note>
          </event>
@@ -8828,12 +8543,12 @@
          </event>
          <event from="1923-05-20" to="1923-05-20">
             <desc>
-               <placeName ref="">Salsjöbaden</placeName>
+               <placeName ref="http://www.geonames.org/2680460/">Saltsjöbaden</placeName>
             </desc>
          </event>
          <event from="1923-05-21" to="1923-05-21">
             <desc>
-               <placeName ref="">Drontingholm</placeName>
+               <placeName ref="http://www.geonames.org/2717198/">Drottningholm</placeName>
             </desc>
          </event>
          <event from="1923-04-02" to="1923-05-27">
@@ -8909,11 +8624,6 @@
          </event>
          <event from="1923-08-14" to="1923-08-14">
             <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1923-08-14" to="1923-08-14">
-            <desc>
                <placeName ref="http://www.geonames.org/2820256/">Ulm</placeName>
             </desc>
          </event>
@@ -8959,7 +8669,7 @@
          </event>
          <event from="1923-08-17" to="1923-08-17">
             <desc>
-               <placeName ref="">Cellerina</placeName>
+               <placeName ref="http://www.geonames.org/2661241/">Celerina</placeName>
             </desc>
          </event>
          <event from="1923-08-18" to="1923-08-18">
@@ -8969,12 +8679,12 @@
          </event>
          <event from="1923-08-18" to="1923-08-18">
             <desc>
-               <placeName ref="">Cellerina</placeName>
+               <placeName ref="http://www.geonames.org/2661241/">Celerina</placeName>
             </desc>
          </event>
          <event from="1923-08-18" to="1923-09-03">
             <desc>
-               <placeName ref="">Cellerina</placeName>
+               <placeName ref="http://www.geonames.org/2661241/">Celerina</placeName>
             </desc>
          </event>
          <event from="1923-09-03" to="1923-09-05">
@@ -9019,7 +8729,7 @@
          </event>
          <event from="1923-09-11" to="1923-09-11">
             <desc>
-               <placeName ref="">Constanz</placeName>
+               <placeName ref="http://www.geonames.org/2885679/">Konstanz</placeName>
             </desc>
          </event>
          <event from="1923-09-14" to="1923-09-14">
@@ -9064,7 +8774,7 @@
          </event>
          <event from="1924-08-07" to="1924-08-07">
             <desc>
-               <placeName ref="">Cellerina</placeName>
+               <placeName ref="http://www.geonames.org/2661241/">Celerina</placeName>
             </desc>
          </event>
          <event from="1924-08-22" to="1924-08-22">
@@ -9074,7 +8784,7 @@
          </event>
          <event from="1924-08-22" to="1924-08-22">
             <desc>
-               <placeName ref="">Cellerina</placeName>
+               <placeName ref="http://www.geonames.org/2661241/">Celerina</placeName>
             </desc>
          </event>
          <event from="1924-08-22" to="1924-08-22">
@@ -9144,7 +8854,7 @@
          </event>
          <event from="1925-01-16" to="1925-01-16">
             <desc>
-               <placeName ref="">St.Gallen</placeName>
+               <placeName ref="http://www.geonames.org/2658822/">St. Gallen</placeName>
             </desc>
             <note>Vorlesung</note>
          </event>
@@ -9216,7 +8926,7 @@
          </event>
          <event from="1925-07-02" to="1925-07-02">
             <desc>
-               <placeName ref="">Grödnertal</placeName>
+               <placeName ref="http://www.geonames.org/3176313/">Grödner Thal</placeName>
             </desc>
          </event>
          <event from="1925-07-02" to="1925-07-02">
@@ -9231,7 +8941,7 @@
          </event>
          <event from="1925-08-06" to="1925-08-15">
             <desc>
-               <placeName ref="">Karerseee</placeName>
+               <placeName ref="http://www.geonames.org/3180522/">Karersee</placeName>
             </desc>
          </event>
          <event from="1925-08-15" to="1925-08-15">
@@ -9271,7 +8981,7 @@
          </event>
          <event from="1925-08-18" to="1925-08-29">
             <desc>
-               <placeName ref="">Cellerina</placeName>
+               <placeName ref="http://www.geonames.org/2661241/">Celerina</placeName>
             </desc>
          </event>
          <event from="1925-06-02" to="1925-08-29">
@@ -9306,7 +9016,7 @@
          </event>
          <event from="1925-09-08" to="1925-09-14">
             <desc>
-               <placeName ref="">Forte de Marmi</placeName>
+               <placeName ref="http://www.geonames.org/3176674/">Forte dei Marmi</placeName>
             </desc>
          </event>
          <event from="1925-04-01" to="1925-09-16">
@@ -9316,7 +9026,7 @@
          </event>
          <event from="1925-07-01" to="1925-09-20">
             <desc>
-               <placeName ref="">Venedig. 21</placeName>
+               <placeName ref="http://www.geonames.org/3164603/">Venedig</placeName>
             </desc>
          </event>
          <event from="1925-12-09" to="1925-10-20">
@@ -9348,11 +9058,6 @@
          <event from="1926-04-24" to="1926-04-24">
             <desc>
                <placeName ref="http://www.geonames.org/2267057/">Lissabon</placeName>
-            </desc>
-         </event>
-         <event from="1926-04-24" to="1926-04-24">
-            <desc>
-               <placeName ref=""/>
             </desc>
          </event>
          <event from="1926-04-26" to="1926-04-26">
@@ -9403,7 +9108,7 @@
          </event>
          <event from="1926-08-16" to="1926-08-16">
             <desc>
-               <placeName ref="">Vermala</placeName>
+               <placeName ref="http://www.geonames.org/11611722/">Montana Vermala</placeName>
             </desc>
          </event>
          <event from="1926-08-16" to="1926-08-16">
@@ -9418,7 +9123,12 @@
          </event>
          <event from="1926-08-19" to="1926-08-19">
             <desc>
-               <placeName ref="">GornerGrat</placeName>
+               <placeName ref="">Gorner</placeName>
+            </desc>
+         </event>
+         <event from="1926-08-19" to="1926-08-19">
+            <desc>
+               <placeName ref="">Grat</placeName>
             </desc>
          </event>
          <event from="1926-08-26" to="1926-08-26">
@@ -9453,22 +9163,12 @@
          </event>
          <event from="1926-09-07" to="1926-09-07">
             <desc>
-               <placeName ref="">Rigi</placeName>
+               <placeName ref="http://www.geonames.org/2659026/">Kaltbad</placeName>
             </desc>
          </event>
          <event from="1926-09-11" to="1926-09-11">
             <desc>
-               <placeName ref="">Burgenstock</placeName>
-            </desc>
-         </event>
-         <event from="" to="">
-            <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="" to="">
-            <desc>
-               <placeName ref=""/>
+               <placeName ref="http://www.geonames.org/2661320/">Bürgenstock</placeName>
             </desc>
          </event>
          <event from="" to="">
@@ -9559,6 +9259,7 @@
                <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
          </event>
+         </listEvent>
       </div>
    </body>
 </text>

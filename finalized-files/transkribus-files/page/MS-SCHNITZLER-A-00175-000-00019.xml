@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:32.134+02:00</Created>
-        <LastChange>2022-07-18T10:19:57.202+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195865" pageNr="10" tsid="91049356" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=GQQBJWKAOAPFOBMCKAPBEWAQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YXWVPLZKJUXKULSKTVWEEBRG" imageId="35435099"/>
+        <LastChange>2022-07-20T11:15:41.904+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195865" pageNr="10" tsid="91121174" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=GQQBJWKAOAPFOBMCKAPBEWAQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TTCQNWFPBTVDAOQILEINSUAV" imageId="35435099"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00019.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304877000" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171284" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="region_1657611146688_117"/>
             </OrderedGroup>
@@ -279,7 +279,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>4.u.5.7. Hamburg (Blankenese</Unicode>
+                    <Unicode>4.u.5.7. Hamburg (Blankenese)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l15" custom="readingOrder {index:13;}">
@@ -367,7 +367,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>9.7.Stavanger.</Unicode>
+                    <Unicode>9.7.Stavanger</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l19" custom="readingOrder {index:17;}">
@@ -464,11 +464,11 @@ dorf. (Bic.)&#13;
 14.6.Reichenau.&#13;
 20. 6.Reichenau.28.6.Guttenstein.&#13;
 3.7.Wien-Hamburg&#13;
-4.u.5.7. Hamburg (Blankenese&#13;
+4.u.5.7. Hamburg (Blankenese)&#13;
 6.7.Hamburg&#13;
 7.7. Hamburg, Lübeck.&#13;
 (Abend Abfahrt auf „Svere Sigurdson")&#13;
-9.7.Stavanger.&#13;
+9.7.Stavanger&#13;
 10 7.Ode (Lotefos)&#13;
 11.7. Bergen (mit Bahn Fossevangen)&#13;
 12.7. Fossevangen-Stahlheim,Nerotal,Gudvangen&#13;

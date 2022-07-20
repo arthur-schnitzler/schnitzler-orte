@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:31.134+02:00</Created>
-        <LastChange>2022-07-19T15:51:59.957+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195856" pageNr="4" tsid="91106845" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ADTVDYUMFPHHJCCTJZKSEBJV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JHCIAOQZMIKVXYRMUFFIBHMA" imageId="35435090"/>
+        <LastChange>2022-07-20T11:05:06.777+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195856" pageNr="4" tsid="91121014" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=ADTVDYUMFPHHJCCTJZKSEBJV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NBQAOSUANRZYYCLJBDVHONAC" imageId="35435090"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00008.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876863" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171156" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -44,7 +44,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>bruck. 28.8. Innsbruck-Ischl.29.8.-30.8. Ischl.</Unicode>
+                    <Unicode>28.8. Innsbruck-Ischl.29.8.-30.8. Ischl.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l2" custom="readingOrder {index:1;}">
@@ -88,7 +88,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1886. 28.3.-10.4.Meran.</Unicode>
+                    <Unicode>1886. 28.3.-10.4.Meran,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l4" custom="readingOrder {index:3;}">
@@ -163,7 +163,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>31.7.-6.9. Reichenau (mit einer Unterbrechung</Unicode>
+                    <Unicode>31.7.-6.9. Reichenau. (mit einer Unterbrechung</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l7" custom="readingOrder {index:6;}">
@@ -289,7 +289,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>baden. (Naturforscherversammlung). Frankfurt.</Unicode>
+                    <Unicode>baden. (Naturforscherversammlung) 17.9.-22.9.Frankfurt</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l13" custom="readingOrder {index:12;}">
@@ -302,7 +302,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>München.</Unicode>
+                    <Unicode>17.9.-22.9. München,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:13;}">
@@ -396,7 +396,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Paris,London.23.5.-20.7. London. 21.7.London-</Unicode>
+                    <Unicode>Paris,London.23.5.-20.7. London. 21.7.London,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:17;}">
@@ -421,7 +421,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Brighton.22.7.Brighton. 23.7.Brighton- Porth-</Unicode>
+                    <Unicode>Brighton.22.7.Brighton. 23.7.Brighton- Ports-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l19" custom="readingOrder {index:18;}">
@@ -555,24 +555,24 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
-                <Unicode>bruck. 28.8. Innsbruck-Ischl.29.8.-30.8. Ischl.&#13;
+                <Unicode>28.8. Innsbruck-Ischl.29.8.-30.8. Ischl.&#13;
 31. 8. Ischl-Wien.&#13;
-1886. 28.3.-10.4.Meran.&#13;
+1886. 28.3.-10.4.Meran,&#13;
 Reichenau (Pfingsten)&#13;
 18.5. Reichenau.&#13;
-31.7.-6.9. Reichenau (mit einer Unterbrechung&#13;
+31.7.-6.9. Reichenau. (mit einer Unterbrechung&#13;
 Ischl 8 Tage.)&#13;
 12.9.Reichenau.&#13;
 18.9. Reichenau.&#13;
 6.12.Reichenau.&#13;
 1887. 13.7.-15.8. Ischl. 17.9.-22.9.Wies-&#13;
-baden. (Naturforscherversammlung). Frankfurt.&#13;
-München.&#13;
+baden. (Naturforscherversammlung) 17.9.-22.9.Frankfurt&#13;
+17.9.-22.9. München,&#13;
 10.10.Reichenau&#13;
 1888. 5.4.-12.5.Berlin, 12.5.Dresden.13.5.Wien&#13;
 16.5. Reichenau. 20.5.Wien-Paris. 21.-22.5.&#13;
-Paris,London.23.5.-20.7. London. 21.7.London-&#13;
-Brighton.22.7.Brighton. 23.7.Brighton- Porth-&#13;
+Paris,London.23.5.-20.7. London. 21.7.London,&#13;
+Brighton.22.7.Brighton. 23.7.Brighton- Ports-&#13;
 mouth - Ryde - Ventnor. 24.7.Ventnor -&#13;
 Newport. 25.7.Newport-Cowes - Wright -London.&#13;
 26.7.-30.7.London.31.7.London-Dover-Ostende.&#13;

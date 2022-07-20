@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:30.595+02:00</Created>
-        <LastChange>2022-07-19T16:03:53.877+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195851" pageNr="1" tsid="91107241" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=KBXOBLCHGYKMFJLVOOLUZUMK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PMYEXCVQBETBKCVZWNUYRARW" imageId="35435085"/>
+        <LastChange>2022-07-20T10:52:47.997+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195851" pageNr="1" tsid="91120745" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=KBXOBLCHGYKMFJLVOOLUZUMK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BTRRPZPXRTRKROKAZYULPAOZ" imageId="35435085"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00005.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876568" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171096" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -219,7 +219,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Innsbruck,Achensee,Ampezzo,Landro,Lienz,Döl-</Unicode>
+                    <Unicode>Innsbruck,Achensee,Ampezzothal,Landro,Lienz,Döl-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:8;}">
@@ -232,7 +232,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>lach. Heiligenblut, Villach.</Unicode>
+                    <Unicode>lach, Heiligenblut, Villach.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l12" custom="readingOrder {index:9;}">
@@ -245,7 +245,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1877 21.7.-6.8. Fusch, Veldeser See.</Unicode>
+                    <Unicode>1877 21.7.-6.8. Fusch, Veldes (Veldeser See)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l13" custom="readingOrder {index:10;}">
@@ -282,7 +282,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1878 4.8.-17.8. Salzkammergut?</Unicode>
+                    <Unicode>1878? 4.8.-17.8. Salzkammergut</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:11;}">
@@ -350,7 +350,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>furt-Coblenz-Ems. 2. -3.9. Ems. 4.9.-Bonn-</Unicode>
+                    <Unicode>furt am Main-Coblenz-Ems. 2. -3.9. Ems. 4.9.-Bonn,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l17" custom="readingOrder {index:13;}">
@@ -376,7 +376,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>12.9.Amsterdam, Haag Scheveningen. 13.9. Scheve-</Unicode>
+                    <Unicode>12.9.Amsterdam, Haag, Scheveningen. 13.9. Scheve-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l19" custom="readingOrder {index:15;}">
@@ -414,7 +414,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1880 1.8.Wien-Klagenfurt-Loretto. 3.8 Vel-</Unicode>
+                    <Unicode>1880 1.8.Wien-Klagenfurt-Loretto. 3.8. Vel-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l21" custom="readingOrder {index:17;}">
@@ -525,16 +525,16 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 1872 Salzburg, München, Zürich,Luzern,Genf. (genaues Datum unbekannt)&#13;
 1873 Bad Vöslau. (genaues Datum unbekannt)&#13;
 1874 2. 8.-16.8. Salzburg, Reichenhall,&#13;
-Innsbruck,Achensee,Ampezzo,Landro,Lienz,Döl-&#13;
-lach. Heiligenblut, Villach.&#13;
-1877 21.7.-6.8. Fusch, Veldeser See.&#13;
-1878 4.8.-17.8. Salzkammergut?&#13;
+Innsbruck,Achensee,Ampezzothal,Landro,Lienz,Döl-&#13;
+lach, Heiligenblut, Villach.&#13;
+1877 21.7.-6.8. Fusch, Veldes (Veldeser See)&#13;
+1878? 4.8.-17.8. Salzkammergut&#13;
 1879 30.8. Wien-Frankfurt am Main 1.9. Frank-&#13;
-furt-Coblenz-Ems. 2. -3.9. Ems. 4.9.-Bonn-&#13;
+furt am Main-Coblenz-Ems. 2. -3.9. Ems. 4.9.-Bonn,&#13;
 Köln. 5.9.Köln-Amsterdam. 6.9.-11.9.Amsterdam.&#13;
-12.9.Amsterdam, Haag Scheveningen. 13.9. Scheve-&#13;
+12.9.Amsterdam, Haag, Scheveningen. 13.9. Scheve-&#13;
 ningen-Mainz.14.9.Mainz-München 15.9.Wien.&#13;
-1880 1.8.Wien-Klagenfurt-Loretto. 3.8 Vel-&#13;
+1880 1.8.Wien-Klagenfurt-Loretto. 3.8. Vel-&#13;
 den-Klagenfurt. 3.8. Klagenfurt-Toblach.5.8.&#13;
 Toblach, Cortina, Toblach. 6.8. Toblach-Innsbruck&#13;
 7.8. Innsbruck-Zell am See 8.8. Zell am See 9.8. Zell&#13;

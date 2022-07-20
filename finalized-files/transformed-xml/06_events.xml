@@ -98,7 +98,7 @@
          </event>
          <event from="1874-08-02" to="1874-08-16">
             <desc>
-               <placeName ref="">Ampezzo</placeName>
+               <placeName ref="">Ampezzothal</placeName>
             </desc>
          </event>
          <event from="1874-08-02" to="1874-08-16">
@@ -113,7 +113,12 @@
          </event>
          <event from="1874-08-02" to="1874-08-16">
             <desc>
-               <placeName ref="">Döllach. Heiligenblut</placeName>
+               <placeName ref="">Döllach</placeName>
+            </desc>
+         </event>
+         <event from="1874-08-02" to="1874-08-16">
+            <desc>
+               <placeName ref="">Heiligenblut</placeName>
             </desc>
          </event>
          <event from="1874-08-02" to="1874-08-16">
@@ -128,12 +133,13 @@
          </event>
          <event from="1877-07-21" to="1877-08-06">
             <desc>
-               <placeName ref="">Veldeser See</placeName>
+               <placeName ref="">Veldes</placeName>
             </desc>
+            <note>Veldeser See</note>
          </event>
-         <event from="1878-08-04" to="1878-08-17">
+         <event from="1878-08-04" to="1878-08-17" cert="low">
             <desc>
-               <placeName ref="">Salzkammergut?</placeName>
+               <placeName ref="">Salzkammergut</placeName>
             </desc>
          </event>
          <event from="1879-08-30" to="1879-08-30">
@@ -148,7 +154,7 @@
          </event>
          <event from="1879-09-01" to="1879-09-01">
             <desc>
-               <placeName ref="">Frankfurt</placeName>
+               <placeName ref="">Frankfurt am Main</placeName>
             </desc>
          </event>
          <event from="1879-09-01" to="1879-09-01">
@@ -173,7 +179,12 @@
          </event>
          <event from="1879-09-04" to="1879-09-04">
             <desc>
-               <placeName ref="">BonnKöln</placeName>
+               <placeName ref="">Bonn</placeName>
+            </desc>
+         </event>
+         <event from="1879-09-04" to="1879-09-04">
+            <desc>
+               <placeName ref="">Köln</placeName>
             </desc>
          </event>
          <event from="1879-09-05" to="1879-09-05">
@@ -198,7 +209,12 @@
          </event>
          <event from="1879-09-12" to="1879-09-12">
             <desc>
-               <placeName ref="">Haag Scheveningen</placeName>
+               <placeName ref="">Haag</placeName>
+            </desc>
+         </event>
+         <event from="1879-09-12" to="1879-09-12">
+            <desc>
+               <placeName ref="">Scheveningen</placeName>
             </desc>
          </event>
          <event from="1879-09-13" to="1879-09-13">
@@ -238,10 +254,15 @@
          </event>
          <event from="1880-08-01" to="1880-08-01">
             <desc>
-               <placeName ref="">Loretto. 3.8 Velden</placeName>
+               <placeName ref="">Loretto</placeName>
             </desc>
          </event>
-         <event from="1880-08-01" to="1880-08-01">
+         <event from="1880-08-03" to="1880-08-03">
+            <desc>
+               <placeName ref="">Velden</placeName>
+            </desc>
+         </event>
+         <event from="1880-08-03" to="1880-08-03">
             <desc>
                <placeName ref="">Klagenfurt</placeName>
             </desc>
@@ -338,12 +359,12 @@
          </event>
          <event from="1880-08-14" to="1880-08-14">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="">Ischl</placeName>
             </desc>
          </event>
          <event from="1880-05-01" to="1880-08-16">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="">Ischl</placeName>
             </desc>
          </event>
          <event from="1880-08-17" to="1880-08-17">
@@ -368,20 +389,20 @@
          </event>
          <event from="1881-07-11" to="1881-07-11">
             <desc>
-               <placeName ref="">SalzburgBerchtesgaden</placeName>
+               <placeName ref="">Salzburg</placeName>
+            </desc>
+         </event>
+         <event from="1881-07-11" to="1881-07-11">
+            <desc>
+               <placeName ref="">Berchtesgaden</placeName>
             </desc>
             <note>Salzbergwerk</note>
          </event>
          <event from="1881-07-12" to="1881-07-12">
             <desc>
-               <placeName ref="">Rundfahrt Königssee</placeName>
+               <placeName ref="">Königssee</placeName>
             </desc>
-         </event>
-         <event from="1881-07-12" to="1881-07-12">
-            <desc>
-               <placeName ref="">Hallein</placeName>
-            </desc>
-            <note>Fusstour</note>
+            <note>Rundfahrt</note>
          </event>
          <event from="1881-07-13" to="1881-07-13">
             <desc>
@@ -448,7 +469,12 @@
          </event>
          <event from="1881-07-16" to="1881-07-16">
             <desc>
-               <placeName ref="">WinklernHeiligenblut</placeName>
+               <placeName ref="">Winklern</placeName>
+            </desc>
+         </event>
+         <event from="1881-07-16" to="1881-07-16">
+            <desc>
+               <placeName ref="">Heiligenblut</placeName>
             </desc>
             <note>Bahn</note>
          </event>
@@ -537,7 +563,7 @@
          </event>
          <event from="1881-07-22" to="1881-07-22">
             <desc>
-               <placeName ref="">Pörtschach. 23.7 Wien</placeName>
+               <placeName ref="">Pörtschach</placeName>
             </desc>
             <note>mit Fritz Kapper</note>
          </event>
@@ -648,7 +674,7 @@
          </event>
          <event from="1882-08-10" to="1882-08-10">
             <desc>
-               <placeName ref="">Stilfsezjoch</placeName>
+               <placeName ref="">Stilfserjoch</placeName>
             </desc>
          </event>
          <event from="1882-08-10" to="1882-08-10">
@@ -738,8 +764,9 @@
          </event>
          <event from="" to="">
             <desc>
-               <placeName ref="">. Ostern Fiume und Abbazia</placeName>
+               <placeName ref="">Fiume</placeName>
             </desc>
+            <note>Ostern, genaues Datum unbekannt</note>
          </event>
          <event from="1884-07-15" to="1884-09-01">
             <desc>
@@ -748,8 +775,9 @@
          </event>
          <event from="" to="">
             <desc>
-               <placeName ref="">. Ende Juni Budapest und Plattensee</placeName>
+               <placeName ref="">Budapest</placeName>
             </desc>
+            <note>Ende Juni, genaues Datum unbekannt</note>
          </event>
          <event from="1885-07-05" to="1885-07-30">
             <desc>
@@ -778,7 +806,7 @@
          </event>
          <event from="1885-08-11" to="1885-08-11">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="">Ischl</placeName>
             </desc>
          </event>
          <event from="1885-02-01" to="1885-08-13">
@@ -788,7 +816,7 @@
          </event>
          <event from="1885-08-14" to="1885-08-14">
             <desc>
-               <placeName ref="">IschlInnsbruck</placeName>
+               <placeName ref="">Ischl Innsbruck</placeName>
             </desc>
             <note>Reise mit Max Weinberg</note>
          </event>
@@ -829,7 +857,12 @@
          </event>
          <event from="1885-08-18" to="1885-08-18">
             <desc>
-               <placeName ref="">RigiKulm</placeName>
+               <placeName ref="">Rigi</placeName>
+            </desc>
+         </event>
+         <event from="1885-08-18" to="1885-08-18">
+            <desc>
+               <placeName ref="">Kulm</placeName>
             </desc>
          </event>
          <event from="1885-08-18" to="1885-08-18">
@@ -849,7 +882,12 @@
          </event>
          <event from="1885-08-18" to="1885-08-18">
             <desc>
-               <placeName ref="">AxensteinLuzern</placeName>
+               <placeName ref="">Axenstein</placeName>
+            </desc>
+         </event>
+         <event from="1885-08-18" to="1885-08-18">
+            <desc>
+               <placeName ref="">Luzern</placeName>
             </desc>
          </event>
          <event from="1885-08-19" to="1885-08-19">
@@ -910,7 +948,12 @@
          </event>
          <event from="1885-08-22" to="1885-08-22">
             <desc>
-               <placeName ref="">LuganoPorlezza</placeName>
+               <placeName ref="">Lugano</placeName>
+            </desc>
+         </event>
+         <event from="1885-08-22" to="1885-08-22">
+            <desc>
+               <placeName ref="">Porlezza</placeName>
             </desc>
          </event>
          <event from="1885-08-22" to="1885-08-22">
@@ -925,12 +968,17 @@
          </event>
          <event from="1885-08-23" to="1885-08-23">
             <desc>
-               <placeName ref="">BelaggioCadenabbia</placeName>
+               <placeName ref="">Belaggio</placeName>
             </desc>
          </event>
          <event from="1885-08-23" to="1885-08-23">
             <desc>
-               <placeName ref="">Tremezo</placeName>
+               <placeName ref="">Cadenabbia</placeName>
+            </desc>
+         </event>
+         <event from="1885-08-23" to="1885-08-23">
+            <desc>
+               <placeName ref="">Tremezzo</placeName>
             </desc>
          </event>
          <event from="1885-08-24" to="1885-08-24">
@@ -965,12 +1013,7 @@
          </event>
          <event from="1885-08-27" to="1885-08-27">
             <desc>
-               <placeName ref="">Inns</placeName>
-            </desc>
-         </event>
-         <event from="1885-08-27" to="1885-08-27">
-            <desc>
-               <placeName ref="">bruck</placeName>
+               <placeName ref="">Innsbruck</placeName>
             </desc>
          </event>
          <event from="1885-08-28" to="1885-08-28">
@@ -1000,7 +1043,12 @@
          </event>
          <event from="1886-03-28" to="1886-04-10">
             <desc>
-               <placeName ref="">Meran. Reichenau</placeName>
+               <placeName ref="">Meran</placeName>
+            </desc>
+         </event>
+         <event from="1886-03-28" to="1886-04-10">
+            <desc>
+               <placeName ref="">Reichenau</placeName>
             </desc>
             <note>Pfingsten</note>
          </event>
@@ -1011,7 +1059,7 @@
          </event>
          <event from="1886-07-31" to="1886-09-06">
             <desc>
-               <placeName ref="">Reichenau (mit einer Unterbrechung Ischl 8 Tage.)</placeName>
+               <placeName ref="">Reichenau. (mit einer Unterbrechung Ischl 8 Tage.)</placeName>
             </desc>
          </event>
          <event from="1886-09-12" to="1886-09-12">
@@ -1042,7 +1090,17 @@
          </event>
          <event from="1887-09-17" to="1887-09-22">
             <desc>
-               <placeName ref="">. Frankfurt. München. 10.10.Reichenau</placeName>
+               <placeName ref="">Frankfurt</placeName>
+            </desc>
+         </event>
+         <event from="1887-09-17" to="1887-09-22">
+            <desc>
+               <placeName ref="">München</placeName>
+            </desc>
+         </event>
+         <event from="1887-09-17" to="1887-09-22">
+            <desc>
+               <placeName ref="">10.10.Reichenau</placeName>
             </desc>
          </event>
          <event from="1888-04-05" to="1888-05-12">
@@ -1092,7 +1150,12 @@
          </event>
          <event from="1888-07-21" to="1888-07-21">
             <desc>
-               <placeName ref="">LondonBrighton</placeName>
+               <placeName ref="">London</placeName>
+            </desc>
+         </event>
+         <event from="1888-07-21" to="1888-07-21">
+            <desc>
+               <placeName ref="">Brighton</placeName>
             </desc>
          </event>
          <event from="1888-07-22" to="1888-07-22">
@@ -1107,7 +1170,7 @@
          </event>
          <event from="1888-07-23" to="1888-07-23">
             <desc>
-               <placeName ref="">Porthmouth</placeName>
+               <placeName ref="">Portsmouth</placeName>
             </desc>
          </event>
          <event from="1888-07-23" to="1888-07-23">
@@ -1193,17 +1256,17 @@
          </event>
          <event from="1888-08-23" to="1888-08-23">
             <desc>
-               <placeName ref="">BadenBaden</placeName>
+               <placeName ref=""/>
+            </desc>
+         </event>
+         <event from="1888-08-23" to="1888-08-23">
+            <desc>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
          </event>
          <event from="1888-08-24" to="1888-08-24">
             <desc>
-               <placeName ref="">Baden</placeName>
-            </desc>
-         </event>
-         <event from="1888-08-24" to="1888-08-24">
-            <desc>
-               <placeName ref="">Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
          </event>
          <event from="1889-07-27" to="1889-07-29">
@@ -1269,12 +1332,12 @@
          </event>
          <event from="1889-08-12" to="1889-08-12">
             <desc>
-               <placeName ref="">Gössl Toplitzer</placeName>
+               <placeName ref="">Gössl</placeName>
             </desc>
          </event>
          <event from="1889-08-12" to="1889-08-12">
             <desc>
-               <placeName ref="">Kammersee</placeName>
+               <placeName ref="">Toplitzer Kammersee</placeName>
             </desc>
          </event>
          <event from="1889-08-13" to="1889-08-13">
@@ -1510,7 +1573,12 @@
          </event>
          <event from="1893-08-24" to="1893-08-24">
             <desc>
-               <placeName ref="">Toblach Cortina</placeName>
+               <placeName ref="">Toblach</placeName>
+            </desc>
+         </event>
+         <event from="1893-08-24" to="1893-08-24">
+            <desc>
+               <placeName ref="">Cortina</placeName>
             </desc>
          </event>
          <event from="1893-08-24" to="1893-08-24">
@@ -1520,7 +1588,7 @@
          </event>
          <event from="1893-08-25" to="1893-08-25">
             <desc>
-               <placeName ref="">Pieve</placeName>
+               <placeName ref="">Pieve di Cadore</placeName>
             </desc>
          </event>
          <event from="1893-08-25" to="1893-08-25">
@@ -1573,7 +1641,12 @@
          </event>
          <event from="1893-08-28" to="1893-08-28">
             <desc>
-               <placeName ref="">Klagenfurt Loretto</placeName>
+               <placeName ref="">Klagenfurt</placeName>
+            </desc>
+         </event>
+         <event from="1893-08-28" to="1893-08-28">
+            <desc>
+               <placeName ref="">Loretto</placeName>
             </desc>
          </event>
          <event from="1893-08-29" to="1893-08-29">
@@ -1583,7 +1656,12 @@
          </event>
          <event from="1893-08-29" to="1893-08-29">
             <desc>
-               <placeName ref="">Graz.30.8 Graz</placeName>
+               <placeName ref="">Graz</placeName>
+            </desc>
+         </event>
+         <event from="1893-08-30" to="1893-08-30">
+            <desc>
+               <placeName ref="">Graz</placeName>
             </desc>
             <note>Judendorf</note>
          </event>
@@ -1627,7 +1705,7 @@
          </event>
          <event from="1893-09-17" to="1893-09-20">
             <desc>
-               <placeName ref="">. 8.10.Pressburg</placeName>
+               <placeName ref="">8.10.Pressburg</placeName>
             </desc>
             <note>Bycicle</note>
          </event>
@@ -1638,7 +1716,12 @@
          </event>
          <event from="1893-09-17" to="1893-09-20">
             <desc>
-               <placeName ref="">SebensheinKirchberg</placeName>
+               <placeName ref="">Sebenshein</placeName>
+            </desc>
+         </event>
+         <event from="1893-09-17" to="1893-09-20">
+            <desc>
+               <placeName ref="">Kirchberg</placeName>
             </desc>
          </event>
          <event from="1893-12-08" to="1893-12-08">
@@ -1705,12 +1788,17 @@
          </event>
          <event from="1894-06-08" to="1894-06-08">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="">Ischl</placeName>
             </desc>
          </event>
          <event from="1894-06-09" to="1894-06-09">
             <desc>
-               <placeName ref="">IschlWels</placeName>
+               <placeName ref="">Ischl</placeName>
+            </desc>
+         </event>
+         <event from="1894-06-09" to="1894-06-09">
+            <desc>
+               <placeName ref="">Wels</placeName>
             </desc>
          </event>
          <event from="1894-06-10" to="1894-06-10">
@@ -1735,7 +1823,7 @@
          </event>
          <event from="1894-06-23" to="1894-06-23">
             <desc>
-               <placeName ref="">Neustadt</placeName>
+               <placeName ref="">Wr. Neustadt</placeName>
             </desc>
          </event>
          <event from="1894-06-23" to="1894-06-23">
@@ -1857,7 +1945,7 @@
          </event>
          <event from="1895-06-02" to="1895-06-02">
             <desc>
-               <placeName ref="">St.Pölten</placeName>
+               <placeName ref="">St. Pölten</placeName>
             </desc>
          </event>
          <event from="1895-06-02" to="1895-06-02">
@@ -1878,7 +1966,7 @@
          </event>
          <event from="1895-06-09" to="1895-06-09">
             <desc>
-               <placeName ref="">Wiener Neustadt</placeName>
+               <placeName ref="">Wr. Neustadt</placeName>
             </desc>
          </event>
          <event from="1895-06-09" to="1895-06-09">
@@ -1975,7 +2063,7 @@
          </event>
          <event from="1895-07-15" to="1895-07-15">
             <desc>
-               <placeName ref="">lschl</placeName>
+               <placeName ref="">Ischl</placeName>
             </desc>
          </event>
          <event from="1895-08-10" to="1895-08-10">
@@ -1985,7 +2073,7 @@
          </event>
          <event from="1895-08-13" to="1895-08-13">
             <desc>
-               <placeName ref="">Wiener Neustadt</placeName>
+               <placeName ref="">Wr. Neustadt</placeName>
             </desc>
          </event>
          <event from="1895-08-14" to="1895-08-14">
@@ -1995,12 +2083,12 @@
          </event>
          <event from="1895-08-14" to="1895-08-14">
             <desc>
-               <placeName ref="">Ischl.15</placeName>
+               <placeName ref="">Ischl</placeName>
             </desc>
          </event>
-         <event from="1895-08-14" to="1895-08-14">
+         <event from="1895-05-01" to="1895-08-18">
             <desc>
-               <placeName ref="">18.Ischl</placeName>
+               <placeName ref="">Ischl</placeName>
             </desc>
          </event>
          <event from="1895-08-19" to="1895-08-19">
@@ -2045,12 +2133,17 @@
          </event>
          <event from="1895-08-24" to="1895-08-24">
             <desc>
-               <placeName ref="">ReichenhallLofer</placeName>
+               <placeName ref="">Reichenhall</placeName>
             </desc>
          </event>
          <event from="1895-08-24" to="1895-08-24">
             <desc>
-               <placeName ref="">Sankt Johann</placeName>
+               <placeName ref="">Lofer</placeName>
+            </desc>
+         </event>
+         <event from="1895-08-24" to="1895-08-24">
+            <desc>
+               <placeName ref="">St. Johann</placeName>
             </desc>
          </event>
          <event from="1895-08-24" to="1895-08-24">
@@ -2205,8 +2298,9 @@
          </event>
          <event from="1896-07-04" to="1896-07-05">
             <desc>
-               <placeName ref="">Hamburg (Blankenese</placeName>
+               <placeName ref="">Hamburg</placeName>
             </desc>
+            <note>Blankenese</note>
          </event>
          <event from="1896-07-06" to="1896-07-06">
             <desc>
@@ -2226,7 +2320,7 @@
          </event>
          <event from="1896-07-09" to="1896-07-09">
             <desc>
-               <placeName ref="">Stavanger. 10 7.Ode</placeName>
+               <placeName ref="">Stavanger 10 7.Ode</placeName>
             </desc>
             <note>Lotefos</note>
          </event>
@@ -2292,7 +2386,12 @@
          </event>
          <event from="1896-07-16" to="1896-07-16">
             <desc>
-               <placeName ref="">Svartisengletscher. 17 7.Hanhad</placeName>
+               <placeName ref="">Svartisengletscher</placeName>
+            </desc>
+         </event>
+         <event from="1896-07-17" to="1896-07-17">
+            <desc>
+               <placeName ref="">Hanhad</placeName>
             </desc>
             <note>Lappenlager</note>
          </event>
@@ -2332,12 +2431,7 @@
             </desc>
             <note>Ibsen</note>
          </event>
-         <event from="1896-07-24" to="1896-07-24">
-            <desc>
-               <placeName ref="">25</placeName>
-            </desc>
-         </event>
-         <event from="1896-07-07" to="1896-07-26">
+         <event from="1896-07-25" to="1896-07-26">
             <desc>
                <placeName ref="">Christiania</placeName>
             </desc>
@@ -2360,10 +2454,10 @@
          </event>
          <event from="1896-07-28" to="1896-07-28">
             <desc>
-               <placeName ref="">Upsala. 30</placeName>
+               <placeName ref="">Upsala</placeName>
             </desc>
          </event>
-         <event from="1896-07-07" to="1896-07-31">
+         <event from="1896-07-30" to="1896-07-31">
             <desc>
                <placeName ref="">Stockholm</placeName>
             </desc>
@@ -2407,20 +2501,15 @@
          </event>
          <event from="1896-08-23" to="1896-08-26">
             <desc>
-               <placeName ref="">Berlin 27</placeName>
+               <placeName ref="">Berlin</placeName>
             </desc>
          </event>
-         <event from="1896-08-08" to="1896-08-28">
+         <event from="1896-08-27" to="1896-08-28">
             <desc>
                <placeName ref="">München</placeName>
             </desc>
          </event>
-         <event from="" to="">
-            <desc>
-               <placeName ref="">. 8</placeName>
-            </desc>
-         </event>
-         <event from="1897-04-04" to="1897-04-09">
+         <event from="1897-04-08" to="1897-04-09">
             <desc>
                <placeName ref="">München</placeName>
             </desc>
@@ -4930,17 +5019,7 @@
                <placeName ref="">Venedig</placeName>
             </desc>
          </event>
-         <event from="1903-08-02" to="1903-05-31">
-            <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1903-08-02" to="1903-05-31">
-            <desc>
-               <placeName ref=""/>
-            </desc>
-         </event>
-         <event from="1903-06-01" to="1903-06-01">
+         <event from="1903-05-28" to="1903-06-01">
             <desc>
                <placeName ref="">Venedig</placeName>
             </desc>
@@ -5218,7 +5297,7 @@
          </event>
          <event from="1903-11-07" to="1903-11-08">
             <desc>
-               <placeName ref="">Senmering</placeName>
+               <placeName ref="">Semmering</placeName>
             </desc>
          </event>
          <event from="1903-11-09" to="1903-11-09">
@@ -6670,14 +6749,14 @@
             </desc>
             <note>Villa Häufler</note>
          </event>
-         <event from="1908-06-24" to="1908-09-02">
+         <event from="1908-07-07" to="1908-07-09">
             <desc>
-               <placeName ref="">. (</placeName>
+               <placeName ref="">Gossensass</placeName>
             </desc>
          </event>
          <event from="1908-07-07" to="1908-07-09">
             <desc>
-               <placeName ref="">Gossensass und Sterzing</placeName>
+               <placeName ref="">Sterzing</placeName>
             </desc>
          </event>
          <event from="1908-08-04" to="1908-08-04">
@@ -6687,7 +6766,7 @@
          </event>
          <event from="1908-05-05" to="1908-05-05">
             <desc>
-               <placeName ref="">Schlern)</placeName>
+               <placeName ref="">Schlern</placeName>
             </desc>
          </event>
          <event from="1908-09-02" to="1908-09-02">
@@ -6744,11 +6823,6 @@
          <event from="1908-09-07" to="1908-09-13">
             <desc>
                <placeName ref="">München</placeName>
-            </desc>
-         </event>
-         <event from="1908-09-14" to="1908-09-14">
-            <desc>
-               <placeName ref="">wieder Wien</placeName>
             </desc>
          </event>
          <event from="1908-09-24" to="1908-09-24">
@@ -7634,12 +7708,17 @@
          </event>
          <event from="1911-11-13" to="1911-11-13">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref=""/>
+            </desc>
+         </event>
+         <event from="1911-11-13" to="1911-11-13">
+            <desc>
+               <placeName ref="">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1911-04-01" to="1911-11-16">
             <desc>
-               <placeName ref="">Partenkirchen</placeName>
+               <placeName ref="">Garmisch-Partenkirchen</placeName>
             </desc>
          </event>
          <event from="1912-01-03" to="1912-01-04">
@@ -8607,17 +8686,17 @@
          </event>
          <event from="1922-07-05" to="1922-07-05">
             <desc>
-               <placeName ref="">Mönichkirchen (</placeName>
+               <placeName ref="">Mönichkirchen</placeName>
             </desc>
          </event>
          <event from="1922-07-06" to="1922-07-06">
             <desc>
-               <placeName ref="">St.Peter</placeName>
+               <placeName ref="">St. Peter</placeName>
             </desc>
          </event>
          <event from="1922-07-06" to="1922-07-06">
             <desc>
-               <placeName ref="">Corona)</placeName>
+               <placeName ref="">Corona</placeName>
             </desc>
          </event>
          <event from="1922-07-19" to="1922-07-19">
@@ -8683,22 +8762,12 @@
          </event>
          <event from="1922-09-15" to="1922-09-15">
             <desc>
-               <placeName ref="">24.10. Brünn</placeName>
+               <placeName ref="">. 24.10. Brünn 25.10</placeName>
             </desc>
          </event>
          <event from="1922-09-15" to="1922-09-15">
             <desc>
-               <placeName ref="">25.10</placeName>
-            </desc>
-         </event>
-         <event from="1922-09-15" to="1922-09-15">
-            <desc>
-               <placeName ref="">31.10 Prag</placeName>
-            </desc>
-         </event>
-         <event from="1922-09-15" to="1922-09-15">
-            <desc>
-               <placeName ref="">31.10.Aussig</placeName>
+               <placeName ref="">31.10 Prag 31.10.Aussig</placeName>
             </desc>
          </event>
          <event from="1922-11-02" to="1922-11-02">
@@ -8781,7 +8850,7 @@
          </event>
          <event from="1923-06-27" to="1923-07-07">
             <desc>
-               <placeName ref="">Baden Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
          </event>
          <event from="1923-07-07" to="1923-07-07">
@@ -8826,17 +8895,22 @@
          </event>
          <event from="1923-08-06" to="1923-08-06">
             <desc>
-               <placeName ref="">Baden Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
          </event>
          <event from="1923-08-06" to="1923-08-14">
             <desc>
-               <placeName ref="">Baden Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
          </event>
          <event from="1923-08-14" to="1923-08-14">
             <desc>
-               <placeName ref="">Baden Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
+            </desc>
+         </event>
+         <event from="1923-08-14" to="1923-08-14">
+            <desc>
+               <placeName ref=""/>
             </desc>
          </event>
          <event from="1923-08-14" to="1923-08-14">
@@ -8966,7 +9040,7 @@
          </event>
          <event from="1924-06-27" to="1924-07-03">
             <desc>
-               <placeName ref="">Baden Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
          </event>
          <event from="1924-07-02" to="1924-07-02">
@@ -9047,7 +9121,7 @@
          </event>
          <event from="1925-01-10" to="1925-01-11">
             <desc>
-               <placeName ref="">Baden Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
             <note>Vorlesung</note>
          </event>
@@ -9098,7 +9172,7 @@
          </event>
          <event from="1925-07-01" to="1925-06-21">
             <desc>
-               <placeName ref="">Baden Baden</placeName>
+               <placeName ref="">Baden-Baden</placeName>
             </desc>
          </event>
          <event from="1925-06-22" to="1925-06-22">

@@ -9,7 +9,36 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
 <xsl:template match="//tei:desc/text()">
     <xsl:variable name="jahr" select="parent::*/@year"/>   
     
-    <!-- "u." zwischen Datumsintervall, z.B. 16. u. 17.8. -->
+    <!-- Inhalte der zukünftigen <note> ausschließen -->
+    <xsl:analyze-string select="." regex="[(]\w+[)]">
+        <xsl:matching-substring>
+            <xsl:value-of select="."/>
+        </xsl:matching-substring>
+        <xsl:non-matching-substring>
+            
+    <!-- "u." zwischen Datumsintervall - zweistellig, z.B. 16.8. u. 17.8. -->
+    <xsl:analyze-string select="." regex="([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.\s*[u]{{1}}\s*\.\s*([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.">
+        <xsl:matching-substring>
+            <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
+                <xsl:attribute name="from">
+                    <xsl:value-of select="$jahr"/>
+                    <xsl:text>-</xsl:text>
+                    <xsl:value-of select="foo:nullerHinzu(regex-group(2))"/>
+                    <xsl:text>-</xsl:text>
+                    <xsl:value-of select="foo:nullerHinzu(regex-group(1))"/>
+                </xsl:attribute>
+                <xsl:attribute name="to">
+                    <xsl:value-of select="$jahr"/>
+                    <xsl:text>-</xsl:text>
+                    <xsl:value-of select="foo:nullerHinzu(regex-group(4))"/>
+                    <xsl:text>-</xsl:text>
+                    <xsl:value-of select="foo:nullerHinzu(regex-group(3))"/>
+                </xsl:attribute>
+            </xsl:element>
+        </xsl:matching-substring>
+        <xsl:non-matching-substring>
+            
+    <!-- "u." zwischen Datumsintervall - einstellig, z.B. 16. u. 17.8. -->
     <xsl:analyze-string select="." regex="([0-9]{{1,2}})\s*\.\s*[u]{{1}}\s*\.\s*([0-9]{{1,2}})\s*\.\s*([0-9]{{1,2}})\s*\.">
         <xsl:matching-substring>
             <xsl:element name="date" namespace="http://www.tei-c.org/ns/1.0">
@@ -177,6 +206,10 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
     </xsl:analyze-string>
   </xsl:non-matching-substring>
   </xsl:analyze-string>
+</xsl:non-matching-substring>
+</xsl:analyze-string>
+</xsl:non-matching-substring>
+</xsl:analyze-string>
 </xsl:template>
 
     <!-- verwendete Funktionen -->

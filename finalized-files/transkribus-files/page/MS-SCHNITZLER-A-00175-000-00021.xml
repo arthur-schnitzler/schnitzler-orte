@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:32.305+02:00</Created>
-        <LastChange>2022-07-18T10:22:26.232+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195866" pageNr="11" tsid="91049838" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=TAKKVYPMLCNZZXFRPAIWLZGL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JEIMTVBEYNWJDXYUOTKGYJOQ" imageId="35435100"/>
+        <LastChange>2022-07-20T11:17:47.009+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195866" pageNr="11" tsid="91121309" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=TAKKVYPMLCNZZXFRPAIWLZGL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=QTUHDJUREYCVVPMSZAEXIQGA" imageId="35435100"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00021.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304877016" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171304" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -168,7 +168,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>16.7.Torgatten,Svartisengletscher.</Unicode>
+                    <Unicode>16.7.Torgatten,Svartisengletscher</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l6" custom="readingOrder {index:5;}">
@@ -193,7 +193,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>17 7.Hanhad (Lappenlager)</Unicode>
+                    <Unicode>17.7.Hanhad (Lappenlager)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l7" custom="readingOrder {index:6;}">
@@ -308,7 +308,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>25.7.u.26.7.Christiania.</Unicode>
+                    <Unicode>25.7.-26.7.Christiania.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:13;}">
@@ -366,7 +366,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>30.7.u.31.7.Stockholm.</Unicode>
+                    <Unicode>30.7.-31.7.Stockholm.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:17;}">
@@ -474,19 +474,19 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 rok (Geiranger Fjord).&#13;
 14.7.Naes (Fahrt Romsdahl Molde).&#13;
 15.7. Trontheim (an Bord des Sigurd Jarl).&#13;
-16.7.Torgatten,Svartisengletscher.&#13;
-17 7.Hanhad (Lappenlager)&#13;
+16.7.Torgatten,Svartisengletscher&#13;
+17.7.Hanhad (Lappenlager)&#13;
 18.7.Tromsö.&#13;
 19.7. Hammerfest,Nordkap.&#13;
 20.7. Lyngenfjord.&#13;
 22.7.Nansos.&#13;
 23.7.Trontheim.&#13;
 24.7. Christiania (Ibsen)&#13;
-25.7.u.26.7.Christiania.&#13;
+25.7.-26.7.Christiania.&#13;
 27.7.Stockholm.&#13;
 28.7.Stockholm (Saltiöbaden).&#13;
 28.7.Stockholm,Upsala.&#13;
-30.7.u.31.7.Stockholm.&#13;
+30.7.-31.7.Stockholm.&#13;
 1.8. Gotheborg (Trollhatan)&#13;
 2.8.Kopenhagen,Skodsborg.&#13;
 3.8.-22.8.Skodsborg.&#13;

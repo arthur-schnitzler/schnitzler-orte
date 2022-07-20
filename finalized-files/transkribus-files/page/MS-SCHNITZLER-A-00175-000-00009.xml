@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:31.296+02:00</Created>
-        <LastChange>2022-07-19T17:41:11.817+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195858" pageNr="5" tsid="91111067" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=QGPAZNAYOTBYCJHTGLGPSSBX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JOMWAGFVUVSHOVNYHDPIMPRJ" imageId="35435092"/>
+        <LastChange>2022-07-20T11:06:47.640+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195858" pageNr="5" tsid="91121039" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=QGPAZNAYOTBYCJHTGLGPSSBX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WLKDFXCUWVMHENGPKTZUHUDA" imageId="35435092"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00009.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876882" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171173" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -38,7 +38,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden </Unicode>
+                    <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden-Baden</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l2" custom="readingOrder {index:1;}">
@@ -51,7 +51,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Baden.24.8.Baden Baden.</Unicode>
+                    <Unicode>24.8.Baden-Baden.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l3" custom="readingOrder {index:2;}">
@@ -243,7 +243,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>12.8. - Gössl Toplitzer-Kammersee.</Unicode>
+                    <Unicode>12.8. - Gössl,Toplitzer Kammersee.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:8;}">
@@ -566,14 +566,14 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                 </TextEquiv>
             </TextLine>
             <TextEquiv>
-                <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden &#13;
-Baden.24.8.Baden Baden.&#13;
+                <Unicode>21. 8.Brüssel. 22.8.Brüssel.23.8.Brüssel-Baden-Baden&#13;
+24.8.Baden-Baden.&#13;
 1889: 27.7.-29.7. Ischl.&#13;
 3.8.-9.8. Ischl (Unterach etc.)&#13;
 10.8. Traunkirchen -Lainau-Grünau - Almsee.&#13;
 11.8. - Offensee -Ebensee - Aussee - Grundl-&#13;
 see.&#13;
-12.8. - Gössl Toplitzer-Kammersee.&#13;
+12.8. - Gössl,Toplitzer Kammersee.&#13;
 13.8. Grundlsee - Eisenerz.&#13;
 15.8. - Eisenerzerhöhe- Wildalpe - Weichsel-&#13;
 boden (Fusswanderung).&#13;

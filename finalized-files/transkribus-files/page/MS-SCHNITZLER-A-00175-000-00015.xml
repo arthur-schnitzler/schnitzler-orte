@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:31.807+02:00</Created>
-        <LastChange>2022-07-18T10:13:36.357+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195863" pageNr="8" tsid="91049086" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=TPDOMWZDZNIWWCZVLOSWEWEB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NRCXTKBILYGLDJXEVCAASOQX" imageId="35435097"/>
+        <LastChange>2022-07-20T11:12:31.347+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195863" pageNr="8" tsid="91121124" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=TPDOMWZDZNIWWCZVLOSWEWEB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=AQLLZQYQGIYUEANDYIYVMZBO" imageId="35435097"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00015.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876968" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171244" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -120,7 +120,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Hermann Bahr) 8.6.München-Salzburg-lschl.9.6. Ischl-</Unicode>
+                    <Unicode>Hermann Bahr) 8.6.München-Salzburg-Ischl.9.6. Ischl,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l7" custom="readingOrder {index:5;}">
@@ -152,7 +152,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>23.6.Neustadt-Payerbach-Singering-Gutten-</Unicode>
+                    <Unicode>23.6. Wr. Neustadt-Payerbach-Singering-Gutten-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:7;}">
@@ -256,9 +256,9 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 24.5.Rekawinkel-Hainfeld-Lilienfeld-St. Pöl-&#13;
 ten. (Bycicle)&#13;
 2.6.Wien-München.  8.6.München (mit Richard Beer-Hofmann,&#13;
-Hermann Bahr) 8.6.München-Salzburg-lschl.9.6. Ischl-&#13;
+Hermann Bahr) 8.6.München-Salzburg-Ischl.9.6. Ischl,&#13;
 Wels.10.6.Wels-Hall.11.6. Hall-Wien.&#13;
-23.6.Neustadt-Payerbach-Singering-Gutten-&#13;
+23.6. Wr. Neustadt-Payerbach-Singering-Gutten-&#13;
 stein-Solenau-Wien.&#13;
 13.7.Wien-Linz.14.7.Linz-Lambach-Ischl &#13;
 24.7.Ischl&#13;

@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:31.643+02:00</Created>
-        <LastChange>2022-07-18T10:08:07.437+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195862" pageNr="7" tsid="91048730" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=BRNRKOFGJICWOMJTTPNVHVMI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NGUTLBANVIHAHUCIWPZCHHAK" imageId="35435096"/>
+        <LastChange>2022-07-20T11:08:55.160+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195862" pageNr="7" tsid="91121066" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=BRNRKOFGJICWOMJTTPNVHVMI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XWSCSHMPCJQYNJMMJJOORNKI" imageId="35435096"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00013.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876952" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171205" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -144,7 +144,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>23.8. Dölsach - Toblach. 24.8.Toblach</Unicode>
+                    <Unicode>23.8. Dölsach - Toblach. 24.8.Toblach,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l7" custom="readingOrder {index:5;}">
@@ -206,7 +206,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Felix Salten) 25.8.Pieve-Schluderbach-Toblach.</Unicode>
+                    <Unicode>Felix Salten) 25.8.Pieve di Cadore -Schluderbach-Toblach.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l9" custom="readingOrder {index:7;}">
@@ -287,7 +287,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode> Klagenfurt (Bahn) 28.8.Klagenfurt</Unicode>
+                    <Unicode> Klagenfurt (Bahn) 28.8.Klagenfurt,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l12" custom="readingOrder {index:10;}">
@@ -312,7 +312,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Loretto.29.8.Klagenfurt - Graz.30.8</Unicode>
+                    <Unicode>Loretto.29.8.Klagenfurt - Graz 30.8.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l13" custom="readingOrder {index:11;}">
@@ -418,7 +418,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Salzburg (mit Paul Goldmann). 8.10.Pressburg</Unicode>
+                    <Unicode>Salzburg (mit Paul Goldmann) 8.10.Pressburg</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l17" custom="readingOrder {index:15;}">
@@ -437,7 +437,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>(Bycicle) 29.10. Gloggnitz-Sebenshein-</Unicode>
+                    <Unicode>(Bycicle) 29.10. Gloggnitz-Sebenshein,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:16;}">
@@ -476,18 +476,18 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
 22.6-30.6. Brühl.&#13;
 2.7.-15.7. Ischl.&#13;
 16.8.-17.8. Pressbaum (Purkersdorf)&#13;
-23.8. Dölsach - Toblach. 24.8.Toblach&#13;
+23.8. Dölsach - Toblach. 24.8.Toblach,&#13;
 Cortina-Pieve di Cadore (Byciclepartie mit&#13;
-Felix Salten) 25.8.Pieve-Schluderbach-Toblach.&#13;
+Felix Salten) 25.8.Pieve di Cadore -Schluderbach-Toblach.&#13;
 26.8. Toblach-Lienz-Dellach (Bycicle)&#13;
 Villach. 27.8.Villach-Pörtschach (Bycicle)&#13;
- Klagenfurt (Bahn) 28.8.Klagenfurt&#13;
-Loretto.29.8.Klagenfurt - Graz.30.8&#13;
+ Klagenfurt (Bahn) 28.8.Klagenfurt,&#13;
+Loretto.29.8.Klagenfurt - Graz 30.8.&#13;
 Graz (Judendorf).31.8.Graz-Semmering (Bahn)&#13;
  Reichenau (Bycicle) Wien.&#13;
 5.9.Reichenau.10.9.Reichenau.17.9.-20.9.&#13;
-Salzburg (mit Paul Goldmann). 8.10.Pressburg&#13;
-(Bycicle) 29.10. Gloggnitz-Sebenshein-&#13;
+Salzburg (mit Paul Goldmann) 8.10.Pressburg&#13;
+(Bycicle) 29.10. Gloggnitz-Sebenshein,&#13;
 Kirchberg. 8.12.Tulln. (Bycicle)</Unicode>
             </TextEquiv>
         </TextRegion>

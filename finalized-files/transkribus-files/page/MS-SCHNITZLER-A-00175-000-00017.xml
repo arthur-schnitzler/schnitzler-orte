@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:31.966+02:00</Created>
-        <LastChange>2022-07-18T10:18:02.243+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195864" pageNr="9" tsid="91049280" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WNGIJTCVKAHEJXJRFLFPMXMO&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VKVBYMRYHIVZQJQQDJCARTCF" imageId="35435098"/>
+        <LastChange>2022-07-20T11:14:16.951+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195864" pageNr="9" tsid="91121152" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=WNGIJTCVKAHEJXJRFLFPMXMO&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XFXHVADUBOZCRRAPKMPSZWBS" imageId="35435098"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00017.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876983" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171265" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -82,7 +82,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>2.6.Rekalwinkel-St.Pölten-Lilienfeld-Hain-</Unicode>
+                    <Unicode>2.6.Rekalwinkel-St. Pölten-Lilienfeld-Hain-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l4" custom="readingOrder {index:3;}">
@@ -132,7 +132,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>9.6.Wiener Neustadt-Sebenstein </Unicode>
+                    <Unicode>9.6.Wr. Neustadt-Sebenstein </Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l6" custom="readingOrder {index:5;}">
@@ -300,7 +300,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>11.-12.7.Marienbad.13.-14.7.Nürnberg. 15.7.lschl-</Unicode>
+                    <Unicode>11.-12.7.Marienbad.13.-14.7.Nürnberg. 15.7.Ischl-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l12" custom="readingOrder {index:11;}">
@@ -332,7 +332,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>13.8.Wiener Neustadt.14.8.Wien-Ischl.15.-18.Ischl</Unicode>
+                    <Unicode>13.8.Wr. Neustadt.14.8.Wien-Ischl. 15.-18.8. Ischl</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l14" custom="readingOrder {index:13;}">
@@ -389,7 +389,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>see.23.8.Salzburg. 24.8.Salzburg-Reichenhall-</Unicode>
+                    <Unicode>see.23.8.Salzburg. 24.8.Salzburg-Reichenhall,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l17" custom="readingOrder {index:16;}">
@@ -426,7 +426,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>Lofer-Sankt Johann-Jenbach (Bycicle mit Felix Salten)</Unicode>
+                    <Unicode>Lofer-St. Johann-Jenbach (Bycicle mit Felix Salten)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:17;}">
@@ -544,21 +544,21 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             <TextEquiv>
                 <Unicode>1895 12.5. Mistelbach (M.R.)&#13;
 20.5.Melk-Wachau-Krems (mit Richard Beer-Hofmann, Lou Andreas-Salomé)&#13;
-2.6.Rekalwinkel-St.Pölten-Lilienfeld-Hain-&#13;
+2.6.Rekalwinkel-St. Pölten-Lilienfeld-Hain-&#13;
 feld -Altenmarkt. (Bycicle)&#13;
-9.6.Wiener Neustadt-Sebenstein &#13;
+9.6.Wr. Neustadt-Sebenstein &#13;
 23.6. Melk-Wachau-Tulln-Klosterneuburg &#13;
 27.6. Krems (Bycicle)- Melk (Schiff)-&#13;
 Rekawinkel (Bahn) -Purkersdorf (Bycicle)&#13;
 3.7.Wien-Prag.4.7.-5.7.Prag.6.7.Prag-Karlsbad.&#13;
 7.7.-8.7.Karlsbad 9.7. Marienbad 10.7.Franzensbad.&#13;
-11.-12.7.Marienbad.13.-14.7.Nürnberg. 15.7.lschl-&#13;
+11.-12.7.Marienbad.13.-14.7.Nürnberg. 15.7.Ischl-&#13;
 10.8.Aussee.&#13;
-13.8.Wiener Neustadt.14.8.Wien-Ischl.15.-18.Ischl&#13;
+13.8.Wr. Neustadt.14.8.Wien-Ischl. 15.-18.8. Ischl&#13;
 19.8. Salzburg.20.8.Berchtesgaden-Königs-&#13;
 see.21.8.Salzburg22.8.Berchtesgaden-Königs-&#13;
-see.23.8.Salzburg. 24.8.Salzburg-Reichenhall-&#13;
-Lofer-Sankt Johann-Jenbach (Bycicle mit Felix Salten)&#13;
+see.23.8.Salzburg. 24.8.Salzburg-Reichenhall,&#13;
+Lofer-St. Johann-Jenbach (Bycicle mit Felix Salten)&#13;
 25.8. Jenbach-Achsen-Tölz 26.8.Tölz (mit Paul&#13;
 Goldmann) 27.8. Tölz-Holzkirchen-München (By-&#13;
 cicle mit Felix Salten).28.8.-7.9.München 4.9.&#13;

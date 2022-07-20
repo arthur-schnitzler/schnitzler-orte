@@ -5,12 +5,12 @@
 prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
 prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
         <Created>2022-06-14T09:16:30.799+02:00</Created>
-        <LastChange>2022-07-19T17:39:01.306+02:00</LastChange>
-        <TranskribusMetadata docId="1027861" pageId="43195853" pageNr="2" tsid="91111007" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=JLYVLKHRYTVJASVKTHPKQXJB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IIJUMJKIYULSNXDVAOMZDAKZ" imageId="35435087"/>
+        <LastChange>2022-07-20T10:54:14.633+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195853" pageNr="2" tsid="91120791" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=JLYVLKHRYTVJASVKTHPKQXJB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MLBEWNVMEEYMHQKMDFOFTPFT" imageId="35435087"/>
     </Metadata>
     <Page imageFilename="MS-SCHNITZLER-A-00175-000-00006.jpg" imageWidth="2276" imageHeight="3113">
         <ReadingOrder>
-            <OrderedGroup id="ro_1658304876593" caption="Regions reading order">
+            <OrderedGroup id="ro_1658309171119" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
             </OrderedGroup>
         </ReadingOrder>
@@ -39,7 +39,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>den-Aussee.12.8.-13.8.Aussee. 14.8.Aussee-lschl.</Unicode>
+                    <Unicode>den-Aussee.12.8.-13.8.Aussee. 14.8.Aussee-Ischl.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l3" custom="readingOrder {index:2;}">
@@ -58,7 +58,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>15.-16.8. lschl.17.8.Ischl-Wien.</Unicode>
+                    <Unicode>15.-16.8. Ischl.17.8.Ischl-Wien.</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l4" custom="readingOrder {index:3;}">
@@ -77,7 +77,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>1881. 10.7. Wien-Salzburg.11.7.Salzburg-</Unicode>
+                    <Unicode>1881. 10.7. Wien-Salzburg.11.7.Salzburg,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l5" custom="readingOrder {index:4;}">
@@ -127,7 +127,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>tour) 12.7.Rundfahrt Königssee-Hallein (Fuss-</Unicode>
+                    <Unicode>tour) 12.7. Königssee (Rundfahrt) -Hallein (Fuss-</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l7" custom="readingOrder {index:6;}">
@@ -234,7 +234,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>lach (Fusstour) 16.7. Obervellach-Winklern-</Unicode>
+                    <Unicode>lach (Fusstour) 16.7. Obervellach-Winklern,</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l12" custom="readingOrder {index:11;}">
@@ -390,7 +390,7 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
                     </TextEquiv>
                 </Word>
                 <TextEquiv>
-                    <Unicode>23.7 Wien. (mit Fritz Kapper).</Unicode>
+                    <Unicode>(mit Fritz Kapper)</Unicode>
                 </TextEquiv>
             </TextLine>
             <TextLine id="r1l18" custom="readingOrder {index:17;}">
@@ -539,22 +539,22 @@ prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias
             </TextLine>
             <TextEquiv>
                 <Unicode>am See -Salzburg 10.8.Salzburg-Gmunden.11.8.Gmun-&#13;
-den-Aussee.12.8.-13.8.Aussee. 14.8.Aussee-lschl.&#13;
-15.-16.8. lschl.17.8.Ischl-Wien.&#13;
-1881. 10.7. Wien-Salzburg.11.7.Salzburg-&#13;
+den-Aussee.12.8.-13.8.Aussee. 14.8.Aussee-Ischl.&#13;
+15.-16.8. Ischl.17.8.Ischl-Wien.&#13;
+1881. 10.7. Wien-Salzburg.11.7.Salzburg,&#13;
 Berchtesgaden (Salzbergwerk)-Königssee (Fuss-&#13;
-tour) 12.7.Rundfahrt Königssee-Hallein (Fuss-&#13;
+tour) 12.7. Königssee (Rundfahrt) -Hallein (Fuss-&#13;
 tour)-Golling (Eisenbahn).13.7.Golling (Was-&#13;
 serfall)-St. Johann (Lichtensteinklamm)-Lend.&#13;
 14.7.Lend-Gastein (Wagen)-Böckstein.15.7.&#13;
 Böckstein-Nassfeld,Malnitzer Tauern-Obervel-&#13;
-lach (Fusstour) 16.7. Obervellach-Winklern-&#13;
+lach (Fusstour) 16.7. Obervellach-Winklern,&#13;
 Heiligenblut (Bahn). 17.7. Heiligenblut-Paster-&#13;
 ze-Kals (Fusstour) 18.7. Kals-Huben(F.T.)-&#13;
 Lienz (Fahrt).19.7. Lienz-Toblach-Lienz-Spi-&#13;
 tal-Millstatt.20.7.Millstädter See.21.7.Mill-&#13;
 städter See-Villach. 22.7.Villach -Pörtschach.&#13;
-23.7 Wien. (mit Fritz Kapper).&#13;
+(mit Fritz Kapper)&#13;
 7.-22.8. Ischl.&#13;
 1882. 31.7.Ragaz.1.8.-2.8.Ragaz.&#13;
 3.8.Ragaz-Davos.4.8.Davos-Albula-Pontresina.&#13;
