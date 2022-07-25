@@ -9,6 +9,6 @@
 7. 06_events.xsl (Transformation zu event Elemente)
 8. 07_placeName-lookup.xsl (Lookup der Geoname IDs in listplace.xml) 
 
-    Manuelle Nachbearbeitung (Korrektur der Ortsnamen, Datumsangaben): manuelle-nachb.xml
+    Manuelle Nachbearbeitung (Korrektur der Ortsnamen, Datumsangaben): manuelle-nachb.xml  Bei ungenauen bzw. unbekannten Datumsangaben wurde das ganze Jahr         angegeben und im note Element vermerkt.
 
 9. Transformation von manuelle-nachb.xml mit 07_placeName-lookup.xsl
