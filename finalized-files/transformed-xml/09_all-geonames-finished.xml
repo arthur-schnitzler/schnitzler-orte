@@ -1792,7 +1792,7 @@
          </event>
          <event from="1894-06-23" to="1894-06-23" instant="false">
             <desc>
-               <placeName ref="">Singering</placeName>
+               <placeName ref="#" instant="false" full="yes"><!-- Not identified -->Singering</placeName>
             </desc>
          </event>
          <event from="1894-06-23" to="1894-06-23" instant="false">
@@ -2545,7 +2545,7 @@
          </event>
          <event from="1897-06-13" to="1897-06-13" instant="false">
             <desc>
-               <placeName ref="">Pamsenhof</placeName>
+               <placeName ref="#" instant="false" full="yes"><!-- Not identified -->Pamsenhof</placeName>
             </desc>
             <note anchored="true">Bic.</note>
          </event>
@@ -3250,7 +3250,7 @@
          </event>
          <event from="1899-06-20" to="1899-06-20" instant="false">
             <desc>
-               <placeName ref="">Singering</placeName>
+               <placeName ref="#" instant="false" full="yes"><!-- Not identified -->Singering</placeName>
             </desc>
          </event>
          <event from="1899-06-20" to="1899-06-20" instant="false">
