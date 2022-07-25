@@ -8,3 +8,7 @@
 6. 05_note-placeName.xsl (note placeName Elemente einfügen)
 7. 06_events.xsl (Transformation zu event Elemente)
 8. 07_placeName-lookup.xsl (Lookup der Geoname IDs in listplace.xml) 
+
+Manuelle Nachbearbeitung (Korrektur der Ortsnamen, Datumsangaben): manuelle-nachb.xml
+
+9. Transformation von manuelle-nachb.xml mit 07_placeName-lookup.xsl
