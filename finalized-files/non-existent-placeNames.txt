@@ -1,0 +1,44 @@
+Landro http://www.geonames.org/3216694/
+Dölach http://www.geonames.org/2780871/
+Malnitzer Tauern (Niederer Tauern) https://www.geonames.org/2770598/niederer-tauern.html
+Pasterze https://www.geonames.org/2769213/pasterze.html
+Albulapass https://www.geonames.org/2661821/albulapass.html
+Isola Bella https://www.geonames.org/8967155/isola-bella.html
+Cowes https://www.geonames.org/2652204/cowes.html
+Kammer See https://www.geonames.org/2774820/kammer-see.html
+Nordkap https://www.geonames.org/9039621/lavvarjavrit.html
+Grimselpass https://www.geonames.org/2660501/grimselpass.html
+Pilatus https://www.geonames.org/2659201/pilatus.html
+Raibler See https://www.geonames.org/3169875/lago-del-predil.html
+Fedaia https://www.geonames.org/8354640/lago-di-fedaia.html
+St. Michael https://www.geonames.org/2766495/sankt-michael-in-obersteiermark.html
+Runkelstein https://www.geonames.org/11126795/castel-roncolo.html
+Waldrast https://www.geonames.org/2771895/maria-waldrast.html
+Hochschwab https://www.geonames.org/2775956/hochschwab.html
+Schreckenstein https://www.geonames.org/7117043/hrad-strekov.html
+Oberhof https://www.geonames.org/2860282/oberhof.html
+Grieser Thal https://www.geonames.org/3175824/gries.html
+Puchberg https://www.geonames.org/2768279/puchberg-am-schneeberg.html
+Isarthal https://www.geonames.org/6559195/pullach-i-isartal.html
+Zögernsee https://www.geonames.org/3324106/zoegernsee.html
+Zuiderzee https://www.geonames.org/2753361/ijsselmeer.html
+Nordwyk https://www.geonames.org/2749814/gemeente-noordwijk.html
+Schlappiner Joch https://www.geonames.org/2658731/schlappiner-joch.html
+Nasswald https://www.geonames.org/2770921/nasswald.html
+
+Bad Dreikirchen https://d-nb.info/gnd/4256975-8
+Scheibmühl  	https://d-nb.info/gnd/1059220652
+
+Nahe Geo-Names verwendet:
+Kesselfallklamm (geonames nicht vorhanden, naher geoname verwendet) https://www.geonames.org/3335239/eichberg.html
+Mooserboden (geonames nicht vorhanden, naher geoname verwendet) https://www.geonames.org/7872239/kaprun.html
+Bolladore https://www.geonames.org/6537105/sondalo.html (nicht vorhanden, naher geoname verwendet)
+
+Nicht identifiziert:
+Singerin(g) (nicht identifiziert, Niederösterreich)
+Pamsenhof (nicht identifiziert, Österreich)
+
+Koordinaten in <idno> angegeben:
+Val Ampola 45.870988 10.651957
+Fischleinboden 46.666799 12.353684
+St. Valentin 46.664699 11.187927

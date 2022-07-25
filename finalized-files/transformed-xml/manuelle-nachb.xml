@@ -27,67 +27,73 @@
             </desc>
             <note>genaues Datum unbekannt</note>
          </event>
-            <event from="" to="" cert="low">
+            <event from="1868-01-01" to="1868-12-31" cert="low">
+               <desc>
+                  <placeName ref="">Groß-Kanizsa</placeName>
+               </desc>
+               <note>genaues Datum unbekannt</note>
+            </event>
+            <event from="1869-01-01" to="1869-12-31" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2782043/">Bad Vöslau</placeName>
             </desc>
             <note>Sommeraufenthalt</note>
          </event>
-         <event from="" to="" cert="low">
+            <event from="1870-01-01" to="1870-12-31" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2782043/">Bad Vöslau</placeName>
             </desc>
             <note>Sommeraufenthalt</note>
          </event>
-         <event from="" to="" cert="low">
+            <event from="1871-01-01" to="1871-12-31" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2782043/">Bad Vöslau</placeName>
             </desc>
             <note>Sommeraufenthalt</note>
          </event>
-         <event from="" to="" cert="low">
+            <event from="1870-01-01" to="1870-12-31" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2778436/">Gmunden</placeName>
             </desc>
          </event>
-         <event from="" to="" cert="low">
+            <event from="1870-01-01" to="1870-12-31" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
-         <event from="" to="" cert="low">
+            <event from="1870-01-01" to="1870-12-31" cert="low">
             <desc>
                <placeName ref="http://www.geonames.org/2782070/">Aussee</placeName>
             </desc>
             <note>genaues Datum unbekannt</note>
          </event>
-         <event from="" to="">
+            <event from="1872-01-01" to="1872-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/2766824/">Salzburg</placeName>
             </desc>
          </event>
-         <event from="" to="">
+            <event from="1872-01-01" to="1872-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/2867714/">München</placeName>
             </desc>
          </event>
-         <event from="" to="">
+            <event from="1872-01-01" to="1872-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/2657896/">Zürich</placeName>
             </desc>
          </event>
-         <event from="" to="">
+            <event from="1872-01-01" to="1872-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/2659811/">Luzern</placeName>
             </desc>
          </event>
-         <event from="" to="">
+            <event from="1872-01-01" to="1872-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/2660646/">Genf</placeName>
             </desc>
             <note>genaues Datum unbekannt</note>
          </event>
-         <event from="" to="">
+            <event from="1873-01-01" to="1873-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/2782043/">Bad Vöslau</placeName>
             </desc>
@@ -540,12 +546,12 @@
          </event>
          <event from="1881-07-20" to="1881-07-20">
             <desc>
-               <placeName ref="">Millstädtersee</placeName>
+               <placeName ref="">Millstättersee</placeName>
             </desc>
          </event>
          <event from="1881-07-21" to="1881-07-21">
             <desc>
-               <placeName ref="">Millstädtersee</placeName>
+               <placeName ref="">Millstättersee</placeName>
             </desc>
          </event>
          <event from="1881-07-21" to="1881-07-21">
@@ -759,18 +765,24 @@
                <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
-         <event from="" to="">
+         <event from="1884-01-01" to="1884-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/3191648/">Fiume</placeName>
             </desc>
             <note>Ostern, genaues Datum unbekannt</note>
          </event>
+            <event from="1884-01-01" to="1884-12-31">
+               <desc>
+                  <placeName ref="">Abbazia</placeName>
+               </desc>
+               <note>Ostern, genaues Datum unbekannt</note>
+            </event>
          <event from="1884-07-15" to="1884-09-01">
             <desc>
                <placeName ref="http://www.geonames.org/2782052/">Ischl</placeName>
             </desc>
          </event>
-         <event from="" to="">
+            <event from="1885-01-01" to="1885-12-31">
             <desc>
                <placeName ref="http://www.geonames.org/3054643/">Budapest</placeName>
             </desc>
@@ -4030,12 +4042,12 @@
          </event>
          <event from="1900-08-19" to="1900-08-19">
             <desc>
-               <placeName ref="">Tusis</placeName>
+               <placeName ref="">Thusis</placeName>
             </desc>
          </event>
          <event from="1900-08-20" to="1900-08-20">
             <desc>
-               <placeName ref="">Tusis</placeName>
+               <placeName ref="">Thusis</placeName>
             </desc>
          </event>
          <event from="1900-08-20" to="1900-08-20">
@@ -7706,7 +7718,7 @@
          </event>
          <event from="1913-06-09" to="1913-06-09">
             <desc>
-               <placeName ref="">Tusis</placeName>
+               <placeName ref="">Thusis</placeName>
             </desc>
          </event>
          <event from="1913-06-11" to="1913-06-11">
@@ -7901,7 +7913,7 @@
          </event>
          <event from="1914-07-18" to="1914-07-18">
             <desc>
-               <placeName ref="">Tusis</placeName>
+               <placeName ref="">Thusis</placeName>
             </desc>
          </event>
          <event from="1914-07-19" to="1914-07-19">
@@ -7916,7 +7928,7 @@
          </event>
          <event from="1914-07-20" to="1914-07-20">
             <desc>
-               <placeName ref="">Tusis</placeName>
+               <placeName ref="">Thusis</placeName>
             </desc>
          </event>
          <event from="1914-07-21" to="1914-07-21">
@@ -9189,7 +9201,7 @@
                <placeName ref="">Bürgenstock</placeName>
             </desc>
          </event>
-         <event from="" to="">
+            <event from="1926-12-24" to="1927-01-09">
             <desc>
                <placeName ref="http://www.geonames.org/2950159/">Berlin</placeName>
             </desc>
