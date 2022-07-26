@@ -14,4 +14,7 @@
 9. Transformation von manuelle-nachb.xml mit 07_placeName-lookup.xsl Outputdatei: 09_2nd-place-lookup
 
     Manuelle Eingabe von GeoNames ID etc. in 10_manuelle-geonames.xml, erneute Transformation mit 08_2nd-placeName-lookup.xsl
-    Ausgabedatei: 11_all-geonames-finished
+    Ausgabedatei: 11_all-geonames-finished.xml
+    
+10. Koordinaten der Orte ins XML einfügen mit 09_get-coords.xsl 
+11. Koordinaten der nicht in listplace.xml verfügbaren Orte einfügen mit 10_get-coords-of-missing-places.xsl
