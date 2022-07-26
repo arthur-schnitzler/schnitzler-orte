@@ -123,7 +123,7 @@
          </event>
          <event from="1874-08-02" to="1874-08-16" instant="false">
             <desc>
-               <placeName ref="">Landro</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Landro</placeName><location><geo lat="46.64944" long="12.35361"/></location>
             </desc>
          </event>
          <event from="1874-08-02" to="1874-08-16" instant="false">
@@ -133,7 +133,7 @@
          </event>
          <event from="1874-08-02" to="1874-08-16" instant="false">
             <desc>
-               <placeName ref="">Döllach</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Döllach</placeName><location><geo lat="46.93333" long="12.55"/></location>
             </desc>
          </event>
          <event from="1874-08-02" to="1874-08-16" instant="false">
@@ -458,7 +458,7 @@
          </event>
          <event from="1881-07-15" to="1881-07-15" instant="false">
             <desc>
-               <placeName ref="">Malnitzer Tauern</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Malnitzer Tauern</placeName><location><geo lat="47.05" long="13.1"/></location>
             </desc>
          </event>
          <event from="1881-07-15" to="1881-07-15" instant="false">
@@ -490,7 +490,7 @@
          </event>
          <event from="1881-07-17" to="1881-07-17" instant="false">
             <desc>
-               <placeName ref="">Pasterze</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Pasterze</placeName><location><geo lat="47.1" long="12.7"/></location>
             </desc>
          </event>
          <event from="1881-07-17" to="1881-07-17" instant="false">
@@ -940,7 +940,7 @@
          </event>
          <event from="1885-08-22" to="1885-08-22" instant="false">
             <desc>
-               <placeName ref="">Isola Bella</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Isola Bella</placeName><location><geo lat="45.89538" long="8.52708"/></location>
             </desc>
          </event>
          <event from="1885-08-22" to="1885-08-22" instant="false">
@@ -1203,7 +1203,7 @@
          </event>
          <event from="1888-07-25" to="1888-07-25" instant="false">
             <desc>
-               <placeName ref="">Cowes</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Cowes</placeName><location><geo lat="50.76306" long="-1.29772"/></location>
             </desc>
          </event>
          <event from="1888-07-25" to="1888-07-25" instant="false">
@@ -1792,7 +1792,7 @@
          </event>
          <event from="1894-06-23" to="1894-06-23" instant="false">
             <desc>
-               <placeName ref="">Singering</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Singering</placeName><location><geo lat="47.772699364848314" long="15.73029525389078"/></location>
             </desc>
          </event>
          <event from="1894-06-23" to="1894-06-23" instant="false">
@@ -2270,7 +2270,7 @@
          </event>
          <event from="1896-07-10" to="1896-07-10" instant="false">
             <desc>
-               <placeName ref="">Odde</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Odde</placeName><location><geo lat="59.10243" long="7.52135"/></location>
             </desc>
             <note anchored="true">Lotefos</note>
          </event>
@@ -2332,7 +2332,7 @@
          </event>
          <event from="1896-07-16" to="1896-07-16" instant="false">
             <desc>
-               <placeName ref="">Svartisengletscher</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Svartisengletscher</placeName><location><geo lat="66.65895" long="13.93925"/></location>
             </desc>
          </event>
          <event from="1896-07-17" to="1896-07-17" instant="false">
@@ -2353,7 +2353,7 @@
          </event>
          <event from="1896-07-19" to="1896-07-19" instant="false">
             <desc>
-               <placeName ref="">Nordkap</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Nordkap</placeName><location><geo lat="70.75841" long="25.39294"/></location>
             </desc>
          </event>
          <event from="1896-07-20" to="1896-07-20" instant="false">
@@ -2545,7 +2545,7 @@
          </event>
          <event from="1897-06-13" to="1897-06-13" instant="false">
             <desc>
-               <placeName ref="">Pamsenhof</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Pamsenhof</placeName><location><geo lat="48.13992" long="14.43037"/></location>
             </desc>
             <note anchored="true">Bic.</note>
          </event>
@@ -3016,7 +3016,7 @@
          </event>
          <event from="1898-08-20" to="1898-08-20" instant="false">
             <desc>
-               <placeName ref="">Grimsel</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Grimsel</placeName><location><geo lat="46.56102" long="8.33695"/></location>
             </desc>
          </event>
          <event from="1898-08-20" to="1898-08-20" instant="false">
@@ -3078,7 +3078,7 @@
          </event>
          <event from="1898-08-27" to="1898-08-27" instant="false">
             <desc>
-               <placeName ref="">Pilatus</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Pilatus</placeName><location><geo lat="46.9804" long="8.2572"/></location>
             </desc>
          </event>
          <event from="1898-08-28" to="1898-08-28" instant="false">
@@ -3250,7 +3250,7 @@
          </event>
          <event from="1899-06-20" to="1899-06-20" instant="false">
             <desc>
-               <placeName ref="">Singering</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Singering</placeName><location><geo lat="47.772699364848314" long="15.73029525389078"/></location>
             </desc>
          </event>
          <event from="1899-06-20" to="1899-06-20" instant="false">
@@ -3359,7 +3359,7 @@
          </event>
          <event from="1899-07-29" to="1899-07-29" instant="false">
             <desc>
-               <placeName ref="">Raiblsee</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Raiblsee</placeName><location><geo lat="46.42028" long="13.565"/></location>
             </desc>
             <note anchored="true">Wagen</note>
          </event>
@@ -3871,7 +3871,7 @@
          </event>
          <event from="1900-07-20" to="1900-07-20" instant="false">
             <desc>
-               <placeName ref="">St. Michael</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">St. Michael</placeName><location><geo lat="47.33839" long="15.01784"/></location>
             </desc>
          </event>
          <event from="1900-08-02" to="1900-07-31" instant="false">
@@ -3941,23 +3941,23 @@
          </event>
          <event from="1900-08-13" to="1900-08-13" instant="false">
             <desc>
-               <placeName ref="">Kesselfall</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Kesselfall</placeName><location><geo lat="47.205556" long="15.398889"/></location>
             </desc>
             <note anchored="true">mit Richard Beer-Hofmann, Leo Van-Jung</note>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
             <desc>
-               <placeName ref="">Kesselfall</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Kesselfall</placeName><location><geo lat="47.205556" long="15.398889"/></location>
             </desc>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
             <desc>
-               <placeName ref="">Moserboden</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Moserboden</placeName><location><geo lat="47.1625" long="12.7175"/></location>
             </desc>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
             <desc>
-               <placeName ref="">Kesselfall</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Kesselfall</placeName><location><geo lat="47.205556" long="15.398889"/></location>
             </desc>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
@@ -4019,7 +4019,7 @@
          </event>
          <event from="1900-08-19" to="1900-08-19" instant="false">
             <desc>
-               <placeName ref="">Schlappiner Joch</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Schlappiner Joch</placeName><location><geo lat="46.92495" long="9.9079"/></location>
             </desc>
          </event>
          <event from="1900-08-19" to="1900-08-19" instant="false">
@@ -4142,7 +4142,7 @@
          </event>
          <event from="1900-08-31" to="1900-08-31" instant="false">
             <desc>
-               <placeName ref="">Runkelstein</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Runkelstein</placeName><location><geo lat="46.51754" long="11.35888"/></location>
             </desc>
          </event>
          <event from="1900-10-12" to="1900-10-17" instant="false">
@@ -4620,7 +4620,7 @@
          </event>
          <event from="1902-07-03" to="1902-07-03" instant="false">
             <desc>
-               <placeName ref="">Waldrast</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Waldrast</placeName><location><geo lat="47.13333" long="11.4"/></location>
             </desc>
          </event>
          <event from="1902-07-03" to="1902-07-03" instant="false">
@@ -5082,7 +5082,6 @@
          <event from="1903-08-18" to="1903-08-18" instant="false">
             <desc>
                <placeName ref="">Val Ampola</placeName><location><geo lat="45.870988" long="10.651957"/></location>
-               <idno>45.870988 10.651957</idno>
             </desc>
          </event>
          <event from="1903-08-18" to="1903-08-18" instant="false">
@@ -5426,7 +5425,7 @@
          </event>
          <event from="1904-07-15" to="1904-07-15" instant="false">
             <desc>
-               <placeName ref="">Nasswald</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Nasswald</placeName><location><geo lat="47.76327" long="15.69771"/></location>
             </desc>
          </event>
          <event from="1904-07-18" to="1904-07-18" instant="false">
@@ -5702,7 +5701,7 @@
          </event>
          <event from="1905-07-20" to="1905-07-20" instant="false">
             <desc>
-               <placeName ref="">Hochschwab</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Hochschwab</placeName><location><geo lat="47.61973" long="15.14557"/></location>
             </desc>
          </event>
          <event from="1905-07-29" to="1905-07-29" instant="false">
@@ -5785,7 +5784,7 @@
          </event>
          <event from="1905-11-07" to="1905-11-07" instant="false">
             <desc>
-               <placeName ref="">Schreckenstein</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Schreckenstein</placeName><location><geo lat="50.63916" long="14.05081"/></location>
             </desc>
          </event>
          <event from="1905-11-07" to="1905-11-07" instant="false">
@@ -5995,7 +5994,7 @@
          </event>
          <event from="1906-08-17" to="1906-08-17" instant="false">
             <desc>
-               <placeName ref="">Oberhof</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Oberhof</placeName><location><geo lat="50.70435" long="10.72716"/></location>
             </desc>
          </event>
          <event from="1906-08-17" to="1906-08-17" instant="false">
@@ -6143,12 +6142,11 @@
          <event from="1907-07-03" to="1907-07-03" instant="false">
             <desc>
                <placeName ref="">Fischleinboden</placeName><location><geo lat="46.666799" long="12.353684"/></location>
-               <idno>46.666799 12.353684</idno>
             </desc>
          </event>
          <event from="1907-07-03" to="1907-07-03" instant="false">
             <desc>
-               <placeName ref="">Wildbad</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Wildbad</placeName><location><geo lat="46.7324" long="12.27855"/></location>
             </desc>
          </event>
          <event from="1907-07-03" to="1907-07-03" instant="false">
@@ -6184,7 +6182,7 @@
          </event>
          <event from="1907-07-17" to="1907-07-17" instant="false">
             <desc>
-               <placeName ref="">Oland</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Oland</placeName><location><geo lat="46.76027" long="12.02951"/></location>
             </desc>
          </event>
          <event from="1907-07-18" to="1907-07-18" instant="false">
@@ -6194,7 +6192,7 @@
          </event>
          <event from="1907-07-21" to="1907-07-21" instant="false">
             <desc>
-               <placeName ref="">Grieser Thal</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Grieser Thal</placeName><location><geo lat="46.51667" long="11.33333"/></location>
             </desc>
          </event>
          <event from="1907-07-25" to="1907-07-25" instant="false">
@@ -6321,7 +6319,6 @@
          <event from="1907-09-08" to="1907-09-08" instant="false">
             <desc>
                <placeName ref="">St. Valentin</placeName><location><geo lat="46.664699" long="11.187927"/></location>
-               <idno>46.664699 11.187927</idno>
             </desc>
          </event>
          <event from="1907-09-09" to="1907-09-09" instant="false">
@@ -6366,7 +6363,7 @@
          </event>
          <event from="1907-10-03" to="1907-10-03" instant="false">
             <desc>
-               <placeName ref="">Puchberg</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Puchberg</placeName><location><geo lat="47.78709" long="15.91352"/></location>
             </desc>
             <note anchored="true">Baumgartnerhaus</note>
          </event>
@@ -6494,7 +6491,7 @@
          </event>
          <event from="1908-05-12" to="1908-05-12" instant="false">
             <desc>
-               <placeName ref="">Isarthal</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Isarthal</placeName><location><geo lat="48.0563" long="11.5144"/></location>
             </desc>
          </event>
          <event from="1908-06-19" to="1908-06-19" instant="false">
@@ -8342,7 +8339,7 @@
          </event>
          <event from="1922-04-28" to="1922-04-30" instant="false">
             <desc>
-               <placeName ref="">Zuidersee</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Zuidersee</placeName><location><geo lat="52.82762" long="5.24814"/></location>
             </desc>
          </event>
          <event from="1922-05-01" to="1922-05-01" instant="false">
@@ -8352,7 +8349,7 @@
          </event>
          <event from="1922-05-02" to="1922-05-02" instant="false">
             <desc>
-               <placeName ref="">Nordwyk</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Nordwyk</placeName><location><geo lat="52.26953" long="4.46354"/></location>
             </desc>
          </event>
          <event from="1922-05-04" to="1922-05-04" instant="false">
@@ -8967,7 +8964,7 @@
          </event>
          <event from="1925-08-16" to="1925-08-17" instant="false">
             <desc>
-               <placeName ref="">Fondo Pirano</placeName><location><geo lat="" long=""/></location>
+               <placeName ref="">Fondo Pirano</placeName><location><geo lat="46.4388" long="11.13723"/></location>
             </desc>
          </event>
          <event from="1925-08-18" to="1925-08-29" instant="false">

@@ -178,7 +178,7 @@
                     </location>
                 </place>
                 <place>
-                    <placeName>Zuiderzee</placeName>
+                    <placeName>Zuidersee</placeName>
                     <location>
                         <geo ana="lat">52.82762</geo>
                         <geo ana="long">5.24814</geo>
@@ -220,14 +220,14 @@
                     </location>
                 </place>
                 <place>
-                    <placeName>Kesselfallklamm</placeName>
+                    <placeName>Kesselfall</placeName>
                     <location>
                         <geo ana="lat">47.205556</geo>
                         <geo ana="long">15.398889</geo>
                     </location>
                 </place>
                 <place>
-                    <placeName>Mooserboden</placeName>
+                    <placeName>Moserboden</placeName>
                     <location>
                         <geo ana="lat">47.1625</geo>
                         <geo ana="long">12.7175</geo>
@@ -273,6 +273,42 @@
                     <location>
                         <geo ana="lat">46.664699</geo>
                         <geo ana="long">11.187927</geo>
+                    </location>
+                </place>
+                <!-- Koordinaten trotz vorhandener GeoNames in gefunden -->
+                <place>
+                    <placeName>Fondo Pirano</placeName>
+                    <location>
+                        <geo ana="lat">46.4388</geo>
+                        <geo ana="long">11.13723</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Oland</placeName>
+                    <location>
+                        <geo ana="lat">46.76027</geo>
+                        <geo ana="long">12.02951</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Wildbad</placeName>
+                    <location>
+                        <geo ana="lat">46.7324</geo>
+                        <geo ana="long">12.27855</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Svartisengletscher</placeName>
+                    <location>
+                        <geo ana="lat">66.65895</geo>
+                        <geo ana="long">13.93925</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Odde</placeName>
+                    <location>
+                        <geo ana="lat">59.10243</geo>
+                        <geo ana="long">7.52135</geo>
                     </location>
                 </place>
             </listPlace>

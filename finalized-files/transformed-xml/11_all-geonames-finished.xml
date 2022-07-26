@@ -5082,7 +5082,6 @@
          <event from="1903-08-18" to="1903-08-18" instant="false">
             <desc>
                <placeName ref="#" instant="false" full="yes">Val Ampola</placeName>
-               <idno>45.870988 10.651957</idno>
             </desc>
          </event>
          <event from="1903-08-18" to="1903-08-18" instant="false">
@@ -6143,7 +6142,6 @@
          <event from="1907-07-03" to="1907-07-03" instant="false">
             <desc>
                <placeName ref="#" instant="false" full="yes">Fischleinboden</placeName>
-               <idno>46.666799 12.353684</idno>
             </desc>
          </event>
          <event from="1907-07-03" to="1907-07-03" instant="false">
@@ -6321,7 +6319,6 @@
          <event from="1907-09-08" to="1907-09-08" instant="false">
             <desc>
                <placeName ref="#" instant="false" full="yes">St. Valentin</placeName>
-               <idno>46.664699 11.187927</idno>
             </desc>
          </event>
          <event from="1907-09-09" to="1907-09-09" instant="false">
