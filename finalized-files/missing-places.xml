@@ -1,193 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XML>
-    <place>
-        <name>Landro</name>
-        <lat>46.64944</lat>
-        <long>12.35361</long>
-    </place>
-    <place>
-        <name>Dölach</name>
-        <lat>46.93333</lat>
-        <long>12.55</long>
-    </place>
-    <place>
-        <name>Malnitzer Tauern (Niederer Tauern)</name>
-        <lat>47.05</lat>
-        <long>13.1</long>
-    </place>
-    <place>
-        <name>Pasterze</name>
-        <lat>47.1</lat>
-        <long>12.7</long>
-    </place>
-    <place>
-        <name>Albulapass</name>
-        <lat>46.58235</lat>
-        <long>9.83771</long>
-    </place>
-    <place>
-        <name>Isola Bella</name>
-        <lat>45.89538</lat>
-        <long>8.52708</long>
-    </place>
-    <place>
-        <name>Cowes</name>
-        <lat>50.76306</lat>
-        <long>-1.29772</long>
-    </place>
-    <place>
-        <name>Kammer See</name>
-        <lat>47.64972</lat>
-        <long>13.94306</long>
-    </place>
-    <place>
-        <name>Nordkap</name>
-        <lat>70.75841</lat>
-        <long>25.39294</long>
-    </place>
-    <place>
-        <name>Grimselpass</name>
-        <lat>46.56102</lat>
-        <long>8.33695</long>
-    </place>
-    <place>
-        <name>Pilatus</name>
-        <lat>46.9804</lat>
-        <long>8.2572</long>
-    </place>
-    <place>
-        <name>Raibler See</name>
-        <lat>46.42028</lat>
-        <long>13.565</long>
-    </place>
-    <place>
-        <name>Fedaia</name>
-        <lat>46.45971</lat>
-        <long>11.86983</long>
-    </place>
-    <place>
-        <name>St. Michael</name>
-        <lat>47.33839</lat>
-        <long>15.01784</long>
-    </place>
-    <place>
-        <name>Runkelstein</name>
-        <lat>46.51754</lat>
-        <long>11.35888</long>
-    </place>
-    <place>
-        <name>Waldrast</name>
-        <lat>47.13333</lat>
-        <long>11.4</long>
-    </place>
-    <place>
-        <name>Hochschwab</name>
-        <lat>47.61973</lat>
-        <long>15.14557</long>
-    </place>
-    <place>
-        <name>Schreckenstein</name>
-        <lat>50.63916</lat>
-        <long>14.05081</long>
-    </place>
-    <place>
-        <name>Oberhof</name>
-        <lat>50.70435</lat>
-        <long>10.72716</long>
-    </place>
-    <place>
-        <name>Grieser Thal</name>
-        <lat>46.51667</lat>
-        <long>11.33333</long>
-    </place>
-    <place>
-        <name>Puchberg</name>
-        <lat>47.78709</lat>
-        <long>15.91352</long>
-    </place>
-    <place>
-        <name>Isarthal</name>
-        <lat>48.0563</lat>
-        <long>11.5144</long>
-    </place>
-    <place>
-        <name>Zögernsee</name>
-        <lat>48.38333</lat>
-        <long>16.15</long>
-    </place>
-    <place>
-        <name>Zuiderzee</name>
-        <lat>52.82762</lat>
-        <long>5.24814</long>
-    </place>
-    <place>
-        <name>Nordwyk</name>
-        <lat>52.26953</lat>
-        <long>4.46354</long>
-    </place>
-    <place>
-        <name>Schlappiner Joch</name>
-        <lat>46.92495</lat>
-        <long>9.9079</long>
-    </place>
-    <place>
-        <name>Nasswald</name>
-        <lat>47.76327</lat>
-        <long>15.69771</long>
-    </place>
-    <place>
-        <name>Bad Dreikirchen</name>
-        <lat>46.618056</lat>
-        <long>11.510556</long>
-    </place>
-    <place>
-        <name>Scheibmühl</name>
-        <lat>48.056389</lat>
-        <long>15.611944</long>
-    </place>
-    <place>
-        <name>Kesselfallklamm</name>
-        <lat>47.205556</lat>
-        <long>15.398889</long>
-    </place>
-    <place>
-        <name>Mooserboden</name>
-        <lat>47.1625</lat>
-        <long>12.7175</long>
-    </place>
-    <place>
-        <name>Bolladore</name>
-        <lat>46.325362</lat>
-        <long>10.318463</long>
-    </place>
-    <place>
-        <name>Singerin</name>
-        <lat>47.772699364848314</lat>
-        <long>15.73029525389078</long>
-    </place>
-    <place>
-        <name>Pamsenhof</name>
-        <lat>48.13992</lat>
-        <long>14.43037</long>
-    </place>
-    <place>
-        <name>Val Ampola</name>
-        <lat>45.870988</lat>
-        <long>10.651957</long>
-    </place>
-    <place>
-        <name>Fischleinboden</name>
-        <lat>46.666799</lat>
-        <long>12.353684</long>
-    </place>
-    <place>
-        <name>St. Valentin</name>
-        <lat>46.664699</lat>
-        <long>11.187927</long>
-    </place>
-    <place>
-        <name/>
-        <lat/>
-        <long/>
-    </place>
-</XML>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place>
+                    <placeName>Landro</placeName>
+                    <location>
+                        <geo ana="lat">46.64944</geo>
+                        <geo ana="long">12.35361</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Dölach</placeName>
+                    <location>
+                        <geo ana="lat">46.93333</geo>
+                        <geo ana="long">12.55</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Malnitzer Tauern (Niederer Tauern)</placeName>
+                    <location>
+                        <geo ana="lat">47.05</geo>
+                        <geo ana="long">13.1</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Pasterze</placeName>
+                    <location>
+                        <geo ana="lat">47.1</geo>
+                        <geo ana="long">12.7</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Albulapass</placeName>
+                    <location>
+                        <geo ana="lat">46.58235</geo>
+                        <geo ana="long">9.83771</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Isola Bella</placeName>
+                    <location>
+                        <geo ana="lat">45.89538</geo>
+                        <geo ana="long">8.52708</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Cowes</placeName>
+                    <location>
+                        <geo ana="lat">50.76306</geo>
+                        <geo ana="long">-1.29772</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Kammer See</placeName>
+                    <location>
+                        <geo ana="lat">47.64972</geo>
+                        <geo ana="long">13.94306</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Nordkap</placeName>
+                    <location>
+                        <geo ana="lat">70.75841</geo>
+                        <geo ana="long">25.39294</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Grimselpass</placeName>
+                    <location>
+                        <geo ana="lat">46.56102</geo>
+                        <geo ana="long">8.33695</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Pilatus</placeName>
+                    <location>
+                        <geo ana="lat">46.9804</geo>
+                        <geo ana="long">8.2572</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Raibler See</placeName>
+                    <location>
+                        <geo ana="lat">46.42028</geo>
+                        <geo ana="long">13.565</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Fedaia</placeName>
+                    <location>
+                        <geo ana="lat">46.45971</geo>
+                        <geo ana="long">11.86983</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>St. Michael</placeName>
+                    <location>
+                        <geo ana="lat">47.33839</geo>
+                        <geo ana="long">15.01784</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Runkelstein</placeName>
+                    <location>
+                        <geo ana="lat">46.51754</geo>
+                        <geo ana="long">11.35888</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Waldrast</placeName>
+                    <location>
+                        <geo ana="lat">47.13333</geo>
+                        <geo ana="long">11.4</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Hochschwab</placeName>
+                    <location>
+                        <geo ana="lat">47.61973</geo>
+                        <geo ana="long">15.14557</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Schreckenstein</placeName>
+                    <location>
+                        <geo ana="lat">50.63916</geo>
+                        <geo ana="long">14.05081</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Oberhof</placeName>
+                    <location>
+                        <geo ana="lat">50.70435</geo>
+                        <geo ana="long">10.72716</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Grieser Thal</placeName>
+                    <location>
+                        <geo ana="lat">46.51667</geo>
+                        <geo ana="long">11.33333</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Puchberg</placeName>
+                    <location>
+                        <geo ana="lat">47.78709</geo>
+                        <geo ana="long">15.91352</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Isarthal</placeName>
+                    <location>
+                        <geo ana="lat">48.0563</geo>
+                        <geo ana="long">11.5144</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Zögernsee</placeName>
+                    <location>
+                        <geo ana="lat">48.38333</geo>
+                        <geo ana="long">16.15</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Zuiderzee</placeName>
+                    <location>
+                        <geo ana="lat">52.82762</geo>
+                        <geo ana="long">5.24814</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Nordwyk</placeName>
+                    <location>
+                        <geo ana="lat">52.26953</geo>
+                        <geo ana="long">4.46354</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Schlappiner Joch</placeName>
+                    <location>
+                        <geo ana="lat">46.92495</geo>
+                        <geo ana="long">9.9079</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Nasswald</placeName>
+                    <location>
+                        <geo ana="lat">47.76327</geo>
+                        <geo ana="long">15.69771</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Bad Dreikirchen</placeName>
+                    <location>
+                        <geo ana="lat">46.618056</geo>
+                        <geo ana="long">11.510556</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Scheibmühl</placeName>
+                    <location>
+                        <geo ana="lat">48.056389</geo>
+                        <geo ana="long">15.611944</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Kesselfallklamm</placeName>
+                    <location>
+                        <geo ana="lat">47.205556</geo>
+                        <geo ana="long">15.398889</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Mooserboden</placeName>
+                    <location>
+                        <geo ana="lat">47.1625</geo>
+                        <geo ana="long">12.7175</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Bolladore</placeName>
+                    <location>
+                        <geo ana="lat">46.325362</geo>
+                        <geo ana="long">10.318463</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Singerin</placeName>
+                    <location>
+                        <geo ana="lat">47.772699364848314</geo>
+                        <geo ana="long">15.73029525389078</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Pamsenhof</placeName>
+                    <location>
+                        <geo ana="lat">48.13992</geo>
+                        <geo ana="long">14.43037</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Val Ampola</placeName>
+                    <location>
+                        <geo ana="lat">45.870988</geo>
+                        <geo ana="long">10.651957</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Fischleinboden</placeName>
+                    <location>
+                        <geo ana="lat">46.666799</geo>
+                        <geo ana="long">12.353684</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>St. Valentin</placeName>
+                    <location>
+                        <geo ana="lat">46.664699</geo>
+                        <geo ana="long">11.187927</geo>
+                    </location>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
