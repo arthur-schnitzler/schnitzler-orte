@@ -1,44 +1,48 @@
-Landro http://www.geonames.org/3216694/
-Dölach http://www.geonames.org/2780871/
-Malnitzer Tauern (Niederer Tauern) http://www.geonames.org/2770598/
-Pasterze http://www.geonames.org/2769213/
-Albulapass http://www.geonames.org/2661821/
-Isola Bella http://www.geonames.org/8967155/
-Cowes http://www.geonames.org/2652204/
-Kammer See http://www.geonames.org/2774820/
-Nordkap http://www.geonames.org/9039621/
-Grimselpass http://www.geonames.org/2660501/
-Pilatus http://www.geonames.org/2659201/
-Raibler See http://www.geonames.org/3169875/
-Fedaia http://www.geonames.org/8354640/
-St. Michael http://www.geonames.org/2766495/
-Runkelstein http://www.geonames.org/11126795/
-Waldrast http://www.geonames.org/2771895/
-Hochschwab http://www.geonames.org/2775956/
-Schreckenstein http://www.geonames.org/7117043/
-Oberhof http://www.geonames.org/2860282/
-Grieser Thal http://www.geonames.org/3175824/
-Puchberg http://www.geonames.org/2768279/
-Isarthal http://www.geonames.org/6559195/
-Zögernsee http://www.geonames.org/3324106/
-Zuiderzee http://www.geonames.org/2753361/
-Nordwyk http://www.geonames.org/2749814/
-Schlappiner Joch http://www.geonames.org/2658731/
-Nasswald http://www.geonames.org/2770921/
+identifizierbare, aber in der PMB nicht vorhandene Orte:
 
-Bad Dreikirchen https://d-nb.info/gnd/4256975-8
-Scheibmühl  	https://d-nb.info/gnd/1059220652
+    Landro http://www.geonames.org/3216694/
+    Dölach http://www.geonames.org/2780871/
+    Malnitzer Tauern (Niederer Tauern) http://www.geonames.org/2770598/
+    Pasterze http://www.geonames.org/2769213/
+    Albulapass http://www.geonames.org/2661821/
+    Isola Bella http://www.geonames.org/8967155/
+    Cowes http://www.geonames.org/2652204/
+    Kammer See http://www.geonames.org/2774820/
+    Nordkap http://www.geonames.org/9039621/
+    Grimselpass http://www.geonames.org/2660501/
+    Pilatus http://www.geonames.org/2659201/
+    Raibler See http://www.geonames.org/3169875/
+    Fedaia http://www.geonames.org/8354640/
+    St. Michael http://www.geonames.org/2766495/
+    Runkelstein http://www.geonames.org/11126795/
+    Waldrast http://www.geonames.org/2771895/
+    Hochschwab http://www.geonames.org/2775956/
+    Schreckenstein http://www.geonames.org/7117043/
+    Oberhof http://www.geonames.org/2860282/
+    Grieser Thal http://www.geonames.org/3175824/
+    Puchberg http://www.geonames.org/2768279/
+    Isarthal http://www.geonames.org/6559195/
+    Zögernsee http://www.geonames.org/3324106/
+    Zuiderzee http://www.geonames.org/2753361/
+    Nordwyk http://www.geonames.org/2749814/
+    Schlappiner Joch http://www.geonames.org/2658731/
+    Nasswald http://www.geonames.org/2770921/
 
-Nahe Geo-Names verwendet:
+nur GND-Verlinkungen: 
+
+    Bad Dreikirchen https://d-nb.info/gnd/4256975-8
+    Scheibmühl  	https://d-nb.info/gnd/1059220652
+
+GeoNames-ID von einem nahegelegenen Ort verwendet:
 Kesselfallklamm  http://www.geonames.org/3335239/
 Mooserboden  http://www.geonames.org/7872239/
 Bolladore http://www.geonames.org/6537105/ 
 
 Nicht identifiziert:
-Singerin(g) (nicht identifiziert, Niederösterreich)
-Pamsenhof (nicht identifiziert, Österreich)
+    Singerin(g) (Niederösterreich)
+    Pamsenhof (Österreich)
 
 Koordinaten in <idno> angegeben:
-Val Ampola 45.870988 10.651957
-Fischleinboden 46.666799 12.353684
-St. Valentin 46.664699 11.187927
+    Val Ampola 45.870988 10.651957
+    Fischleinboden 46.666799 12.353684
+    St. Valentin 46.664699 11.187927
