@@ -1,38 +1,38 @@
 Landro http://www.geonames.org/3216694/
 Dölach http://www.geonames.org/2780871/
-Malnitzer Tauern (Niederer Tauern) https://www.geonames.org/2770598/niederer-tauern.html
-Pasterze https://www.geonames.org/2769213/pasterze.html
-Albulapass https://www.geonames.org/2661821/albulapass.html
-Isola Bella https://www.geonames.org/8967155/isola-bella.html
-Cowes https://www.geonames.org/2652204/cowes.html
-Kammer See https://www.geonames.org/2774820/kammer-see.html
-Nordkap https://www.geonames.org/9039621/lavvarjavrit.html
-Grimselpass https://www.geonames.org/2660501/grimselpass.html
-Pilatus https://www.geonames.org/2659201/pilatus.html
-Raibler See https://www.geonames.org/3169875/lago-del-predil.html
-Fedaia https://www.geonames.org/8354640/lago-di-fedaia.html
-St. Michael https://www.geonames.org/2766495/sankt-michael-in-obersteiermark.html
-Runkelstein https://www.geonames.org/11126795/castel-roncolo.html
-Waldrast https://www.geonames.org/2771895/maria-waldrast.html
-Hochschwab https://www.geonames.org/2775956/hochschwab.html
-Schreckenstein https://www.geonames.org/7117043/hrad-strekov.html
-Oberhof https://www.geonames.org/2860282/oberhof.html
-Grieser Thal https://www.geonames.org/3175824/gries.html
-Puchberg https://www.geonames.org/2768279/puchberg-am-schneeberg.html
-Isarthal https://www.geonames.org/6559195/pullach-i-isartal.html
-Zögernsee https://www.geonames.org/3324106/zoegernsee.html
-Zuiderzee https://www.geonames.org/2753361/ijsselmeer.html
-Nordwyk https://www.geonames.org/2749814/gemeente-noordwijk.html
-Schlappiner Joch https://www.geonames.org/2658731/schlappiner-joch.html
-Nasswald https://www.geonames.org/2770921/nasswald.html
+Malnitzer Tauern (Niederer Tauern) http://www.geonames.org/2770598/
+Pasterze http://www.geonames.org/2769213/
+Albulapass http://www.geonames.org/2661821/
+Isola Bella http://www.geonames.org/8967155/
+Cowes http://www.geonames.org/2652204/
+Kammer See http://www.geonames.org/2774820/
+Nordkap http://www.geonames.org/9039621/
+Grimselpass http://www.geonames.org/2660501/
+Pilatus http://www.geonames.org/2659201/
+Raibler See http://www.geonames.org/3169875/
+Fedaia http://www.geonames.org/8354640/
+St. Michael http://www.geonames.org/2766495/
+Runkelstein http://www.geonames.org/11126795/
+Waldrast http://www.geonames.org/2771895/
+Hochschwab http://www.geonames.org/2775956/
+Schreckenstein http://www.geonames.org/7117043/
+Oberhof http://www.geonames.org/2860282/
+Grieser Thal http://www.geonames.org/3175824/
+Puchberg http://www.geonames.org/2768279/
+Isarthal http://www.geonames.org/6559195/
+Zögernsee http://www.geonames.org/3324106/
+Zuiderzee http://www.geonames.org/2753361/
+Nordwyk http://www.geonames.org/2749814/
+Schlappiner Joch http://www.geonames.org/2658731/
+Nasswald http://www.geonames.org/2770921/
 
 Bad Dreikirchen https://d-nb.info/gnd/4256975-8
 Scheibmühl  	https://d-nb.info/gnd/1059220652
 
 Nahe Geo-Names verwendet:
-Kesselfallklamm (geonames nicht vorhanden, naher geoname verwendet) https://www.geonames.org/3335239/eichberg.html
-Mooserboden (geonames nicht vorhanden, naher geoname verwendet) https://www.geonames.org/7872239/kaprun.html
-Bolladore https://www.geonames.org/6537105/sondalo.html (nicht vorhanden, naher geoname verwendet)
+Kesselfallklamm  http://www.geonames.org/3335239/
+Mooserboden  http://www.geonames.org/7872239/
+Bolladore http://www.geonames.org/6537105/ 
 
 Nicht identifiziert:
 Singerin(g) (nicht identifiziert, Niederösterreich)

@@ -6,10 +6,10 @@
     <xsl:mode on-no-match="shallow-skip"/>
     <xsl:output encoding="UTF-8" indent="no" method="text"/>
     <xsl:template match="tei:profileDesc">
-        <xsl:text>Date,Sender Surname,Sender First Name,Sender GND ID,Receiver Surname,Receiver First Name,Receiver GND ID,Sender City,Sender GeoNames ID,Receiver City,Receiver GeoNames ID
-</xsl:text>
+        <xsl:text>From, To, Place Name, GeoNames</xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
+    
     <xsl:template match="tei:correspDesc">
         <xsl:variable name="current" select="current()" as="node()"/>
         <xsl:for-each select="tei:correspAction[1]/tei:persName">
@@ -82,10 +82,10 @@
         <xsl:value-of select="normalize-space(.)"/><xsl:text>,</xsl:text><xsl:value-of select="$ref"/>
     </xsl:template>
     
-    <xsl:template match="tei:correspAction/tei:placeName">
+    <xsl:template match="tei:placeName">
         <xsl:variable name="ref">
             <xsl:choose>
-                <xsl:when test="starts-with(@ref, 'https://www.geonames.org/') and ends-with(@ref, '/')">
+                <xsl:when test="starts-with(@ref, 'http://www.geonames.org/') and ends-with(@ref, '/')">
                     <xsl:value-of select="substring-before(substring-after(@ref, 'https://www.geonames.org/'), '/')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@ref, 'https://www.geonames.org/')">
@@ -101,7 +101,5 @@
         </xsl:variable>
         <xsl:value-of select="normalize-space(.)"/><xsl:text>,</xsl:text><xsl:value-of select="$ref"/>
     </xsl:template>
-    
-        
-        
+     
 </xsl:stylesheet>

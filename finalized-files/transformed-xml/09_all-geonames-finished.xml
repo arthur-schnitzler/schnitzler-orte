@@ -458,7 +458,7 @@
          </event>
          <event from="1881-07-15" to="1881-07-15" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2770598/niederer-tauern.html" instant="false" full="yes">Malnitzer Tauern</placeName>
+               <placeName ref="http://www.geonames.org/2770598/" instant="false" full="yes">Malnitzer Tauern</placeName>
             </desc>
          </event>
          <event from="1881-07-15" to="1881-07-15" instant="false">
@@ -490,7 +490,7 @@
          </event>
          <event from="1881-07-17" to="1881-07-17" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2769213/pasterze.html" instant="false" full="yes">Pasterze</placeName>
+               <placeName ref="http://www.geonames.org/2769213/" instant="false" full="yes">Pasterze</placeName>
             </desc>
          </event>
          <event from="1881-07-17" to="1881-07-17" instant="false">
@@ -599,7 +599,7 @@
          </event>
          <event from="1882-08-04" to="1882-08-04" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2661821/albulapass.html" instant="false" full="yes">Albulapass</placeName>
+               <placeName ref="http://www.geonames.org/2661821/" instant="false" full="yes">Albulapass</placeName>
             </desc>
          </event>
          <event from="1882-08-04" to="1882-08-04" instant="false">
@@ -659,7 +659,7 @@
          </event>
          <event from="1882-08-09" to="1882-08-09" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/6537105/sondalo.html" instant="false" full="yes">Bolladore</placeName>
+               <placeName ref="http://www.geonames.org/6537105/" instant="false" full="yes">Bolladore</placeName>
             </desc>
          </event>
          <event from="1882-08-09" to="1882-08-09" instant="false">
@@ -940,7 +940,7 @@
          </event>
          <event from="1885-08-22" to="1885-08-22" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/8967155/isola-bella.html" instant="false" full="yes">Isola Bella</placeName>
+               <placeName ref="http://www.geonames.org/8967155/" instant="false" full="yes">Isola Bella</placeName>
             </desc>
          </event>
          <event from="1885-08-22" to="1885-08-22" instant="false">
@@ -1203,7 +1203,7 @@
          </event>
          <event from="1888-07-25" to="1888-07-25" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2652204/cowes.html" instant="false" full="yes">Cowes</placeName>
+               <placeName ref="http://www.geonames.org/2652204/" instant="false" full="yes">Cowes</placeName>
             </desc>
          </event>
          <event from="1888-07-25" to="1888-07-25" instant="false">
@@ -1326,7 +1326,7 @@
          </event>
          <event from="1889-08-12" to="1889-08-12" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2774820/kammer-see.html" instant="false" full="yes">Kammersee</placeName>
+               <placeName ref="http://www.geonames.org/2774820/" instant="false" full="yes">Kammersee</placeName>
             </desc>
          </event>
          <event from="1889-08-13" to="1889-08-13" instant="false">
@@ -2332,7 +2332,7 @@
          </event>
          <event from="1896-07-16" to="1896-07-16" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3135212/svartisen.html" instant="false" full="yes">Svartisengletscher</placeName>
+               <placeName ref="http://www.geonames.org/3135212/" instant="false" full="yes">Svartisengletscher</placeName>
             </desc>
          </event>
          <event from="1896-07-17" to="1896-07-17" instant="false">
@@ -2353,7 +2353,7 @@
          </event>
          <event from="1896-07-19" to="1896-07-19" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/9039621/lavvarjavrit.html" instant="false" full="yes">Nordkap</placeName>
+               <placeName ref="http://www.geonames.org/9039621/" instant="false" full="yes">Nordkap</placeName>
             </desc>
          </event>
          <event from="1896-07-20" to="1896-07-20" instant="false">
@@ -3016,7 +3016,7 @@
          </event>
          <event from="1898-08-20" to="1898-08-20" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2660501/grimselpass.html" instant="false" full="yes">Grimsel</placeName>
+               <placeName ref="http://www.geonames.org/2660501/" instant="false" full="yes">Grimsel</placeName>
             </desc>
          </event>
          <event from="1898-08-20" to="1898-08-20" instant="false">
@@ -3078,7 +3078,7 @@
          </event>
          <event from="1898-08-27" to="1898-08-27" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2659201/pilatus.html" instant="false" full="yes">Pilatus</placeName>
+               <placeName ref="http://www.geonames.org/2659201/" instant="false" full="yes">Pilatus</placeName>
             </desc>
          </event>
          <event from="1898-08-28" to="1898-08-28" instant="false">
@@ -3359,7 +3359,7 @@
          </event>
          <event from="1899-07-29" to="1899-07-29" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3169875/lago-del-predil.html" instant="false" full="yes">Raiblsee</placeName>
+               <placeName ref="http://www.geonames.org/3169875/" instant="false" full="yes">Raiblsee</placeName>
             </desc>
             <note anchored="true">Wagen</note>
          </event>
@@ -3480,7 +3480,7 @@
          </event>
          <event from="1899-08-08" to="1899-08-08" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/8354640/lago-di-fedaia.html" instant="false" full="yes">Fedaja</placeName>
+               <placeName ref="http://www.geonames.org/8354640/" instant="false" full="yes">Fedaja</placeName>
             </desc>
          </event>
          <event from="1899-08-08" to="1899-08-08" instant="false">
@@ -3871,7 +3871,7 @@
          </event>
          <event from="1900-07-20" to="1900-07-20" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2766495/sankt-michael-in-obersteiermark.html" instant="false" full="yes">St. Michael</placeName>
+               <placeName ref="http://www.geonames.org/2766495/" instant="false" full="yes">St. Michael</placeName>
             </desc>
          </event>
          <event from="1900-08-02" to="1900-07-31" instant="false">
@@ -3941,23 +3941,23 @@
          </event>
          <event from="1900-08-13" to="1900-08-13" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3335239/eichberg.html" cert="low" instant="false" full="yes">Kesselfall</placeName>
+               <placeName ref="http://www.geonames.org/3335239/" cert="low" instant="false" full="yes">Kesselfall</placeName>
             </desc>
             <note anchored="true">mit Richard Beer-Hofmann, Leo Van-Jung</note>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3335239/eichberg.html" cert="low" instant="false" full="yes">Kesselfall</placeName>
+               <placeName ref="http://www.geonames.org/3335239/" cert="low" instant="false" full="yes">Kesselfall</placeName>
             </desc>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/7872239/kaprun.html" cert="low" instant="false" full="yes">Moserboden</placeName>
+               <placeName ref="http://www.geonames.org/7872239/" cert="low" instant="false" full="yes">Moserboden</placeName>
             </desc>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3335239/eichberg.html" cert="low" instant="false" full="yes">Kesselfall</placeName>
+               <placeName ref="http://www.geonames.org/3335239/" cert="low" instant="false" full="yes">Kesselfall</placeName>
             </desc>
          </event>
          <event from="1900-08-14" to="1900-08-14" instant="false">
@@ -4019,7 +4019,7 @@
          </event>
          <event from="1900-08-19" to="1900-08-19" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2658731/schlappiner-joch.html" instant="false" full="yes">Schlappiner Joch</placeName>
+               <placeName ref="http://www.geonames.org/2658731/" instant="false" full="yes">Schlappiner Joch</placeName>
             </desc>
          </event>
          <event from="1900-08-19" to="1900-08-19" instant="false">
@@ -4090,7 +4090,7 @@
          </event>
          <event from="1900-08-26" to="1900-08-26" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/6537105/sondalo.html" instant="false" full="yes">Bolladore</placeName>
+               <placeName ref="http://www.geonames.org/6537105/" instant="false" full="yes">Bolladore</placeName>
             </desc>
          </event>
          <event from="1900-08-26" to="1900-08-26" instant="false">
@@ -4142,7 +4142,7 @@
          </event>
          <event from="1900-08-31" to="1900-08-31" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/11126795/castel-roncolo.html" instant="false" full="yes">Runkelstein</placeName>
+               <placeName ref="http://www.geonames.org/11126795/" instant="false" full="yes">Runkelstein</placeName>
             </desc>
          </event>
          <event from="1900-10-12" to="1900-10-17" instant="false">
@@ -4620,7 +4620,7 @@
          </event>
          <event from="1902-07-03" to="1902-07-03" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2771895/maria-waldrast.html" instant="false" full="yes">Waldrast</placeName>
+               <placeName ref="http://www.geonames.org/2771895/" instant="false" full="yes">Waldrast</placeName>
             </desc>
          </event>
          <event from="1902-07-03" to="1902-07-03" instant="false">
@@ -5426,7 +5426,7 @@
          </event>
          <event from="1904-07-15" to="1904-07-15" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2770921/nasswald.html" instant="false" full="yes">Nasswald</placeName>
+               <placeName ref="http://www.geonames.org/2770921/" instant="false" full="yes">Nasswald</placeName>
             </desc>
          </event>
          <event from="1904-07-18" to="1904-07-18" instant="false">
@@ -5702,7 +5702,7 @@
          </event>
          <event from="1905-07-20" to="1905-07-20" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2775956/hochschwab.html" instant="false" full="yes">Hochschwab</placeName>
+               <placeName ref="http://www.geonames.org/2775956/" instant="false" full="yes">Hochschwab</placeName>
             </desc>
          </event>
          <event from="1905-07-29" to="1905-07-29" instant="false">
@@ -5785,7 +5785,7 @@
          </event>
          <event from="1905-11-07" to="1905-11-07" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/7117043/hrad-strekov.html" instant="false" full="yes">Schreckenstein</placeName>
+               <placeName ref="http://www.geonames.org/7117043/" instant="false" full="yes">Schreckenstein</placeName>
             </desc>
          </event>
          <event from="1905-11-07" to="1905-11-07" instant="false">
@@ -5995,7 +5995,7 @@
          </event>
          <event from="1906-08-17" to="1906-08-17" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2860282/oberhof.html" instant="false" full="yes">Oberhof</placeName>
+               <placeName ref="http://www.geonames.org/2860282/" instant="false" full="yes">Oberhof</placeName>
             </desc>
          </event>
          <event from="1906-08-17" to="1906-08-17" instant="false">
@@ -6148,7 +6148,7 @@
          </event>
          <event from="1907-07-03" to="1907-07-03" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3168508/san-candido.html" instant="false" full="yes">Wildbad</placeName>
+               <placeName ref="http://www.geonames.org/3168508/" instant="false" full="yes">Wildbad</placeName>
             </desc>
          </event>
          <event from="1907-07-03" to="1907-07-03" instant="false">
@@ -6184,7 +6184,7 @@
          </event>
          <event from="1907-07-17" to="1907-07-17" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3164949/valdaora-di-mezzo.html" instant="false" full="yes">Oland</placeName>
+               <placeName ref="http://www.geonames.org/3164949/" instant="false" full="yes">Oland</placeName>
             </desc>
          </event>
          <event from="1907-07-18" to="1907-07-18" instant="false">
@@ -6194,7 +6194,7 @@
          </event>
          <event from="1907-07-21" to="1907-07-21" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3175824/gries.html" instant="false" full="yes">Grieser Thal</placeName>
+               <placeName ref="http://www.geonames.org/3175824/" instant="false" full="yes">Grieser Thal</placeName>
             </desc>
          </event>
          <event from="1907-07-25" to="1907-07-25" instant="false">
@@ -6366,7 +6366,7 @@
          </event>
          <event from="1907-10-03" to="1907-10-03" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2768279/puchberg-am-schneeberg.html" instant="false" full="yes">Puchberg</placeName>
+               <placeName ref="http://www.geonames.org/2768279/" instant="false" full="yes">Puchberg</placeName>
             </desc>
             <note anchored="true">Baumgartnerhaus</note>
          </event>
@@ -6494,7 +6494,7 @@
          </event>
          <event from="1908-05-12" to="1908-05-12" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/6559195/pullach-i-isartal.html" instant="false" full="yes">Isarthal</placeName>
+               <placeName ref="http://www.geonames.org/6559195/" instant="false" full="yes">Isarthal</placeName>
             </desc>
          </event>
          <event from="1908-06-19" to="1908-06-19" instant="false">
@@ -8315,7 +8315,7 @@
          </event>
          <event from="1921-10-11" to="1921-10-11" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/3324106/zoegernsee.html" instant="false" full="yes">Zögersdorf</placeName>
+               <placeName ref="http://www.geonames.org/3324106/" instant="false" full="yes">Zögersdorf</placeName>
             </desc>
             <note anchored="true">Jagdhaus F.S.</note>
          </event>
@@ -8342,7 +8342,7 @@
          </event>
          <event from="1922-04-28" to="1922-04-30" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2753361/ijsselmeer.html" instant="false" full="yes">Zuidersee</placeName>
+               <placeName ref="http://www.geonames.org/2753361/" instant="false" full="yes">Zuidersee</placeName>
             </desc>
          </event>
          <event from="1922-05-01" to="1922-05-01" instant="false">
@@ -8352,7 +8352,7 @@
          </event>
          <event from="1922-05-02" to="1922-05-02" instant="false">
             <desc>
-               <placeName ref="https://www.geonames.org/2749814/gemeente-noordwijk.html" instant="false" full="yes">Nordwyk</placeName>
+               <placeName ref="http://www.geonames.org/2749814/" instant="false" full="yes">Nordwyk</placeName>
             </desc>
          </event>
          <event from="1922-05-04" to="1922-05-04" instant="false">
