@@ -16,5 +16,6 @@
     Manuelle Eingabe von GeoNames ID etc. in 10_manuelle-geonames.xml, erneute Transformation mit 08_2nd-placeName-lookup.xsl
     Ausgabedatei: 11_all-geonames-finished.xml
     
-10. Koordinaten der Orte ins XML einfügen mit 09_get-coords.xsl 
-11. Koordinaten der nicht in listplace.xml verfügbaren Orte einfügen mit 10_get-coords-of-missing-places.xsl
+10. Koordinaten der Orte ins XML einfügen mit 09_get-coords.xsl (Koordinaten der nicht in listplace.xml verfügbaren Orte einfügen werden mit missing-places.xml     abgeglichen)
+
+    Transformierte CSV Daten: places-csv.csv
