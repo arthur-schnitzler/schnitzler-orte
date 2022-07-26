@@ -11,6 +11,7 @@
 
     Manuelle Nachbearbeitung (Korrektur der Ortsnamen, Datumsangaben): manuelle-nachb.xml  Bei ungenauen bzw. unbekannten Datumsangaben wurde das ganze Jahr         angegeben und im note Element vermerkt.
 
-9. Transformation von manuelle-nachb.xml mit 07_placeName-lookup.xsl
+9. Transformation von manuelle-nachb.xml mit 07_placeName-lookup.xsl Outputdatei: 09_2nd-place-lookup
 
-    Manuelle Eingabe von GeoNames ID etc. in manuelle-geonames.xml, erneute Transformation mit 08_2nd-placeName-lookup.xsl
+    Manuelle Eingabe von GeoNames ID etc. in 10_manuelle-geonames.xml, erneute Transformation mit 08_2nd-placeName-lookup.xsl
+    Ausgabedatei: 11_all-geonames-finished
