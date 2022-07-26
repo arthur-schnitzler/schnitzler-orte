@@ -3633,7 +3633,7 @@
                <placeName ref="http://www.geonames.org/2925533/" instant="false" full="yes">Frankfurt am Main</placeName>
             </desc>
          </event>
-         <event from="1899-00-02" to="1899-09-23" instant="false">
+         <event from="1899-09-20" to="1899-09-23" instant="false">
             <desc>
                <placeName ref="http://www.geonames.org/2925533/" instant="false" full="yes">Frankfurt am Main</placeName>
             </desc>
@@ -6034,7 +6034,7 @@
                <placeName ref="http://www.geonames.org/2761369/" instant="false" full="yes">Wien</placeName>
             </desc>
          </event>
-         <event from="1906-00-01" to="1906-09-20" instant="false">
+         <event from="1906-09-10" to="1906-09-20" instant="false">
             <desc>
                <placeName ref="http://www.geonames.org/2765171/" instant="false" full="yes">Semmering</placeName>
             </desc>
@@ -6967,7 +6967,7 @@
                <placeName ref="http://www.geonames.org/2761369/" instant="false" full="yes">Wien</placeName>
             </desc>
          </event>
-         <event from="1910-00-02" to="1910-08-25" instant="false">
+         <event from="1910-08-20" to="1910-08-25" instant="false">
             <desc>
                <placeName ref="http://www.geonames.org/2922530/" instant="false" full="yes">Garmisch-Partenkirchen</placeName>
             </desc>
@@ -7812,8 +7812,8 @@
             <desc>
                <placeName ref="http://www.geonames.org/2803138/" instant="false" full="yes">Antwerpen</placeName>
             </desc>
+            <note anchored="true">22.5. auf dem Meer</note>
          </event>
-         <note anchored="true">22.5. auf dem Meer</note>
          <event from="1914-05-23" to="1914-05-27" instant="false">
             <desc>
                <placeName ref="http://www.geonames.org/2759794/" instant="false" full="yes">Amsterdam</placeName>
@@ -8521,7 +8521,7 @@
                <placeName ref="http://www.geonames.org/2950159/" instant="false" full="yes">Berlin</placeName>
             </desc>
          </event>
-         <event from="1923-00-01" to="1923-05-17" instant="false">
+         <event from="1923-05-10" to="1923-05-17" instant="false">
             <desc>
                <placeName ref="http://www.geonames.org/2618425/" instant="false" full="yes">Kopenhagen</placeName>
             </desc>
@@ -8836,7 +8836,7 @@
             </desc>
             <note anchored="true">Vorlesung</note>
          </event>
-         <event from="1925-14-13" to="1925-14-13" instant="false">
+         <event from="1925-01-13" to="1925-01-14" instant="false">
             <desc>
                <placeName ref="http://www.geonames.org/2661604/" instant="false" full="yes">Basel</placeName>
             </desc>
