@@ -18,4 +18,8 @@
     
 10. Koordinaten der Orte ins XML einfügen mit 09_get-coords.xsl (Koordinaten der nicht in listplace.xml verfügbaren Orte einfügen werden mit missing-places.xml     abgeglichen)
 
-    Transformierte CSV Daten: places-csv.csv
+    Transformierte CSV Daten: places.csv
+                              places-amount.csv (Anzahl der Aufenthalte)
+    
+    Flourish Visualisierungen: https://public.flourish.studio/visualisation/10751325/ Reiseorte und Anzahl der Aufenthalte
+                               https://public.flourish.studio/visualisation/10745043/ Reisen mit Zeitstrahlanimation
