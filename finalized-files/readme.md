@@ -21,5 +21,5 @@
     Transformierte CSV Daten: places.csv
                               places-amount.csv (Anzahl der Aufenthalte)
     
-    Flourish Visualisierungen: https://public.flourish.studio/visualisation/10751325/ Reiseorte und Anzahl der Aufenthalte
+    Flourish Visualisierungen: https://public.flourish.studio/visualisation/10752014/ Reiseorte und Anzahl der Aufenthalte
                                https://public.flourish.studio/visualisation/10745043/ Reisen mit Zeitstrahlanimation
