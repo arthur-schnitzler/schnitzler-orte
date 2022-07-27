@@ -1,9 +1,21 @@
 import pandas as pd
 from AcdhArcheAssets.uri_norm_rules import get_normalized_uri
 from acdh_tei_pyutils.tei import TeiReader
+from zipfile import ZipFile
+from io import BytesIO
+import urllib.request as urllib2
 
 SCHNITZLER_ORTE_CSV = "./finalized-files/places.csv"
 PMB_LISTPLACE = "https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-entities/main/indices/listplace.xml"
+POSTKARTEN_DUMP = "https://labs.onb.ac.at/gitlab/labs-team/raw-metadata/raw/master/akon_postcards_public_domain.zip?inline=false"
+
+r = urllib2.urlopen(POSTKARTEN_DUMP).read()
+file = ZipFile(BytesIO(r))
+cards_csv = file.open("akon_postcards_public_domain.csv")
+cards_df = pd.read_csv(cards_csv, low_memory=False)
+cards_df = cards_df[['geoname_id','download_link']].dropna().astype('str')
+cards_df['geonames'] = cards_df['geoname_id'].apply(lambda x: "https://sws.geonames.org/{}/".format(str(x).replace('.0', '')))
+cards_df = cards_df.drop_duplicates(subset='geoname_id', keep="first")
 
 def fix_geonames(x):
     try:
@@ -31,4 +43,8 @@ pmb_df = pd.DataFrame(pmb_list)
 
 df = pd.read_csv(SCHNITZLER_ORTE_CSV)
 df['geonames'] = df['desc/placeName/_ref'].apply(lambda x: fix_geonames(x))
-pd.merge(df, pmb_df, on=['geonames'], how='left').to_csv("./finalized-files/places_with_pmb.csv", index=False)
+with_pmb = pd.merge(df, pmb_df, on=['geonames'], how='left')
+with_pmb.to_csv('finalized-files/places_with_pmb.csv')
+
+with_akon = pd.merge(with_pmb, cards_df, on=['geonames'], how='left')
+with_akon.to_csv('finalized-files/places_with_pmb_and_akon.csv')
