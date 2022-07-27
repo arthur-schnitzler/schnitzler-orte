@@ -1228,7 +1228,7 @@
          </event>
          <event from="1888-07-31" to="1888-07-31" instant="false">
             <desc>
-               <placeName ref="http://www.geonames.org/4142290/">Dover</placeName><location><geo lat="39.15817" long="-75.52437"/></location>
+               <placeName ref="http://www.geonames.org/2651048/">Dover</placeName><location><geo lat="51.12598" long=" 1.31257"/></location>
             </desc>
          </event>
          <event from="1888-07-31" to="1888-07-31" instant="false">
