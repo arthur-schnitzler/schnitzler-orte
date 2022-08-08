@@ -11542,7 +11542,7 @@
                <event from="1921-09-02" to="1921-09-02">
                   <desc>
                      <placeName
-                        ref="https://www.geonames.org/2861383http://www.geonames.org/2861384/"
+                        ref="https://www.geonames.org/2861384/"
                         >Oberau</placeName><location>
                         <geo>47.6600447.55979 13.0744611.13919</geo>
                      </location>
@@ -11579,7 +11579,7 @@
                </event>
                <event from="1921-10-11" to="1921-10-11">
                   <desc>
-                     <placeName ref="http://www.geonames.org/2762531/">Zögersdorf</placeName><location>
+                     <placeName ref="https://www.geonames.org/2762531/">Zögersdorf</placeName><location>
                         <geo>48.368897 16.182478</geo>
                      </location>
                   </desc>
