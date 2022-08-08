@@ -8,6 +8,8 @@ first results here:
 - https://public.flourish.studio/visualisation/10752014/
 - https://public.flourish.studio/visualisation/10745043/
 
+final xml is the last document in /finalized-files/transformed-xml 
+
 
 ## enrich with pmb-uris
 
