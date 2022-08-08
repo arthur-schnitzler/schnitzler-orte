@@ -18,6 +18,8 @@
     
 10. Koordinaten der Orte ins XML einfügen mit 09_get-coords.xsl (Koordinaten der nicht in listplace.xml verfügbaren Orte einfügen werden mit missing-places.xml     abgeglichen)
 
+13. geo-element entsprechend der Richtlinien normalisiert. für Einträge, für die es keine geonames-id gab, eine solche angelegt
+
     Transformierte CSV Daten: places.csv
                               places-amount.csv (Anzahl der Aufenthalte)
     
