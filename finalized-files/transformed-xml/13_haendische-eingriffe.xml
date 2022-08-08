@@ -3130,7 +3130,7 @@
                </event>
                <event from="1896-07-10" to="1896-07-10">
                   <desc>
-                     <placeName ref="">Odde</placeName><location>
+                     <placeName ref="https://www.geonames.org/3143828/">Odde</placeName><location>
                         <geo>59.10243 7.52135</geo>
                      </location>
                   </desc>
@@ -3214,7 +3214,7 @@
                </event>
                <event from="1896-07-16" to="1896-07-16">
                   <desc>
-                     <placeName ref="">Svartisengletscher</placeName><location>
+                     <placeName ref="https://www.geonames.org/3135212/">Svartisengletscher</placeName><location>
                         <geo>66.65895 13.93925</geo>
                      </location>
                   </desc>
@@ -3502,15 +3502,15 @@
                </event>
                <event from="1897-06-13" to="1897-06-13">
                   <desc>
-                     <placeName ref="">Scheibmühl</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493323/">Scheibmühl</placeName><location>
                         <geo>48.052635 15.611744</geo>
                      </location>
                   </desc>
                </event>
                <event from="1897-06-13" to="1897-06-13">
                   <desc>
-                     <placeName ref="">Pamsenhof</placeName><location>
-                        <geo>48.13992 14.43037</geo>
+                     <placeName ref="https://www.geonames.org/12493324/">Pamsenhof</placeName><location>
+                        <geo>47.9044 15.49918</geo>
                      </location>
                   </desc>
                   <note anchored="true">Bic.</note>
@@ -4488,7 +4488,7 @@
                </event>
                <event from="1899-06-20" to="1899-06-20">
                   <desc>
-                     <placeName ref="">Singering</placeName><location>
+                     <placeName ref="https://www.geonames.org/2765010/">Singerin</placeName><location>
                         <geo>47.772699364848314 15.73029525389078</geo>
                      </location>
                   </desc>
@@ -5460,32 +5460,17 @@
                      </location>
                   </desc>
                </event>
-               <event from="1900-08-13" to="1900-08-13">
+               <event from="1900-08-13" to="1900-08-14">
                   <desc>
-                     <placeName ref="">Kesselfall</placeName><location>
-                        <geo>47.205556 15.398889</geo>
-                     </location>
-                  </desc>
-                  <note anchored="true">mit Richard Beer-Hofmann, Leo Van-Jung</note>
-               </event>
-               <event from="1900-08-14" to="1900-08-14">
-                  <desc>
-                     <placeName ref="">Kesselfall</placeName><location>
+                     <placeName ref="https://www.geonames.org/2774502/">Kesselfall</placeName><location>
                         <geo>47.205556 15.398889</geo>
                      </location>
                   </desc>
                </event>
                <event from="1900-08-14" to="1900-08-14">
                   <desc>
-                     <placeName ref="">Moserboden</placeName><location>
-                        <geo>47.1625 12.7175</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1900-08-14" to="1900-08-14">
-                  <desc>
-                     <placeName ref="">Kesselfall</placeName><location>
-                        <geo>47.205556 15.398889</geo>
+                     <placeName ref="https://www.geonames.org/2603532/">Moserboden</placeName><location>
+                        <geo>47.16667 12.71667</geo>
                      </location>
                   </desc>
                </event>
@@ -5670,7 +5655,7 @@
                </event>
                <event from="1900-08-26" to="1900-08-26">
                   <desc>
-                     <placeName ref="">Bolladore</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493322/">Bolladore</placeName><location>
                         <geo>46.325362 10.318463</geo>
                      </location>
                   </desc>
@@ -6114,7 +6099,7 @@
                </event>
                <event from="1901-07-16" to="1901-07-16">
                   <desc>
-                     <placeName ref="">Dreikirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493325/">Dreikirchen</placeName><location>
                         <geo>46.622653 11.512758</geo>
                      </location>
                   </desc>
@@ -7043,8 +7028,8 @@
                </event>
                <event from="1903-08-18" to="1903-08-18">
                   <desc>
-                     <placeName ref="">Val Ampola</placeName><location>
-                        <geo>45.870988 10.651957</geo>
+                     <placeName ref="https://www.geonames.org/12493326/">Val Ampola</placeName><location>
+                        <geo>45.86753 10.64887</geo>
                      </location>
                   </desc>
                </event>
@@ -8518,14 +8503,14 @@
                </event>
                <event from="1907-07-03" to="1907-07-03">
                   <desc>
-                     <placeName ref="">Fischleinboden</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493330/">Fischleinboden</placeName><location>
                         <geo>46.666799 12.353684</geo>
                      </location>
                   </desc>
                </event>
                <event from="1907-07-03" to="1907-07-03">
                   <desc>
-                     <placeName ref="">Wildbad</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493331/">Wildbad Waldbrunn</placeName><location>
                         <geo>46.7324 12.27855</geo>
                      </location>
                   </desc>
@@ -8575,7 +8560,7 @@
                </event>
                <event from="1907-07-17" to="1907-07-17">
                   <desc>
-                     <placeName ref="">Oland</placeName><location>
+                     <placeName ref="https://www.geonames.org/3164949/">Olang</placeName><location>
                         <geo>46.76027 12.02951</geo>
                      </location>
                   </desc>
@@ -8758,14 +8743,14 @@
                </event>
                <event from="1907-09-02" to="1907-09-02">
                   <desc>
-                     <placeName ref="">Naifthal</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493332/">Naifthal</placeName><location>
                         <geo>46.669302 11.209157</geo>
                      </location>
                   </desc>
                </event>
                <event from="1907-09-08" to="1907-09-08">
                   <desc>
-                     <placeName ref="">St. Valentin</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493333/">St. Valentin</placeName><location>
                         <geo>46.664699 11.187927</geo>
                      </location>
                   </desc>
@@ -9114,7 +9099,7 @@
                </event>
                <event from="1908-08-05" to="1908-08-05">
                   <desc>
-                     <placeName ref="">Schlern</placeName><location>
+                     <placeName ref="http://www.geonames.org/12493334/">Schlern</placeName><location>
                         <geo>46.515412 11.574473</geo>
                      </location>
                   </desc>
@@ -11532,7 +11517,7 @@
                </event>
                <event from="1921-10-11" to="1921-10-11">
                   <desc>
-                     <placeName ref="">Zögersdorf</placeName><location>
+                     <placeName ref="http://www.geonames.org/2762531/">Zögersdorf</placeName><location>
                         <geo>48.368897 16.182478</geo>
                      </location>
                   </desc>

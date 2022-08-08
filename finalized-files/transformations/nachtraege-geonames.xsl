@@ -121,11 +121,13 @@ xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
         <xsl:attribute name="ref">
             <xsl:choose>
                 <xsl:when test="key('place-lookup',., $places)">
-                    <xsl:text>SEX</xsl:text>
+                    <xsl:value-of select="key('place-lookup',., $places)/uri"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:attribute>
         <xsl:value-of select="."/>
     </xsl:element>
 </xsl:template>
+    
+    <xsl:template match="@instant|@full"/>
 </xsl:stylesheet>
