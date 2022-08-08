@@ -1,23 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Arthur Schnitzlers Reisen</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Arthur Schnitzler</name>
+               <name>Martin Anton Müller</name>
+               <name>Laura Puntigam</name>
+               <name>Laura Untner</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p part="N">Publication Information</p>
+            <publisher>
+               <orgName>Austrian Centre for Digital Humanities, Austrian Academy of Sciences </orgName>
+               <address>
+                  <addrLine>Sonnenfelsgasse 19</addrLine>
+                  <addrLine>1010 Vienna</addrLine>
+               </address>
+            </publisher>
+            <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+            <date when="2022">2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                     applies to this text.</p>
+                  <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+               </licence>
+            </availability>
          </publicationStmt>
-         <sourceDesc default="false">
-            <p part="N">Information about the source</p>
+         <sourceDesc>
+            <p>The idea was to digitize the list of travels by Arthur Schnitzler 
+               that survives in his papers stored in the Cambridge University Library, folder A 175. 
+            The goal was not an edition of that list but to extract the information from
+            the list and connect the timespans with geonames-IDs and locations. Therefore
+            errors and mistakes of the list were changed without keeping track of the
+            deleted information. Sometimes the diary was used to correct entries.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <div part="N" org="uniform" sample="complete">
+         <div>
             <head>Reisen</head>
-            <listEvent default="false">
+            <listEvent>
                <event from="1867-01-01" to="1867-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/3047679/">Groß-Kanizsa</placeName><location>
@@ -225,14 +253,16 @@
                </event>
                <event from="1879-08-30" to="1879-08-30">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
                </event>
                <event from="1879-09-01" to="1879-09-01">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -1099,7 +1129,9 @@
                </event>
                <event from="1885-08-10" to="1885-08-10">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2761618/http://www.geonames.org/2761613/">Weissenbach</placeName><location>
+                     <placeName
+                        ref="https://www.geonames.org/2761618/http://www.geonames.org/2761613/"
+                        >Weissenbach</placeName><location>
                         <geo>47.848.08009 13.5333316.22106</geo>
                      </location>
                   </desc>
@@ -1497,7 +1529,8 @@
                </event>
                <event from="1887-09-17" to="1887-09-22">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -1687,7 +1720,7 @@
                <event from="1888-07-31" to="1888-07-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2651048/">Dover</placeName><location>
-                        <geo>51.12598  1.31257</geo>
+                        <geo>51.12598 1.31257</geo>
                      </location>
                   </desc>
                </event>
@@ -1773,7 +1806,9 @@
                </event>
                <event from="1889-08-10" to="1889-08-10">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2777459/http://www.geonames.org/11593345/">Grünau</placeName><location>
+                     <placeName
+                        ref="https://www.geonames.org/2777459/http://www.geonames.org/11593345/"
+                        >Grünau</placeName><location>
                         <geo>47.8549347.77161 13.9557315.2616</geo>
                      </location>
                   </desc>
@@ -2971,7 +3006,8 @@
                </event>
                <event from="1896-01-10" to="1896-01-11">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -2986,7 +3022,8 @@
                </event>
                <event from="1896-01-14" to="1896-01-14">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -3214,7 +3251,8 @@
                </event>
                <event from="1896-07-16" to="1896-07-16">
                   <desc>
-                     <placeName ref="https://www.geonames.org/3135212/">Svartisengletscher</placeName><location>
+                     <placeName ref="https://www.geonames.org/3135212/"
+                        >Svartisengletscher</placeName><location>
                         <geo>66.65895 13.93925</geo>
                      </location>
                   </desc>
@@ -4834,7 +4872,9 @@
                </event>
                <event from="1899-08-09" to="1899-08-09">
                   <desc>
-                     <placeName ref="https://www.geonames.org/3169877/http://www.geonames.org/3169877/">Predazzo</placeName><location>
+                     <placeName
+                        ref="https://www.geonames.org/3169877/http://www.geonames.org/3169877/"
+                        >Predazzo</placeName><location>
                         <geo>46.311446.3114 11.599611.5996</geo>
                      </location>
                   </desc>
@@ -5016,21 +5056,24 @@
                </event>
                <event from="1899-09-19" to="1899-09-19">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
                </event>
                <event from="1899-09-20" to="1899-09-23">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
                </event>
                <event from="1899-09-24" to="1899-09-24">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -6394,7 +6437,8 @@
                </event>
                <event from="1902-07-03" to="1902-07-03">
                   <desc>
-                     <placeName ref="https://www.geonames.org/7873609/">Matrei am Brenner</placeName><location>
+                     <placeName ref="https://www.geonames.org/7873609/">Matrei am
+                        Brenner</placeName><location>
                         <geo>47.12852 11.45222</geo>
                      </location>
                   </desc>
@@ -6588,7 +6632,9 @@
                </event>
                <event from="1902-09-07" to="1902-09-07">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2761618/http://www.geonames.org/2761613/">Weissenbach</placeName><location>
+                     <placeName
+                        ref="https://www.geonames.org/2761618/http://www.geonames.org/2761613/"
+                        >Weissenbach</placeName><location>
                         <geo>47.848.08009 13.5333316.22106</geo>
                      </location>
                   </desc>
@@ -8510,7 +8556,8 @@
                </event>
                <event from="1907-07-03" to="1907-07-03">
                   <desc>
-                     <placeName ref="https://www.geonames.org/12493331/">Wildbad Waldbrunn</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493331/">Wildbad
+                        Waldbrunn</placeName><location>
                         <geo>46.7324 12.27855</geo>
                      </location>
                   </desc>
@@ -8935,14 +8982,16 @@
                </event>
                <event from="1908-05-11" to="1908-05-11">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
                <event from="1908-05-11" to="1908-05-11">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -8963,7 +9012,8 @@
                </event>
                <event from="1908-05-12" to="1908-05-12">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -9650,14 +9700,16 @@
                </event>
                <event from="1910-08-20" to="1910-08-25">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
                <event from="1910-08-26" to="1910-08-26">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -9734,14 +9786,16 @@
                </event>
                <event from="1910-09-15" to="1910-09-15">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
                </event>
                <event from="1910-09-16" to="1910-09-16">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -9749,7 +9803,8 @@
                </event>
                <event from="1910-09-17" to="1910-09-17">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -9777,7 +9832,8 @@
                </event>
                <event from="1910-09-18" to="1910-09-18">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -9792,7 +9848,8 @@
                </event>
                <event from="1910-09-19" to="1910-09-19">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am Main</placeName><location>
+                     <placeName ref="https://www.geonames.org/2925533/">Frankfurt am
+                        Main</placeName><location>
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
@@ -9843,14 +9900,16 @@
                </event>
                <event from="1910-12-11" to="1910-12-11">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
                <event from="1910-12-12" to="1910-12-12">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -9908,14 +9967,16 @@
                </event>
                <event from="1911-04-11" to="1911-04-13">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
                <event from="1911-04-13" to="1911-04-13">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -10076,21 +10137,24 @@
                </event>
                <event from="1911-04-27" to="1911-04-27">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
                <event from="1911-04-28" to="1911-04-30">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
                <event from="1911-05-01" to="1911-05-01">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -10321,14 +10385,16 @@
                </event>
                <event from="1911-11-13" to="1911-11-13">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
                <event from="1911-04-01" to="1911-11-16">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -11218,7 +11284,8 @@
                </event>
                <event from="1917-06-04" to="1917-06-22">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2782058/http://www.geonames.org/2782058/">Bad
+                     <placeName
+                        ref="https://www.geonames.org/2782058/http://www.geonames.org/2782058/">Bad
                         Gastein</placeName><location>
                         <geo>47.1154747.11547 13.1346713.13467</geo>
                      </location>
@@ -11233,7 +11300,8 @@
                </event>
                <event from="1917-09-04" to="1917-09-04">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -11290,7 +11358,8 @@
                </event>
                <event from="1918-08-27" to="1918-09-06">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName><location>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName><location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
@@ -11481,7 +11550,9 @@
                </event>
                <event from="1921-09-02" to="1921-09-02">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2861383http://www.geonames.org/2861384/">Oberau</placeName><location>
+                     <placeName
+                        ref="https://www.geonames.org/2861383http://www.geonames.org/2861384/"
+                        >Oberau</placeName><location>
                         <geo>47.6600447.55979 13.0744611.13919</geo>
                      </location>
                   </desc>
@@ -11647,7 +11718,8 @@
                </event>
                <event from="1922-07-06" to="1922-07-06">
                   <desc>
-                     <placeName ref="https://www.geonames.org/6269268/http://www.geonames.org/2766441/">St.
+                     <placeName
+                        ref="https://www.geonames.org/6269268/http://www.geonames.org/2766441/">St.
                         Peter</placeName><location>
                         <geo>41.9022147.79715447.55 12.4530513.04486616.01667</geo>
                      </location>
