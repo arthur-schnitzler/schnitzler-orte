@@ -25,19 +25,19 @@
             <date when="2022">2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
-                     applies to this text.</p>
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                     to this text.</p>
                   <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
                </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>The idea was to digitize the list of travels by Arthur Schnitzler 
-               that survives in his papers stored in the Cambridge University Library, folder A 175. 
-            The goal was not an edition of that list but to extract the information from
-            the list and connect the timespans with geonames-IDs and locations. Therefore
-            errors and mistakes of the list were changed without keeping track of the
-            deleted information. Sometimes the diary was used to correct entries.</p>
+            <p>The idea was to digitize the list of travels by Arthur Schnitzler that survives in
+               his papers stored in the Cambridge University Library, folder A 175. The goal was not
+               an edition of that list but to extract the information from the list and connect the
+               timespans with geonames-IDs and locations. Therefore errors and mistakes of the list
+               were changed without keeping track of the deleted information. Sometimes the diary
+               was used to correct entries.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -52,7 +52,7 @@
                         <geo>46.45347 16.99104</geo>
                      </location>
                   </desc>
-                  <note anchored="true">genaues Datum unbekannt</note>
+                  <note>genaues Datum unbekannt</note>
                </event>
                <event from="1868-01-01" to="1868-12-31" cert="low">
                   <desc>
@@ -60,7 +60,7 @@
                         <geo>46.45347 16.99104</geo>
                      </location>
                   </desc>
-                  <note anchored="true">genaues Datum unbekannt</note>
+                  <note>genaues Datum unbekannt</note>
                </event>
                <event from="1869-01-01" to="1869-12-31" cert="low">
                   <desc>
@@ -68,7 +68,7 @@
                         <geo>47.96533 16.21359</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Sommeraufenthalt</note>
+                  <note>Sommeraufenthalt</note>
                </event>
                <event from="1870-01-01" to="1870-12-31" cert="low">
                   <desc>
@@ -76,7 +76,7 @@
                         <geo>47.96533 16.21359</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Sommeraufenthalt</note>
+                  <note>Sommeraufenthalt</note>
                </event>
                <event from="1871-01-01" to="1871-12-31" cert="low">
                   <desc>
@@ -84,7 +84,7 @@
                         <geo>47.96533 16.21359</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Sommeraufenthalt</note>
+                  <note>Sommeraufenthalt</note>
                </event>
                <event from="1870-01-01" to="1870-12-31" cert="low">
                   <desc>
@@ -106,7 +106,7 @@
                         <geo>47.60998 13.78243</geo>
                      </location>
                   </desc>
-                  <note anchored="true">genaues Datum unbekannt</note>
+                  <note>genaues Datum unbekannt</note>
                </event>
                <event from="1872-01-01" to="1872-12-31">
                   <desc>
@@ -142,7 +142,7 @@
                         <geo>46.20222 6.14569</geo>
                      </location>
                   </desc>
-                  <note anchored="true">genaues Datum unbekannt</note>
+                  <note>genaues Datum unbekannt</note>
                </event>
                <event from="1873-01-01" to="1873-12-31">
                   <desc>
@@ -150,7 +150,7 @@
                         <geo>47.96533 16.21359</geo>
                      </location>
                   </desc>
-                  <note anchored="true">genaues Datum unbekannt</note>
+                  <note>genaues Datum unbekannt</note>
                </event>
                <event from="1874-08-02" to="1874-08-16">
                   <desc>
@@ -235,7 +235,7 @@
                         <geo>46.36825 14.11005</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Veldeser See</note>
+                  <note>Veldeser See</note>
                </event>
                <event from="1878-08-04" to="1878-08-17" cert="low">
                   <desc>
@@ -595,7 +595,7 @@
                         <geo>47.63236 13.00187</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Salzbergwerk</note>
+                  <note>Salzbergwerk</note>
                </event>
                <event from="1881-07-12" to="1881-07-12">
                   <desc>
@@ -603,7 +603,7 @@
                         <geo>47.55567 12.97802</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rundfahrt</note>
+                  <note>Rundfahrt</note>
                </event>
                <event from="1881-07-13" to="1881-07-13">
                   <desc>
@@ -611,7 +611,7 @@
                         <geo>47.6 13.16667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Wasserfall</note>
+                  <note>Wasserfall</note>
                </event>
                <event from="1881-07-13" to="1881-07-13">
                   <desc>
@@ -633,7 +633,7 @@
                         <geo>47.11547 13.13467</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Wagen</note>
+                  <note>Wagen</note>
                </event>
                <event from="1881-07-14" to="1881-07-14">
                   <desc>
@@ -669,7 +669,7 @@
                         <geo>46.93667 13.20417</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Fusstour</note>
+                  <note>Fusstour</note>
                </event>
                <event from="1881-07-16" to="1881-07-16">
                   <desc>
@@ -691,7 +691,7 @@
                         <geo>47.03979 12.84345</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1881-07-17" to="1881-07-17">
                   <desc>
@@ -713,7 +713,7 @@
                         <geo>47.01702 12.6583</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Fusstour</note>
+                  <note>Fusstour</note>
                </event>
                <event from="1881-07-18" to="1881-07-18">
                   <desc>
@@ -728,7 +728,7 @@
                         <geo>46.93333 12.57306</geo>
                      </location>
                   </desc>
-                  <note anchored="true">F.T.</note>
+                  <note>F.T.</note>
                </event>
                <event from="1881-07-18" to="1881-07-18">
                   <desc>
@@ -736,7 +736,7 @@
                         <geo>46.8289 12.76903</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Fahrt</note>
+                  <note>Fahrt</note>
                </event>
                <event from="1881-07-19" to="1881-07-19">
                   <desc>
@@ -807,7 +807,7 @@
                         <geo>46.63639 14.14639</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Fritz Kapper</note>
+                  <note>mit Fritz Kapper</note>
                </event>
                <event from="1881-08-07" to="1881-08-22">
                   <desc>
@@ -1074,7 +1074,7 @@
                         <geo>45.32673 14.44241</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ostern, genaues Datum unbekannt</note>
+                  <note>Ostern, genaues Datum unbekannt</note>
                </event>
                <event from="1884-01-01" to="1884-12-31">
                   <desc>
@@ -1082,7 +1082,7 @@
                         <geo>45.33771 14.30515</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ostern, genaues Datum unbekannt</note>
+                  <note>Ostern, genaues Datum unbekannt</note>
                </event>
                <event from="1884-07-15" to="1884-09-01">
                   <desc>
@@ -1097,7 +1097,7 @@
                         <geo>47.49801 19.03991</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ende Juni, genaues Datum unbekannt</note>
+                  <note>Ende Juni, genaues Datum unbekannt</note>
                </event>
                <event from="1885-07-05" to="1885-07-30">
                   <desc>
@@ -1129,9 +1129,7 @@
                </event>
                <event from="1885-08-10" to="1885-08-10">
                   <desc>
-                     <placeName
-                        ref="https://www.geonames.org/2761618/http://www.geonames.org/2761613/"
-                        >Weissenbach</placeName><location>
+                     <placeName ref="https://www.geonames.org/7872847/">Weissenbach</placeName><location>
                         <geo>47.848.08009 13.5333316.22106</geo>
                      </location>
                   </desc>
@@ -1156,7 +1154,7 @@
                         <geo>47.26266 11.39454</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Reise mit Max Weinberg</note>
+                  <note>Reise mit Max Weinberg</note>
                </event>
                <event from="1885-08-14" to="1885-08-14">
                   <desc>
@@ -1164,7 +1162,7 @@
                         <geo>47.71109 13.61893</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Reise mit Max Weinberg</note>
+                  <note>Reise mit Max Weinberg</note>
                </event>
                <event from="1885-08-15" to="1885-08-15">
                   <desc>
@@ -1256,7 +1254,7 @@
                         <geo>47.05048 8.30635</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Johann Schnitzler, Louise Schnitzler</note>
+                  <note>mit Johann Schnitzler, Louise Schnitzler</note>
                </event>
                <event from="1885-08-20" to="1885-08-20">
                   <desc>
@@ -1474,7 +1472,7 @@
                         <geo>48.45704 14.34875</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Pfingsten</note>
+                  <note>Pfingsten</note>
                </event>
                <event from="1886-05-18" to="1886-05-18">
                   <desc>
@@ -1489,7 +1487,7 @@
                         <geo>48.45704 14.34875</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit einer Unterbrechung Ischl 8 Tage</note>
+                  <note>mit einer Unterbrechung Ischl 8 Tage</note>
                </event>
                <event from="1886-09-12" to="1886-09-12">
                   <desc>
@@ -1525,7 +1523,7 @@
                         <geo>50.08258 8.24932</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Naturforscherversammlung</note>
+                  <note>Naturforscherversammlung</note>
                </event>
                <event from="1887-09-17" to="1887-09-22">
                   <desc>
@@ -1737,7 +1735,7 @@
                         <geo>51.21551 2.927</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Blackenberghe und Brügge</note>
+                  <note>Blackenberghe und Brügge</note>
                </event>
                <event from="1888-08-21" to="1888-08-21">
                   <desc>
@@ -1787,7 +1785,7 @@
                         <geo>47.71109 13.61893</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Unterach etc.</note>
+                  <note>Unterach etc.</note>
                </event>
                <event from="1889-08-10" to="1889-08-10">
                   <desc>
@@ -1802,13 +1800,11 @@
                         <geo>47.85 13.8</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Lainau</note>
+                  <note>Lainau</note>
                </event>
                <event from="1889-08-10" to="1889-08-10">
                   <desc>
-                     <placeName
-                        ref="https://www.geonames.org/2777459/http://www.geonames.org/11593345/"
-                        >Grünau</placeName><location>
+                     <placeName ref="https://www.geonames.org/2777459/">Grünau</placeName><location>
                         <geo>47.8549347.77161 13.9557315.2616</geo>
                      </location>
                   </desc>
@@ -1896,7 +1892,7 @@
                         <geo>47.66667 15.16667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Fusswanderung</note>
+                  <note>Fusswanderung</note>
                </event>
                <event from="1889-08-16" to="1889-08-16">
                   <desc>
@@ -2009,7 +2005,7 @@
                         <geo>46.45347 16.99104</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ungarisches Erbgut</note>
+                  <note>Ungarisches Erbgut</note>
                </event>
                <event from="1891-06-01" to="1891-07-31">
                   <desc>
@@ -2017,7 +2013,7 @@
                         <geo>48.00543 16.23264</geo>
                      </location>
                   </desc>
-                  <note anchored="true">häufige Ausflüge, genaues Datum unbekannt</note>
+                  <note>häufige Ausflüge, genaues Datum unbekannt</note>
                </event>
                <event from="1891-08-15" to="1891-08-16">
                   <desc>
@@ -2032,8 +2028,7 @@
                         <geo>51.48158 11.97947</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Naturforscherversamml. Ausflug nach Leipzig über Dresden
-                     zurück</note>
+                  <note>Naturforscherversamml. Ausflug nach Leipzig über Dresden zurück</note>
                </event>
                <event from="1892-07-24" to="1892-07-24">
                   <desc>
@@ -2041,7 +2036,7 @@
                         <geo>47.65 16.1</geo>
                      </location>
                   </desc>
-                  <note anchored="true">über Wr. Neustadt Scheiblingkirchen</note>
+                  <note>über Wr. Neustadt Scheiblingkirchen</note>
                </event>
                <event from="1892-07-31" to="1892-07-31">
                   <desc>
@@ -2084,7 +2079,7 @@
                         <geo>45.88577 10.84117</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Gardasee, Gardone etc.</note>
+                  <note>Gardasee, Gardone etc.</note>
                </event>
                <event from="1892-06-01" to="1892-09-22">
                   <desc>
@@ -2099,7 +2094,7 @@
                         <geo>47.63333 15.81667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Sonnwendstein</note>
+                  <note>Sonnwendstein</note>
                </event>
                <event from="1893-05-21" to="1893-05-22">
                   <desc>
@@ -2142,7 +2137,7 @@
                         <geo>48.18333 16.08333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Purkersdorf</note>
+                  <note>Purkersdorf</note>
                </event>
                <event from="1893-08-23" to="1893-08-23">
                   <desc>
@@ -2178,7 +2173,7 @@
                         <geo>46.42466 12.36416</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Byciclepartie mit Felix Salten</note>
+                  <note>Byciclepartie mit Felix Salten</note>
                </event>
                <event from="1893-08-25" to="1893-08-25">
                   <desc>
@@ -2221,7 +2216,7 @@
                         <geo>46.7375 13.07833</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1893-08-26" to="1893-08-26">
                   <desc>
@@ -2243,7 +2238,7 @@
                         <geo>46.63639 14.14639</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1893-08-27" to="1893-08-27">
                   <desc>
@@ -2251,7 +2246,7 @@
                         <geo>46.62472 14.30528</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1893-08-28" to="1893-08-28">
                   <desc>
@@ -2287,7 +2282,7 @@
                         <geo>47.06667 15.45</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Judendorf</note>
+                  <note>Judendorf</note>
                </event>
                <event from="1893-08-31" to="1893-08-31">
                   <desc>
@@ -2302,7 +2297,7 @@
                         <geo>47.63333 15.81667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1893-08-31" to="1893-08-31">
                   <desc>
@@ -2310,7 +2305,7 @@
                         <geo>48.45704 14.34875</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1893-08-31" to="1893-08-31">
                   <desc>
@@ -2339,7 +2334,7 @@
                         <geo>47.79941 13.04399</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Paul Goldmann</note>
+                  <note>mit Paul Goldmann</note>
                </event>
                <event from="1893-10-08" to="1893-10-08">
                   <desc>
@@ -2347,7 +2342,7 @@
                         <geo>48.14816 17.10674</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1893-10-29" to="1893-10-29">
                   <desc>
@@ -2376,7 +2371,7 @@
                         <geo>48.32829 16.05858</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1894-05-24" to="1894-05-24">
                   <desc>
@@ -2405,7 +2400,7 @@
                         <geo>48.2 15.63333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1894-06-02" to="1894-06-02">
                   <desc>
@@ -2427,7 +2422,7 @@
                         <geo>48.13743 11.57549</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Richard Beer-Hofmann, Hermann Bahr</note>
+                  <note>mit Richard Beer-Hofmann, Hermann Bahr</note>
                </event>
                <event from="1894-06-08" to="1894-06-08">
                   <desc>
@@ -2624,7 +2619,7 @@
                         <geo>48.57795 16.57791</geo>
                      </location>
                   </desc>
-                  <note anchored="true">M.R.</note>
+                  <note>M.R.</note>
                </event>
                <event from="1895-05-20" to="1895-05-20">
                   <desc>
@@ -2646,7 +2641,7 @@
                         <geo>48.40921 15.61415</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Richard Beer-Hofmann, Lou Andreas-Salomé</note>
+                  <note>mit Richard Beer-Hofmann, Lou Andreas-Salomé</note>
                </event>
                <event from="1895-06-02" to="1895-06-02">
                   <desc>
@@ -2682,7 +2677,7 @@
                         <geo>48.01553 15.99661</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1895-06-09" to="1895-06-09">
                   <desc>
@@ -2732,7 +2727,7 @@
                         <geo>48.40921 15.61415</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle</note>
+                  <note>Bycicle</note>
                </event>
                <event from="1895-06-27" to="1895-06-27">
                   <desc>
@@ -2740,7 +2735,7 @@
                         <geo>48.17936 16.02433</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1895-07-03" to="1895-07-03">
                   <desc>
@@ -2937,7 +2932,7 @@
                         <geo>47.39173 11.77245</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle mit Felix Salten</note>
+                  <note>Bycicle mit Felix Salten</note>
                </event>
                <event from="1895-08-25" to="1895-08-25">
                   <desc>
@@ -2959,7 +2954,7 @@
                         <geo>47.76111 11.5589</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Paul Goldmann</note>
+                  <note>mit Paul Goldmann</note>
                </event>
                <event from="1895-08-27" to="1895-08-27">
                   <desc>
@@ -2981,7 +2976,7 @@
                         <geo>48.13743 11.57549</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bycicle mit Felix Salten</note>
+                  <note>Bycicle mit Felix Salten</note>
                </event>
                <event from="1895-08-28" to="1895-09-07">
                   <desc>
@@ -3011,7 +3006,7 @@
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
-                  <note anchored="true">d.U.A. Liebelei.</note>
+                  <note>d.U.A. Liebelei.</note>
                </event>
                <event from="1896-01-13" to="1896-01-13">
                   <desc>
@@ -3041,7 +3036,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Liebelei</note>
+                  <note>Liebelei</note>
                </event>
                <event from="1896-05-17" to="1896-05-17">
                   <desc>
@@ -3070,7 +3065,7 @@
                         <geo>47.94395 16.26062</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bic.</note>
+                  <note>Bic.</note>
                </event>
                <event from="1896-05-31" to="1896-05-31">
                   <desc>
@@ -3134,7 +3129,7 @@
                         <geo>53.57532 10.01534</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Blankenese</note>
+                  <note>Blankenese</note>
                </event>
                <event from="1896-07-06" to="1896-07-06">
                   <desc>
@@ -3156,7 +3151,7 @@
                         <geo>53.86893 10.68729</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Abend Abfahrt auf „Svere Sigurdson"</note>
+                  <note>Abend Abfahrt auf „Svere Sigurdson"</note>
                </event>
                <event from="1896-07-09" to="1896-07-09">
                   <desc>
@@ -3171,7 +3166,7 @@
                         <geo>59.10243 7.52135</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Lotefos</note>
+                  <note>Lotefos</note>
                </event>
                <event from="1896-07-11" to="1896-07-11">
                   <desc>
@@ -3179,7 +3174,7 @@
                         <geo>60.39299 5.32415</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Bahn Fossevangen</note>
+                  <note>mit Bahn Fossevangen</note>
                </event>
                <event from="1896-07-12" to="1896-07-12">
                   <desc>
@@ -3194,7 +3189,7 @@
                         <geo>60.83626 6.6799</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Hotel Nerotal (Naerodalen)</note>
+                  <note>Hotel Nerotal (Naerodalen)</note>
                </event>
                <event from="1896-07-12" to="1896-07-12">
                   <desc>
@@ -3202,7 +3197,7 @@
                         <geo>60.87773 6.83795</geo>
                      </location>
                   </desc>
-                  <note anchored="true">aufs Schiff</note>
+                  <note>aufs Schiff</note>
                </event>
                <event from="1896-07-13" to="1896-07-13">
                   <desc>
@@ -3224,7 +3219,7 @@
                         <geo>62.08549 6.86769</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Schiff</note>
+                  <note>Schiff</note>
                </event>
                <event from="1896-07-14" to="1896-07-14">
                   <desc>
@@ -3232,7 +3227,7 @@
                         <geo>55.05348 11.83264</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Fahrt Romsdahl Molde</note>
+                  <note>Fahrt Romsdahl Molde</note>
                </event>
                <event from="1896-07-15" to="1896-07-15">
                   <desc>
@@ -3240,7 +3235,7 @@
                         <geo>63.43049 10.39506</geo>
                      </location>
                   </desc>
-                  <note anchored="true">an Bord des Sigurd Jarl</note>
+                  <note>an Bord des Sigurd Jarl</note>
                </event>
                <event from="1896-07-16" to="1896-07-16">
                   <desc>
@@ -3263,7 +3258,7 @@
                         <geo>68.79833 16.54165</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Lappenlager</note>
+                  <note>Lappenlager</note>
                </event>
                <event from="1896-07-18" to="1896-07-18">
                   <desc>
@@ -3313,7 +3308,7 @@
                         <geo>55.67346 12.59765</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ibsen</note>
+                  <note>Ibsen</note>
                </event>
                <event from="1896-07-25" to="1896-07-26">
                   <desc>
@@ -3335,7 +3330,7 @@
                         <geo>59.33258 18.0649</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Saltiöbaden</note>
+                  <note>Saltiöbaden</note>
                </event>
                <event from="1896-07-28" to="1896-07-28">
                   <desc>
@@ -3364,7 +3359,7 @@
                         <geo>57.70716 11.96679</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Trollhatan</note>
+                  <note>Trollhatan</note>
                </event>
                <event from="1896-08-02" to="1896-08-02">
                   <desc>
@@ -3393,7 +3388,7 @@
                         <geo>55.90806 12.69778</geo>
                      </location>
                   </desc>
-                  <note anchored="true">häufige Besuche in Kopenhagen</note>
+                  <note>häufige Besuche in Kopenhagen</note>
                </event>
                <event from="1896-08-22" to="1896-08-22">
                   <desc>
@@ -3464,8 +3459,7 @@
                         <geo>48.85341 2.3488</geo>
                      </location>
                   </desc>
-                  <note anchored="true">21.5.Villain s.M.,22.5.Joinville le Pont,23.5.Ville
-                     d'Avrée</note>
+                  <note>21.5.Villain s.M.,22.5.Joinville le Pont,23.5.Ville d'Avrée</note>
                </event>
                <event from="1897-05-18" to="1897-05-18">
                   <desc>
@@ -3536,7 +3530,7 @@
                         <geo>47.929 15.08818</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bic.</note>
+                  <note>Bic.</note>
                </event>
                <event from="1897-06-13" to="1897-06-13">
                   <desc>
@@ -3551,7 +3545,7 @@
                         <geo>47.9044 15.49918</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bic.</note>
+                  <note>Bic.</note>
                </event>
                <event from="1897-06-26" to="1897-07-24">
                   <desc>
@@ -3594,7 +3588,7 @@
                         <geo>50.08804 14.42076</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Erstaufführung "Freiwild" und Vorlesung</note>
+                  <note>Erstaufführung "Freiwild" und Vorlesung</note>
                </event>
                <event from="1898-02-04" to="1898-02-12">
                   <desc>
@@ -3630,7 +3624,7 @@
                         <geo>47.6 15.68333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Mürzsteg</note>
+                  <note>Mürzsteg</note>
                </event>
                <event from="1898-06-05" to="1898-06-05">
                   <desc>
@@ -3687,7 +3681,7 @@
                         <geo>46.65 13.9</geo>
                      </location>
                   </desc>
-                  <note anchored="true">am Ossiachersee.</note>
+                  <note>am Ossiachersee.</note>
                </event>
                <event from="1898-06-09" to="1898-06-09">
                   <desc>
@@ -3709,7 +3703,7 @@
                         <geo>48.20849 16.37208</geo>
                      </location>
                   </desc>
-                  <note anchored="true">zum Teil Bicyclefahrt</note>
+                  <note>zum Teil Bicyclefahrt</note>
                </event>
                <event from="1898-07-11" to="1898-07-11">
                   <desc>
@@ -3969,7 +3963,7 @@
                         <geo>47.36493 7.34453</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bicycle</note>
+                  <note>Bicycle</note>
                </event>
                <event from="1898-08-13" to="1898-08-13">
                   <desc>
@@ -3991,7 +3985,7 @@
                         <geo>46.99179 6.931</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bicycle</note>
+                  <note>Bicycle</note>
                </event>
                <event from="1898-08-14" to="1898-08-14">
                   <desc>
@@ -4006,7 +4000,7 @@
                         <geo>46.77852 6.64115</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bicycle</note>
+                  <note>Bicycle</note>
                </event>
                <event from="1898-08-14" to="1898-08-14">
                   <desc>
@@ -4014,7 +4008,7 @@
                         <geo>46.516 6.63282</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1898-08-14" to="1898-08-14">
                   <desc>
@@ -4029,7 +4023,7 @@
                         <geo>46.42863 6.92122</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1898-08-14" to="1898-08-14">
                   <desc>
@@ -4065,7 +4059,7 @@
                         <geo>46.42863 6.92122</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1898-08-15" to="1898-08-15">
                   <desc>
@@ -4080,7 +4074,7 @@
                         <geo>46.516 6.63282</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bicycle</note>
+                  <note>Bicycle</note>
                </event>
                <event from="1898-08-16" to="1898-08-16">
                   <desc>
@@ -4095,7 +4089,7 @@
                         <geo>46.20222 6.14569</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bic.</note>
+                  <note>Bic.</note>
                </event>
                <event from="1898-08-17" to="1898-08-17">
                   <desc>
@@ -4103,7 +4097,7 @@
                         <geo>46.43774 6.46906</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bic. um den See</note>
+                  <note>Bic. um den See</note>
                </event>
                <event from="1898-08-17" to="1898-08-17">
                   <desc>
@@ -4118,7 +4112,7 @@
                         <geo>46.43301 6.91143</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Hugo von Hofmannsthal</note>
+                  <note>mit Hugo von Hofmannsthal</note>
                </event>
                <event from="1898-08-18" to="1898-08-18">
                   <desc>
@@ -4154,7 +4148,7 @@
                         <geo>46.60599 7.92013</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Wengernalp</note>
+                  <note>Wengernalp</note>
                </event>
                <event from="1898-08-19" to="1898-08-19">
                   <desc>
@@ -4232,7 +4226,7 @@
                         <geo>46.66816 8.58709</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Wagen</note>
+                  <note>Wagen</note>
                </event>
                <event from="1898-08-21" to="1898-08-21">
                   <desc>
@@ -4240,7 +4234,7 @@
                         <geo>47.05048 8.30635</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1898-02-02" to="1898-08-27">
                   <desc>
@@ -4402,7 +4396,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Aufführung "Vermächtnis"</note>
+                  <note>Aufführung "Vermächtnis"</note>
                </event>
                <event from="1899-02-22" to="1899-02-22">
                   <desc>
@@ -4445,7 +4439,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Aufführung "Kakadu" etc.</note>
+                  <note>Aufführung "Kakadu" etc.</note>
                </event>
                <event from="1899-05-28" to="1899-05-29">
                   <desc>
@@ -4544,7 +4538,7 @@
                         <geo>47.96533 16.21359</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bic.</note>
+                  <note>Bic.</note>
                </event>
                <event from="1899-06-22" to="1899-06-22">
                   <desc>
@@ -4594,7 +4588,7 @@
                         <geo>48.41667 16.41667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Drexlermühl</note>
+                  <note>Drexlermühl</note>
                </event>
                <event from="1899-07-12" to="1899-07-12">
                   <desc>
@@ -4651,7 +4645,7 @@
                         <geo>46.63333 14.21667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">23.7. Um den See. 26.7.Um den See</note>
+                  <note>23.7. Um den See. 26.7.Um den See</note>
                </event>
                <event from="1899-07-28" to="1899-07-28">
                   <desc>
@@ -4673,7 +4667,7 @@
                         <geo>46.50567 13.58689</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1899-07-29" to="1899-07-29">
                   <desc>
@@ -4681,7 +4675,7 @@
                         <geo>46.42028 13.565</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Wagen</note>
+                  <note>Wagen</note>
                </event>
                <event from="1899-07-29" to="1899-07-29">
                   <desc>
@@ -4689,7 +4683,7 @@
                         <geo>46.61028 13.85583</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rad</note>
+                  <note>Rad</note>
                </event>
                <event from="1899-07-30" to="1899-07-30">
                   <desc>
@@ -4704,7 +4698,7 @@
                         <geo>47.66487 14.34014</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1899-07-30" to="1899-07-30">
                   <desc>
@@ -4726,7 +4720,7 @@
                         <geo>46.72878 12.22225</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bic. Innichen</note>
+                  <note>Bic. Innichen</note>
                </event>
                <event from="1899-08-01" to="1899-08-04">
                   <desc>
@@ -4748,7 +4742,7 @@
                         <geo>46.72023 12.13339</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Stadt und Pragser See</note>
+                  <note>Stadt und Pragser See</note>
                </event>
                <event from="1899-08-04" to="1899-08-04">
                   <desc>
@@ -4763,7 +4757,7 @@
                         <geo>46.73781 12.17266</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Fusstour mit Richard Beer-Hofmann, Jakob Wassermann</note>
+                  <note>Fusstour mit Richard Beer-Hofmann, Jakob Wassermann</note>
                </event>
                <event from="1899-08-05" to="1899-08-05">
                   <desc>
@@ -4873,7 +4867,7 @@
                <event from="1899-08-09" to="1899-08-09">
                   <desc>
                      <placeName
-                        ref="https://www.geonames.org/3169877/http://www.geonames.org/3169877/"
+                        ref="https://www.geonames.org/3169877/"
                         >Predazzo</placeName><location>
                         <geo>46.311446.3114 11.599611.5996</geo>
                      </location>
@@ -5217,7 +5211,7 @@
                         <geo>42.64807 18.09216</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ombla</note>
+                  <note>Ombla</note>
                </event>
                <event from="1900-04-01" to="1900-04-01">
                   <desc>
@@ -5232,7 +5226,7 @@
                         <geo>42.64807 18.09216</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Lapad</note>
+                  <note>Lapad</note>
                </event>
                <event from="1900-04-03" to="1900-04-03">
                   <desc>
@@ -5247,7 +5241,7 @@
                         <geo>43.50891 16.43915</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Zalona</note>
+                  <note>Zalona</note>
                </event>
                <event from="1900-04-04" to="1900-04-07">
                   <desc>
@@ -5339,7 +5333,7 @@
                         <geo>47.54988 14.31201</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rad</note>
+                  <note>Rad</note>
                </event>
                <event from="1900-07-03" to="1900-07-03">
                   <desc>
@@ -5354,7 +5348,7 @@
                         <geo>47.57537 14.46075</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rad</note>
+                  <note>Rad</note>
                </event>
                <event from="1900-07-04" to="1900-07-04">
                   <desc>
@@ -5551,7 +5545,7 @@
                         <geo>47.26266 11.39454</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Alfred Kerr, Paul Goldmann</note>
+                  <note>mit Alfred Kerr, Paul Goldmann</note>
                </event>
                <event from="1900-08-17" to="1900-08-17">
                   <desc>
@@ -5573,8 +5567,7 @@
                         <geo>47.07092 9.94746</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred
-                     Kerr</note>
+                  <note>mit Richard Beer-Hofmann,Leo Van-Jung,Paul Goldmann, Alfred Kerr</note>
                </event>
                <event from="1900-08-18" to="1900-08-18">
                   <desc>
@@ -5687,7 +5680,7 @@
                         <geo>46.29248 10.07844</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Paul Goldmann</note>
+                  <note>mit Paul Goldmann</note>
                </event>
                <event from="1900-08-26" to="1900-08-26">
                   <desc>
@@ -5751,7 +5744,7 @@
                         <geo>46.66817 11.15953</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Fuldas, Felix Salten</note>
+                  <note>mit Fuldas, Felix Salten</note>
                </event>
                <event from="1900-08-30" to="1900-08-30">
                   <desc>
@@ -5766,7 +5759,7 @@
                         <geo>46.49067 11.33982</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Siegmundskron</note>
+                  <note>Siegmundskron</note>
                </event>
                <event from="1900-08-31" to="1900-08-31">
                   <desc>
@@ -5781,7 +5774,7 @@
                         <geo>48.00543 16.23264</geo>
                      </location>
                   </desc>
-                  <note anchored="true">am 13.10.Sulz, am 14.10.Meierling</note>
+                  <note>am 13.10.Sulz, am 14.10.Meierling</note>
                </event>
                <event from="1900-11-22" to="1900-11-22">
                   <desc>
@@ -5803,7 +5796,7 @@
                         <geo>51.1 17.03333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1900-11-24" to="1900-11-24">
                   <desc>
@@ -5832,7 +5825,7 @@
                         <geo>51.1 17.03333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">1.12. Premiere "Beatrice"</note>
+                  <note>1.12. Premiere "Beatrice"</note>
                </event>
                <event from="1901-03-02" to="1901-03-02">
                   <desc>
@@ -5847,7 +5840,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Aufführung "Marionetten" im Bunten Theater</note>
+                  <note>Aufführung "Marionetten" im Bunten Theater</note>
                </event>
                <event from="1901-03-26" to="1901-03-26">
                   <desc>
@@ -5974,7 +5967,7 @@
                         <geo>48.08611 16.24809</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Helmstreitmühle</note>
+                  <note>Helmstreitmühle</note>
                </event>
                <event from="1901-06-11" to="1901-06-11">
                   <desc>
@@ -6073,7 +6066,7 @@
                         <geo>47.13333 10.11667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1901-06-30" to="1901-06-30">
                   <desc>
@@ -6081,7 +6074,7 @@
                         <geo>47.1275 10.26372</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1901-07-01" to="1901-07-12">
                   <desc>
@@ -6110,7 +6103,7 @@
                         <geo>47.00528 11.50836</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1901-07-13" to="1901-07-13">
                   <desc>
@@ -6195,7 +6188,7 @@
                         <geo>46.49067 11.33982</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Virglwarte</note>
+                  <note>Virglwarte</note>
                </event>
                <event from="1901-08-14" to="1901-08-14">
                   <desc>
@@ -6294,7 +6287,7 @@
                         <geo>47.69209 15.8634</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Schlagl</note>
+                  <note>Schlagl</note>
                </event>
                <event from="1901-12-28" to="1901-12-28">
                   <desc>
@@ -6323,7 +6316,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Erstaufführung "Lebendigen Stunden"</note>
+                  <note>Erstaufführung "Lebendigen Stunden"</note>
                </event>
                <event from="1902-02-04" to="1902-02-26">
                   <desc>
@@ -6331,7 +6324,7 @@
                         <geo>48.08605 16.28921</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Kurhaus</note>
+                  <note>Kurhaus</note>
                </event>
                <event from="1902-03-21" to="1902-03-29">
                   <desc>
@@ -6339,7 +6332,7 @@
                         <geo>48.08611 16.24809</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Villa mit Unterbrechungen</note>
+                  <note>Villa mit Unterbrechungen</note>
                </event>
                <event from="1902-06-07" to="1902-06-08">
                   <desc>
@@ -6347,7 +6340,7 @@
                         <geo>47.49801 19.03991</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Erstaufführung der "Lebendigen Stunden" durch das Deutsche
+                  <note>Erstaufführung der "Lebendigen Stunden" durch das Deutsche
                      Theater,Brahm</note>
                </event>
                <event from="1902-06-27" to="1902-06-27">
@@ -6405,7 +6398,7 @@
                         <geo>47.26266 11.39454</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1902-07-02" to="1902-07-02">
                   <desc>
@@ -6477,7 +6470,7 @@
                         <geo>46.75774 12.10556</geo>
                      </location>
                   </desc>
-                  <note anchored="true">zum Teil Rad</note>
+                  <note>zum Teil Rad</note>
                </event>
                <event from="1902-07-05" to="1902-07-06">
                   <desc>
@@ -6527,7 +6520,7 @@
                         <geo>47.63333 15.81667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1902-09-03" to="1902-09-03">
                   <desc>
@@ -6535,7 +6528,7 @@
                         <geo>47.41667 15.28333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rad</note>
+                  <note>Rad</note>
                </event>
                <event from="1902-09-03" to="1902-09-03">
                   <desc>
@@ -6564,7 +6557,7 @@
                         <geo>47.60639 14.74503</geo>
                      </location>
                   </desc>
-                  <note anchored="true">zum Teil Rad</note>
+                  <note>zum Teil Rad</note>
                </event>
                <event from="1902-09-05" to="1902-09-05">
                   <desc>
@@ -6621,7 +6614,7 @@
                         <geo>47.72223 14.32755</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorder-und Mittelstoder</note>
+                  <note>Vorder-und Mittelstoder</note>
                </event>
                <event from="1902-09-07" to="1902-09-07">
                   <desc>
@@ -6633,7 +6626,7 @@
                <event from="1902-09-07" to="1902-09-07">
                   <desc>
                      <placeName
-                        ref="https://www.geonames.org/2761618/http://www.geonames.org/2761613/"
+                        ref="https://www.geonames.org/7872847/"
                         >Weissenbach</placeName><location>
                         <geo>47.848.08009 13.5333316.22106</geo>
                      </location>
@@ -6645,7 +6638,7 @@
                         <geo>47.81667 14.63333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rad</note>
+                  <note>Rad</note>
                </event>
                <event from="1902-09-07" to="1902-09-07">
                   <desc>
@@ -6688,7 +6681,7 @@
                         <geo>50.82264 15.61655</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Hauptmann</note>
+                  <note>Hauptmann</note>
                </event>
                <event from="1902-03-01" to="1902-10-17">
                   <desc>
@@ -6738,7 +6731,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Erstaufführung "Schleier der Beatrice"</note>
+                  <note>Erstaufführung "Schleier der Beatrice"</note>
                </event>
                <event from="1903-04-08" to="1903-04-08">
                   <desc>
@@ -6977,7 +6970,7 @@
                         <geo>47.63333 15.81667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1903-08-04" to="1903-08-04">
                   <desc>
@@ -7034,7 +7027,7 @@
                         <geo>46.41667 11.2</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Penegal</note>
+                  <note>Penegal</note>
                </event>
                <event from="1903-08-16" to="1903-08-16">
                   <desc>
@@ -7056,7 +7049,7 @@
                         <geo>46.35356 10.91246</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rad</note>
+                  <note>Rad</note>
                </event>
                <event from="1903-08-18" to="1903-08-18">
                   <desc>
@@ -7092,7 +7085,7 @@
                         <geo>45.88577 10.84117</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rad</note>
+                  <note>Rad</note>
                </event>
                <event from="1903-08-19" to="1903-08-19">
                   <desc>
@@ -7121,7 +7114,7 @@
                         <geo>45.99367 11.26426</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bahn</note>
+                  <note>Bahn</note>
                </event>
                <event from="1903-08-21" to="1903-08-21">
                   <desc>
@@ -7150,7 +7143,7 @@
                         <geo>49.19522 16.60796</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1903-10-20" to="1903-10-20">
                   <desc>
@@ -7228,7 +7221,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Uraufführung "Einsamen Wegs"</note>
+                  <note>Uraufführung "Einsamen Wegs"</note>
                </event>
                <event from="1904-02-17" to="1904-02-17">
                   <desc>
@@ -7376,7 +7369,7 @@
                         <geo>40.83333 14.25</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bajae</note>
+                  <note>Bajae</note>
                </event>
                <event from="1904-05-13" to="1904-05-13">
                   <desc>
@@ -7405,7 +7398,7 @@
                         <geo>40.83333 14.25</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Auf den "Marco Polo"</note>
+                  <note>Auf den "Marco Polo"</note>
                </event>
                <event from="1904-05-14" to="1904-05-14">
                   <desc>
@@ -7469,7 +7462,7 @@
                         <geo>38.19394 15.55256</geo>
                      </location>
                   </desc>
-                  <note anchored="true">auf den "Electrica"</note>
+                  <note>auf den "Electrica"</note>
                </event>
                <event from="1904-05-24" to="1904-05-24">
                   <desc>
@@ -7519,7 +7512,7 @@
                         <geo>43.5942 13.50337</geo>
                      </location>
                   </desc>
-                  <note anchored="true">auf "Daniel Ernö"</note>
+                  <note>auf "Daniel Ernö"</note>
                </event>
                <event from="1904-05-28" to="1904-05-28">
                   <desc>
@@ -7548,7 +7541,7 @@
                         <geo>47.69209 15.8634</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Kurhaus</note>
+                  <note>Kurhaus</note>
                </event>
                <event from="1904-07-15" to="1904-07-15">
                   <desc>
@@ -7661,7 +7654,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Aufführung "Cassian" und "Kakadu" bei Reinhardt</note>
+                  <note>Aufführung "Cassian" und "Kakadu" bei Reinhardt</note>
                </event>
                <event from="1904-12-26" to="1904-12-26">
                   <desc>
@@ -7711,7 +7704,7 @@
                         <geo>44.40478 8.94439</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Auf "Meteor"</note>
+                  <note>Auf "Meteor"</note>
                </event>
                <event from="1905-03-05" to="1905-03-05">
                   <desc>
@@ -7726,7 +7719,7 @@
                         <geo>44.29844 9.95347</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Schiff</note>
+                  <note>Schiff</note>
                </event>
                <event from="1905-03-06" to="1905-03-06">
                   <desc>
@@ -7776,7 +7769,7 @@
                         <geo>44.29844 9.95347</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Spaziergänge u.Fahrten</note>
+                  <note>Spaziergänge u.Fahrten</note>
                </event>
                <event from="1905-03-07" to="1905-03-07">
                   <desc>
@@ -7854,7 +7847,7 @@
                         <geo>43.50891 16.43915</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Zalona</note>
+                  <note>Zalona</note>
                </event>
                <event from="1905-03-17" to="1905-03-17">
                   <desc>
@@ -7932,7 +7925,7 @@
                         <geo>48.45704 14.34875</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Kurhaus</note>
+                  <note>Kurhaus</note>
                </event>
                <event from="1905-07-20" to="1905-07-20">
                   <desc>
@@ -7954,7 +7947,7 @@
                         <geo>48.20849 16.37208</geo>
                      </location>
                   </desc>
-                  <note anchored="true">zum Teil Rad</note>
+                  <note>zum Teil Rad</note>
                </event>
                <event from="1905-08-17" to="1905-08-17">
                   <desc>
@@ -8025,7 +8018,7 @@
                         <geo>50.08804 14.42076</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1905-11-06" to="1905-11-06">
                   <desc>
@@ -8040,7 +8033,7 @@
                         <geo>50.6404 13.82451</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1905-11-07" to="1905-11-07">
                   <desc>
@@ -8083,7 +8076,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Premiere "Zwischenspiel"</note>
+                  <note>Premiere "Zwischenspiel"</note>
                </event>
                <event from="1906-01-21" to="1906-01-21">
                   <desc>
@@ -8098,7 +8091,7 @@
                         <geo>51.1 17.03333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1906-01-22" to="1906-01-23">
                   <desc>
@@ -8120,7 +8113,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Arrangierproben von "Ruf"</note>
+                  <note>Arrangierproben von "Ruf"</note>
                </event>
                <event from="1906-02-04" to="1906-02-06">
                   <desc>
@@ -8149,7 +8142,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Premiere "Ruf", Urauff.</note>
+                  <note>Premiere "Ruf", Urauff.</note>
                </event>
                <event from="1906-05-07" to="1906-05-15">
                   <desc>
@@ -8157,7 +8150,7 @@
                         <geo>48.08611 16.24809</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Radetzky</note>
+                  <note>Radetzky</note>
                </event>
                <event from="1906-06-25" to="1906-06-25">
                   <desc>
@@ -8361,7 +8354,7 @@
                         <geo>50.9807 10.31522</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Wartburg</note>
+                  <note>Wartburg</note>
                </event>
                <event from="1906-08-19" to="1906-08-19">
                   <desc>
@@ -8418,7 +8411,7 @@
                         <geo>48.08611 16.24809</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Hotel Radetzky</note>
+                  <note>Hotel Radetzky</note>
                </event>
                <event from="1907-06-26" to="1907-06-26">
                   <desc>
@@ -8582,7 +8575,7 @@
                         <geo>46.75774 12.10556</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Wald brunn</note>
+                  <note>Wald brunn</note>
                </event>
                <event from="1907-07-05" to="1907-07-05">
                   <desc>
@@ -8688,7 +8681,7 @@
                         <geo>46.75774 12.10556</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Waldbrunn</note>
+                  <note>Waldbrunn</note>
                </event>
                <event from="1907-08-26" to="1907-08-26">
                   <desc>
@@ -8864,7 +8857,7 @@
                         <geo>47.78709 15.91352</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Baumgartnerhaus</note>
+                  <note>Baumgartnerhaus</note>
                </event>
                <event from="1907-10-03" to="1907-10-03">
                   <desc>
@@ -8921,7 +8914,7 @@
                         <geo>45.88577 10.84117</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Gardasee</note>
+                  <note>Gardasee</note>
                </event>
                <event from="1908-04-30" to="1908-04-30">
                   <desc>
@@ -8943,7 +8936,7 @@
                         <geo>46.49067 11.33982</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Klobenstein,Oberbozen.</note>
+                  <note>Klobenstein,Oberbozen.</note>
                </event>
                <event from="1908-05-02" to="1908-05-02">
                   <desc>
@@ -9066,7 +9059,7 @@
                         <geo>47.60998 13.78243</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Grundlsee,Toplitzersee,Kammersee</note>
+                  <note>Grundlsee,Toplitzersee,Kammersee</note>
                </event>
                <event from="1908-06-21" to="1908-06-21">
                   <desc>
@@ -9074,7 +9067,7 @@
                         <geo>47.60998 13.78243</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ischl</note>
+                  <note>Ischl</note>
                </event>
                <event from="1908-06-22" to="1908-06-22">
                   <desc>
@@ -9124,7 +9117,7 @@
                         <geo>46.54133 11.55868</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Villa Häufler</note>
+                  <note>Villa Häufler</note>
                </event>
                <event from="1908-07-07" to="1908-07-09">
                   <desc>
@@ -9209,7 +9202,7 @@
                         <geo>46.49067 11.33982</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Gries</note>
+                  <note>Gries</note>
                </event>
                <event from="1908-09-06" to="1908-09-06">
                   <desc>
@@ -9238,7 +9231,7 @@
                         <geo>47.69255 15.80915</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Knappenhof</note>
+                  <note>Knappenhof</note>
                </event>
                <event from="1908-09-25" to="1908-09-25">
                   <desc>
@@ -9246,7 +9239,7 @@
                         <geo>47.7 15.71667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Knappenhof</note>
+                  <note>Knappenhof</note>
                </event>
                <event from="1908-09-25" to="1908-09-25">
                   <desc>
@@ -9268,7 +9261,7 @@
                         <geo>47.69255 15.80915</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Nasswald</note>
+                  <note>Nasswald</note>
                </event>
                <event from="1908-09-26" to="1908-09-26">
                   <desc>
@@ -9297,8 +9290,7 @@
                         <geo>47.49801 19.03991</geo>
                      </location>
                   </desc>
-                  <note anchored="true">18. Aufführung "Liebelei" im Ungarischen
-                     Nationaltheater</note>
+                  <note>18. Aufführung "Liebelei" im Ungarischen Nationaltheater</note>
                </event>
                <event from="1909-01-25" to="1909-01-30">
                   <desc>
@@ -9327,7 +9319,7 @@
                         <geo>50.08804 14.42076</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Erstaufführung "Ruf"</note>
+                  <note>Erstaufführung "Ruf"</note>
                </event>
                <event from="1909-04-24" to="1909-04-24">
                   <desc>
@@ -9461,7 +9453,7 @@
                         <geo>51.05089 13.73832</geo>
                      </location>
                   </desc>
-                  <note anchored="true">22.1.Uraufführung "Pierret- te"</note>
+                  <note>22.1.Uraufführung "Pierret- te"</note>
                </event>
                <event from="1910-02-08" to="1910-02-10">
                   <desc>
@@ -9504,7 +9496,7 @@
                         <geo>47.05048 8.30635</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rigi,Axenstein,Bürgenstock etc.</note>
+                  <note>Rigi,Axenstein,Bürgenstock etc.</note>
                </event>
                <event from="1910-05-24" to="1910-05-24">
                   <desc>
@@ -9547,7 +9539,7 @@
                         <geo>46.42863 6.92122</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bex,Villars</note>
+                  <note>Bex,Villars</note>
                </event>
                <event from="1910-05-28" to="1910-05-28">
                   <desc>
@@ -9555,7 +9547,7 @@
                         <geo>46.42863 6.92122</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Caux,Glion,Vevey</note>
+                  <note>Caux,Glion,Vevey</note>
                </event>
                <event from="1910-05-29" to="1910-05-29">
                   <desc>
@@ -9563,7 +9555,7 @@
                         <geo>46.42863 6.92122</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Lausanne,Evion</note>
+                  <note>Lausanne,Evion</note>
                </event>
                <event from="1910-03-30" to="1910-03-30">
                   <desc>
@@ -9799,7 +9791,7 @@
                         <geo>50.11552 8.68417</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Homburg</note>
+                  <note>Homburg</note>
                </event>
                <event from="1910-09-17" to="1910-09-17">
                   <desc>
@@ -9844,7 +9836,7 @@
                         <geo>49.87167 8.65027</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Uraufführung der Oper "Liebelei"</note>
+                  <note>Uraufführung der Oper "Liebelei"</note>
                </event>
                <event from="1910-09-19" to="1910-09-19">
                   <desc>
@@ -9881,7 +9873,7 @@
                         <geo>48.13743 11.57549</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1910-12-10" to="1910-12-10">
                   <desc>
@@ -9889,7 +9881,7 @@
                         <geo>48.13743 11.57549</geo>
                      </location>
                   </desc>
-                  <note anchored="true">"Letzte Masken", "Literatur" Comtesse Mizi"</note>
+                  <note>"Letzte Masken", "Literatur" Comtesse Mizi"</note>
                </event>
                <event from="1910-12-11" to="1910-12-11">
                   <desc>
@@ -9927,7 +9919,7 @@
                         <geo>49.19522 16.60796</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1911-02-13" to="1911-02-13">
                   <desc>
@@ -9963,7 +9955,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">am 23.2. Konzert von Olga Schnitzler</note>
+                  <note>am 23.2. Konzert von Olga Schnitzler</note>
                </event>
                <event from="1911-04-11" to="1911-04-13">
                   <desc>
@@ -10179,7 +10171,7 @@
                         <geo>50.08804 14.42076</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Olga Schnitzler, Stefanie Bachrach "Medardus"</note>
+                  <note>mit Olga Schnitzler, Stefanie Bachrach "Medardus"</note>
                </event>
                <event from="1911-05-28" to="1911-05-28">
                   <desc>
@@ -10236,7 +10228,7 @@
                         <geo>47.79941 13.04399</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Berchtesgaden,Gilgen, Lueg</note>
+                  <note>Berchtesgaden,Gilgen, Lueg</note>
                </event>
                <event from="1911-07-25" to="1911-07-29">
                   <desc>
@@ -10293,7 +10285,7 @@
                         <geo>50.08804 14.42076</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1911-11-01" to="1911-11-01">
                   <desc>
@@ -10308,7 +10300,7 @@
                         <geo>51.05089 13.73832</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1911-11-02" to="1911-11-02">
                   <desc>
@@ -10323,7 +10315,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">"Weites Land"</note>
+                  <note>"Weites Land"</note>
                </event>
                <event from="1911-11-03" to="1911-11-04">
                   <desc>
@@ -10352,7 +10344,7 @@
                         <geo>53.57532 10.01534</geo>
                      </location>
                   </desc>
-                  <note anchored="true">6.11. Weites Land,7.11.Beatrico,8.11.Anatol</note>
+                  <note>6.11. Weites Land,7.11.Beatrico,8.11.Anatol</note>
                </event>
                <event from="1911-11-09" to="1911-11-09">
                   <desc>
@@ -10381,7 +10373,7 @@
                         <geo>48.13743 11.57549</geo>
                      </location>
                   </desc>
-                  <note anchored="true">12.11. Das weite Land</note>
+                  <note>12.11. Das weite Land</note>
                </event>
                <event from="1911-11-13" to="1911-11-13">
                   <desc>
@@ -10419,8 +10411,7 @@
                         <geo>47.79941 13.04399</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Albert,Liesl, Georg Jacoby, Wilhelm Jacoby, Gerhard
-                     Jacoby</note>
+                  <note>mit Albert,Liesl, Georg Jacoby, Wilhelm Jacoby, Gerhard Jacoby</note>
                </event>
                <event from="1912-05-11" to="1912-05-11">
                   <desc>
@@ -10463,7 +10454,7 @@
                         <geo>45.64953 13.77678</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Abreise auf dem Schiff Metrowicz</note>
+                  <note>Abreise auf dem Schiff Metrowicz</note>
                </event>
                <event from="1912-05-15" to="1912-05-15">
                   <desc>
@@ -10471,7 +10462,7 @@
                         <geo>45.43713 12.33265</geo>
                      </location>
                   </desc>
-                  <note anchored="true">50.Geburtstag</note>
+                  <note>50.Geburtstag</note>
                </event>
                <event from="1912-06-01" to="1912-05-20">
                   <desc>
@@ -10514,7 +10505,7 @@
                         <geo>50.08804 14.42076</geo>
                      </location>
                   </desc>
-                  <note anchored="true">"Der einsame Weg",12.Vorstellung im S.-Zyklus</note>
+                  <note>"Der einsame Weg",12.Vorstellung im S.-Zyklus</note>
                </event>
                <event from="1912-07-08" to="1912-07-09">
                   <desc>
@@ -10585,7 +10576,7 @@
                         <geo>46.61028 13.85583</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ossiachersee</note>
+                  <note>Ossiachersee</note>
                </event>
                <event from="1912-08-25" to="1912-08-25">
                   <desc>
@@ -10656,7 +10647,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">28.12. Premiere "Bernhardi"</note>
+                  <note>28.12. Premiere "Bernhardi"</note>
                </event>
                <event from="1913-01-01" to="1913-01-14">
                   <desc>
@@ -10671,7 +10662,7 @@
                         <geo>48.13743 11.57549</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bernhardi</note>
+                  <note>Bernhardi</note>
                </event>
                <event from="1913-04-16" to="1913-04-17">
                   <desc>
@@ -10679,7 +10670,7 @@
                         <geo>47.49801 19.03991</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Bernhadi</note>
+                  <note>Bernhadi</note>
                </event>
                <event from="1913-02-02" to="1913-04-23">
                   <desc>
@@ -10701,7 +10692,7 @@
                         <geo>48.00543 16.23264</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Guttenstein</note>
+                  <note>Guttenstein</note>
                </event>
                <event from="1913-06-09" to="1913-06-09">
                   <desc>
@@ -10723,7 +10714,7 @@
                         <geo>48.20849 16.37208</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Heinis Erkrankung</note>
+                  <note>Heinis Erkrankung</note>
                </event>
                <event from="1913-07-24" to="1913-08-22">
                   <desc>
@@ -10801,7 +10792,7 @@
                         <geo>49.01513 12.10161</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Konzert von Olga Schnitzler</note>
+                  <note>Konzert von Olga Schnitzler</note>
                </event>
                <event from="1914-01-23" to="1914-01-23">
                   <desc>
@@ -10830,7 +10821,7 @@
                         <geo>48.33333 15.41667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Dürnste in ,Krems</note>
+                  <note>Dürnste in ,Krems</note>
                </event>
                <event from="1914-05-02" to="1914-05-11">
                   <desc>
@@ -10852,7 +10843,7 @@
                         <geo>44.40478 8.94439</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Abreise mit dem "York". 14.5. Meerfahrt</note>
+                  <note>Abreise mit dem "York". 14.5. Meerfahrt</note>
                </event>
                <event from="1914-05-15" to="1914-05-15">
                   <desc>
@@ -10860,7 +10851,7 @@
                         <geo>36.7525 3.04197</geo>
                      </location>
                   </desc>
-                  <note anchored="true">16.5. Meer an Gibraltar vorbei</note>
+                  <note>16.5. Meer an Gibraltar vorbei</note>
                </event>
                <event from="1914-05-17" to="1914-05-17">
                   <desc>
@@ -10868,7 +10859,7 @@
                         <geo>38.71667 -9.13333</geo>
                      </location>
                   </desc>
-                  <note anchored="true">18. und 19. auf dem Meer</note>
+                  <note>18. und 19. auf dem Meer</note>
                </event>
                <event from="1914-05-20" to="1914-05-20">
                   <desc>
@@ -10883,7 +10874,7 @@
                         <geo>51.21989 4.40346</geo>
                      </location>
                   </desc>
-                  <note anchored="true">22.5. auf dem Meer</note>
+                  <note>22.5. auf dem Meer</note>
                </event>
                <event from="1914-05-23" to="1914-05-27">
                   <desc>
@@ -10947,7 +10938,7 @@
                         <geo>47.96004 14.77361</geo>
                      </location>
                   </desc>
-                  <note anchored="true">von Wien, Bahn</note>
+                  <note>von Wien, Bahn</note>
                </event>
                <event from="1914-07-15" to="1914-07-15">
                   <desc>
@@ -10976,7 +10967,7 @@
                         <geo>47.77306 15.31639</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Auto</note>
+                  <note>Auto</note>
                </event>
                <event from="1914-07-18" to="1914-07-18">
                   <desc>
@@ -11145,7 +11136,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Medardus</note>
+                  <note>Medardus</note>
                </event>
                <event from="1915-09-02" to="1915-01-31">
                   <desc>
@@ -11209,7 +11200,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Premiere "Komödie der Worte"</note>
+                  <note>Premiere "Komödie der Worte"</note>
                </event>
                <event from="1916-05-27" to="1916-05-30">
                   <desc>
@@ -11280,12 +11271,12 @@
                         <geo>47.79941 13.04399</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Rückreise wegen des Todes von Stefanie Bachrach</note>
+                  <note>Rückreise wegen des Todes von Stefanie Bachrach</note>
                </event>
                <event from="1917-06-04" to="1917-06-22">
                   <desc>
                      <placeName
-                        ref="https://www.geonames.org/2782058/http://www.geonames.org/2782058/">Bad
+                        ref="https://www.geonames.org/2782058/">Bad
                         Gastein</placeName><location>
                         <geo>47.1154747.11547 13.1346713.13467</geo>
                      </location>
@@ -11340,7 +11331,7 @@
                         <geo>48.20849 16.37208</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Schiff</note>
+                  <note>Schiff</note>
                </event>
                <event from="1918-08-01" to="1918-05-22">
                   <desc>
@@ -11398,7 +11389,7 @@
                         <geo>48.45704 14.34875</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Lili Schnitzler</note>
+                  <note>mit Lili Schnitzler</note>
                </event>
                <event from="1920-07-26" to="1920-07-27">
                   <desc>
@@ -11511,7 +11502,7 @@
                         <geo>48.20849 16.37208</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Scheidung</note>
+                  <note>Scheidung</note>
                </event>
                <event from="1921-07-11" to="1921-07-11">
                   <desc>
@@ -11577,7 +11568,7 @@
                         <geo>47.79941 13.04399</geo>
                      </location>
                   </desc>
-                  <note anchored="true">auch Prasch</note>
+                  <note>auch Prasch</note>
                </event>
                <event from="1921-09-20" to="1921-09-22">
                   <desc>
@@ -11592,7 +11583,7 @@
                         <geo>48.368897 16.182478</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Jagdhaus F.S.</note>
+                  <note>Jagdhaus F.S.</note>
                </event>
                <event from="1922-04-19" to="1922-04-25">
                   <desc>
@@ -11600,7 +11591,7 @@
                         <geo>48.13743 11.57549</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Über Ettau, Arnheim</note>
+                  <note>Über Ettau, Arnheim</note>
                </event>
                <event from="1922-04-26" to="1922-04-26">
                   <desc>
@@ -11685,7 +11676,7 @@
                         <geo>49.45421 11.07752</geo>
                      </location>
                   </desc>
-                  <note anchored="true">60. Geburtstag</note>
+                  <note>60. Geburtstag</note>
                </event>
                <event from="1922-05-16" to="1922-05-19">
                   <desc>
@@ -11707,7 +11698,7 @@
                         <geo>47.06667 15.45</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1922-07-05" to="1922-07-05">
                   <desc>
@@ -11719,12 +11710,12 @@
                <event from="1922-07-06" to="1922-07-06">
                   <desc>
                      <placeName
-                        ref="https://www.geonames.org/6269268/http://www.geonames.org/2766441/">St.
+                        ref="https://www.geonames.org/2766441/">St.
                         Peter</placeName><location>
                         <geo>41.9022147.79715447.55 12.4530513.04486616.01667</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Corona</note>
+                  <note>Corona</note>
                </event>
                <event from="1922-07-19" to="1922-07-19">
                   <desc>
@@ -11802,7 +11793,7 @@
                         <geo>48.20849 16.37208</geo>
                      </location>
                   </desc>
-                  <note anchored="true">mit Lili Schnitzler</note>
+                  <note>mit Lili Schnitzler</note>
                </event>
                <event from="1922-10-24" to="1922-10-24">
                   <desc>
@@ -11845,7 +11836,7 @@
                         <geo>51.40574 13.19159</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesungsreise</note>
+                  <note>Vorlesungsreise</note>
                </event>
                <event from="1923-02-20" to="1923-02-22">
                   <desc>
@@ -11860,7 +11851,7 @@
                         <geo>48.14816 17.10674</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Aufführung "Weites Land"</note>
+                  <note>Aufführung "Weites Land"</note>
                </event>
                <event from="1923-03-02" to="1923-04-25">
                   <desc>
@@ -11924,7 +11915,7 @@
                         <geo>52.52437 13.41053</geo>
                      </location>
                   </desc>
-                  <note anchored="true">über Trelleborg, Sassnitz</note>
+                  <note>über Trelleborg, Sassnitz</note>
                </event>
                <event from="1923-02-01" to="1923-06-14">
                   <desc>
@@ -12296,7 +12287,7 @@
                         <geo>48.78232 9.17702</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1925-01-10" to="1925-01-11">
                   <desc>
@@ -12304,7 +12295,7 @@
                         <geo>48.7606 8.23975</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1925-01-12" to="1925-01-12">
                   <desc>
@@ -12312,7 +12303,7 @@
                         <geo>47.9959 7.85222</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1925-01-13" to="1925-01-14">
                   <desc>
@@ -12320,7 +12311,7 @@
                         <geo>47.55839 7.57327</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1925-01-15" to="1925-01-15">
                   <desc>
@@ -12328,7 +12319,7 @@
                         <geo>46.94809 7.44744</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1925-01-16" to="1925-01-16">
                   <desc>
@@ -12336,7 +12327,7 @@
                         <geo>47.42391 9.37477</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1925-07-01" to="1925-01-20">
                   <desc>
@@ -12344,7 +12335,7 @@
                         <geo>47.36667 8.55</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Vorlesung</note>
+                  <note>Vorlesung</note>
                </event>
                <event from="1925-01-02" to="1925-01-31">
                   <desc>
@@ -12576,7 +12567,7 @@
                         <geo>45.64953 13.77678</geo>
                      </location>
                   </desc>
-                  <note anchored="true">"Martha Washington"</note>
+                  <note>"Martha Washington"</note>
                </event>
                <event from="1926-04-18" to="1926-04-18">
                   <desc>
@@ -12612,7 +12603,7 @@
                         <geo>28.09973 -15.41343</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Ausflug Brigida</note>
+                  <note>Ausflug Brigida</note>
                </event>
                <event from="1926-05-06" to="1926-05-06">
                   <desc>
@@ -12809,7 +12800,7 @@
                         <geo>46.41147 11.58817</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Waldhaus</note>
+                  <note>Waldhaus</note>
                </event>
                <event from="1927-08-23" to="1927-08-23">
                   <desc>
@@ -12845,7 +12836,7 @@
                         <geo>45.43713 12.33265</geo>
                      </location>
                   </desc>
-                  <note anchored="true">Lido</note>
+                  <note>Lido</note>
                </event>
                <event from="1927-09-15" to="1927-09-15">
                   <desc>
@@ -12860,7 +12851,7 @@
                         <geo>48.20849 16.37208</geo>
                      </location>
                   </desc>
-                  <note anchored="true">1.Luftreise</note>
+                  <note>1.Luftreise</note>
                </event>
                <event from="1927-11-28" to="1927-12-10">
                   <desc>
