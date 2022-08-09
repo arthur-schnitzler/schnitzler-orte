@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arthur Schnitzlers Reisen</title>
+                <respStmt>
+                    <resp>providing the content</resp>
+                    <name>Arthur Schnitzler</name>
+                    <name>Martin Anton Müller</name>
+                    <name>Laura Puntigam</name>
+                    <name>Laura Untner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Austrian Centre for Digital Humanities, Austrian Academy of Sciences </orgName>
+                    <address>
+                        <addrLine>Sonnenfelsgasse 19</addrLine>
+                        <addrLine>1010 Vienna</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                            to this text.</p>
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>The idea was to digitize the list of travels by Arthur Schnitzler that survives in
+                    his papers stored in the Cambridge University Library, folder A 175. The goal was not
+                    an edition of that list but to extract the information from the list and connect the
+                    timespans with geonames-IDs and locations. Therefore errors and mistakes of the list
+                    were changed without keeping track of the deleted information. Sometimes the diary
+                    was used to correct entries.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Reisen</head>
+                <listEvent>
+                    <event from="1867-01-01" to="1867-12-31" cert="low">
+                        <desc>
+                            <placeName ref="https://www.geonames.org/3047679/">Groß-Kanizsa</placeName><location>
+                                <geo>46.45347 16.99104</geo>
+                            </location>
+                        </desc>
+                        <note>genaues Datum unbekannt</note>
+                    </event>
+                    <event from="1868-01-01" to="1868-12-31" cert="low">
+                        <desc>
+                            <placeName ref="https://www.geonames.org/3047679/">Groß-Kanizsa</placeName><location>
+                                <geo>46.45347 16.99104</geo>
+                            </location>
+                        </desc>
+                        <note>genaues Datum unbekannt</note>
+                    </event>
+                    <event from="1869-01-01" to="1869-12-31" cert="low">
+                        <desc>
+                            <placeName ref="https://www.geonames.org/2782043/">Bad Vöslau</placeName><location>
+                                <geo>47.96533 16.21359</geo>
+                            </location>
+                        </desc>
+                        <note>Sommeraufenthalt</note>
+                    </event>
+                </listEvent></div></body></text></TEI>
+
+            

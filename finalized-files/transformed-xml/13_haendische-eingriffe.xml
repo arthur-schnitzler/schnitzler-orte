@@ -4866,9 +4866,7 @@
                </event>
                <event from="1899-08-09" to="1899-08-09">
                   <desc>
-                     <placeName
-                        ref="https://www.geonames.org/3169877/"
-                        >Predazzo</placeName><location>
+                     <placeName ref="https://www.geonames.org/3169877/">Predazzo</placeName><location>
                         <geo>46.311446.3114 11.599611.5996</geo>
                      </location>
                   </desc>
@@ -6625,9 +6623,7 @@
                </event>
                <event from="1902-09-07" to="1902-09-07">
                   <desc>
-                     <placeName
-                        ref="https://www.geonames.org/7872847/"
-                        >Weissenbach</placeName><location>
+                     <placeName ref="https://www.geonames.org/7872847/">Weissenbach</placeName><location>
                         <geo>47.848.08009 13.5333316.22106</geo>
                      </location>
                   </desc>
@@ -11275,9 +11271,7 @@
                </event>
                <event from="1917-06-04" to="1917-06-22">
                   <desc>
-                     <placeName
-                        ref="https://www.geonames.org/2782058/">Bad
-                        Gastein</placeName><location>
+                     <placeName ref="https://www.geonames.org/2782058/">Bad Gastein</placeName><location>
                         <geo>47.1154747.11547 13.1346713.13467</geo>
                      </location>
                   </desc>
@@ -11541,9 +11535,7 @@
                </event>
                <event from="1921-09-02" to="1921-09-02">
                   <desc>
-                     <placeName
-                        ref="https://www.geonames.org/2861384/"
-                        >Oberau</placeName><location>
+                     <placeName ref="https://www.geonames.org/2861384/">Oberau</placeName><location>
                         <geo>47.6600447.55979 13.0744611.13919</geo>
                      </location>
                   </desc>
@@ -11709,9 +11701,7 @@
                </event>
                <event from="1922-07-06" to="1922-07-06">
                   <desc>
-                     <placeName
-                        ref="https://www.geonames.org/2766441/">St.
-                        Peter</placeName><location>
+                     <placeName ref="https://www.geonames.org/2766441/">St. Peter</placeName><location>
                         <geo>41.9022147.79715447.55 12.4530513.04486616.01667</geo>
                      </location>
                   </desc>
