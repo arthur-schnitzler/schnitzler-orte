@@ -9142,7 +9142,7 @@
                </event>
                <event from="1908-08-05" to="1908-08-05">
                   <desc>
-                     <placeName ref="http://www.geonames.org/12493334/">Schlern</placeName><location>
+                     <placeName ref="https://www.geonames.org/12493334/">Schlern</placeName><location>
                         <geo>46.515412 11.574473</geo>
                      </location>
                   </desc>
