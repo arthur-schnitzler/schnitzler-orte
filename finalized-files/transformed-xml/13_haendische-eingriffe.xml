@@ -6279,7 +6279,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1901-01-01" to="1901-11-14">
+               <event from="1901-11-11" to="1901-11-14">
                   <desc>
                      <placeName ref="https://www.geonames.org/2769182/">Payerbach</placeName><location>
                         <geo>47.69209 15.8634</geo>

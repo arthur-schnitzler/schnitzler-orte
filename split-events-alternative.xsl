@@ -15,14 +15,15 @@
         <xsl:value-of select="foo:loop-string($current-number+1, $duration)"/>
     </xsl:if>
 </xsl:function>
+    
 
 <xsl:template match="tei:event">
     <xsl:variable name="from" select="xs:date(@from)"/>
     <xsl:variable name="to" select="xs:date(@to)"/>
     <xsl:variable name="duration" select="fn:days-from-duration($to - $from)"/>
-    <xsl:variable name="geoname" select="descendant::tei:placeName[1]/@ref"/>
+    <xsl:variable name="placeName" select="descendant::tei:placeName[1]" as="node()"/>
     <xsl:variable name="loopstring">
-    <xsl:sequence select="foo:loop-string(1, $duration)"/>
+      <xsl:sequence select="foo:loop-string(1, $duration)"/>
     </xsl:variable>
     <xsl:for-each select="tokenize($loopstring,',')">
         <xsl:variable name="i" select="position() -1" />
@@ -30,9 +31,7 @@
             <xsl:attribute name="when">
                 <xsl:value-of select="$from + xs:dayTimeDuration(concat('P',$i,'D'))"/>
             </xsl:attribute>
-            <xsl:attribute name="ref">
-                <xsl:value-of select="$geoname"/>
-            </xsl:attribute>
+            <xsl:copy-of select="$placeName"/>
         </xsl:element>
     </xsl:for-each>
 </xsl:template> 
