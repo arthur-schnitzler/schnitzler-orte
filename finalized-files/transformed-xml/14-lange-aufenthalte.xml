@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -48,7 +45,6 @@
          <div>
             <head>Reisen</head>
             <listEvent>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1867-01-01" to="1867-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/3047679/">Groß-Kanizsa</placeName>
@@ -58,7 +54,6 @@
                   </desc>
                   <note>genaues Datum unbekannt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1868-01-01" to="1868-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/3047679/">Groß-Kanizsa</placeName>
@@ -68,7 +63,6 @@
                   </desc>
                   <note>genaues Datum unbekannt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1869-01-01" to="1869-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782043/">Bad Vöslau</placeName>
@@ -78,7 +72,6 @@
                   </desc>
                   <note>Sommeraufenthalt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1870-01-01" to="1870-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782043/">Bad Vöslau</placeName>
@@ -88,7 +81,6 @@
                   </desc>
                   <note>Sommeraufenthalt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1871-01-01" to="1871-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782043/">Bad Vöslau</placeName>
@@ -98,7 +90,6 @@
                   </desc>
                   <note>Sommeraufenthalt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1870-01-01" to="1870-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2778436/">Gmunden</placeName>
@@ -107,7 +98,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1870-01-01" to="1870-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
@@ -116,7 +106,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1870-01-01" to="1870-12-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782070/">Aussee</placeName>
@@ -126,7 +115,6 @@
                   </desc>
                   <note>genaues Datum unbekannt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1872-01-01" to="1872-12-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
@@ -135,7 +123,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1872-01-01" to="1872-12-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2867714/">München</placeName>
@@ -144,7 +131,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1872-01-01" to="1872-12-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2657896/">Zürich</placeName>
@@ -153,7 +139,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1872-01-01" to="1872-12-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2659811/">Luzern</placeName>
@@ -162,7 +147,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1872-01-01" to="1872-12-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2660646/">Genf</placeName>
@@ -172,7 +156,6 @@
                   </desc>
                   <note>genaues Datum unbekannt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1873-01-01" to="1873-12-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782043/">Bad Vöslau</placeName>
@@ -625,24 +608,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1880-08-14" to="1880-08-14">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
-                     <location>
-                        <geo>47.71109 13.61893</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1880-05-01" to="1880-08-16">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
-                     <location>
-                        <geo>47.71109 13.61893</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1880-08-17" to="1880-08-17">
+               <event from="1880-08-14" to="1880-08-17">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -1148,7 +1114,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1882-08-13" to="1882-08-13">
+               <event from="1882-08-13" to="1882-08-15">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -1156,8 +1122,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1882-04-01" to="1882-08-15">
+               <event from="1882-08-18" to="1882-08-19">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -1229,8 +1194,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1884-01-01" to="1884-12-31">
+               <event from="1884-04-10" to="1884-04-15" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/3191648/">Fiume</placeName>
                      <location>
@@ -1239,8 +1203,7 @@
                   </desc>
                   <note>Ostern, genaues Datum unbekannt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1884-01-01" to="1884-12-31">
+               <event from="1884-04-10" to="1884-04-15" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/3194099/">Abbazia</placeName>
                      <location>
@@ -1249,7 +1212,6 @@
                   </desc>
                   <note>Ostern, genaues Datum unbekannt</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1884-07-15" to="1884-09-01">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
@@ -1258,8 +1220,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1885-01-01" to="1885-12-31">
+               <event from="1885-06-28" to="1885-07-02" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/3054643/">Budapest</placeName>
                      <location>
@@ -1308,16 +1269,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1885-08-11" to="1885-08-11">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
-                     <location>
-                        <geo>47.71109 13.61893</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1885-02-01" to="1885-08-13">
+               <event from="1885-08-11" to="1885-08-14">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -1648,23 +1600,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1885-08-28" to="1885-08-28">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
-                     <location>
-                        <geo>47.71109 13.61893</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1885-08-29" to="1885-08-30">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
-                     <location>
-                        <geo>47.71109 13.61893</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1885-08-31" to="1885-08-31">
+               <event from="1885-08-28" to="1885-08-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -1705,15 +1641,29 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1886-07-31" to="1886-09-06">
+               <event from="1886-07-31" to="1886-08-16" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2767773/">Reichenau</placeName>
                      <location>
                         <geo>48.45704 14.34875</geo>
                      </location>
                   </desc>
-                  <note>mit einer Unterbrechung Ischl 8 Tage</note>
+               </event>
+               <event from="1886-08-16" to="1886-08-23" cert="low">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
+                     <location>
+                        <geo>47.71109 13.61893</geo>
+                     </location>
+                  </desc>
+               </event>
+               <event from="1886-08-23" to="1886-09-06" cert="low">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2767773/">Reichenau</placeName>
+                     <location>
+                        <geo>48.45704 14.34875</geo>
+                     </location>
+                  </desc>
                </event>
                <event from="1886-09-12" to="1886-09-12">
                   <desc>
@@ -1739,7 +1689,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1887-07-13" to="1887-08-15">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
@@ -1782,7 +1731,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1888-04-05" to="1888-05-12">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
@@ -1823,7 +1771,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1888-05-20" to="1888-05-20">
+               <event from="1888-05-20" to="1888-05-22">
                   <desc>
                      <placeName ref="https://www.geonames.org/2988507/">Paris</placeName>
                      <location>
@@ -1831,34 +1779,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1888-01-02" to="1888-05-22">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2988507/">Paris</placeName>
-                     <location>
-                        <geo>48.85341 2.3488</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1888-01-02" to="1888-05-22">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2643743/">London</placeName>
-                     <location>
-                        <geo>51.50853 -0.12574</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1888-05-23" to="1888-07-20">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2643743/">London</placeName>
-                     <location>
-                        <geo>51.50853 -0.12574</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1888-07-21" to="1888-07-21">
+               <event from="1888-05-22" to="1888-07-21">
                   <desc>
                      <placeName ref="https://www.geonames.org/2643743/">London</placeName>
                      <location>
@@ -2311,8 +2232,7 @@
                   </desc>
                   <note>Ungarisches Erbgut</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1891-06-01" to="1891-07-31">
+               <event from="1891-06-01" to="1891-07-31" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782067/">Baden</placeName>
                      <location>
@@ -2320,6 +2240,14 @@
                      </location>
                   </desc>
                   <note>häufige Ausflüge, genaues Datum unbekannt</note>
+               </event>
+               <event from="1891-06-01" to="1891-07-31" cert="low">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2761369/">Wien</placeName>
+                     <location>
+                        <geo>48.20849 16.37208</geo>
+                     </location>
+                  </desc>
                </event>
                <event from="1891-08-15" to="1891-08-16">
                   <desc>
@@ -2379,16 +2307,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1892-09-11" to="1892-09-11">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3169272/">Riva</placeName>
-                     <location>
-                        <geo>45.88577 10.84117</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1892-02-01" to="1892-09-16">
+               <event from="1892-09-11" to="1892-09-16">
                   <desc>
                      <placeName ref="https://www.geonames.org/3169272/">Riva</placeName>
                      <location>
@@ -2397,8 +2316,7 @@
                   </desc>
                   <note>Gardasee, Gardone etc.</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1892-06-01" to="1892-09-22">
+               <event from="1892-09-16" to="1892-09-22">
                   <desc>
                      <placeName ref="https://www.geonames.org/3164603/">Venedig</placeName>
                      <location>
@@ -3209,8 +3127,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1895-01-01" to="1895-07-12">
+               <event from="1895-07-11" to="1895-07-12">
                   <desc>
                      <placeName ref="https://www.geonames.org/3071024/">Marienbad</placeName>
                      <location>
@@ -3218,8 +3135,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1895-03-01" to="1895-07-14">
+               <event from="1895-07-13" to="1895-07-14">
                   <desc>
                      <placeName ref="https://www.geonames.org/2861650/">Nürnberg</placeName>
                      <location>
@@ -3227,7 +3143,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1895-07-15" to="1895-07-15">
+               <event from="1895-07-15" to="1895-08-06">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -3235,7 +3151,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1895-08-10" to="1895-08-10">
+               <event from="1895-08-07" to="1895-08-07">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782070/">Aussee</placeName>
                      <location>
@@ -3259,7 +3175,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1895-08-14" to="1895-08-14">
+               <event from="1895-08-08" to="1895-08-10">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -3267,8 +3183,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1895-05-01" to="1895-08-18">
+               <event from="1895-08-14" to="1895-08-18">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782052/">Ischl</placeName>
                      <location>
@@ -3727,7 +3642,8 @@
                </event>
                <event from="1896-07-16" to="1896-07-16">
                   <desc>
-                     <placeName ref="https://www.geonames.org/3135212/">Svartisengletscher</placeName>
+                     <placeName ref="https://www.geonames.org/3135212/"
+                        >Svartisengletscher</placeName>
                      <location>
                         <geo>66.65895 13.93925</geo>
                      </location>
@@ -3946,7 +3862,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1897-04-10" to="1897-04-10">
+               <event from="1897-04-10" to="1897-04-11">
                   <desc>
                      <placeName ref="https://www.geonames.org/2657896/">Zürich</placeName>
                      <location>
@@ -3954,15 +3870,6 @@
                      </location>
                   </desc>
                </event>
-               <event from="1897-04-11" to="1897-04-11">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2657896/">Zürich</placeName>
-                     <location>
-                        <geo>47.36667 8.55</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1897-04-12" to="1897-05-24">
                   <desc>
                      <placeName ref="https://www.geonames.org/2988507/">Paris</placeName>
@@ -3970,7 +3877,31 @@
                         <geo>48.85341 2.3488</geo>
                      </location>
                   </desc>
-                  <note>21.5.Villain s.M.,22.5.Joinville le Pont,23.5.Ville d'Avrée</note>
+               </event>
+               <event from="1897-05-21" to="1897-05-21">
+                  <desc>
+                     <placeName ref="http://www.geonames.org/2968507/"
+                        >Villennes-sur-Seine</placeName>
+                     <location>
+                        <geo>48.94137 1.99137</geo>
+                     </location>
+                  </desc>
+               </event>
+               <event from="1897-05-22" to="1897-05-22">
+                  <desc>
+                     <placeName ref="http://www.geonames.org/3012313/">Joinville-le-Pont</placeName>
+                     <location>
+                        <geo>48.82538 2.47458</geo>
+                     </location>
+                  </desc>
+               </event>
+               <event from="1897-05-23" to="1897-05-23">
+                  <desc>
+                     <placeName ref="http://www.geonames.org/2968819/">Ville d'Avray</placeName>
+                     <location>
+                        <geo>48.82358 2.19311</geo>
+                     </location>
+                  </desc>
                </event>
                <event from="1897-05-18" to="1897-05-18">
                   <desc>
@@ -4354,8 +4285,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1898-01-02" to="1898-07-25">
+               <event from="1898-07-20" to="1898-07-25">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782058/">Gastein</placeName>
                      <location>
@@ -4847,7 +4777,7 @@
                   </desc>
                   <note>Wagen</note>
                </event>
-               <event from="1898-08-21" to="1898-08-21">
+               <event from="1898-08-21" to="1898-08-28">
                   <desc>
                      <placeName ref="https://www.geonames.org/2659811/">Luzern</placeName>
                      <location>
@@ -4855,15 +4785,6 @@
                      </location>
                   </desc>
                   <note>Bahn</note>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1898-02-02" to="1898-08-27">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2659811/">Luzern</placeName>
-                     <location>
-                        <geo>47.05048 8.30635</geo>
-                     </location>
-                  </desc>
                </event>
                <event from="1898-08-23" to="1898-08-23">
                   <desc>
@@ -5212,7 +5133,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1899-06-22" to="1899-06-22">
+               <event from="1899-06-22" to="1899-06-24">
                   <desc>
                      <placeName ref="https://www.geonames.org/11054391/">Belisce</placeName>
                      <location>
@@ -5220,16 +5141,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1899-06-23" to="1899-06-24">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/11054391/">Belisce</placeName>
-                     <location>
-                        <geo>45.6799 18.40073</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1899-05-02" to="1899-06-27">
+               <event from="1899-06-25" to="1899-06-27">
                   <desc>
                      <placeName ref="https://www.geonames.org/3194064/">Orahovica</placeName>
                      <location>
@@ -5734,7 +5646,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1899-09-12" to="1899-09-12">
+               <event from="1899-09-12" to="1899-09-16">
                   <desc>
                      <placeName ref="https://www.geonames.org/2867714/">München</placeName>
                      <location>
@@ -5742,41 +5654,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1899-03-01" to="1899-09-15">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2867714/">München</placeName>
-                     <location>
-                        <geo>48.13743 11.57549</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1899-09-16" to="1899-09-16">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2867714/">München</placeName>
-                     <location>
-                        <geo>48.13743 11.57549</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1899-09-16" to="1899-09-16">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2861650/">Nürnberg</placeName>
-                     <location>
-                        <geo>49.45421 11.07752</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1899-07-01" to="1899-09-19">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2861650/">Nürnberg</placeName>
-                     <location>
-                        <geo>49.45421 11.07752</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1899-09-19" to="1899-09-19">
+               <event from="1899-09-16" to="1899-09-19">
                   <desc>
                      <placeName ref="https://www.geonames.org/2861650/">Nürnberg</placeName>
                      <location>
@@ -6647,16 +6525,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1900-11-24" to="1900-11-24">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
-                     <location>
-                        <geo>52.52437 13.41053</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1900-05-02" to="1900-11-28">
+               <event from="1900-11-24" to="1900-11-28">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
                      <location>
@@ -6843,16 +6712,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1901-06-11" to="1901-06-11">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
-                     <location>
-                        <geo>47.79941 13.04399</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1901-02-01" to="1901-06-25">
+               <event from="1901-06-11" to="1901-06-25">
                   <desc>
                      <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
                      <location>
@@ -7055,7 +6915,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1901-08-07" to="1901-08-07">
+               <event from="1901-08-07" to="1901-08-12">
                   <desc>
                      <placeName ref="https://www.geonames.org/3173140/">Welsberg</placeName>
                      <location>
@@ -7112,7 +6972,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1901-08-15" to="1901-08-15">
+               <event from="1901-08-15" to="1901-08-24">
                   <desc>
                      <placeName ref="https://www.geonames.org/3173140/">Welsberg</placeName>
                      <location>
@@ -7120,8 +6980,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1901-06-01" to="1901-08-26">
+               <event from="1901-08-24" to="1901-08-26">
                   <desc>
                      <placeName ref="https://www.geonames.org/3173140/">Welsberg</placeName>
                      <location>
@@ -7137,23 +6996,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1901-08-26" to="1901-08-26">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3173140/">Welsberg</placeName>
-                     <location>
-                        <geo>46.75774 12.10556</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1901-08-26" to="1901-08-26">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2762372/">Villach</placeName>
-                     <location>
-                        <geo>46.61028 13.85583</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1901-08-27" to="1901-08-27">
+               <event from="1901-08-26" to="1901-08-27">
                   <desc>
                      <placeName ref="https://www.geonames.org/2762372/">Villach</placeName>
                      <location>
@@ -7210,24 +7053,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1901-12-28" to="1901-12-28">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
-                     <location>
-                        <geo>52.52437 13.41053</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1901-09-02" to="1901-12-31">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
-                     <location>
-                        <geo>52.52437 13.41053</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1902-01-01" to="1902-01-06">
+               <event from="1901-12-28" to="1902-01-06">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
                      <location>
@@ -7649,8 +7475,7 @@
                   </desc>
                   <note>Hauptmann</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1902-03-01" to="1902-10-17">
+               <event from="1902-10-20" to="1902-10-20">
                   <desc>
                      <placeName ref="https://www.geonames.org/3081368/">Breslau</placeName>
                      <location>
@@ -8622,8 +8447,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1904-02-01" to="1904-07-23">
+               <event from="1904-07-12" to="1904-07-15">
                   <desc>
                      <placeName ref="https://www.geonames.org/2769182/">Payerbach</placeName>
                      <location>
@@ -8632,7 +8456,25 @@
                   </desc>
                   <note>Kurhaus</note>
                </event>
-               <event from="1904-07-15" to="1904-07-15">
+               <event from="1904-07-16" to="1904-07-18">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2769182/">Payerbach</placeName>
+                     <location>
+                        <geo>47.69209 15.8634</geo>
+                     </location>
+                  </desc>
+                  <note>Kurhaus</note>
+               </event>
+               <event from="1904-07-18" to="1904-07-23">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2769182/">Payerbach</placeName>
+                     <location>
+                        <geo>47.69209 15.8634</geo>
+                     </location>
+                  </desc>
+                  <note>Kurhaus</note>
+               </event>
+               <event from="1904-07-15" to="1904-07-16">
                   <desc>
                      <placeName ref="https://www.geonames.org/2770921/">Nasswald</placeName>
                      <location>
@@ -8640,7 +8482,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1904-07-18" to="1904-07-18">
+               <event from="1904-07-18" to="1904-07-18" cert="low">
                   <desc>
                      <placeName ref="https://www.geonames.org/2767830/">Rax</placeName>
                      <location>
@@ -8680,7 +8522,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1904-09-05" to="1904-09-05">
+               <event from="1904-09-05" to="1904-09-16">
                   <desc>
                      <placeName ref="https://www.geonames.org/2772215/">Lueg</placeName>
                      <location>
@@ -8688,40 +8530,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1904-09-06" to="1904-09-16">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2772215/">Lueg</placeName>
-                     <location>
-                        <geo>47.56667 13.2</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1904-09-16" to="1904-09-16">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2772215/">Lueg</placeName>
-                     <location>
-                        <geo>47.56667 13.2</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1904-09-16" to="1904-09-16">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
-                     <location>
-                        <geo>47.79941 13.04399</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1904-07-01" to="1904-09-19">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
-                     <location>
-                        <geo>47.79941 13.04399</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1904-09-20" to="1904-09-20">
+               <event from="1904-09-16" to="1904-09-20">
                   <desc>
                      <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
                      <location>
@@ -8778,16 +8587,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1904-12-26" to="1904-12-26">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2772215/">Lueg</placeName>
-                     <location>
-                        <geo>47.56667 13.2</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1904-07-02" to="1904-12-30">
+               <event from="1904-12-26" to="1904-12-30">
                   <desc>
                      <placeName ref="https://www.geonames.org/2772215/">Lueg</placeName>
                      <location>
@@ -9105,23 +8905,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1905-08-17" to="1905-08-17">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
-                     <location>
-                        <geo>47.63333 15.81667</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1905-08-18" to="1905-08-19">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
-                     <location>
-                        <geo>47.63333 15.81667</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1905-08-20" to="1905-08-20">
+               <event from="1905-08-17" to="1905-08-20">
                   <desc>
                      <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
                      <location>
@@ -9137,8 +8921,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1905-02-02" to="1905-09-26">
+               <event from="1905-09-22" to="1905-09-26">
                   <desc>
                      <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
                      <location>
@@ -9146,8 +8929,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1905-06-01" to="1905-10-20">
+               <event from="1905-10-16" to="1905-10-20">
                   <desc>
                      <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
                      <location>
@@ -9229,16 +9011,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1905-11-18" to="1905-11-18">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
-                     <location>
-                        <geo>52.52437 13.41053</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1905-09-01" to="1905-11-27">
+               <event from="1905-11-18" to="1905-11-27">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
                      <location>
@@ -9379,16 +9152,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1906-06-28" to="1906-06-28">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2617052/">Marienlyst</placeName>
-                     <location>
-                        <geo>55.00186 11.92716</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1906-06-29" to="1906-08-08">
+               <event from="1906-06-28" to="1906-07-01">
                   <desc>
                      <placeName ref="https://www.geonames.org/2617052/">Marienlyst</placeName>
                      <location>
@@ -9401,6 +9165,14 @@
                      <placeName ref="https://www.geonames.org/2618425/">Kopenhagen</placeName>
                      <location>
                         <geo>55.67594 12.56553</geo>
+                     </location>
+                  </desc>
+               </event>
+               <event from="1906-07-02" to="1906-07-05">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2617052/">Marienlyst</placeName>
+                     <location>
+                        <geo>55.00186 11.92716</geo>
                      </location>
                   </desc>
                </event>
@@ -9428,11 +9200,27 @@
                      </location>
                   </desc>
                </event>
+               <event from="1906-07-05" to="1906-07-07">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2617052/">Marienlyst</placeName>
+                     <location>
+                        <geo>55.00186 11.92716</geo>
+                     </location>
+                  </desc>
+               </event>
                <event from="1906-07-07" to="1906-07-07">
                   <desc>
                      <placeName ref="https://www.geonames.org/2691501/">Moelle</placeName>
                      <location>
                         <geo>56.28333 12.5</geo>
+                     </location>
+                  </desc>
+               </event>
+               <event from="1906-07-07" to="1906-07-16">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2617052/">Marienlyst</placeName>
+                     <location>
+                        <geo>55.00186 11.92716</geo>
                      </location>
                   </desc>
                </event>
@@ -9444,6 +9232,14 @@
                      </location>
                   </desc>
                </event>
+               <event from="1906-07-16" to="1906-07-24">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2617052/">Marienlyst</placeName>
+                     <location>
+                        <geo>55.00186 11.92716</geo>
+                     </location>
+                  </desc>
+               </event>
                <event from="1906-07-24" to="1906-07-24">
                   <desc>
                      <placeName ref="https://www.geonames.org/2621938/">Frederiksborg</placeName>
@@ -9452,15 +9248,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1906-07-24" to="1906-07-24">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2621956/">Fredensborg</placeName>
-                     <location>
-                        <geo>55.97558 12.40314</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1906-08-09" to="1906-08-09">
+               <event from="1906-07-24" to="1906-08-09">
                   <desc>
                      <placeName ref="https://www.geonames.org/2617052/">Marienlyst</placeName>
                      <location>
@@ -9468,7 +9256,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1906-08-09" to="1906-08-09">
+               <event from="1906-08-09" to="1906-08-11">
                   <desc>
                      <placeName ref="https://www.geonames.org/2618425/">Kopenhagen</placeName>
                      <location>
@@ -9476,31 +9264,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1906-08-10" to="1906-08-10">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2618425/">Kopenhagen</placeName>
-                     <location>
-                        <geo>55.67594 12.56553</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1906-08-11" to="1906-08-11">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2618425/">Kopenhagen</placeName>
-                     <location>
-                        <geo>55.67594 12.56553</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1906-08-11" to="1906-08-11">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
-                     <location>
-                        <geo>52.52437 13.41053</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1906-08-12" to="1906-08-12">
+               <event from="1906-08-11" to="1906-08-12">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
                      <location>
@@ -9524,16 +9288,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1906-03-01" to="1906-08-16">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2896514/">Ilmenau</placeName>
-                     <location>
-                        <geo>50.68322 10.91858</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1906-08-17" to="1906-08-17">
+               <event from="1906-08-16" to="1906-08-17">
                   <desc>
                      <placeName ref="https://www.geonames.org/2896514/">Ilmenau</placeName>
                      <location>
@@ -9614,8 +9369,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1906-03-01" to="1906-11-16">
+               <event from="1906-11-13" to="1906-11-16">
                   <desc>
                      <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
                      <location>
@@ -9794,13 +9548,14 @@
                      </location>
                   </desc>
                </event>
-               <event from="1907-07-03" to="1907-07-03">
+               <event from="1907-07-03" to="1907-08-26">
                   <desc>
                      <placeName ref="https://www.geonames.org/3173140/">Welsberg</placeName>
                      <location>
                         <geo>46.75774 12.10556</geo>
                      </location>
                   </desc>
+                  <note>Wildbad Waldbrunn</note>
                </event>
                <event from="1907-07-03" to="1907-07-03">
                   <desc>
@@ -9809,16 +9564,6 @@
                         <geo>46.7324 12.27855</geo>
                      </location>
                   </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1907-07-05" to="1907-08-26">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3173140/">Welsberg</placeName>
-                     <location>
-                        <geo>46.75774 12.10556</geo>
-                     </location>
-                  </desc>
-                  <note>Wald brunn</note>
                </event>
                <event from="1907-07-05" to="1907-07-05">
                   <desc>
@@ -10274,7 +10019,8 @@
                </event>
                <event from="1908-05-11" to="1908-05-11">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -10282,7 +10028,8 @@
                </event>
                <event from="1908-05-11" to="1908-05-11">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -10306,7 +10053,8 @@
                </event>
                <event from="1908-05-12" to="1908-05-12">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -10418,16 +10166,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1908-06-23" to="1908-06-23">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3166483/">Seis</placeName>
-                     <location>
-                        <geo>46.54133 11.55868</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1908-06-24" to="1908-09-02">
+               <event from="1908-06-23" to="1908-07-07">
                   <desc>
                      <placeName ref="https://www.geonames.org/3166483/">Seis</placeName>
                      <location>
@@ -10451,6 +10190,15 @@
                         <geo>46.89313 11.42961</geo>
                      </location>
                   </desc>
+               </event>
+               <event from="1908-07-09" to="1908-09-02">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/3166483/">Seis</placeName>
+                     <location>
+                        <geo>46.54133 11.55868</geo>
+                     </location>
+                  </desc>
+                  <note>Villa Häufler</note>
                </event>
                <event from="1908-08-04" to="1908-08-04">
                   <desc>
@@ -10624,8 +10372,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1908-07-01" to="1908-12-20">
+               <event from="1908-12-17" to="1908-12-20">
                   <desc>
                      <placeName ref="https://www.geonames.org/3054643/">Budapest</placeName>
                      <location>
@@ -10707,8 +10454,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1909-04-01" to="1909-06-20">
+               <event from="1909-06-14" to="1909-06-20">
                   <desc>
                      <placeName ref="https://www.geonames.org/2766683/">St. Gilgen</placeName>
                      <location>
@@ -10716,7 +10462,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1909-06-30" to="1909-08-21">
                   <desc>
                      <placeName ref="https://www.geonames.org/2780428/">Edlach</placeName>
@@ -11092,7 +10837,8 @@
                </event>
                <event from="1910-08-20" to="1910-08-25">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11100,7 +10846,8 @@
                </event>
                <event from="1910-08-26" to="1910-08-26">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11265,8 +11012,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1910-06-01" to="1910-10-19">
+               <event from="1910-10-16" to="1910-10-19">
                   <desc>
                      <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
                      <location>
@@ -11318,7 +11064,8 @@
                </event>
                <event from="1910-12-11" to="1910-12-11">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11326,7 +11073,8 @@
                </event>
                <event from="1910-12-12" to="1910-12-12">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11392,7 +11140,8 @@
                </event>
                <event from="1911-04-11" to="1911-04-13">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11400,7 +11149,8 @@
                </event>
                <event from="1911-04-13" to="1911-04-13">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11584,7 +11334,8 @@
                </event>
                <event from="1911-04-27" to="1911-04-27">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11592,7 +11343,8 @@
                </event>
                <event from="1911-04-28" to="1911-04-30">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11600,7 +11352,8 @@
                </event>
                <event from="1911-05-01" to="1911-05-01">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -11863,16 +11616,17 @@
                </event>
                <event from="1911-11-13" to="1911-11-13">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1911-04-01" to="1911-11-16">
+               <event from="1911-11-13" to="1911-11-16">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -12018,8 +11772,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1912-02-01" to="1912-07-14">
+               <event from="1912-07-12" to="1912-07-14">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782043/">Bad Vöslau</placeName>
                      <location>
@@ -12035,24 +11788,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1912-07-21" to="1912-07-21">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3203301/">Brioni</placeName>
-                     <location>
-                        <geo>44.91417 13.76222</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1912-07-22" to="1912-08-23">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3203301/">Brioni</placeName>
-                     <location>
-                        <geo>44.91417 13.76222</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1912-08-24" to="1912-08-24">
+               <event from="1912-07-21" to="1912-08-24">
                   <desc>
                      <placeName ref="https://www.geonames.org/3203301/">Brioni</placeName>
                      <location>
@@ -12093,24 +11829,7 @@
                   </desc>
                   <note>Ossiachersee</note>
                </event>
-               <event from="1912-08-25" to="1912-08-25">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3178386/">Gossensass</placeName>
-                     <location>
-                        <geo>46.93857 11.44245</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1912-06-02" to="1912-08-28">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/3178386/">Gossensass</placeName>
-                     <location>
-                        <geo>46.93857 11.44245</geo>
-                     </location>
-                  </desc>
-               </event>
-               <event from="1912-08-29" to="1912-08-29">
+               <event from="1912-08-25" to="1912-08-29">
                   <desc>
                      <placeName ref="https://www.geonames.org/3178386/">Gossensass</placeName>
                      <location>
@@ -12158,15 +11877,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1912-01-01" to="1912-11-14">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
-                     <location>
-                        <geo>52.52437 13.41053</geo>
-                     </location>
-                  </desc>
-               </event>
                <event from="1912-11-24" to="1912-12-01">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
@@ -12202,17 +11912,7 @@
                   </desc>
                   <note>Bernhadi</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1913-02-02" to="1913-04-23">
-                  <desc>
-                     <placeName ref="https://www.geonames.org/2782067/">Baden</placeName>
-                     <location>
-                        <geo>48.00543 16.23264</geo>
-                     </location>
-                  </desc>
-               </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1913-02-02" to="1913-04-23">
+               <event from="1913-04-22" to="1913-04-23">
                   <desc>
                      <placeName ref="https://www.geonames.org/2770778/">Neuhaus</placeName>
                      <location>
@@ -12220,7 +11920,7 @@
                      </location>
                   </desc>
                </event>
-               <event from="1913-06-02" to="1913-04-28">
+               <event from="1913-04-26" to="1913-04-28">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782067/">Baden</placeName>
                      <location>
@@ -12286,8 +11986,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1913-03-02" to="1913-08-25">
+               <event from="1913-08-23" to="1913-08-25">
                   <desc>
                      <placeName ref="https://www.geonames.org/3164603/">Venedig</placeName>
                      <location>
@@ -12319,8 +12018,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1913-05-01" to="1913-09-16">
+               <event from="1913-11-15" to="1913-11-16">
                   <desc>
                      <placeName ref="https://www.geonames.org/2776358/">Hinterbrühl</placeName>
                      <location>
@@ -12728,8 +12426,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1914-01-02" to="1914-10-28">
+               <event from="1914-10-22" to="1914-10-27">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
                      <location>
@@ -12802,8 +12499,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1915-01-02" to="1915-10-26">
+               <event from="1915-10-21" to="1915-10-26">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
                      <location>
@@ -12844,8 +12540,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1916-07-03" to="1916-09-28">
+               <event from="1916-07-03" to="1916-08-31">
                   <desc>
                      <placeName ref="https://www.geonames.org/2782724/">Altaussee</placeName>
                      <location>
@@ -12861,12 +12556,27 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1916-01-01" to="1916-09-12">
+               <event from="1916-09-02" to="1916-09-11">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2782724/">Altaussee</placeName>
+                     <location>
+                        <geo>47.63844 13.76278</geo>
+                     </location>
+                  </desc>
+               </event>
+               <event from="1916-09-11" to="1916-09-12">
                   <desc>
                      <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
                      <location>
                         <geo>47.79941 13.04399</geo>
+                     </location>
+                  </desc>
+               </event>
+               <event from="1916-09-12" to="1916-09-28">
+                  <desc>
+                     <placeName ref="https://www.geonames.org/2782724/">Altaussee</placeName>
+                     <location>
+                        <geo>47.63844 13.76278</geo>
                      </location>
                   </desc>
                </event>
@@ -12913,7 +12623,8 @@
                </event>
                <event from="1917-09-04" to="1917-09-04">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -12978,7 +12689,8 @@
                </event>
                <event from="1918-08-27" to="1918-09-06">
                   <desc>
-                     <placeName ref="https://www.geonames.org/2922530/">Garmisch-Partenkirchen</placeName>
+                     <placeName ref="https://www.geonames.org/2922530/"
+                        >Garmisch-Partenkirchen</placeName>
                      <location>
                         <geo>47.49209 11.09576</geo>
                      </location>
@@ -13170,8 +12882,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1921-04-02" to="1921-08-26">
+               <event from="1921-08-24" to="1921-08-26">
                   <desc>
                      <placeName ref="https://www.geonames.org/2766824/">Salzburg</placeName>
                      <location>
@@ -13441,7 +13152,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1922-08-09" to="1922-09-15">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950881/">Berchtesgaden</placeName>
@@ -13549,8 +13259,7 @@
                   </desc>
                   <note>Aufführung "Weites Land"</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1923-03-02" to="1923-04-25">
+               <event from="1923-04-23" to="1923-04-25">
                   <desc>
                      <placeName ref="https://www.geonames.org/2778287/">Gösing</placeName>
                      <location>
@@ -13614,8 +13323,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1923-04-02" to="1923-05-27">
+               <event from="1923-05-24" to="1923-05-27">
                   <desc>
                      <placeName ref="https://www.geonames.org/2950159/">Berlin</placeName>
                      <location>
@@ -13624,8 +13332,7 @@
                   </desc>
                   <note>über Trelleborg, Sassnitz</note>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1923-02-01" to="1923-06-14">
+               <event from="1923-06-12" to="1923-06-14">
                   <desc>
                      <placeName ref="https://www.geonames.org/2778287/">Gösing</placeName>
                      <location>
@@ -14120,8 +13827,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1925-04-01" to="1925-05-15">
+               <event from="1925-05-14" to="1925-05-15">
                   <desc>
                      <placeName ref="https://www.geonames.org/2765171/">Semmering</placeName>
                      <location>
@@ -14145,8 +13851,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1925-03-02" to="1925-06-24">
+               <event from="1925-06-23" to="1925-06-24">
                   <desc>
                      <placeName ref="https://www.geonames.org/3173577/">Meran</placeName>
                      <location>
@@ -14154,8 +13859,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1925-05-02" to="1925-07-03">
+               <event from="1925-06-25" to="1925-07-03">
                   <desc>
                      <placeName ref="https://www.geonames.org/3181913/">Bozen</placeName>
                      <location>
@@ -14331,8 +14035,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1925-04-01" to="1925-09-16">
+               <event from="1925-09-14" to="1925-09-16">
                   <desc>
                      <placeName ref="https://www.geonames.org/3176959/">Florenz</placeName>
                      <location>
@@ -14340,8 +14043,7 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
-               <event from="1925-07-01" to="1925-09-20">
+               <event from="1925-09-17" to="1925-09-20">
                   <desc>
                      <placeName ref="https://www.geonames.org/3164603/">Venedig</placeName>
                      <location>
@@ -14583,7 +14285,6 @@
                      </location>
                   </desc>
                </event>
-               <duration xmlns="">SO LONG MARY-ANN</duration>
                <event from="1927-04-01" to="1927-05-02">
                   <desc>
                      <placeName ref="https://www.geonames.org/3164603/">Venedig</placeName>
