@@ -10,7 +10,7 @@
         <xsl:variable name="to" select="xs:date(@to)"/>
         <xsl:variable name="duration" select="fn:days-from-duration($to - $from)"/>
         <xsl:choose>
-            <xsl:when test="$duration > 21">
+            <xsl:when test="$duration > 30">
                 <xsl:element name="duration">
                     <xsl:text>SO LONG MARY-ANN</xsl:text>
                 </xsl:element>
