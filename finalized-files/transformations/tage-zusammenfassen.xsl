@@ -12,6 +12,13 @@
                     <xsl:attribute name="when">
                         <xsl:value-of select="current-grouping-key()"/>
                     </xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="@cert">
+                            <xsl:attribute name="cert">
+                                <xsl:value-of select="@cert"/>
+                            </xsl:attribute>
+                        </xsl:when>
+                    </xsl:choose>
                     <xsl:copy-of select="current-group()/node()"/>
                 </xsl:element>
             </xsl:for-each-group>
