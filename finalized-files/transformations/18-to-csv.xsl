@@ -126,7 +126,15 @@
         <xsl:value-of select="$separator"/>
         <xsl:text>long14</xsl:text>
         <xsl:value-of select="$separator"/>
-        <xsl:text>note</xsl:text>
+        <xsl:text>note1</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>note2</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>note3</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>note4</xsl:text>
+        <xsl:value-of select="$separator"/>
+        <xsl:text>note5</xsl:text>
         <xsl:value-of select="$newline"/>
 
         <xsl:for-each select="tei:event">
@@ -619,8 +627,44 @@
             </xsl:choose>
             <xsl:value-of select="$separator"/>
             <xsl:choose>
-                <xsl:when test="tei:note">
-                    <xsl:copy-of select="tei:note/text()"/>
+                <xsl:when test="tei:note[1]">
+                    <xsl:copy-of select="tei:note[1]/text()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text> </xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:value-of select="$separator"/>
+            <xsl:choose>
+                <xsl:when test="tei:note[2]">
+                    <xsl:copy-of select="tei:note[2]/text()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text> </xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:value-of select="$separator"/>
+            <xsl:choose>
+                <xsl:when test="tei:note[3]">
+                    <xsl:copy-of select="tei:note[3]/text()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text> </xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:value-of select="$separator"/>
+            <xsl:choose>
+                <xsl:when test="tei:note[4]">
+                    <xsl:copy-of select="tei:note[4]/text()"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text> </xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:value-of select="$separator"/>
+            <xsl:choose>
+                <xsl:when test="tei:note[5]">
+                    <xsl:copy-of select="tei:note[5]/text()"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:text> </xsl:text>
