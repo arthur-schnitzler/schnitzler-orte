@@ -41,7 +41,7 @@ for key, value in d.items():
     pmb_list.append(item)
 pmb_df = pd.DataFrame(pmb_list)
 
-df = pd.read_csv(SCHNITZLER_ORTE_CSV)
+df = pd.read_csv(SCHNITZLER_ORTE_CSV, sep=";")
 df['geonames'] = df['desc/placeName/_ref'].apply(lambda x: fix_geonames(x))
 with_pmb = pd.merge(df, pmb_df, on=['geonames'], how='left')
 with_pmb.to_csv('finalized-files/places_with_pmb_all-days.csv')
