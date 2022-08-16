@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:csv="csv:csv"
     xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
-    <xsl:output omit-xml-declaration="yes" method="text" encoding="utf-8"/>
-    
-    <xsl:mode on-no-match="shallow-skip"/>
+    <xsl:output method="text" encoding="utf-8"/>
 
     <xsl:variable name="separator" select="','"/>
+    <xsl:variable name="quote" select="'&quot;'"/>
     <xsl:variable name="newline" select="'&#xA;'"/>
+
+    <xsl:template match="tei:teiHeader"/>
+    
+    <xsl:template match="tei:head"/>
 
     <xsl:template match="tei:listEvent">
 
@@ -139,8 +142,11 @@
 
         <xsl:for-each select="tei:event">
 
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="@when"/>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="@cert">
                     <xsl:value-of select="@cert"/>
@@ -149,9 +155,13 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:copy-of select="tei:desc/tei:placeName[1]/text()"/>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[2]">
                     <xsl:copy-of select="tei:desc/tei:placeName[2]/text()"/>
@@ -160,7 +170,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[3]">
                     <xsl:copy-of select="tei:desc/tei:placeName[3]/text()"/>
@@ -169,7 +181,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[4]">
                     <xsl:copy-of select="tei:desc/tei:placeName[4]/text()"/>
@@ -178,7 +192,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[5]">
                     <xsl:copy-of select="tei:desc/tei:placeName[5]/text()"/>
@@ -187,7 +203,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[6]">
                     <xsl:copy-of select="tei:desc/tei:placeName[6]/text()"/>
@@ -196,7 +214,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[7]">
                     <xsl:copy-of select="tei:desc/tei:placeName[7]/text()"/>
@@ -205,7 +225,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[8]">
                     <xsl:copy-of select="tei:desc/tei:placeName[8]/text()"/>
@@ -214,7 +236,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[9]">
                     <xsl:copy-of select="tei:desc/tei:placeName[9]/text()"/>
@@ -223,7 +247,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[10]">
                     <xsl:copy-of select="tei:desc/tei:placeName[10]/text()"/>
@@ -232,7 +258,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[11]">
                     <xsl:copy-of select="tei:desc/tei:placeName[11]/text()"/>
@@ -241,7 +269,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[12]">
                     <xsl:copy-of select="tei:desc/tei:placeName[12]/text()"/>
@@ -250,7 +280,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[13]">
                     <xsl:copy-of select="tei:desc/tei:placeName[13]/text()"/>
@@ -259,7 +291,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[14]">
                     <xsl:copy-of select="tei:desc/tei:placeName[14]/text()"/>
@@ -268,9 +302,13 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="tei:desc/tei:placeName[1]/@ref"/>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[2]">
                     <xsl:value-of select="tei:desc/tei:placeName[2]/@ref"/>
@@ -279,7 +317,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[3]">
                     <xsl:value-of select="tei:desc/tei:placeName[3]/@ref"/>
@@ -288,7 +328,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[4]">
                     <xsl:value-of select="tei:desc/tei:placeName[4]/@ref"/>
@@ -297,7 +339,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[5]">
                     <xsl:value-of select="tei:desc/tei:placeName[5]/@ref"/>
@@ -306,7 +350,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[6]">
                     <xsl:value-of select="tei:desc/tei:placeName[6]/@ref"/>
@@ -315,7 +361,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[7]">
                     <xsl:value-of select="tei:desc/tei:placeName[7]/@ref"/>
@@ -324,7 +372,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[8]">
                     <xsl:value-of select="tei:desc/tei:placeName[8]/@ref"/>
@@ -333,7 +383,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[9]">
                     <xsl:value-of select="tei:desc/tei:placeName[9]/@ref"/>
@@ -342,7 +394,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[10]">
                     <xsl:value-of select="tei:desc/tei:placeName[10]/@ref"/>
@@ -351,7 +405,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[11]">
                     <xsl:value-of select="tei:desc/tei:placeName[11]/@ref"/>
@@ -360,7 +416,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[12]">
                     <xsl:value-of select="tei:desc/tei:placeName[12]/@ref"/>
@@ -369,7 +427,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[13]">
                     <xsl:value-of select="tei:desc/tei:placeName[13]/@ref"/>
@@ -378,7 +438,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:desc/tei:placeName[14]">
                     <xsl:value-of select="tei:desc/tei:placeName[14]/@ref"/>
@@ -387,9 +449,13 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:copy-of select="tei:geo[1]/substring-before(., ' ')"/>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[2]">
                     <xsl:copy-of select="tei:geo[2]/substring-before(., ' ')"></xsl:copy-of>
@@ -398,7 +464,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[3]">
                     <xsl:copy-of select="tei:geo[3]/substring-before(., ' ')"></xsl:copy-of>
@@ -407,7 +475,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[4]">
                     <xsl:copy-of select="tei:geo[4]/substring-before(., ' ')"></xsl:copy-of>
@@ -416,7 +486,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[5]">
                     <xsl:copy-of select="tei:geo[5]/substring-before(., ' ')"></xsl:copy-of>
@@ -425,7 +497,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[6]">
                     <xsl:copy-of select="tei:geo[6]/substring-before(., ' ')"></xsl:copy-of>
@@ -434,7 +508,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[7]">
                     <xsl:copy-of select="tei:geo[7]/substring-before(., ' ')"></xsl:copy-of>
@@ -443,7 +519,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[8]">
                     <xsl:copy-of select="tei:geo[8]/substring-before(., ' ')"></xsl:copy-of>
@@ -452,7 +530,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[9]">
                     <xsl:copy-of select="tei:geo[9]/substring-before(., ' ')"></xsl:copy-of>
@@ -461,7 +541,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[10]">
                     <xsl:copy-of select="tei:geo[10]/substring-before(., ' ')"></xsl:copy-of>
@@ -470,7 +552,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[11]">
                     <xsl:copy-of select="tei:geo[11]/substring-before(., ' ')"></xsl:copy-of>
@@ -479,7 +563,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[12]">
                     <xsl:copy-of select="tei:geo[12]/substring-before(., ' ')"></xsl:copy-of>
@@ -488,7 +574,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[13]">
                     <xsl:copy-of select="tei:geo[13]/substring-before(., ' ')"></xsl:copy-of>
@@ -497,7 +585,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[14]">
                     <xsl:copy-of select="tei:geo[14]/substring-before(., ' ')"></xsl:copy-of>
@@ -506,9 +596,13 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:copy-of select="tei:geo[1]/substring-after(., ' ')"/>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[2]">
                     <xsl:copy-of select="tei:geo[2]/substring-after(., ' ')"/>
@@ -517,7 +611,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[3]">
                     <xsl:copy-of select="tei:geo[3]/substring-after(., ' ')"/>
@@ -526,7 +622,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[4]">
                     <xsl:copy-of select="tei:geo[4]/substring-after(., ' ')"/>
@@ -535,7 +633,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[5]">
                     <xsl:copy-of select="tei:geo[5]/substring-after(., ' ')"/>
@@ -544,7 +644,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[6]">
                     <xsl:copy-of select="tei:geo[6]/substring-after(., ' ')"/>
@@ -553,7 +655,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[7]">
                     <xsl:copy-of select="tei:geo[7]/substring-after(., ' ')"/>
@@ -562,7 +666,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[8]">
                     <xsl:copy-of select="tei:geo[8]/substring-after(., ' ')"/>
@@ -571,7 +677,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[9]">
                     <xsl:copy-of select="tei:geo[9]/substring-after(., ' ')"/>
@@ -580,7 +688,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[10]">
                     <xsl:copy-of select="tei:geo[10]/substring-after(., ' ')"/>
@@ -589,7 +699,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[11]">
                     <xsl:copy-of select="tei:geo[11]/substring-after(., ' ')"/>
@@ -598,7 +710,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[12]">
                     <xsl:copy-of select="tei:geo[12]/substring-after(., ' ')"/>
@@ -607,7 +721,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[13]">
                     <xsl:copy-of select="tei:geo[13]/substring-after(., ' ')"/>
@@ -616,7 +732,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:geo[14]">
                     <xsl:copy-of select="tei:geo[14]/substring-after(., ' ')"/>
@@ -625,7 +743,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:note[1]">
                     <xsl:copy-of select="tei:note[1]/text()"/>
@@ -634,7 +754,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:note[2]">
                     <xsl:copy-of select="tei:note[2]/text()"/>
@@ -643,7 +765,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:note[3]">
                     <xsl:copy-of select="tei:note[3]/text()"/>
@@ -652,7 +776,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:note[4]">
                     <xsl:copy-of select="tei:note[4]/text()"/>
@@ -661,7 +787,9 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$separator"/>
+            <xsl:value-of select="$quote"/>
             <xsl:choose>
                 <xsl:when test="tei:note[5]">
                     <xsl:copy-of select="tei:note[5]/text()"/>
@@ -670,6 +798,7 @@
                     <xsl:text> </xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
+            <xsl:value-of select="$quote"/>
             <xsl:value-of select="$newline"/>
         </xsl:for-each>
 
