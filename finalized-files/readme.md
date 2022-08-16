@@ -25,3 +25,5 @@
     
     Flourish Visualisierungen: https://public.flourish.studio/visualisation/10752014/ Reiseorte und Anzahl der Aufenthalte
                                https://public.flourish.studio/visualisation/10745043/ Reisen mit Zeitstrahlanimation
+                               
+                               Visualisierung aller Tage: https://public.flourish.studio/visualisation/10924769/
