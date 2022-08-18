@@ -1,0 +1,7 @@
+.card-header {
+    text-align: center;
+}
+
+#mapdiv {
+    width: 100%; height: 600px;
+}
