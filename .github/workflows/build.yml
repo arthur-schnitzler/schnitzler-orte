@@ -5,7 +5,7 @@ on:
 
 jobs:
   build_pages:
-    name: Publish Edition as GitHub Pages Website
+    name: Publish Schnitzler-Orte as GitHub Pages Website
     runs-on: ubuntu-latest
     steps:
     - name: Perform Checkout
