@@ -1,0 +1,82 @@
+import json
+from acdh_tei_pyutils.tei import TeiReader
+from tqdm import tqdm
+
+START_YEAR, END_YEAR = 1879, 1932
+main_file = "./finalized-files/transformed-xml/19-strukturiert-tagesgenau.xml"
+
+
+doc = TeiReader(main_file)
+places = doc.any_xpath('.//tei:place')
+ns = {
+    "tei": "http://www.tei-c.org/ns/1.0"
+}
+
+
+def get_name(node):
+    return " ".join(node.xpath('./tei:placeName/text()', namespaces=ns)[0].split())
+
+no_match = set()
+for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YEAR))):
+    story_map_data = {
+        "storymap": {
+            "call_to_action": True,
+            "call_to_action_text": "",
+            "map_as_image": False,
+            "zoomify": True,
+            "map_type": "",
+            "map_subdomains": "",
+            "attribution": "",
+            "slides": []
+        }   
+    }
+    for i, x in enumerate(places):
+        cur_date = x.xpath('.//ancestor::tei:event[1]', namespaces=ns)[0].attrib['when']
+        if f'{year}' in cur_date:
+            parent = x.getparent()
+            name = get_name(x)
+            slide = {}
+            try:
+                next_place = places[i + 1]
+            except IndexError:
+                next_place = None
+            if next_place is not None:
+                next_name = get_name(next_place)
+            if name == next_name:
+                continue
+            else:
+                date = x.xpath('.//ancestor::tei:event[1]', namespaces=ns)[0].attrib['when']
+                slide['text'] = {
+                    'headline': name,
+                    "text": f"Schnitzler war am {date} in {name}"
+                }
+                akon = x.xpath('.//tei:link', namespaces=ns)[0].attrib['target']
+                if akon is not None:
+                    slide['media'] = {
+                        "caption": f"Postkarte von {name}",
+                        "credit": "ÖNB",
+                        "url": f"{akon}"
+                    }
+                lat, lon = x.xpath('.//tei:geo/text()', namespaces=ns)[0].split()
+                try:
+                    slide["location"] = {
+                        "lat": float(lat),
+                        "line": True,
+                        "lon": float(lon),
+                        "zoom": 12
+                    }
+                except ValueError:
+                    continue
+                slide['date'] = date
+                story_map_data['storymap']['slides'].append(slide)
+    with open(f'./html/data/{year}.json', 'w') as f:
+        json.dump(story_map_data, f)
+        
+
+
+
+
+
+
+
+
