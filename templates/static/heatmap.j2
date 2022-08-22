@@ -20,7 +20,7 @@
     <script>
       window.onload = function() {
 
-        async function foo() {
+        async function drawMap() {
             let obj;
             const res = await fetch('data/heatmap.json')
             obj = await res.json();
@@ -62,11 +62,8 @@
               });
       
               heatmapLayer.setData(testData);
-      
-              // make accessible for debugging
-              layer = heatmapLayer;
           }
-          foo()
+          drawMap()
       };
     </script>
 {% endblock %}

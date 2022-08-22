@@ -29,6 +29,7 @@ for key, value in data_raw.items():
     lat, lng = coords.split()
     try:
         item = {
+            "name": name,
             "lat": float(lat),
             "lng": float(lng),
             "count": int(value)
