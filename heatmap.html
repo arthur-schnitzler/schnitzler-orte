@@ -14,7 +14,19 @@
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
     <script type="text/javascript" src="./static/js/utils.js"></script>
     
-    <title> Schnitzlers Aufenthalte nach Jahren </title>
+    <style>
+     
+      #map { height: 800px; }
+      .leaflet-container {
+        background: rgba(0,0,0,.8) !important;
+      }
+    </style>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="static/js/heatmap.js"></script>
+    <script src="static/js/leaflet-heatmap.js"></script>
+
+    <title> Schnitzlers Aufenthalte als Heatmap </title>
     </head>
 
     <body>
@@ -44,23 +56,61 @@
 </nav>
    
     
-<div class="card p-3">
-    <div class="card-header">
-        <h1>Schnitzlers Aufenthalte im Jahr <span id="year">(wähle ein Jahr)</span></h1>
-    </div>
-    <div class="card-body">
-        <div class="row">
-            <div class="col-md-2">
-                <select id="selectNumber" class="form-select" onchange="handleSelectChange(event)">
-                <option>Wähle ein Jahr</option>
-                </select>
-            </div>
-            <div class="col-md-10">
-                <div id="mapdiv"></div>
-            </div>
-        </div>
-    </div>
-</div>
+  <body>
+   
+   <div id="map"></div>
+    <script>
+      window.onload = function() {
+
+        async function foo() {
+            let obj;
+            const res = await fetch('data/heatmap.json')
+            obj = await res.json();
+            var testData = {
+                max: 8000,
+                data: obj
+              };
+              var baseLayer = L.tileLayer(
+                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+                  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+                  maxZoom: 18
+                }
+              );
+
+              var cfg = {
+                // radius should be small ONLY if scaleRadius is true (or small radius is intended)
+                "radius": .5,
+                "maxOpacity": .8, 
+                // scales the radius based on map zoom
+                "scaleRadius": true, 
+                // if set to false the heatmap uses the global maximum for colorization
+                // if activated: uses the data maximum within the current map boundaries 
+                //   (there will always be a red spot with useLocalExtremas true)
+                "useLocalExtrema": true,
+                // which field name in your data represents the latitude - default "lat"
+                latField: 'lat',
+                // which field name in your data represents the longitude - default "lng"
+                lngField: 'lng',
+                // which field name in your data represents the data value - default "value"
+                valueField: 'count'
+              };
+
+              var heatmapLayer = new HeatmapOverlay(cfg);
+
+              var map = new L.Map('map', {
+                center: new L.LatLng(48.00, 16.00),
+                zoom: 6,
+                layers: [baseLayer, heatmapLayer]
+              });
+      
+              heatmapLayer.setData(testData);
+      
+              // make accessible for debugging
+              layer = heatmapLayer;
+          }
+          foo()
+      };
+    </script>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -80,20 +130,7 @@
   </footer>
 </div>
     
-    <script>
-      var select = document.getElementById("selectNumber");
-      const generate_array = (start,end,step) => Array.from( range(start,end,step) );
-      const options = generate_array(1879, 1932, 1);
-      for(var i = 0; i < options.length; i++) {
-          var opt = options[i];
-          var el = document.createElement("option");
-          el.text = opt;
-          el.value = opt;
-          select.add(el);
-      }
-    </script>
-
-
+    
   </body>
 
 </html>
