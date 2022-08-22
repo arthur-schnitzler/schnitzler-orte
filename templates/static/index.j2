@@ -1,0 +1,38 @@
+{% extends "templates/partials/base.j2" %}
+{% block content %}
+<div class="card p-3">
+    <div class="card-header">
+        <h1>Schnitzlers Orte</h1>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="florish.html">
+                            <h1>Florish</h1>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        {{ lipsum(2) }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="itineraries.html">
+                            <h1>Aufenthalte pro Jahr</h1>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        {{ lipsum(2) }}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,3 +1,4 @@
-acdh-tei-pyutils
 acdh-arche-assets
+acdh-tei-pyutils
+jinja2
 pandas

@@ -1,0 +1,37 @@
+{% extends "templates/partials/base.j2" %}
+{% block title%} Schnitzlers Aufenthalte nach Jahren {% endblock %}
+
+{% block content %}
+<div class="card p-3">
+    <div class="card-header">
+        <h1>Schnitzlers Aufenthalte im Jahr <span id="year">(wähle ein Jahr)</span></h1>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-2">
+                <select id="selectNumber" class="form-select" onchange="handleSelectChange(event)">
+                <option>Wähle ein Jahr</option>
+                </select>
+            </div>
+            <div class="col-md-10">
+                <div id="mapdiv"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block scriptbody %}
+    <script>
+      var select = document.getElementById("selectNumber");
+      const generate_array = (start,end,step) => Array.from( range(start,end,step) );
+      const options = generate_array(1879, 1932, 1);
+      for(var i = 0; i < options.length; i++) {
+          var opt = options[i];
+          var el = document.createElement("option");
+          el.text = opt;
+          el.value = opt;
+          select.add(el);
+      }
+    </script>
+
+{% endblock %}

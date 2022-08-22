@@ -1,7 +1,65 @@
+.card {
+    border: 0cm;
+}
+
 .card-header {
     text-align: center;
 }
 
 #mapdiv {
-    width: 100%; height: 800px;
+    width: 100%;
+    height: 800px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    color: #c34528;
+}
+a:hover {
+    color: #c34528;
+}
+
+a:active {
+    color: #c34528;
+}
+
+a:visited {
+    color: #c34528;
+}
+}
+
+a {
+    color: #c34528;
+}
+a:hover {
+    color: #c34528;
+}
+
+a:active {
+    color: #c34528;
+}
+
+a:visited {
+    color: #c34528;
+}
+
+
+.nav-link {
+    color: #c34528;
+}
+.nav-link:hover {
+    color: #c34528;
+}
+
+.nav-link:active {
+    color: #c34528;
+}
+
+.nav-link:visited {
+    color: #c34528;
 }
