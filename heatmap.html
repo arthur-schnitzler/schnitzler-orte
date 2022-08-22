@@ -48,6 +48,7 @@
             <li><a class="dropdown-item" href="florish.html">Florish</a></li>
             <li><a class="dropdown-item" href="itineraries.html">Aufenthalte pro Jahr</a></li>
             <li><a class="dropdown-item" href="heatmap.html">Aufenthalte als Heatmap</a></li>
+            <li><a class="dropdown-item" href="bubblemap.html">Aufenthalte als Bubblemap</a></li>
           </ul>
         </li>
       </ul>
@@ -62,7 +63,7 @@
     <script>
       window.onload = function() {
 
-        async function foo() {
+        async function drawMap() {
             let obj;
             const res = await fetch('data/heatmap.json')
             obj = await res.json();
@@ -104,11 +105,8 @@
               });
       
               heatmapLayer.setData(testData);
-      
-              // make accessible for debugging
-              layer = heatmapLayer;
           }
-          foo()
+          drawMap()
       };
     </script>
 
