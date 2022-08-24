@@ -1,14 +1,16 @@
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from collections import Counter
+from config import MASTER_FILE
 
 
-main_file = "./finalized-files/transformed-xml/19-strukturiert-tagesgenau.xml"
+main_file = MASTER_FILE
 ns = {
     "tei": "http://www.tei-c.org/ns/1.0"
 }
 doc = TeiReader(main_file)
 places = doc.any_xpath('.//tei:place')
+print(len(places))
 items = []
 for x in places:
     name = x.xpath('.//tei:placeName', namespaces=ns)[0].text
@@ -17,7 +19,11 @@ for x in places:
         img = x.xpath('.//tei:link', namespaces=ns)[0].attrib['target']
     except IndexError:
         img = ""
-    items.append("__".join([name, coords, img]))
+    try:
+        items.append("__".join([name, coords, img]))
+    except TypeError:
+        print([name, coords, img])
+
 data_raw = dict(Counter(items))
 data = []
 for key, value in data_raw.items():
@@ -26,7 +32,7 @@ for key, value in data_raw.items():
 
     item = {}
     name, coords, img = key.split("__")
-    lat, lng = coords.split()
+    lat, lng = coords.split()[0:2]
     try:
         item = {
             "name": name,
