@@ -1,9 +1,12 @@
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
+from config import MASTER_FILE
+
+
+main_file = MASTER_FILE
 
 START_YEAR, END_YEAR = 1879, 1932
-main_file = "./finalized-files/transformed-xml/19-strukturiert-tagesgenau.xml"
 
 
 doc = TeiReader(main_file)
@@ -57,7 +60,16 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
                         "credit": "ÖNB",
                         "url": f"{akon}"
                     }
-                lat, lon = x.xpath('.//tei:geo/text()', namespaces=ns)[0].split()
+                # try:
+                try:
+                    coords = x.xpath('.//tei:geo/text()', namespaces=ns)[0]
+                except IndexError:
+                    print(name, x.xpath('.//tei:geo[0]/text()', namespaces=ns))
+                    continue
+                lat, lon = coords.split()[0:2]
+                # except (ValueError, IndexError):
+                #     print(date, name, x.xpath('.//tei:geo/text()', namespaces=ns))
+                #     continue
                 try:
                     slide["location"] = {
                         "lat": float(lat),
