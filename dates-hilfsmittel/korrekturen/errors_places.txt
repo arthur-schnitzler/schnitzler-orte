@@ -1,4 +1,4 @@
-Error in row: 2602. Message: could not convert string to float: '47.848.08009'
+Error in row: 2602. Message: could not convert string to float: '2'
 Error in row: 2603. Message: could not convert string to float: '47.848.08009'
 Error in row: 2604. Message: could not convert string to float: '47.848.08009'
 Error in row: 4930. Message: could not convert string to float: '47.8549347.77161'
