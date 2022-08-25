@@ -1,4 +1,5 @@
 acdh-arche-assets
 acdh-tei-pyutils
+geopy
 jinja2
 pandas
