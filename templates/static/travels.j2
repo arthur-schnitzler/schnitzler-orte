@@ -1,0 +1,55 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}Schnitzlers Reisen {% endblock %}
+{% block scriptHeader %}
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/datatables.css"/>
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/datatables.js"></script>
+
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="card p-2">
+  <div class="card-header"><h1>Schnitzler Reisen</h1></div>
+  <div class="card-body">
+    <table id="example" class="table table-striped" style="width:100%">
+      <thead>
+          <tr>
+              <th>Ausgangsort</th>
+              <th>Zielort</th>
+              <th>Distanz</th>
+              <th>Häufigkeit</th>
+          </tr>
+      </thead>
+      <tfoot>
+          <tr>
+              <th>Ausgangsort</th>
+              <th>Zielort</th>
+              <th>Distanz</th>
+              <th>Häufigkeit</th>
+          </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+
+<script>
+$(document).ready(function () {
+    $('#example').DataTable({
+        ajax: 'data/travels.json',
+        dataSrc: "data",
+        columns: [
+            { data: 'source' },
+            { data: 'target' },
+            { data: 'distance' },
+            { data: 'amount' }
+        ],
+        order: [[3, 'desc']],
+        pageLength: 25
+    });
+});
+</script>
+
+{% endblock %}

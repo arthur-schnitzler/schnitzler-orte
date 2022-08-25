@@ -65,7 +65,7 @@ df.drop(
         inplace=True
 )
 
-df.to_csv('hansi.csv', index=False)
+# df.to_csv('hansi.csv', index=False)
 
 travels = []
 for i, row in df.iterrows():
@@ -75,16 +75,22 @@ for i, row in df.iterrows():
         )
     )
 travels = dict(Counter(travels).most_common())
-better_travels = {}
+better_travels = []
 for key, value in travels.items():
     source, target, distance = key.split('___')
-    better_travels[f"{source}___{target}"] = {
-        "source": source,
-        "target": target,
-        "distance": float(distance),
-        "amount": value
-    }
+    better_travels.append(
+        {
+            "travel_id": f"{source}___{target}",
+            "source": source,
+            "target": target,
+            "distance": float(distance),
+            "amount": value
+        }
+    )
+data = {
+    "data": better_travels
+}
 with open ('./html/data/travels.json', 'w') as f:
-    json.dump(better_travels, f, ensure_ascii=False)
+    json.dump(data, f, ensure_ascii=False)
 
 
