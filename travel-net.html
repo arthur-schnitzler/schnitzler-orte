@@ -14,7 +14,19 @@
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
     <script type="text/javascript" src="./static/js/utils.js"></script>
     
-    <title>Schnitzlers Orte</title>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<style>
+    #hc_container {
+        width: 1800px;
+        height: 1200px;
+        margin: 0 auto;
+    }
+</style>
+
+    <title>Schnitzlers Reisen als Netzwerk</title>
     </head>
 
     <body>
@@ -47,12 +59,16 @@
 </nav>
    
     
-<div class="container">
+
 <div class="card p-2">
-    <div class="flourish-embed flourish-map" data-src="visualisation/10924769"></div>
-</div>
-</div>
-<script src="https://public.flourish.studio/resources/embed.js"></script>
+    <div class="card-header"><h1>Schnitzler Reisen als Netzwerk</h1></div>
+    <div class="card-body">
+      <div id="hc_container"></div>
+  </div>
+  
+  <script src="static/js/travel-net.js">
+
+
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
