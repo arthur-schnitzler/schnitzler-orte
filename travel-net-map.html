@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
+    <script type="text/javascript" src="./static/js/utils.js"></script>
+    
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.0/d3.min.js"></script>
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.1.0/dist/leaflet.css" />
+<script src="https://npmcdn.com/leaflet@1.1.0/dist/leaflet.js"></script>
+
+<!--dependencies-->
+<script src="static/libs/leaflet-network.js"></script>
+
+<!--demo stuff-->
+<script src="static/js/travel-net-map.js"></script>
+
+<style>
+
+    #tooltip {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        padding: 20px;
+        background: #CCC;
+        color: #222;
+        z-index: 999;
+        display: none;
+    }
+
+</style>
+
+    <title>Schnitzlers Reisen als Netzwerk auf Karte</title>
+    </head>
+
+    <body>
+    <nav class="navbar navbar-expand-lg bg-light p-3">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Über das Projekt</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Visualisierungen
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="florish.html">Florish</a></li>
+            <li><a class="dropdown-item" href="itineraries.html">Aufenthalte pro Jahr</a></li>
+            <li><a class="dropdown-item" href="heatmap.html">Aufenthalte als Heatmap</a></li>
+            <li><a class="dropdown-item" href="bubblemap.html">Aufenthalte als Bubblemap</a></li>
+            <li><a class="dropdown-item" href="travels.html">Reisen (Tabelle)</a></li>
+            <li><a class="dropdown-item" href="travel-net.html">Reisen (Netzwerk)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   
+    
+
+<div id="controls">
+    Source (show the sites source connections - it feeds): <input class="mode-ctrl" type="radio" name="mode" value="SOURCE"><br/>
+    Sink (show the sites sink connections - it consumes): <input class="mode-ctrl" type="radio" name="mode" value="SINK"><br/>
+    Both/Bidirectional: <input class="mode-ctrl" type="radio" name="mode" value="BOTH"><br/>
+    Any: <input class="mode-ctrl" type="radio" name="mode" value="ANY" checked> <br/>
+    <button id="clear">Clear selection</button>
+    <button id="toggleScope" title="When local, connections will be colored by their relationship strength with the selected target">
+        Toggle Weighting Scope
+    </button>
+</div>
+<div id="map" style="width: 100%; height: 900px"></div>
+<div id="tooltip"></div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container">
+  <footer class="py-3 my-4 border-top">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4" style="text-align: center;">
+        <span>
+          <a href="https://github.com/arthur-schnitzler/schnitzler-orte">
+            <i class="bi bi-github"></i>
+          </a>
+        </span>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </footer>
+</div>
+    
+    
+  </body>
+
+</html>
