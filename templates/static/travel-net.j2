@@ -1,0 +1,29 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}Schnitzlers Reisen als Netzwerk{% endblock %}
+{% block scriptHeader %}
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<style>
+    #hc_container {
+        width: 1800px;
+        height: 1200px;
+        margin: 0 auto;
+    }
+</style>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="card p-2">
+    <div class="card-header"><h1>Schnitzler Reisen als Netzwerk</h1></div>
+    <div class="card-body">
+      <div id="hc_container"></div>
+  </div>
+  
+  <script src="static/js/travel-net.js">
+
+
+{% endblock %}
