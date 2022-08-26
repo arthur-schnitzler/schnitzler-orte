@@ -54,16 +54,36 @@ df = pd.concat([
    df.shift(-1).add_prefix('next_'), 
 ], axis=1).fillna(0.0)
 
-# drop rows without movement
-df.drop(df.loc[df['name'] == df['next_name']].index, inplace=True)
-
-# calculate distance
-df['distance'] = df.apply(lambda row : get_distance(row), axis = 1)
+# drop last row
 df.drop(
     index=df.index[-1], 
         axis=0, 
         inplace=True
 )
+
+# drop rows without movement
+df.drop(df.loc[df['name'] == df['next_name']].index, inplace=True)
+
+# create travel-net-map.json data
+graph_data = []
+for g, gdf in df.groupby('name'):
+    row = gdf.iloc[0]
+    item = {}
+    item['properties'] = {
+        "id": g,
+        "lat": row["lat"],
+        "lon": row["lng"]
+    }
+    item['connections'] = {}
+    for target, tdf in gdf.groupby('next_name'):
+        item['connections'][target] = len(tdf)
+    graph_data.append(item)
+
+with open ('./html/data/travel-net-map.json', 'w') as f:
+    json.dump(graph_data, f, ensure_ascii=False)
+
+# calculate distance
+df['distance'] = df.apply(lambda row : get_distance(row), axis = 1)
 
 # df.to_csv('hansi.csv', index=False)
 

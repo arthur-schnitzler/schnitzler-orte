@@ -1,6 +1,8 @@
+// taken from https://github.com/danwild/leaflet-network
+
 $(document).ready(function(){
 
-	$.get('static/travel-net-map.json', function(data, resType){
+	$.get('data/travel-net-map.json', function(data, resType){
 
 		if(resType == 'success'){
 			init(data);
@@ -24,8 +26,8 @@ $(document).ready(function(){
 		// setup our leaflet map
 		var map = L.map('map', {
 			layers: [ canvas ],
-			center: L.latLng(-25, 134),
-			zoom: 5
+			center: L.latLng(48, 16),
+			zoom: 9
 		});
 
 		// create a layer control so we can show/hide network layer
