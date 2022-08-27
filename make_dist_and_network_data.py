@@ -64,6 +64,31 @@ df.drop(
 # drop rows without movement
 df.drop(df.loc[df['name'] == df['next_name']].index, inplace=True)
 
+# create arc-data
+
+data = []
+for i, row in df.iterrows():
+    item = {}
+    item['from'] = {
+        "name": row['name'],
+        "day": row['day'],
+        "coordinates": [
+            row['lng'],
+            row['lat']
+        ]
+    }
+    item['to'] = {
+        "name": row['next_name'],
+        "coordinates": [
+            row['next_lng'],
+            row['next_lat']
+        ]
+    }
+    data.append(item)
+with open ('./html/data/arc-data.json', 'w') as f:
+    json.dump(data, f, ensure_ascii=False)
+
+
 # create travel-net-map.json data
 graph_data = []
 for g, gdf in df.groupby('name'):

@@ -1,0 +1,35 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}Schnitzlers Reisen auf der Welt{% endblock %}
+{% block scriptHeader %}
+<script src="https://unpkg.com/deck.gl@^8.8.0/dist.min.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+
+<style type="text/css">
+    #viscontainer {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100vmax;
+    height: 1000px;
+    margin: 0;
+  }
+  .deck-tooltip {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 6px !important;
+    margin: 8px;
+    max-width: 300px;
+    font-size: 10px;
+  }
+</style>
+{% endblock scriptHeader %}
+
+
+{% block content %}
+<div class="card p-2">
+    <div class="card-header">
+        <h1>Schnitzlers Reisen auf der Welt</h1>
+    </div>
+    <div class="card-body">
+        <div id="viscontainer"></div>
+  </div>
+</div>
+<script src="static/js/arcs.js"></script>
+{% endblock %}
