@@ -25,5 +25,5 @@ new DeckGL({
     },
     controller: true,
     layers: [greatCircleLayer],
-    getTooltip: ({ object }) => object && `Von ${object.from.name} nach ${object.to.name} am ${object.to.day}`
+    getTooltip: ({ object }) => object && `Von ${object.from.name} nach ${object.to.name} am ${object.from.day}`
 });
