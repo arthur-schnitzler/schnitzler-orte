@@ -85,7 +85,8 @@ with open ('./html/data/travel-net-map.json', 'w') as f:
 # calculate distance
 df['distance'] = df.apply(lambda row : get_distance(row), axis = 1)
 
-# df.to_csv('hansi.csv', index=False)
+# save data for deck.gl hexagon layer
+df.to_csv('./html/data/places.csv', index=False)
 
 travels = []
 for i, row in df.iterrows():
