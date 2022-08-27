@@ -14,19 +14,26 @@
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
     <script type="text/javascript" src="./static/js/utils.js"></script>
     
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/data.js"></script>
-<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<style>
-    #hc_container {
-        width: 1800px;
-        height: 1200px;
-        margin: 0 auto;
-    }
+<script src="https://unpkg.com/deck.gl@^8.8.0/dist.min.js"></script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+
+<style type="text/css">
+    #viscontainer {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100vmax;
+    height: 1000px;
+    margin: 0;
+  }
+  .deck-tooltip {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 6px !important;
+    margin: 8px;
+    max-width: 300px;
+    font-size: 10px;
+  }
 </style>
 
-    <title>Schnitzlers Reisen als Netzwerk</title>
+    <title>Schnitzlers Reisen auf der Welt</title>
     </head>
 
     <body>
@@ -62,19 +69,15 @@
 </nav>
    
     
-
 <div class="card p-2">
     <div class="card-header">
-        <h1>Schnitzler Reisen als Netzwerk</h1>
+        <h1>Schnitzlers Reisen auf der Welt</h1>
     </div>
     <div class="card-body">
-      <div id="hc_container"></div>
+        <div id="viscontainer"></div>
   </div>
 </div>
-  
-<script src="static/js/travel-net.js">
-
-
+<script src="static/js/arcs.js"></script>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
