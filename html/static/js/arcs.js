@@ -7,7 +7,7 @@ const greatCircleLayer = new ArcLayer({
     getTargetPosition: d => d.to.coordinates,
     getSourceColor: [64, 255, 0],
     getTargetColor: [0, 128, 200],
-    widthMinPixels: 2,
+    widthMinPixels: 1,
     getTilt: 10,
     pickable: true
 });
