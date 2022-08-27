@@ -14,19 +14,40 @@
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
     <script type="text/javascript" src="./static/js/utils.js"></script>
     
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/data.js"></script>
-<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<style>
-    #hc_container {
-        width: 1800px;
-        height: 1200px;
-        margin: 0 auto;
-    }
+<script src="https://unpkg.com/deck.gl@^8.8.0/dist.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+
+<style type="text/css">
+    #viscontainer {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100vmax;
+    height: 1000px;
+    margin: 0;
+  }
+
+  #control-panel {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    margin: 12px;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    z-index: 1;
+    background: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  }
+
+  label {
+    display: inline-block;
+    width: 140px;
+  }
 </style>
 
-    <title>Schnitzlers Reisen als Netzwerk</title>
+    <title>Schnitzlers Aufenthalte auf der Welt</title>
     </head>
 
     <body>
@@ -61,19 +82,32 @@
 </nav>
    
     
-
 <div class="card p-2">
     <div class="card-header">
-        <h1>Schnitzler Reisen als Netzwerk</h1>
+        <h1>Schnitzlers Aufenthalte auf der Welt</h1>
+        <div id="control-panel">
+            <div>
+              <label>Radius</label>
+              <input id="radius" type="range" min="1000" max="20000" step="1000" value="1000"></input>
+              <span id="radius-value"></span>
+            </div>
+            <div>
+              <label>Coverage</label>
+              <input id="coverage" type="range" min="0" max="1" step="0.1" value="1"></input>
+              <span id="coverage-value"></span>
+            </div>
+            <div>
+              <label>Upper Percentile</label>
+              <input id="upperPercentile" type="range" min="90" max="100" step="1" value="100"></input>
+              <span id="upperPercentile-value"></span>
+            </div>
+          </div>
     </div>
     <div class="card-body">
-      <div id="hc_container"></div>
+        <div id="viscontainer"></div>
   </div>
 </div>
-  
-<script src="static/js/travel-net.js">
-
-
+<script src="static/js/towers.js"></script>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
