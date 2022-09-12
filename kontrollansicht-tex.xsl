@@ -6,8 +6,7 @@
     <xsl:mode on-no-match="shallow-skip"/>
 
 <xsl:template match="tei:listEvent">
-    <xsl:text>
-        \documentclass[twoside=false,titlepage=false,open=any, parskip=never, fontsize=10pt, headings=small, chapterprefix=false, appendixprefix=false]{scrbook}
+    <xsl:text>\documentclass[twoside=false,titlepage=false,open=any, parskip=never, fontsize=10pt, headings=small, chapterprefix=false, appendixprefix=false, DIV=15]{scrbook}
 \addtolength{\oddsidemargin}{\evensidemargin}
 \setlength{\oddsidemargin}{.5\oddsidemargin}
 \setlength{\evensidemargin}{\oddsidemargin}
@@ -24,11 +23,11 @@
 \setromanfont[Mapping=tex-text]{Hoefler Text}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
 \setmonofont[Scale=MatchLowercase]{Andale Mono}
-
+\newcommand{\kaufmannsund}{\&amp;}
 \setlength{\parindent}{0pt}
 
 \begin{document}
-\begin{multicols}{2}
+\begin{multicols}{3}
     </xsl:text>
     <xsl:apply-templates select="descendant::tei:event"/>
     <xsl:text>
@@ -39,11 +38,12 @@
 </xsl:template>
 
 <xsl:template match="tei:event">
-    <xsl:variable name="voriges-element-monat" select="preceding-sibling::tei:event[1]/@when/fn:month-from-date(.)"/>
+    <xsl:variable name="voriges-element" select="preceding-sibling::tei:event[1]"/>
+    <xsl:variable name="naechstes-element" select="following-sibling::tei:event[1]"/>
+    <xsl:variable name="voriges-element-monat" select="$voriges-element/@when/fn:month-from-date(.)"/>
     <xsl:variable name="dieser-monat" select="@when/fn:month-from-date(.)"/>
-    <xsl:variable name="voriges-element-jahr" select="preceding-sibling::tei:event[1]/@when/fn:year-from-date(.)"/>
+    <xsl:variable name="voriges-element-jahr" select="$voriges-element/@when/fn:year-from-date(.)"/>
     <xsl:variable name="dieses-jahr" select="@when/fn:year-from-date(.)"/>
-    <xsl:variable name="voriges-element-placeName" select="preceding-sibling::tei:event[1]/tei:placeName/text()"/>
     <xsl:variable name="dieses-datum" select="@when"/>
     <xsl:choose>
         <xsl:when test="not(preceding-sibling::tei:event)">
@@ -67,7 +67,6 @@
             <xsl:text>
             </xsl:text>
         </xsl:when>
-        <xsl:when test="@when = preceding-sibling::tei:event/@when"/>
         <xsl:otherwise>
             <xsl:if test="$dieses-jahr != $voriges-element-jahr">
                 <xsl:text>\chapter*{</xsl:text><xsl:value-of select="$dieses-jahr"/><xsl:text>}</xsl:text>
@@ -94,16 +93,28 @@
                 <xsl:text>
             </xsl:text>
             </xsl:if>
-            <xsl:value-of select="@when/fn:day-from-date(.)"/>
-            <xsl:text>. </xsl:text>
-            <xsl:value-of select="descendant::tei:placeName"/>
-            <xsl:for-each select="following-sibling::tei:event[@when = $dieses-datum]">
-                <xsl:text> | </xsl:text><xsl:value-of select="descendant::tei:placeName"/>
-            </xsl:for-each>
-            <xsl:text>\par
+            <xsl:choose>
+                <xsl:when test="$voriges-element = $naechstes-element"/>
+                <xsl:otherwise>
+                    <xsl:value-of select="@when/fn:day-from-date(.)"/><xsl:text>. </xsl:text>
+                    <xsl:for-each select="descendant::tei:placeName">
+                        <xsl:value-of select="."/>
+                        <xsl:choose>
+                            <xsl:when test="not(position()=last())">
+                                <xsl:text> | </xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>\par
             </xsl:text>
-        </xsl:otherwise>
-    </xsl:choose>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:otherwise></xsl:choose>
+                   
+                       
+                  
     
     
 </xsl:template>
