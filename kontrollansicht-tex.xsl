@@ -94,7 +94,7 @@
             </xsl:text>
             </xsl:if>
             <xsl:choose>
-                <xsl:when test="$voriges-element = $naechstes-element"/>
+                <xsl:when test="$voriges-element = $naechstes-element and . = $voriges-element"/>
                 <xsl:otherwise>
                     <xsl:value-of select="@when/fn:day-from-date(.)"/><xsl:text>. </xsl:text>
                     <xsl:for-each select="descendant::tei:placeName">
