@@ -53,7 +53,10 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
                     'headline': name,
                     "text": f"Schnitzler war am {date} in {name}"
                 }
-                akon = x.xpath('.//tei:link', namespaces=ns)[0].attrib['target']
+                try:
+                    akon = x.xpath('.//tei:link', namespaces=ns)[0].attrib['target']
+                except IndexError:
+                    akon = None
                 if akon is not None:
                     slide['media'] = {
                         "caption": f"Postkarte von {name}",
