@@ -72,6 +72,7 @@ for i, row in df.iterrows():
     item['from'] = {
         "name": row['name'],
         "day": row['day'],
+        "year": row['day'][:4],
         "coordinates": [
             row['lng'],
             row['lat']
