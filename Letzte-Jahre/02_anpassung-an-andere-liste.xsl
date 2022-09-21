@@ -15,6 +15,7 @@
 
 <xsl:template match="event">
     <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
+        <xsl:copy-of select="@*"/>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
