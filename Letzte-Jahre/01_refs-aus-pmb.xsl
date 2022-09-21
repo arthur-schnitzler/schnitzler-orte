@@ -5,8 +5,8 @@
     <xsl:output method="xml" indent="true"/>
     <xsl:mode on-no-match="shallow-copy"/>
 
-    <xsl:template match="item[not(starts-with(@target, '1929'))]"/>
-    <xsl:template match="item[starts-with(@target, '1929')]">
+    <xsl:template match="item[not(starts-with(@target, '1930'))]"/>
+    <xsl:template match="item[starts-with(@target, '1930')]">
        <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
            <xsl:attribute name="when">
                <xsl:value-of select="@target"/>

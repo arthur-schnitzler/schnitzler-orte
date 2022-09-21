@@ -1,903 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:fn="http://www.w3.org/2005/xpath-functions"
       xmlns:xs="http://www.w3.org/2001/XMLSchema">
-   <item target="1929-01-01">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-01-02">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-01-03">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb92267">Haendelstr.</placeName>
-   </item>
-   <item target="1929-01-04">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-01-05">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-01-06">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-01-07">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb92390">Matthäikirchstr.</placeName>
-   </item>
-   <item target="1929-01-08">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-01-09">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91711">Schwarzenbergplatz</placeName>
-   </item>
-   <item target="1929-01-10">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb58">Josefstadt</placeName>
-   </item>
-   <item target="1929-01-11"/>
-   <item target="1929-01-12">
-   </item>
-   <item target="1929-01-13">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92572">Türkenstr.</placeName>
-      <placeName ref="pmb63">Hietzing</placeName>
-      <placeName ref="pmb91552">Purkersdorf</placeName>
-   </item>
-   <item target="1929-01-14"/>
-   <item target="1929-01-15">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-01-16">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-01-17">
-   </item>
-   <item target="1929-01-18"/>
-   <item target="1929-01-19"/>
-   <item target="1929-01-20">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-01-21"/>
-   <item target="1929-01-22">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb58">Josefstadt</placeName>
-   </item>
-   <item target="1929-01-23">
-   </item>
-   <item target="1929-01-24">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-01-25"/>
-   <item target="1929-01-26"/>
-   <item target="1929-01-27"/>
-   <item target="1929-01-28">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-01-29">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-01-30">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-01-31"/>
-   <item target="1929-02-01"/>
-   <item target="1929-02-02"/>
-   <item target="1929-02-03">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-02-04">
-   </item>
-   <item target="1929-02-05"/>
-   <item target="1929-02-06"/>
-   <item target="1929-02-07">
-   </item>
-   <item target="1929-02-08">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb90771">Grinzing</placeName>
-      <placeName ref="pmb92292">Hohewarte</placeName>
-   </item>
-   <item target="1929-02-09">
-   </item>
-   <item target="1929-02-10"/>
-   <item target="1929-02-11">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-02-12"/>
-   <item target="1929-02-13">
-   </item>
-   <item target="1929-02-14"/>
-   <item target="1929-02-15">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-02-16"/>
-   <item target="1929-02-17"/>
-   <item target="1929-02-18"/>
-   <item target="1929-02-19">
-   </item>
-   <item target="1929-02-20"/>
-   <item target="1929-02-21">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb58">Josefst.</placeName>
-   </item>
-   <item target="1929-02-22">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-02-23"/>
-   <item target="1929-02-24">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91530">Prater</placeName>
-   </item>
-   <item target="1929-02-25"/>
-   <item target="1929-02-26">
-   </item>
-   <item target="1929-02-27"/>
-   <item target="1929-02-28"/>
-   <item target="1929-03-01"/>
-   <item target="1929-03-02">
-   </item>
-   <item target="1929-03-03">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-03-04"/>
-   <item target="1929-03-05"/>
-   <item target="1929-03-06"/>
-   <item target="1929-03-07">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-03-08"/>
-   <item target="1929-03-09">
-   </item>
-   <item target="1929-03-10"/>
-   <item target="1929-03-11"/>
-   <item target="1929-03-12"/>
-   <item target="1929-03-13">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-14">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-15"><placeName ref="pmb168">Berlin</placeName></item>
-   <item target="1929-03-16">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-17">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-18">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-19">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb90827">Halensee</placeName>
-   </item>
-   <item target="1929-03-20">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-21">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-22">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb91893">Thiergarten</placeName>
-      <placeName ref="pmb90508">Dahlem</placeName>
-      <placeName ref="pmb92232">Faraday Weg</placeName>
-   </item>
-   <item target="1929-03-23">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-24">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb91893">Thiergarten</placeName>
-      <placeName ref="pmb90659">Friedrichshain</placeName>
-      <placeName ref="pmb334">Schillerth.</placeName>
-   </item>
-   <item target="1929-03-25">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-26">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-03-27">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb864">Leipzig</placeName>
-   </item>
-   <item target="1929-03-28">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-03-29"/>
-   <item target="1929-03-30">
-      <placeName ref="pmb50">Wien</placeName>      <placeName ref="pmb96">Meißl</placeName>
-   </item>
-   <item target="1929-03-31">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb90771">Grinzing</placeName>
-      <placeName ref="pmb92292">Hohewarte</placeName>
-   </item>
-   <item target="1929-04-01">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-04-02">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb58">Josefstadt</placeName>
-   </item>
-   <item target="1929-04-03">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92460">Praterstr.</placeName>
-   </item>
-   <item target="1929-04-04"/>
-   <item target="1929-04-05"/>
-   <item target="1929-04-06"/>
-   <item target="1929-04-07">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91552">Purkersdorf</placeName>
-   </item>
-   <item target="1929-04-08">
-   </item>
-   <item target="1929-04-09"/>
-   <item target="1929-04-10"/>
-   <item target="1929-04-11"/>
-   <item target="1929-04-12">
-   </item>
-   <item target="1929-04-13">
-   </item>
-   <item target="1929-04-14"/>
-   <item target="1929-04-15"/>
-   <item target="1929-04-16">
-   </item>
-   <item target="1929-04-17"/>
-   <item target="1929-04-18"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92292">Hohe Warte</placeName>
-   </item>
-   <item target="1929-04-19"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb575">Stadt(Kinder-)park</placeName>
-   </item>
-   <item target="1929-04-20"/>
-   <item target="1929-04-21"/>
-   <item target="1929-04-22">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-04-23">
-   </item>
-   <item target="1929-04-24"/>
-   <item target="1929-04-25">
-   </item>
-   <item target="1929-04-26">
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="place_sanatoriumloew">Loew</placeName>
-   </item>
-   <item target="1929-04-27">
-   </item>
-   <item target="1929-04-28"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb64219">Sievring</placeName>
-      <placeName ref="pmb44394">Weidling Bach</placeName>
-      <placeName ref="pmb49210">Steinriegl</placeName>
-      <placeName ref="pmb90881">Hintersdorf</placeName>
-      <placeName ref="pmb865">Klosterneuburg</placeName>
-   </item>
-   <item target="1929-04-29"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb58">Josefstadt</placeName>
-   </item>
-   <item target="1929-04-30"/>
-   <item target="1929-05-01"/>
-   <item target="1929-05-02">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-05-03">
-      <placeName ref="pmb103">Volksgarten</placeName>
-   </item>
-   <item target="1929-05-04">
-   </item>
-   <item target="1929-05-05"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92533">Sofienalpe</placeName>
-      <placeName ref="pmb90821">Hainbach</placeName>
-      <placeName ref="pmb170">Neuwaldegg</placeName>
-      <placeName ref="pmb169">Pötzleinsdorf</placeName>
-   </item>
-   <item target="1929-05-06"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92273">Hartäcker</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-05-07"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-05-08"/>
-   <item target="1929-05-09"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-      <placeName ref="pmb91451">Perchtoldsdorf</placeName>
-   </item>
-   <item target="1929-05-10"/>
-   <item target="1929-05-11"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-05-12"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb64219">Sievring</placeName>
-      <placeName ref="pmb44392">Weidling</placeName>
-      <placeName ref="pmb865">Klosterneuburg</placeName>
-   </item>
-   <item target="1929-05-13"/>
-   <item target="1929-05-14"/>
-   <item target="1929-05-15">
-      <placeName ref="pmb968">Mödling</placeName>
-      <placeName ref="pmb49461">Atzgersdorf</placeName>
-   </item>
-   <item target="1929-05-16"/>
-   <item target="1929-05-17"/>
-   <item target="1929-05-18"/>
-   <item target="1929-05-19">
-   </item>
-   <item target="1929-05-20"/>
-   <item target="1929-05-21">
-   </item>
-   <item target="1929-05-22"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-05-23">
-   </item>
-   <item target="1929-05-24">
-   </item>
-   <item target="1929-05-25"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-05-26"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb64219">Sievring</placeName>
-      <placeName ref="pmb49210">Steinriegl</placeName>
-      <placeName ref="pmb92533">Sofien Alpe</placeName>
-      <placeName ref="pmb90821">Hainbach</placeName>
-   </item>
-   <item target="1929-05-27"/>
-   <item target="1929-05-28"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb55901">Parkring</placeName>
-   </item>
-   <item target="1929-05-29"/>
-   <item target="1929-05-30"/>
-   <item target="1929-05-31"><placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-06-01"/>
-   <item target="1929-06-02"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91099">Lainzer Tiergarten</placeName>
-      <placeName ref="pmb90979">Kalksburg</placeName>
-      <placeName ref="pmb91091">Laab</placeName>
-      <placeName ref="pmb90889">Hochroterd</placeName>
-      <placeName ref="pmb44102">Kaltenleutgeben</placeName>
-      <placeName ref="pmb49452">Lainz</placeName>
-   </item>
-   <item target="1929-06-03"/>
-   <item target="1929-06-04">
-   </item>
-   <item target="1929-06-05"><placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-06-06"/>
-   <item target="1929-06-07">
-   </item>
-   <item target="1929-06-08">
-   </item>
-   <item target="1929-06-09">
-      <placeName ref="pmb64219">Sievring</placeName>
-      <placeName ref="pmb49210">Steinriegl</placeName>
-      <placeName ref="pmb46976">Kierling</placeName>
-      <placeName ref="pmb865">Klosterneuburg</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-06-10"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91530">Prater</placeName>
-   </item>
-   <item target="1929-06-11"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-06-12">
-   </item>
-   <item target="1929-06-13"/>
-   <item target="1929-06-14"/>
-   <item target="1929-06-15"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91530">Prater</placeName>
-   </item>
-   <item target="1929-06-16"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-      <placeName ref="pmb91530">Prater</placeName>
-   </item>
-   <item target="1929-06-17">
-   </item>
-   <item target="1929-06-18"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92109">Wr. Neustadt</placeName>
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-19">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-20">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-21">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-22">
-      <placeName ref="pmb91735">Semmering</placeName>
-      <placeName ref="pmb91482">Pinkenkogel</placeName>
-   </item>
-   <item target="1929-06-23">
-      <placeName ref="pmb91735">Semmering</placeName>
-      <placeName ref="pmb45277">Maria Schutz</placeName>
-   </item>
-   <item target="1929-06-24">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-25">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-26">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-27">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-28">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-06-29">
-      <placeName ref="pmb91735">Semmering</placeName>
-      <placeName ref="pmb91538">Preiner Gscheid</placeName>
-      <placeName ref="pmb90995">Kapellen</placeName>
-      <placeName ref="pmb91316">Mürzsteg</placeName>
-      <placeName ref="pmb55088">Mürzzuschlag</placeName>
-   </item>
-   <item target="1929-06-30">
-      <placeName ref="pmb91735">Semmering</placeName>
-   </item>
-   <item target="1929-07-01">
-      <placeName ref="pmb91735">Semmering</placeName><placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-07-02">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-07-03"/>
-   <item target="1929-07-04">
-   </item>
-   <item target="1929-07-05"/>
-   <item target="1929-07-06">
-   </item>
-   <item target="1929-07-07"/>
-   <item target="1929-07-08"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-07-09">
-   </item>
-   <item target="1929-07-10"/>
-   <item target="1929-07-11">
-   </item>
-   <item target="1929-07-12">
-   </item>
-   <item target="1929-07-13"/>
-   <item target="1929-07-14">
-      <placeName ref="pmb64219">Sievring</placeName>
-      <placeName ref="pmb49210">Steinriegl</placeName>
-      <placeName ref="pmb34354">Königstetten</placeName>
-      <placeName ref="pmb1246">Andrä Wördern</placeName>
-      <placeName ref="pmb46976">Kierling</placeName>
-      <placeName ref="pmb865">Klosterneuburg</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-07-15"/>
-   <item target="1929-07-16"/>
-   <item target="1929-07-17"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb173">Rodaun</placeName>
-      <placeName ref="pmb91091">Laab</placeName>
-      <placeName ref="pmb92095">Wolfsgraben</placeName>
-      <placeName ref="pmb91552">Purkersdorf</placeName>
-      <placeName ref="pmb90913">Hütteldorf</placeName>
-      <placeName ref="pmb170">Neuwaldegg</placeName>
-      <placeName ref="pmb91641">Salmannsdorf</placeName>
-   </item>
-   <item target="1929-07-18">
-   </item>
-   <item target="1929-07-19"/>
-   <item target="1929-07-20">
-   </item>
-   <item target="1929-07-21"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92168">Blaasstr.</placeName>
-   </item>
-   <item target="1929-07-22"/>
-   <item target="1929-07-23"/>
-   <item target="1929-07-24"/>
-   <item target="1929-07-25">
-   </item>
-   <item target="1929-07-26"/>
-   <item target="1929-07-27"/>
-   <item target="1929-07-28"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb173">Rodaun</placeName>
-   </item>
-   <item target="1929-07-29"/>
-   <item target="1929-07-30">
-   </item>
-   <item target="1929-07-31">
-   </item>
-   <item target="1929-08-01"/>
-   <item target="1929-08-02"/>
-   <item target="1929-08-03">
-   </item>
-   <item target="1929-08-04">
-      <placeName ref="pmb64219">Sievring</placeName>
-      <placeName ref="pmb49210">Steinriegl</placeName>
-      <placeName ref="pmb34354">Königstetten</placeName>
-      <placeName ref="pmb91955">Tulbing</placeName>
-      <placeName ref="pmb1246">Andrä</placeName>
-      <placeName ref="pmb46976">Kierling</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-08-05">
-   </item>
-   <item target="1929-08-06">
-   </item>
-   <item target="1929-08-07"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb63">Hietzing</placeName>
-   </item>
-   <item target="1929-08-08"/>
-   <item target="1929-08-09"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-08-10"/>
-   <item target="1929-08-11">
-   </item>
-   <item target="1929-08-12">
-   </item>
-   <item target="1929-08-13">
-   </item>
-   <item target="1929-08-14">
-   </item>
-   <item target="1929-08-15">
-   </item>
-   <item target="1929-08-16">
-   </item>
-   <item target="1929-08-17">
-   </item>
-   <item target="1929-08-18"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb37658">Seitenstettengasse</placeName>
-      <placeName ref="pmb43520">Meran</placeName>
-   </item>
-   <item target="1929-08-19"/>
-   <item target="1929-08-20"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb45258">München</placeName>
-   </item>
-   <item target="1929-08-21">
-      <placeName ref="pmb45258">München</placeName>
-      <placeName ref="pmb484">Zürich</placeName>
-      <placeName ref="pmb1223">Bern</placeName>
-      <placeName ref="pmb50004">Lausanne</placeName>
-   </item>
-   <item target="1929-08-22">
-      <placeName ref="pmb50004">Lausanne</placeName>
-      <placeName ref="pmb64657">Vevey</placeName>
-      <placeName ref="pmb91808">St. Pélerin</placeName>
-      <placeName ref="pmb90364">Blonay</placeName>
-      <placeName ref="pmb40483">Glion</placeName>
-      <placeName ref="pmb90460">Caux</placeName>
-      <placeName ref="pmb52051">Territet</placeName>
-   </item>
-   <item target="1929-08-23">
-      <placeName ref="pmb90460">Caux</placeName>
-   </item>
-   <item target="1929-08-24">
-      <placeName ref="pmb90460">Caux</placeName>
-      <placeName ref="pmb91141">Liboson</placeName>
-   </item>
-   <item target="1929-08-25">
-      <placeName ref="pmb90460">Caux</placeName>
-   </item>
-   <item target="1929-08-26">
-      <placeName ref="pmb90460">Caux</placeName>
-      <placeName ref="pmb91604">Rochers Naye</placeName>
-   </item>
-   <item target="1929-08-27">
-      <placeName ref="pmb90460">Caux</placeName>
-      <placeName ref="pmb40483">Glion</placeName>
-      <placeName ref="pmb91284">Montreux</placeName>
-      <placeName ref="pmb52051">Territet</placeName>
-   </item>
-   <item target="1929-08-28">
-      <placeName ref="pmb90460">Caux</placeName>
-   </item>
-   <item target="1929-08-29">
-      <placeName ref="pmb90460">Caux</placeName>
-   </item>
-   <item target="1929-08-30">
-      <placeName ref="pmb90460">Caux</placeName>
-      <placeName ref="pmb91774">Sonchaux</placeName>
-   </item>
-   <item target="1929-08-31">
-      <placeName ref="pmb90460">Caux</placeName>
-   </item>
-   <item target="1929-09-01">
-      <placeName ref="pmb90460">Caux</placeName>
-   </item>
-   <item target="1929-09-02">
-      <placeName ref="pmb90460">Caux</placeName>
-      <placeName ref="pmb52051">Territet</placeName>
-      <placeName ref="pmb90472">Chillon</placeName>
-   </item>
-   <item target="1929-09-03">
-      <placeName ref="pmb52051">Territet</placeName>
-   </item>
-   <item target="1929-09-04">
-      <placeName ref="pmb52051">Territet</placeName>
-      <placeName ref="pmb50004">Lausanne</placeName>
-      <placeName ref="pmb90623">Ferney</placeName>
-      <placeName ref="pmb562">Genf</placeName>
-      <placeName ref="pmb90607">Evian</placeName>
-      <placeName ref="pmb92015">Villeneuve</placeName>
-   </item>
-   <item target="1929-09-05">
-      <placeName ref="pmb52051">Territet</placeName>
-      <placeName ref="pmb90472">Chillon</placeName>
-      <placeName ref="pmb91284">Montreux</placeName>
-   </item>
-   <item target="1929-09-06">
-      <placeName ref="pmb52051">Territet</placeName>
-   </item>
-   <item target="1929-09-07">
-      <placeName ref="pmb52051">Territet</placeName>
-      <placeName ref="pmb92579">Valmont</placeName>
-   </item>
-   <item target="1929-09-08">
-      <placeName ref="pmb52051">Territet</placeName>
-      <placeName ref="pmb91284">Montreux</placeName>
-   </item>
-   <item target="1929-09-09">
-      <placeName ref="pmb52051">Territet</placeName>
-   </item>
-   <item target="1929-09-10">
-      <placeName ref="pmb52051">Territet</placeName>
-      <placeName ref="pmb44181">Olten</placeName>
-      <placeName ref="pmb484">Zürich</placeName>
-   </item>
-   <item target="1929-09-11">
-      <placeName ref="pmb484">Zürich</placeName>
-      <placeName ref="pmb872">Stuttgart</placeName>
-      <placeName ref="pmb44172">Nürnberg</placeName>
-   </item>
-   <item target="1929-09-12">
-      <placeName ref="pmb44172">Nürnberg</placeName>
-      <placeName ref="pmb91211">Marienbad</placeName>
-   </item>
-   <item target="1929-09-13">
-      <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb390">Franzensbad</placeName>
-      <placeName ref="pmb90565">Eger</placeName>
-   </item>
-   <item target="1929-09-14">
-      <placeName ref="pmb91211">Marienbad</placeName>
-   </item>
-   <item target="1929-09-15">
-      <placeName ref="pmb91211">Marienbad</placeName>
-   </item>
-   <item target="1929-09-16">
-      <placeName ref="pmb91211">Marienbad</placeName>
-      
-   </item>
-   <item target="1929-09-17">
-      <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb390">Franzensbad</placeName>
-   </item>
-   <item target="1929-09-18">
-      <placeName ref="pmb91211">Marienbad</placeName>
-   </item>
-   <item target="1929-09-19">
-      <placeName ref="pmb91211">Marienbad</placeName>
-   </item>
-   <item target="1929-09-20">
-      <placeName ref="pmb91211">Marienbad</placeName>
-   </item>
-   <item target="1929-09-21">
-      <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb390">Franzensbad</placeName>
-   </item>
-   <item target="1929-09-22">
-      <placeName ref="pmb390">Franzensbad</placeName>
-   </item>
-   <item target="1929-09-23">
-      <placeName ref="pmb390">Franzensbad</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-09-24">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-09-25"/>
-   <item target="1929-09-26">
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-09-27"/>
-   <item target="1929-09-28"/>
-   <item target="1929-09-29"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb64219">Sievring</placeName>
-   </item>
-   <item target="1929-09-30"><placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-10-01"><placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-10-02">
-   </item>
-   <item target="1929-10-03"/>
-   <item target="1929-10-04"/>
-   <item target="1929-10-05"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb113">Türkenschanzpark</placeName>
-   </item>
-   <item target="1929-10-06">
-      <placeName ref="pmb64219">Sievring</placeName>
-      <placeName ref="pmb49210">Steinriegl</placeName>
-      <placeName ref="pmb942">Mauerbach</placeName>
-      <placeName ref="pmb90913">Hütteldorf</placeName>
-      <placeName ref="pmb169">Pötzleinsdorf</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-10-07">
-   </item>
-   <item target="1929-10-08"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb52958">Favoritenstr.</placeName>
-   </item>
-   <item target="1929-10-09"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb14">Burgtheater</placeName>
-   </item>
-   <item target="1929-10-10"/>
-   <item target="1929-10-11"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb90753">Graben</placeName>
-      <placeName ref="pmb58">Josefstadt</placeName>
-   </item>
-   <item target="1929-10-12"/>
-   <item target="1929-10-13"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb170">Neuwaldegg</placeName>
-   </item>
-   <item target="1929-10-14"/>
-   <item target="1929-10-15"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb58">Josefstadt</placeName>
-   </item>
-   <item target="1929-10-16"/>
-   <item target="1929-10-17"/>
-   <item target="1929-10-18"/>
-   <item target="1929-10-19">
-   </item>
-   <item target="1929-10-20"/>
-   <item target="1929-10-21"/>
-   <item target="1929-10-22"/>
-   <item target="1929-10-23"/>
-   <item target="1929-10-24"/>
-   <item target="1929-10-25">
-   </item>
-   <item target="1929-10-26"/>
-   <item target="1929-10-27"/>
-   <item target="1929-10-28">
-   </item>
-   <item target="1929-10-29"/>
-   <item target="1929-10-30"/>
-   <item target="1929-10-31">
-   </item>
-   <item target="1929-11-01"/>
-   <item target="1929-11-02">
-   </item>
-   <item target="1929-11-03"/>
-   <item target="1929-11-04"/>
-   <item target="1929-11-05"/>
-   <item target="1929-11-06"/>
-   <item target="1929-11-07"/>
-   <item target="1929-11-08"><placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-11-09"/>
-   <item target="1929-11-10">
-   </item>
-   <item target="1929-11-11"><placeName ref="pmb50">Wien</placeName><placeName ref="pmb14">Burgtheater</placeName></item>
-   <item target="1929-11-12"/>
-   <item target="1929-11-13"/>
-   <item target="1929-11-14"/>
-   <item target="1929-11-15"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-11-16">
-   </item>
-   <item target="1929-11-17">
-   </item>
-   <item target="1929-11-18"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-11-19"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-11-20"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-11-21"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-11-22"/>
-   <item target="1929-11-23"/>
-   <item target="1929-11-24"/>
-   <item target="1929-11-25"/>
-   <item target="1929-11-26"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-11-27"/>
-   <item target="1929-11-28"/>
-   <item target="1929-11-29"/>
-   <item target="1929-11-30">
-   </item>
-   <item target="1929-12-01"/>
-   <item target="1929-12-02"/>
-   <item target="1929-12-03"/>
-   <item target="1929-12-04"/>
-   <item target="1929-12-05"/>
-   <item target="1929-12-06"/>
-   <item target="1929-12-07">
-   </item>
-   <item target="1929-12-08"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb90705">Gersthof</placeName>
-   </item>
-   <item target="1929-12-09"><placeName ref="pmb50">Wien</placeName>
-   </item>
-   <item target="1929-12-10"/>
-   <item target="1929-12-11"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb58">Josefstadt</placeName>
-   </item>
-   <item target="1929-12-12"/>
-   <item target="1929-12-13"/>
-   <item target="1929-12-14"/>
-   <item target="1929-12-15">
-   </item>
-   <item target="1929-12-16"/>
-   <item target="1929-12-17"/>
-   <item target="1929-12-18"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb54">Wieden</placeName>
-   </item>
-   <item target="1929-12-19"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volksth.</placeName>
-   </item>
-   <item target="1929-12-20"/>
-   <item target="1929-12-21"><placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb92202">Volkstheater</placeName>
-   </item>
-   <item target="1929-12-22">
-   </item>
-   <item target="1929-12-23"/>
-   <item target="1929-12-24"/>
-   <item target="1929-12-25">
-   </item>
-   <item target="1929-12-26">
-   </item>
-   <item target="1929-12-27"/>
-   <item target="1929-12-28">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-12-29">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   <item target="1929-12-30">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb91975">Linden</placeName>
-      <placeName ref="pmb58810">Haag</placeName>
-   </item>
-   <item target="1929-12-31">
-      <placeName ref="pmb168">Berlin</placeName>
-   </item>
-   
    <item target="1930-01-01">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91893">Thiergarten</placeName>
    </item>
    <item target="1930-01-02">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb91296">Mortara</placeName>
-      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-01-03">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-01-04">
-      <placeName ref="pmb91153">Linz</placeName>
+      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-01-05">
       <placeName ref="pmb168">Berlin</placeName>
@@ -906,122 +21,83 @@
    <item target="1930-01-06">
       <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb90508">Dahlem</placeName>
-      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92484">Riehlstr.</placeName>
    </item>
    <item target="1930-01-07">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-01-08">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
       <placeName ref="pmb129">Grunewald</placeName>
    </item>
    <item target="1930-01-09">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb91249">Minnesota</placeName>
    </item>
    <item target="1930-01-10">
       <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-01-11">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb92403">Milchgasse</placeName>
       <placeName ref="pmb91975">Linden</placeName>
       <placeName ref="pmb129">Grunewald</placeName>
-      <placeName ref="pmb48169">Chile</placeName>
    </item>
    <item target="1930-01-12">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb34438">Rußland</placeName>
    </item>
    <item target="1930-01-13">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-01-14">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-01-15">
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-01-16">
-      <placeName ref="pmb182">Paris</placeName>
+      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-01-17"/>
    <item target="1930-01-18">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
-   <item target="1930-01-19">
+   <item target="1930-01-19"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb243">Sommerhaidenweg</placeName>
-      <placeName ref="pmb211">Aegypten</placeName>
    </item>
    <item target="1930-01-20">
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-01-21">
-      <placeName ref="pmb224">London</placeName>
    </item>
    <item target="1930-01-22"/>
    <item target="1930-01-23"/>
    <item target="1930-01-24">
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb43406">Amerika</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-01-25">
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-01-26"/>
    <item target="1930-01-27"/>
    <item target="1930-01-28">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
-   <item target="1930-01-29">
-      <placeName ref="pmb182">Paris</placeName>
+   <item target="1930-01-29"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb58">Josefstadt</placeName>
    </item>
-   <item target="1930-01-30">
+   <item target="1930-01-30"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92202">Volksth.</placeName>
    </item>
    <item target="1930-01-31"/>
    <item target="1930-02-01">
-      <placeName ref="pmb43435">Schweiz</placeName>
-      <placeName ref="pmb40306">Italien</placeName>
-      <placeName ref="pmb224">London</placeName>
    </item>
-   <item target="1930-02-02">
+   <item target="1930-02-02"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb63">Hietzing</placeName>
    </item>
    <item target="1930-02-03"/>
    <item target="1930-02-04">
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-02-05">
-      <placeName ref="pmb90966">Jugoslawien</placeName>
-      <placeName ref="pmb40306">Italien</placeName>
-      <placeName ref="pmb34438">Rußland</placeName>
    </item>
    <item target="1930-02-06"/>
    <item target="1930-02-07"/>
    <item target="1930-02-08">
-      <placeName ref="pmb91768">Sophia</placeName>
-      <placeName ref="pmb58810">Haag</placeName>
    </item>
    <item target="1930-02-09">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb92605">Wilhelminen Straße</placeName>
       <placeName ref="pmb66">Ottakring</placeName>
    </item>
    <item target="1930-02-10"/>
@@ -1031,16 +107,14 @@
    <item target="1930-02-14"/>
    <item target="1930-02-15"/>
    <item target="1930-02-16">
-      <placeName ref="pmb168">Berlin</placeName>
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92292">Hohe Warte</placeName>
    </item>
    <item target="1930-02-17"/>
    <item target="1930-02-18">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb40709">Amsterdam</placeName>
    </item>
    <item target="1930-02-19"/>
-   <item target="1930-02-20">
+   <item target="1930-02-20"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92547">Starhembergg.</placeName>
    </item>
    <item target="1930-02-21">
@@ -1048,19 +122,15 @@
    </item>
    <item target="1930-02-22"/>
    <item target="1930-02-23">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-02-24"/>
    <item target="1930-02-25"/>
    <item target="1930-02-26"/>
    <item target="1930-02-27"/>
    <item target="1930-02-28">
-      <placeName ref="pmb90942">Riviera</placeName>
-      <placeName ref="pmb166">Frankreich</placeName>
    </item>
    <item target="1930-03-01"/>
    <item target="1930-03-02">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-03-03"/>
    <item target="1930-03-04"/>
@@ -1068,53 +138,41 @@
    <item target="1930-03-06"/>
    <item target="1930-03-07"/>
    <item target="1930-03-08"/>
-   <item target="1930-03-09">
+   <item target="1930-03-09"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb243">Sommerhaidenweg</placeName>
    </item>
    <item target="1930-03-10"/>
    <item target="1930-03-11">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-03-12">
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-03-13"/>
    <item target="1930-03-14"/>
    <item target="1930-03-15"/>
    <item target="1930-03-16"/>
    <item target="1930-03-17"/>
-   <item target="1930-03-18">
+   <item target="1930-03-18"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb54">Wieden</placeName>
-      <placeName ref="pmb90942">Riviera</placeName>
       <placeName ref="pmb58">Josefst.</placeName>
    </item>
    <item target="1930-03-19"/>
    <item target="1930-03-20">
       <placeName ref="pmb54">Wieden</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-03-21"/>
    <item target="1930-03-22">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-03-23"/>
    <item target="1930-03-24"/>
-   <item target="1930-03-25">
-      <placeName ref="pmb521">Gastein</placeName>
+   <item target="1930-03-25"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
    <item target="1930-03-26"/>
    <item target="1930-03-27"/>
    <item target="1930-03-28">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb211">Aegypten</placeName>
-      <placeName ref="pmb51664">Syrien</placeName>
-      <placeName ref="pmb815">Palästina</placeName>
    </item>
    <item target="1930-03-29"/>
    <item target="1930-03-30">
-      <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb45181">Jeutendorf</placeName>
       <placeName ref="pmb90558">Dürnstein</placeName>
@@ -1123,45 +181,32 @@
    <item target="1930-04-01"/>
    <item target="1930-04-02"/>
    <item target="1930-04-03"/>
-   <item target="1930-04-04">
+   <item target="1930-04-04"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-04-05">
-      <placeName ref="pmb91211">Marienbad</placeName>
+   <item target="1930-04-05"><placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-04-06">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb224">London</placeName>
-      <placeName ref="pmb44016">Holland</placeName>
    </item>
-   <item target="1930-04-07">
-      <placeName ref="pmb44016">Holland</placeName>
-      <placeName ref="pmb40709">Amsterdam</placeName>
-      <placeName ref="pmb92496">Rothschildspital</placeName>
+   <item target="1930-04-07"><placeName ref="pmb50">Wien</placeName>
    </item>
-   <item target="1930-04-08">
-      <placeName ref="pmb46376">Szegeds</placeName>
+   <item target="1930-04-08"><placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-04-09">
-      <placeName ref="pmb263">Florenz</placeName>
    </item>
    <item target="1930-04-10">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-04-11">
-      <placeName ref="pmb90494">Corsica</placeName>
    </item>
    <item target="1930-04-12"/>
    <item target="1930-04-13">
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91735">Semmering</placeName>
       <placeName ref="pmb91217">Mauer</placeName>
       <placeName ref="pmb90889">Hochroterd</placeName>
       <placeName ref="pmb91857">Sulz</placeName>
       <placeName ref="pmb44102">Kaltenleutgeben</placeName>
    </item>
-   <item target="1930-04-14">
-      <placeName ref="pmb470">Edlach</placeName>
+   <item target="1930-04-14"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92589">Währingerhof</placeName>
    </item>
    <item target="1930-04-15">
@@ -1169,104 +214,74 @@
       <placeName ref="pmb92202">Volksth.</placeName>
    </item>
    <item target="1930-04-16">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb44053">New York</placeName>
    </item>
    <item target="1930-04-17"/>
    <item target="1930-04-18"/>
    <item target="1930-04-19"/>
-   <item target="1930-04-20">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-04-20"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb176">Dornbacher Park</placeName>
       <placeName ref="pmb169">Pötzleinsdorf</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-04-21">
+   <item target="1930-04-21"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91552">Purkersdorf</placeName>
       <placeName ref="pmb91592">Riederberg</placeName>
       <placeName ref="pmb58825">Sieghartskirchen</placeName>
       <placeName ref="pmb91887">Thalheim</placeName>
-      <placeName ref="pmb91524">Prag</placeName>
       <placeName ref="pmb92589">Währingerhof</placeName>
    </item>
    <item target="1930-04-22">
-      <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb50">Wien</placeName>
    </item>
-   <item target="1930-04-23">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-04-23"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl u. Schadn</placeName>
    </item>
    <item target="1930-04-24">
-      <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb91735">Semmering</placeName>
    </item>
-   <item target="1930-04-25">
+   <item target="1930-04-25"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92518">Schönbrunn</placeName>
-      <placeName ref="pmb470">Edlach</placeName>
    </item>
    <item target="1930-04-26">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-04-27">
-      <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91735">Semmering</placeName>
       <placeName ref="pmb90705">Gersthof</placeName>
-      <placeName ref="pmb90989">Kammer</placeName>
    </item>
    <item target="1930-04-28">
-      <placeName ref="pmb90989">Kammer</placeName>
    </item>
    <item target="1930-04-29"/>
-   <item target="1930-04-30">
-      <placeName ref="pmb54">Wieden</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-04-30"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-05-01">
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb462">Venedig</placeName>
-      <placeName ref="pmb43406">Amerika</placeName>
+   <item target="1930-05-01"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-05-02">
+   <item target="1930-05-02"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb575">Stadtpark</placeName>
       <placeName ref="pmb92516">Schikanedergasse</placeName>
       <placeName ref="pmb113">Türkenschanzpark</placeName>
-      <placeName ref="pmb91296">Mortara</placeName>
    </item>
    <item target="1930-05-03">
-      <placeName ref="pmb91153">Linz</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
-   <item target="1930-05-04">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-05-04"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb574">Kahlenberg</placeName>
       <placeName ref="pmb92292">Hohe Warte</placeName>
-      <placeName ref="pmb90989">Kammer</placeName>
       <placeName ref="pmb113">Türkenschanzpark</placeName>
-      <placeName ref="pmb166">Frankreich</placeName>
    </item>
    <item target="1930-05-05">
-      <placeName ref="pmb91800">St. Anton</placeName>
    </item>
    <item target="1930-05-06">
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-05-07"/>
    <item target="1930-05-08">
-      <placeName ref="pmb182">Paris</placeName>
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91735">Semmering</placeName>
    </item>
    <item target="1930-05-09">
       <placeName ref="pmb91735">Semmering</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-05-10">
       <placeName ref="pmb91735">Semmering</placeName>
-      <placeName ref="pmb182">Paris</placeName>
       <placeName ref="pmb34305">Liechtensteinstraße</placeName>
    </item>
    <item target="1930-05-11">
@@ -1280,84 +295,68 @@
       <placeName ref="pmb948">Payerbach</placeName>
    </item>
    <item target="1930-05-13">
+      <placeName ref="pmb91735">Semmering</placeName>
       <placeName ref="pmb34305">Liechtensteinstr.</placeName>
       <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-05-14">
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb91735">Semmering</placeName>
    </item>
    <item target="1930-05-15">
-      <placeName ref="pmb168">Berlin</placeName>
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92202">Volksth.</placeName>
    </item>
    <item target="1930-05-16">
-      <placeName ref="pmb168">Berlin</placeName>
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
    <item target="1930-05-17">
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92518">Schönbrunn</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
    </item>
-   <item target="1930-05-18">
+   <item target="1930-05-18"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb574">Kahlenberg</placeName>
       <placeName ref="pmb90771">Grinzing</placeName>
    </item>
    <item target="1930-05-19">
-      <placeName ref="pmb91887">Th.</placeName>
    </item>
    <item target="1930-05-20">
-      <placeName ref="pmb43406">Amerika</placeName>
    </item>
-   <item target="1930-05-21">
+   <item target="1930-05-21"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-05-22">
-      <placeName ref="pmb91887">Thalheim</placeName>
+   <item target="1930-05-22"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
    <item target="1930-05-23">
-      <placeName ref="pmb91735">Semmering</placeName>
    </item>
    <item target="1930-05-24">
-      <placeName ref="pmb91887">Thalheim</placeName>
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-05-25">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb390">Franzensbad</placeName>
+   <item target="1930-05-25"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb90889">Hochroterd</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
    <item target="1930-05-26"/>
    <item target="1930-05-27">
-      <placeName ref="pmb38174">Hollywood</placeName>
    </item>
    <item target="1930-05-28"/>
-   <item target="1930-05-29">
+   <item target="1930-05-29"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb90538">Donau</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-05-30">
-      <placeName ref="pmb91887">Thalheim</placeName>
+   <item target="1930-05-30"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb170">Neuwaldegg</placeName>
       <placeName ref="pmb169">Pötzleinsdorf</placeName>
    </item>
    <item target="1930-05-31"/>
-   <item target="1930-06-01">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb390">Franzensbad</placeName>
+   <item target="1930-06-01"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91592">Riederberg</placeName>
       <placeName ref="pmb91887">Thalheim</placeName>
-      <placeName ref="pmb92441">Peter Jordan Straße</placeName>
    </item>
    <item target="1930-06-02"/>
    <item target="1930-06-03">
-      <placeName ref="pmb90893">Hofgastein</placeName>
-      <placeName ref="pmb91530">Prater</placeName>
-      <placeName ref="pmb169">Pötzleinsdorf</placeName>
-      <placeName ref="pmb91887">Th.</placeName>
    </item>
    <item target="1930-06-04"/>
    <item target="1930-06-05">
@@ -1365,20 +364,15 @@
       <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92471">Radetzky</placeName>
    </item>
-   <item target="1930-06-06">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-06-06"><placeName ref="pmb92202">Volkstheater</placeName><placeName ref="pmb50">Wien</placeName>
    </item>
-   <item target="1930-06-07">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb43406">Amerika</placeName>
-      <placeName ref="pmb390">Franzensbad</placeName>
+   <item target="1930-06-07"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92202">Volkstheater</placeName>
    </item>
-   <item target="1930-06-08">
+   <item target="1930-06-08"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91530">Prater</placeName>
    </item>
-   <item target="1930-06-09">
-      <placeName ref="pmb390">Franzensbad</placeName>
+   <item target="1930-06-09"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb54767">Rekawinkel</placeName>
       <placeName ref="pmb92351">Kronstein</placeName>
       <placeName ref="pmb91959">Tulln</placeName>
@@ -1387,130 +381,101 @@
       <placeName ref="pmb90801">Gugging</placeName>
    </item>
    <item target="1930-06-10">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
-   <item target="1930-06-11">
+   <item target="1930-06-11"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91530">Prater</placeName>
    </item>
-   <item target="1930-06-12">
-      <placeName ref="pmb462">Venedig</placeName>
+   <item target="1930-06-12"><placeName ref="pmb50">Wien</placeName>
    </item>
-   <item target="1930-06-13">
-      <placeName ref="pmb91530">Prater</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
+   <item target="1930-06-13"><placeName ref="pmb50">Wien</placeName>
+      
       <placeName ref="pmb968">Mödling</placeName>
    </item>
-   <item target="1930-06-14">
+   <item target="1930-06-14"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb44413">Brühl</placeName>
    </item>
-   <item target="1930-06-15">
-      <placeName ref="pmb390">Franzensbad</placeName>
+   <item target="1930-06-15"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb113">Türkenschanzpark</placeName>
       <placeName ref="pmb91530">Prater</placeName>
    </item>
    <item target="1930-06-16">
-      <placeName ref="pmb43406">Amerika</placeName>
    </item>
-   <item target="1930-06-17">
+   <item target="1930-06-17"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb968">Mödling</placeName>
       <placeName ref="pmb92364">Laxenburger Allee</placeName>
    </item>
    <item target="1930-06-18">
-      <placeName ref="pmb43406">Amerika</placeName>
    </item>
-   <item target="1930-06-19">
+   <item target="1930-06-19"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb53786">Laxenburg</placeName>
    </item>
-   <item target="1930-06-20">
-      <placeName ref="pmb662">Baden</placeName>
-      <placeName ref="pmb182">Paris</placeName>
+   <item target="1930-06-20"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb170">Neuwaldegg</placeName>
       <placeName ref="pmb91641">Salmannsdorf</placeName>
       <placeName ref="pmb169">Pötzleinsdorf</placeName>
    </item>
    <item target="1930-06-21"/>
-   <item target="1930-06-22">
-      <placeName ref="pmb390">Franzensbad</placeName>
+   <item target="1930-06-22"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb169">Pötzleinsdorf</placeName>
       <placeName ref="pmb91641">Salmannsdorf</placeName>
-      <placeName ref="pmb91211">Marienb.</placeName>
       <placeName ref="pmb92273">Hartäckerpark</placeName>
    </item>
    <item target="1930-06-23">
-      <placeName ref="pmb43406">Amerika</placeName>
-      <placeName ref="pmb38174">Hollywood</placeName>
    </item>
    <item target="1930-06-24">
       <placeName ref="pmb662">Baden</placeName>
       <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb53786">Laxenburg</placeName>
-      <placeName ref="pmb91211">Marienb.</placeName>
    </item>
    <item target="1930-06-25"/>
-   <item target="1930-06-26">
+   <item target="1930-06-26"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb63">Hietzing</placeName>
    </item>
-   <item target="1930-06-27">
+   <item target="1930-06-27"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb113">Türkenschanzpark</placeName>
-      <placeName ref="pmb842">Karlsbad</placeName>
    </item>
    <item target="1930-06-28"/>
    <item target="1930-06-29">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb390">Franzensbad</placeName>
-      <placeName ref="pmb90931">Innsbruck</placeName>
       <placeName ref="pmb662">Baden</placeName>
       <placeName ref="pmb92206">Doblhoffpark</placeName>
       <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-06-30"/>
-   <item target="1930-07-01">
-      <placeName ref="pmb842">Karlsbad</placeName>
+   <item target="1930-07-01"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91530">Prater</placeName>
       <placeName ref="pmb685">Wurstelprater</placeName>
    </item>
-   <item target="1930-07-02">
+   <item target="1930-07-02"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91530">Prater</placeName>
       <placeName ref="pmb169">Pötzleinsdorf</placeName>
    </item>
-   <item target="1930-07-03">
-      <placeName ref="pmb842">Karlsbad</placeName>
+   <item target="1930-07-03"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92202">Volksth.</placeName>
       <placeName ref="pmb63">Hietzing</placeName>
    </item>
    <item target="1930-07-04"/>
    <item target="1930-07-05"/>
    <item target="1930-07-06">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb842">Karlsbad</placeName>
    </item>
    <item target="1930-07-07">
-      <placeName ref="pmb44053">New York</placeName>
    </item>
    <item target="1930-07-08"/>
-   <item target="1930-07-09">
+   <item target="1930-07-09"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb58">Josefstadt</placeName>
-      <placeName ref="pmb842">Karlsbad</placeName>
    </item>
    <item target="1930-07-10">
-      <placeName ref="pmb842">Karlsbad</placeName>
-      <placeName ref="pmb415">Aussee</placeName>
    </item>
-   <item target="1930-07-11">
+   <item target="1930-07-11"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
    <item target="1930-07-12"/>
    <item target="1930-07-13">
-      <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-07-14">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-07-15">
-      <placeName ref="pmb842">Karlsbad</placeName>
       <placeName ref="pmb92518">Schönbrunn</placeName>
-      <placeName ref="pmb47646">Westerland</placeName>
       <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-07-16"/>
@@ -1518,7 +483,6 @@
       <placeName ref="pmb859">Buchs</placeName>
       <placeName ref="pmb2448">Chur</placeName>
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb91887">Th.</placeName>
    </item>
    <item target="1930-07-18">
       <placeName ref="pmb44374">St. Moritz</placeName>
@@ -1531,6 +495,7 @@
       <placeName ref="pmb34946">Pontresina</placeName>
       <placeName ref="pmb90675">Fuorcla 
 Surlej</placeName>
+      <placeName ref="pmb44374">St. Moritz</placeName>
       <placeName ref="pmb91753">Sils-Maria</placeName>
    </item>
    <item target="1930-07-21">
@@ -1539,14 +504,9 @@ Surlej</placeName>
    <item target="1930-07-22">
       <placeName ref="pmb44374">St. Moritz</placeName>
       <placeName ref="pmb91824">Statzer See</placeName>
-      <placeName ref="pmb151">Deutschland</placeName>
-      <placeName ref="pmb91424">Oetztal</placeName>
    </item>
    <item target="1930-07-23">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb38174">Hollywood</placeName>
-      <placeName ref="pmb976">Czernowitz</placeName>
    </item>
    <item target="1930-07-24">
       <placeName ref="pmb44374">St. Moritz</placeName>
@@ -1554,13 +514,10 @@ Surlej</placeName>
    <item target="1930-07-25">
       <placeName ref="pmb44374">St. Moritz</placeName>
       <placeName ref="pmb91824">Statzer See</placeName>
-      <placeName ref="pmb40709">Amsterdam</placeName>
       <placeName ref="pmb34946">Pontresina</placeName>
-      <placeName ref="pmb415">Aussee</placeName>
    </item>
    <item target="1930-07-26">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb484">Zürich</placeName>
       <placeName ref="pmb92754">Suvretta</placeName>
    </item>
    <item target="1930-07-27">
@@ -1577,33 +534,23 @@ Surlej</placeName>
    </item>
    <item target="1930-07-30">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-07-31">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb890">Hannover</placeName>
-      <placeName ref="pmb43406">Amerika</placeName>
    </item>
    <item target="1930-08-01">
       <placeName ref="pmb44374">St. Moritz</placeName>
       <placeName ref="pmb90434">Campfèr</placeName>
-      <placeName ref="pmb90967">Julier</placeName>
-      <placeName ref="pmb166">Frankreich</placeName>
       <placeName ref="pmb34946">Pontresina</placeName>
-      <placeName ref="pmb90188">Adelboden</placeName>
    </item>
    <item target="1930-08-02">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb90550">Dresden</placeName>
    </item>
    <item target="1930-08-03">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb34438">Rußland</placeName>
-      <placeName ref="pmb49137">Kattowitz</placeName>
    </item>
    <item target="1930-08-04">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb886">Mailand</placeName>
    </item>
    <item target="1930-08-05">
       <placeName ref="pmb44374">St. Moritz</placeName>
@@ -1614,7 +561,6 @@ Surlej</placeName>
       <placeName ref="pmb90342">Bernina</placeName>
       <placeName ref="pmb49135">Le Prese</placeName>
       <placeName ref="pmb91514">Poschiavo</placeName>
-      <placeName ref="pmb890">Hannover</placeName>
    </item>
    <item target="1930-08-07">
       <placeName ref="pmb44374">St. Moritz</placeName>
@@ -1624,84 +570,51 @@ Surlej</placeName>
    </item>
    <item target="1930-08-09">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-08-10">
       <placeName ref="pmb44374">St. Moritz</placeName>
-      <placeName ref="pmb91199">Maloja</placeName>
-      <placeName ref="pmb60525">Como</placeName>
-      <placeName ref="pmb886">Mailand</placeName>
-      <placeName ref="pmb44306">Samaden</placeName>
       <placeName ref="pmb63808">Schuls</placeName>
       <placeName ref="pmb91111">Landeck</placeName>
       <placeName ref="pmb90933">Innthal</placeName>
       <placeName ref="pmb64553">Imst</placeName>
       <placeName ref="pmb90931">Innsbruck</placeName>
-      <placeName ref="pmb63153">Inn</placeName>
    </item>
    <item target="1930-08-11">
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91887">Th.</placeName>
-      <placeName ref="pmb842">Karlsb.</placeName>
    </item>
-   <item target="1930-08-12">
+   <item target="1930-08-12"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb63">Hietzing</placeName>
-      <placeName ref="pmb842">Karlsbad</placeName>
-      <placeName ref="pmb44374">St. M.</placeName>
    </item>
    <item target="1930-08-13">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-08-14">
-      <placeName ref="pmb44374">St. Moritz</placeName>
    </item>
-   <item target="1930-08-15">
-      <placeName ref="pmb91649">Salzburg</placeName>
-      <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb91735">Semmering</placeName>
+   <item target="1930-08-15"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb113">Türkenschanzpark</placeName>
-      <placeName ref="pmb44053">New York</placeName>
    </item>
-   <item target="1930-08-16">
-      <placeName ref="pmb91296">Mortara</placeName>
-      <placeName ref="pmb44053">N. Y.</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-08-16"><placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-08-17">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-08-18">
-      <placeName ref="pmb43435">Schweiz</placeName>
    </item>
-   <item target="1930-08-19">
+   <item target="1930-08-19"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb113">Türkenschanzpark</placeName>
-      <placeName ref="pmb91211">Marienbad</placeName>
    </item>
    <item target="1930-08-20">
-      <placeName ref="pmb852">Würzburg</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
-      <placeName ref="pmb91455">Pertisau</placeName>
    </item>
    <item target="1930-08-21">
-      <placeName ref="pmb415">Aussee</placeName>
-      <placeName ref="pmb91211">Marienbad</placeName>
    </item>
-   <item target="1930-08-22">
+   <item target="1930-08-22"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb63">Hietzing</placeName>
       <placeName ref="pmb169">Pötzleinsdorf</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
       <placeName ref="pmb54">Wieden</placeName>
    </item>
    <item target="1930-08-23">
-      <placeName ref="pmb91887">Th.</placeName>
    </item>
    <item target="1930-08-24">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-08-25">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-08-26">
       <placeName ref="pmb91211">Marienbad</placeName>
@@ -1717,45 +630,36 @@ Surlej</placeName>
    </item>
    <item target="1930-08-30">
       <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb54">Wieden</placeName>
       <placeName ref="pmb59010">Königswarth</placeName>
       <placeName ref="pmb92257">Glatzen</placeName>
       <placeName ref="pmb91655">Sangerberg</placeName>
    </item>
-   <item target="1930-08-31">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-08-31"><placeName ref="pmb91211">Marienbad</placeName>
    </item>
-   <item target="1930-09-01">
-      <placeName ref="pmb91600">Ring</placeName>
+   <item target="1930-09-01"><placeName ref="pmb91211">Marienbad</placeName>
    </item>
    <item target="1930-09-02">
       <placeName ref="pmb91211">Marienbad</placeName>
    </item>
    <item target="1930-09-03">
       <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb92097">Wolfstein</placeName>
    </item>
    <item target="1930-09-04">
       <placeName ref="pmb91211">Marienbad</placeName>
       <placeName ref="pmb842">Karlsbad</placeName>
-      <placeName ref="pmb90946">Jaidhof</placeName>
    </item>
    <item target="1930-09-05">
       <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb90946">J.</placeName>
    </item>
    <item target="1930-09-06">
       <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-09-07">
       <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-09-08">
       <placeName ref="pmb91211">Marienbad</placeName>
-      <placeName ref="pmb992">Vöslau</placeName>
    </item>
    <item target="1930-09-09">
       <placeName ref="pmb91211">Marienbad</placeName>
@@ -1763,93 +667,70 @@ Surlej</placeName>
    </item>
    <item target="1930-09-10">
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
       <placeName ref="pmb103">Volksgarten</placeName>
    </item>
-   <item target="1930-09-11">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-09-11"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb169">Pötzleinsdorf</placeName>
    </item>
-   <item target="1930-09-12">
-      <placeName ref="pmb415">Aussee</placeName>
+   <item target="1930-09-12"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb62">Meidling</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
    </item>
    <item target="1930-09-13">
-      <placeName ref="pmb91887">Thalheim</placeName>
+      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-09-14">
-      <placeName ref="pmb168">Berlin</placeName>
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92374">Liebhartsthal</placeName>
-      <placeName ref="pmb92125">Zillerthal</placeName>
-      <placeName ref="pmb91455">Pertisau</placeName>
    </item>
    <item target="1930-09-15">
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb151">Dtschl.</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
-   <item target="1930-09-16">
+   <item target="1930-09-16"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91530">Prater</placeName>
    </item>
    <item target="1930-09-17"/>
    <item target="1930-09-18">
-      <placeName ref="pmb44053">New York</placeName>
-      <placeName ref="pmb45258">München</placeName>
       <placeName ref="pmb50">Wien</placeName>
-      <placeName ref="pmb91649">Salzburg</placeName>
       <placeName ref="pmb54">Wieden</placeName>
       <placeName ref="pmb91530">Prater</placeName>
    </item>
    <item target="1930-09-19"/>
    <item target="1930-09-20"/>
    <item target="1930-09-21">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-09-22"/>
-   <item target="1930-09-23">
+   <item target="1930-09-23"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92458">Hauptallee</placeName>
       <placeName ref="pmb92490">Ronacher</placeName>
    </item>
    <item target="1930-09-24">
-      <placeName ref="pmb484">Zürich</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-09-25"/>
-   <item target="1930-09-26">
+   <item target="1930-09-26"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92518">Schönbrunn</placeName>
    </item>
    <item target="1930-09-27">
-      <placeName ref="pmb182">Paris</placeName>
    </item>
-   <item target="1930-09-28">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-09-28"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb90705">Gersthof</placeName>
    </item>
    <item target="1930-09-29">
-      <placeName ref="pmb484">Zürich</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-09-30"/>
-   <item target="1930-10-01">
+   <item target="1930-10-01"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92202">Volksth.</placeName>
       <placeName ref="pmb58">Josefstadt</placeName>
-      <placeName ref="pmb91399">Olympia</placeName>
    </item>
    <item target="1930-10-02">
-      <placeName ref="pmb92361">Lassnitz</placeName>
    </item>
    <item target="1930-10-03"/>
-   <item target="1930-10-04">
-      <placeName ref="pmb45258">München</placeName>
+   <item target="1930-10-04"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92518">Schönbrunn</placeName>
    </item>
    <item target="1930-10-05">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
-   <item target="1930-10-06">
+   <item target="1930-10-06"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb91530">Prater</placeName>
-      <placeName ref="pmb92236">Ferrogasse</placeName>
    </item>
    <item target="1930-10-07"/>
    <item target="1930-10-08">
@@ -1857,138 +738,93 @@ Surlej</placeName>
       <placeName ref="pmb92202">Volksth.</placeName>
    </item>
    <item target="1930-10-09">
-      <placeName ref="pmb90324">Belluno</placeName>
    </item>
    <item target="1930-10-10">
-      <placeName ref="pmb433">Petersburg</placeName>
    </item>
    <item target="1930-10-11"/>
-   <item target="1930-10-12">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-10-12"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb817">Gersthofer Straße</placeName>
    </item>
-   <item target="1930-10-13">
+   <item target="1930-10-13"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb113">Türkenschanzpark</placeName>
    </item>
    <item target="1930-10-14"/>
    <item target="1930-10-15">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb151">Deutschland</placeName>
-      <placeName ref="pmb44053">New York</placeName>
    </item>
    <item target="1930-10-16"/>
    <item target="1930-10-17">
-      <placeName ref="pmb318">Japan</placeName>
-      <placeName ref="pmb91701">Schwaben</placeName>
    </item>
    <item target="1930-10-18"/>
-   <item target="1930-10-19">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-10-19"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92458">Hauptallee</placeName>
       <placeName ref="pmb91530">Prater</placeName>
    </item>
    <item target="1930-10-20"/>
    <item target="1930-10-21"/>
-   <item target="1930-10-22">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb47927">Washington</placeName>
-      <placeName ref="pmb44335">Schweden</placeName>
+   <item target="1930-10-22"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meissl</placeName>
    </item>
-   <item target="1930-10-23">
+   <item target="1930-10-23"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92539">Spöttelg.</placeName>
    </item>
    <item target="1930-10-24">
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb91735">Semmering</placeName>
-      <placeName ref="pmb44053">N. Y.</placeName>
    </item>
    <item target="1930-10-25"/>
    <item target="1930-10-26">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb182">Paris</placeName>
-      <placeName ref="pmb48759">Erfurt</placeName>
-      <placeName ref="pmb881">Mannheim</placeName>
-      <placeName ref="pmb146">Frankfurt</placeName>
-      <placeName ref="pmb44053">New York</placeName>
    </item>
    <item target="1930-10-27"/>
    <item target="1930-10-28">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-10-29"/>
-   <item target="1930-10-30">
-      <placeName ref="pmb43406">Amerika</placeName>
-      <placeName ref="pmb44053">N. Y.</placeName>
-      <placeName ref="pmb91649">Salzburg</placeName>
-      <placeName ref="pmb318">Japan</placeName>
+   <item target="1930-10-30"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92168">Blaasstraße</placeName>
    </item>
-   <item target="1930-10-31">
-      <placeName ref="pmb43406">Amerika</placeName>
-      <placeName ref="pmb34438">Rußland</placeName>
+   <item target="1930-10-31"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb14">Burgtheater</placeName>
    </item>
-   <item target="1930-11-01">
+   <item target="1930-11-01"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92603">Wiednerth.</placeName>
    </item>
    <item target="1930-11-02">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-11-03">
-      <placeName ref="pmb49155">Helena</placeName>
    </item>
    <item target="1930-11-04"/>
    <item target="1930-11-05"/>
    <item target="1930-11-06"/>
    <item target="1930-11-07">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-11-08">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-11-09">
-      <placeName ref="pmb1244">Ruhrgebiet</placeName>
    </item>
    <item target="1930-11-10">
-      <placeName ref="pmb43406">Amerika</placeName>
-      <placeName ref="pmb38174">Hollywood</placeName>
    </item>
    <item target="1930-11-11">
       <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb92566">Thiergartenstr.</placeName>
-      <placeName ref="pmb46958">Stolp</placeName>
       <placeName ref="pmb334">Schillertheater</placeName>
    </item>
    <item target="1930-11-12">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-11-13">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb43406">Amerika</placeName>
    </item>
    <item target="1930-11-14">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92302">Innsbruckerstraße</placeName>
-      <placeName ref="pmb43406">Amerika</placeName>
    </item>
    <item target="1930-11-15">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb90508">Dahlem</placeName>
-      <placeName ref="pmb40260">Bozen</placeName>
-      <placeName ref="pmb43520">Meran</placeName>
    </item>
    <item target="1930-11-16">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb334">Schillertheater</placeName>
    </item>
    <item target="1930-11-17">
       <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-11-18">
       <placeName ref="pmb168">Berlin</placeName>
@@ -1996,7 +832,6 @@ Surlej</placeName>
    <item target="1930-11-19">
       <placeName ref="pmb168">Berlin</placeName>
       <placeName ref="pmb92362">Laubenheimerstr.</placeName>
-      <placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-11-20">
       <placeName ref="pmb168">Berlin</placeName>
@@ -2006,101 +841,76 @@ Surlej</placeName>
    </item>
    <item target="1930-11-22"/>
    <item target="1930-11-23">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb91887">Thalheim</placeName>
-      <placeName ref="pmb92543">St. Mars</placeName>
    </item>
    <item target="1930-11-24"/>
    <item target="1930-11-25"/>
    <item target="1930-11-26"/>
    <item target="1930-11-27"/>
-   <item target="1930-11-28">
-      <placeName ref="pmb91083">Küb</placeName>
+   <item target="1930-11-28"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92109">Wr. Neustadt</placeName>
       <placeName ref="pmb662">Baden</placeName>
       <placeName ref="pmb90727">Gloggnitz</placeName>
    </item>
    <item target="1930-11-29"/>
-   <item target="1930-11-30">
-      <placeName ref="pmb168">Berlin</placeName>
-      <placeName ref="pmb45181">Jeutendorf</placeName>
+   <item target="1930-11-30"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb90546">Dornbach</placeName>
       <placeName ref="pmb176">Neuwaldegger Park</placeName>
-      <placeName ref="pmb90753">Graben</placeName>
    </item>
    <item target="1930-12-01">
-      <placeName ref="pmb45181">Jeutendorf</placeName>
    </item>
-   <item target="1930-12-02">
+   <item target="1930-12-02"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92506">Sacher</placeName>
    </item>
    <item target="1930-12-03">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-12-04">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-12-05"/>
    <item target="1930-12-06"/>
-   <item target="1930-12-07">
-      <placeName ref="pmb168">Berlin</placeName>
+   <item target="1930-12-07"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92236">Ferrogasse</placeName>
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-12-08">
-      <placeName ref="pmb41075">Mährisch-Ostrau</placeName>
    </item>
-   <item target="1930-12-09">
+   <item target="1930-12-09"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb14">Burgtheater</placeName>
-      <placeName ref="pmb43471">Budapest</placeName>
-      <placeName ref="pmb43406">Amerika</placeName>
    </item>
    <item target="1930-12-10"/>
    <item target="1930-12-11"/>
    <item target="1930-12-12"/>
    <item target="1930-12-13">
-      <placeName ref="pmb58810">Haag</placeName>
    </item>
    <item target="1930-12-14">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
-   <item target="1930-12-15">
-      <placeName ref="pmb92113">Würting</placeName>
+   <item target="1930-12-15"><placeName ref="pmb50">Wien</placeName>
    </item>
    <item target="1930-12-16"/>
    <item target="1930-12-17"/>
    <item target="1930-12-18"/>
    <item target="1930-12-19">
-      <placeName ref="pmb182">Paris</placeName>
    </item>
    <item target="1930-12-20"/>
-   <item target="1930-12-21">
+   <item target="1930-12-21"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb90753">Graben</placeName>
    </item>
    <item target="1930-12-22"/>
    <item target="1930-12-23">
-      <placeName ref="pmb53786">Laxenburg</placeName>
    </item>
    <item target="1930-12-24">
-      <placeName ref="pmb44053">N. Y.</placeName>
    </item>
    <item target="1930-12-25">
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
-   <item target="1930-12-26">
-      <placeName ref="pmb91786">Spielberg</placeName>
-      <placeName ref="pmb92113">Würting</placeName>
+   <item target="1930-12-26"><placeName ref="pmb50">Wien</placeName>
    </item>
-   <item target="1930-12-27">
+   <item target="1930-12-27"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb92152">Auerspergstr.</placeName>
       <placeName ref="pmb92202">Volksth.</placeName>
-      <placeName ref="pmb168">Berlin</placeName>
    </item>
    <item target="1930-12-28">
-      <placeName ref="pmb168">Berlin</placeName>
+      <placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb96">Meißl</placeName>
    </item>
-   <item target="1930-12-29">
+   <item target="1930-12-29"><placeName ref="pmb50">Wien</placeName>
       <placeName ref="pmb58">Josefstadt</placeName>
    </item>
    <item target="1930-12-30"/>
