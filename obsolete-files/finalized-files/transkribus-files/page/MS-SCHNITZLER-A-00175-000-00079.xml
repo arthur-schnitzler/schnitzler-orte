@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:37.140+02:00</Created>
+        <LastChange>2022-07-18T11:13:28.499+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195908" pageNr="40" tsid="91054855" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=OFHHLSXBJDZBHTLAYTSAJXPK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZDGNEDCNWREWBSCBSHKAHDDX" imageId="35435142"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00079.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1658309171806" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="395,415 395,2469 1934,2469 1934,415"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="390,670 1546,643 1545,589 1448,561 781,602 389,567"/>
+                <Baseline points="398,638 454,638 511,638 568,638 625,638 682,638 739,636 796,636 853,636 910,635 967,635 1023,635 1080,633 1137,633 1194,633 1251,632 1308,632 1365,632 1422,632 1479,632 1536,632"/>
+                <Word id="r1l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="391,598 391,658 548,658 548,598"/>
+                    <TextEquiv>
+                        <Unicode>28.8.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="560,593 560,653 1548,653 1548,593"/>
+                    <TextEquiv>
+                        <Unicode>Wolkenstein-Sellajoch-Pordoi.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>28.8. Wolkenstein-Sellajoch-Pordoi.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="390,754 1346,751 1346,682 481,696 389,670"/>
+                <Baseline points="399,737 445,737 492,737 539,737 586,737 633,737 680,737 727,737 774,737 821,735 868,735 914,735 961,734 1008,734 1055,734 1102,734 1149,733 1196,732 1243,732 1290,732 1337,732"/>
+                <Word id="r1l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="396,695 396,755 1343,755 1343,695"/>
+                    <TextEquiv>
+                        <Unicode>29.8.Pordoi-Canace-Karersee.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>29.8.Pordoi-Canace-Karersee.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="393,857 450,851 479,868 506,851 626,845 647,859 696,845 738,862 774,843 868,856 892,843 892,820 784,786 715,799 593,771 504,798 483,784 393,794"/>
+                <Baseline points="402,837 427,839 452,839 477,840 503,840 528,840 553,840 578,840 604,840 629,840 654,840 679,840 705,839 730,839 755,839 780,839 806,839 831,839 856,839 882,839"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="395,800 395,860 881,860 881,800"/>
+                    <TextEquiv>
+                        <Unicode>30.8.Karersee.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>30.8.Karersee.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="385,944 1311,954 1310,895 1175,877 385,903"/>
+                <Baseline points="395,939 440,939 485,939 531,939 576,939 621,939 667,938 712,938 757,938 803,936 848,936 893,936 939,935 984,935 1029,935 1075,935 1120,935 1165,935 1211,935 1256,935 1302,935"/>
+                <Word id="r1l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="381,899 381,959 473,959 473,899"/>
+                    <TextEquiv>
+                        <Unicode>31.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="485,896 485,956 1301,956 1301,896"/>
+                    <TextEquiv>
+                        <Unicode>8.Karersee-Bozen-Neran.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>31. 8.Karersee-Bozen-Meran.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="407,1054 514,1057 565,1033 603,1056 693,1063 735,1045 838,1046 865,1063 914,1048 914,1011 828,989 569,988 534,1007 407,978"/>
+                <Baseline points="417,1040 442,1040 468,1040 494,1040 519,1040 545,1040 571,1040 596,1039 622,1038 648,1038 673,1038 699,1038 725,1037 750,1037 776,1037 802,1037 827,1037 853,1037 879,1037 905,1037"/>
+                <Word id="r1l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="409,998 409,1058 904,1058 904,998"/>
+                    <TextEquiv>
+                        <Unicode>1.9.-9.9.Meran.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>1.9.-9.9.Meran.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="404,1169 1518,1158 1533,1074 403,1091"/>
+                <Baseline points="413,1140 468,1140 524,1139 579,1139 635,1139 690,1139 746,1137 801,1137 857,1137 912,1136 968,1136 1024,1136 1079,1136 1135,1134 1190,1134 1246,1134 1301,1134 1357,1134 1412,1134 1468,1134 1524,1134"/>
+                <Word id="r1l6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="399,1099 399,1159 551,1159 551,1099"/>
+                    <TextEquiv>
+                        <Unicode>(2.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w2" custom="readingOrder {index:1;}">
+                    <Coords points="564,1098 564,1158 861,1158 861,1098"/>
+                    <TextEquiv>
+                        <Unicode>Naifthal.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w3" custom="readingOrder {index:2;}">
+                    <Coords points="874,1096 874,1156 1198,1156 1198,1096"/>
+                    <TextEquiv>
+                        <Unicode>8.9.St.Wal</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1232,1094 1232,1154 1418,1154 1418,1094"/>
+                    <TextEquiv>
+                        <Unicode>lentin</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l6_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1466,1094 1466,1154 1528,1154 1528,1094"/>
+                    <TextEquiv>
+                        <Unicode>).</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>2.9. Naifthal. 8.9.St.Wallentin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="408,1267 503,1273 560,1246 678,1244 745,1246 802,1276 869,1242 951,1252 951,1168 819,1200 777,1181 652,1204 537,1177 484,1198 408,1185"/>
+                <Baseline points="417,1238 443,1238 469,1238 495,1238 522,1238 548,1238 574,1238 600,1238 627,1238 653,1238 679,1238 705,1238 732,1238 758,1238 784,1238 810,1238 837,1238 863,1238 889,1238 915,1238 942,1238"/>
+                <Word id="r1l7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="403,1198 403,1258 942,1258 942,1198"/>
+                    <TextEquiv>
+                        <Unicode>9.9.Meran-Bozen.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>9.9.Meran-Bozen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="401,1351 577,1350 600,1364 680,1345 853,1349 852,1307 791,1283 715,1301 606,1283 568,1307 534,1288 506,1306 401,1284"/>
+                <Baseline points="410,1338 435,1339 460,1340 486,1340 511,1340 537,1340 562,1338 588,1338 613,1338 639,1337 664,1337 690,1335 715,1335 741,1335 766,1335 792,1335 817,1335 843,1337"/>
+                <Word id="r1l8_w1" custom="readingOrder {index:0;}">
+                    <Coords points="404,1300 404,1360 561,1360 561,1300"/>
+                    <TextEquiv>
+                        <Unicode>10.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l8_w2" custom="readingOrder {index:1;}">
+                    <Coords points="609,1295 609,1355 848,1355 848,1295"/>
+                    <TextEquiv>
+                        <Unicode>Mendel.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>10.9. Mendel.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:8;}">
+                <Coords points="404,1461 1389,1451 1407,1365 403,1385"/>
+                <Baseline points="413,1437 462,1439 511,1439 560,1439 610,1439 659,1439 708,1439 757,1437 807,1436 856,1435 905,1434 954,1433 1004,1431 1053,1431 1102,1430 1151,1430 1201,1430 1250,1431 1299,1431 1348,1433 1398,1436"/>
+                <Word id="r1l9_w1" custom="readingOrder {index:0;}">
+                    <Coords points="405,1399 405,1459 558,1459 558,1399"/>
+                    <TextEquiv>
+                        <Unicode>11.9.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l9_w2" custom="readingOrder {index:1;}">
+                    <Coords points="570,1391 570,1451 1418,1451 1418,1391"/>
+                    <TextEquiv>
+                        <Unicode>Bozen-Inndbruck-Salzburg.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>11.9. Bozen-Innsbruck-Salzburg.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:9;}">
+                <Coords points="398,1559 834,1562 872,1533 1089,1557 1089,1509 945,1475 890,1498 397,1497"/>
+                <Baseline points="407,1541 440,1541 474,1541 507,1541 541,1541 575,1541 608,1540 642,1539 675,1539 709,1538 743,1538 776,1537 810,1536 843,1536 877,1536 911,1535 944,1535 978,1535 1011,1535 1045,1535 1079,1536"/>
+                <Word id="r1l10_w1" custom="readingOrder {index:0;}">
+                    <Coords points="400,1499 400,1559 834,1559 834,1499"/>
+                    <TextEquiv>
+                        <Unicode>12.9,Salzbürg</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l10_w2" custom="readingOrder {index:1;}">
+                    <Coords points="888,1495 888,1555 1084,1555 1084,1495"/>
+                    <TextEquiv>
+                        <Unicode>-Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>12.9.Salzburg -Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:10;}">
+                <Coords points="398,1769 515,1744 678,1775 734,1743 1001,1755 1039,1745 1038,1673 945,1687 869,1664 734,1700 627,1674 555,1702 396,1672"/>
+                <Baseline points="407,1739 438,1739 469,1739 500,1740 531,1740 562,1739 593,1739 624,1739 655,1737 686,1737 718,1736 749,1736 780,1734 811,1734 842,1734 873,1733 904,1733 935,1733 966,1734 997,1734 1029,1736"/>
+                <Word id="r1l11_w1" custom="readingOrder {index:0;}">
+                    <Coords points="399,1696 399,1756 1034,1756 1034,1696"/>
+                    <TextEquiv>
+                        <Unicode>2.10.Wien-Puchberg</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>2.10.Wien-Puchberg</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:11;}">
+                <Coords points="402,1859 1918,1840 1943,1799 1828,1753 1663,1795 401,1782"/>
+                <Baseline points="411,1839 487,1839 563,1838 639,1838 715,1837 791,1836 867,1835 944,1835 1020,1833 1096,1833 1172,1832 1248,1831 1324,1830 1400,1829 1477,1828 1553,1827 1629,1826 1705,1826 1781,1824 1857,1824 1934,1823"/>
+                <Word id="r1l12_w1" custom="readingOrder {index:0;}">
+                    <Coords points="403,1792 403,1852 1940,1852 1940,1792"/>
+                    <TextEquiv>
+                        <Unicode>3.10.Puchberg-Baumgartnerhaus-Payerbach-Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>3.10.Puchberg-Baumgartnerhaus-Payerbach-Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:12;}">
+                <Coords points="405,2053 516,2047 558,2075 592,2063 676,2089 775,2045 885,2056 937,2084 969,2068 969,2008 881,1985 618,1995 582,1970 502,2003 470,1984 405,1992"/>
+                <Baseline points="414,2040 441,2041 468,2042 495,2042 523,2042 550,2042 577,2042 605,2042 632,2042 659,2041 687,2040 714,2040 741,2040 768,2040 796,2040 823,2039 850,2039 878,2039 905,2039 932,2039 960,2040"/>
+                <Word id="r1l14_w1" custom="readingOrder {index:0;}">
+                    <Coords points="409,2000 409,2060 964,2060 964,2000"/>
+                    <TextEquiv>
+                        <Unicode>12.13.10.Rodaun.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>12.13.10.Rodaun.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l15" custom="readingOrder {index:13;}">
+                <Coords points="401,2267 1144,2252 1143,2201 1038,2177 905,2205 825,2179 743,2201 400,2193"/>
+                <Baseline points="411,2243 447,2244 483,2244 519,2244 555,2244 591,2244 627,2243 664,2243 700,2241 736,2240 772,2240 808,2238 844,2238 880,2237 917,2237 953,2237 989,2237 1025,2238 1061,2239 1097,2241 1134,2243"/>
+                <Word id="r1l15_w1" custom="readingOrder {index:0;}">
+                    <Coords points="402,2200 402,2260 1140,2260 1140,2200"/>
+                    <TextEquiv>
+                        <Unicode>26.10.Wien-Semmering.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>26.10.Wien-Semmering.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l16" custom="readingOrder {index:14;}">
+                <Coords points="401,2360 542,2377 607,2354 788,2364 824,2341 910,2360 975,2344 974,2289 933,2308 850,2280 740,2306 481,2286 401,2301"/>
+                <Baseline points="411,2342 438,2342 466,2342 494,2343 521,2343 549,2343 577,2342 604,2342 632,2342 660,2342 688,2340 715,2340 743,2340 771,2340 798,2340 826,2340 854,2340 881,2340 909,2340 937,2342 965,2343"/>
+                <Word id="r1l16_w1" custom="readingOrder {index:0;}">
+                    <Coords points="404,2300 404,2360 970,2360 970,2300"/>
+                    <TextEquiv>
+                        <Unicode>27.10.Semmering.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>27.10.Semmering.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l17" custom="readingOrder {index:15;}">
+                <Coords points="400,2466 555,2479 779,2446 909,2464 941,2440 975,2463 1132,2461 1116,2389 946,2408 835,2384 706,2407 439,2389 400,2418"/>
+                <Baseline points="410,2444 445,2444 481,2445 516,2445 552,2445 588,2445 623,2445 659,2444 694,2444 730,2442 766,2442 801,2441 837,2439 872,2439 908,2438 944,2438 979,2438 1015,2438 1050,2438 1086,2439 1122,2441"/>
+                <Word id="r1l17_w1" custom="readingOrder {index:0;}">
+                    <Coords points="402,2402 402,2462 1122,2462 1122,2402"/>
+                    <TextEquiv>
+                        <Unicode>28.10.Semmering-Wien.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>28.10.Semmering-Wien.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>28.8. Wolkenstein-Sellajoch-Pordoi.&#13;
+29.8.Pordoi-Canace-Karersee.&#13;
+30.8.Karersee.&#13;
+31. 8.Karersee-Bozen-Meran.&#13;
+1.9.-9.9.Meran.&#13;
+2.9. Naifthal. 8.9.St.Wallentin&#13;
+9.9.Meran-Bozen.&#13;
+10.9. Mendel.&#13;
+11.9. Bozen-Innsbruck-Salzburg.&#13;
+12.9.Salzburg -Wien.&#13;
+2.10.Wien-Puchberg&#13;
+3.10.Puchberg-Baumgartnerhaus-Payerbach-Wien.&#13;
+12.13.10.Rodaun.&#13;
+26.10.Wien-Semmering.&#13;
+27.10.Semmering.&#13;
+28.10.Semmering-Wien.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

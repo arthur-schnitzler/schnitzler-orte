@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:fn="http://www.w3.org/2005/xpath-functions"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <item target="1931-01-01">
+   </item>
+   <item target="1931-01-02">
+   </item>
+   <item target="1931-01-03">
+   </item>
+   <item target="1931-01-04"/>
+   <item target="1931-01-05">
+   </item>
+   <item target="1931-01-06"/>
+   <item target="1931-01-07"/>
+   <item target="1931-01-08">
+      <placeName ref="pmb50"></placeName>
+      <placeName ref="pmb92490">Ronacher</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-01-09">
+   </item>
+   <item target="1931-01-10"/>
+   <item target="1931-01-11">
+      <placeName ref="pmb50"></placeName>
+      <placeName ref="pmb92236">Ferrogasse</placeName>
+   </item>
+   <item target="1931-01-12">
+   </item>
+   <item target="1931-01-13">
+   </item>
+   <item target="1931-01-14">
+   </item>
+   <item target="1931-01-15"/>
+   <item target="1931-01-16"/>
+   <item target="1931-01-17">
+   </item>
+   <item target="1931-01-18">
+      <placeName ref="pmb968">Mödling</placeName>
+      <placeName ref="pmb92471">Radetzky</placeName>
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-01-19">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-01-20">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-01-21">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-01-22">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-01-23">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-01-24"/>
+   <item target="1931-01-25"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-01-26"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-01-27">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-01-28">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+      <placeName ref="pmb58">Josefstadt</placeName>
+   </item>
+   <item target="1931-01-29"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName></item>
+   <item target="1931-01-30">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-01-31"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-02-01">
+   </item>
+   <item target="1931-02-02">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-02-03">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-02-04">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-02-05">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-02-06">
+      <placeName ref="pmb91735">Semmering</placeName>
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-02-07">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-02-08">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meissl</placeName>
+   </item>
+   <item target="1931-02-09">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-02-10">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-02-11">
+   </item>
+   <item target="1931-02-12"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-02-13">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-02-14">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb14">Burgtheater</placeName>
+   </item>
+   <item target="1931-02-15">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb113">Türkenschanzpark</placeName>
+   </item>
+   <item target="1931-02-16"/>
+   <item target="1931-02-17">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-02-18">
+   </item>
+   <item target="1931-02-19">
+   </item>
+   <item target="1931-02-20">
+   </item>
+   <item target="1931-02-21"/>
+   <item target="1931-02-22"/>
+   <item target="1931-02-23"/>
+   <item target="1931-02-24">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-02-25"/>
+   <item target="1931-02-26"/>
+   <item target="1931-02-27"/>
+   <item target="1931-02-28">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-03-01">
+   </item>
+   <item target="1931-03-02"/>
+   <item target="1931-03-03">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+      <placeName ref="pmb90655">Freudenau</placeName>
+      <placeName ref="pmb96">Meissl</placeName>
+   </item>
+   <item target="1931-03-04"/>
+   <item target="1931-03-05">
+   </item>
+   <item target="1931-03-06"/>
+   <item target="1931-03-07">
+   </item>
+   <item target="1931-03-08">
+   </item>
+   <item target="1931-03-09">
+   </item>
+   <item target="1931-03-10"/>
+   <item target="1931-03-11"/>
+   <item target="1931-03-12"/>
+   <item target="1931-03-13"/>
+   <item target="1931-03-14">
+   </item>
+   <item target="1931-03-15">
+   </item>
+   <item target="1931-03-16">
+   </item>
+   <item target="1931-03-17"/>
+   <item target="1931-03-18">
+   </item>
+   <item target="1931-03-19">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb176">Dornbacher Park</placeName>
+   </item>
+   <item target="1931-03-20">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-03-21"/>
+   <item target="1931-03-22">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92273">Hartäckerpark</placeName>
+   </item>
+   <item target="1931-03-23">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-03-24">
+   </item>
+   <item target="1931-03-25">
+   </item>
+   <item target="1931-03-26">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-03-27">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb56">Mariahilf</placeName>
+   </item>
+   <item target="1931-03-28"/>
+   <item target="1931-03-29">
+   </item>
+   <item target="1931-03-30"/>
+   <item target="1931-03-31"/>
+   <item target="1931-04-01">
+   </item>
+   <item target="1931-04-02"/>
+   <item target="1931-04-03">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-04-04"/>
+   <item target="1931-04-05"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91887">Thalheim</placeName>
+      <placeName ref="pmb92414">Murstettnerkirche</placeName>
+   </item>
+   <item target="1931-04-06">
+   </item>
+   <item target="1931-04-07"/>
+   <item target="1931-04-08"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-04-09"/>
+   <item target="1931-04-10">
+   </item>
+   <item target="1931-04-11"/>
+   <item target="1931-04-12"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb44531">Mozartgasse</placeName>
+      <placeName ref="pmb63">Hietzing</placeName>
+   </item>
+   <item target="1931-04-13"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92518">Schönbrunn</placeName>
+   </item>
+   <item target="1931-04-14">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-04-15"/>
+   <item target="1931-04-16">
+   </item>
+   <item target="1931-04-17">
+   </item>
+   <item target="1931-04-19">
+   </item>
+   <item target="1931-04-20"/>
+   <item target="1931-04-21"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb58">Josefstadt</placeName>
+   </item>
+   <item target="1931-04-22">
+   </item>
+   <item target="1931-04-23"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92402">Michelbeuren-Kino</placeName>
+   </item>
+   <item target="1931-04-24"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb56">Mariahilf</placeName>
+      <placeName ref="pmb62">Meidling</placeName>
+      <placeName ref="pmb96">Meißl u. Schadn</placeName>
+   </item>
+   <item target="1931-04-25"/>
+   <item target="1931-04-26">
+   </item>
+   <item target="1931-04-27"><placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-04-28"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92518">Schönbrunn</placeName>
+      <placeName ref="pmb92490">Ronacher</placeName>
+   </item>
+   <item target="1931-04-29">
+   </item>
+   <item target="1931-04-30">
+   </item>
+   <item target="1931-05-01">
+   </item>
+   <item target="1931-05-02"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb169">Pötzleinsdorf</placeName>
+   </item>
+   <item target="1931-05-03">
+      <placeName ref="pmb44394">Weidlingbach</placeName>
+      <placeName ref="pmb49210">Steinriegl</placeName>
+      <placeName ref="pmb92533">Sofienalpe</placeName>
+      <placeName ref="pmb170">Neuwaldegg</placeName>
+      <placeName ref="pmb91641">Salmannsdorf</placeName>
+   </item>
+   <item target="1931-05-04">
+   </item>
+   <item target="1931-05-05"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92202">Volksth.</placeName>
+   </item>
+   <item target="1931-05-06">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-05-07"/>
+   <item target="1931-05-08"/>
+   <item target="1931-05-09"/>
+   <item target="1931-05-10"/>
+   <item target="1931-05-11">
+   </item>
+   <item target="1931-05-12">
+   </item>
+   <item target="1931-05-13">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-05-14">
+      <placeName ref="pmb91735">Semmering</placeName>
+      <placeName ref="pmb91482">Pinkenkogel</placeName>
+   </item>
+   <item target="1931-05-15">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-05-16">
+      <placeName ref="pmb91735">Semmering</placeName>
+      <placeName ref="pmb90913">Hütteldorf</placeName>
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb170">Neuwaldegg</placeName>
+      <placeName ref="pmb91641">Salmannsdorf</placeName>
+   </item>
+   <item target="1931-05-17"/>
+   <item target="1931-05-18"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb58">Josefst.</placeName>
+   </item>
+   <item target="1931-05-19">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92269">Haizingerg.</placeName>
+      <placeName ref="pmb92202">Volksth.</placeName>
+   </item>
+   <item target="1931-05-20">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92518">Schönbrunn</placeName>
+   </item>
+   <item target="1931-05-21">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meißl</placeName>
+   </item>
+   <item target="1931-05-22">
+   </item>
+   <item target="1931-05-23">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-05-24">
+      <placeName ref="pmb64219">Sievring</placeName>
+      <placeName ref="pmb49210">Steinriegl</placeName>
+      <placeName ref="pmb34354">Königstetten</placeName>
+      <placeName ref="pmb90881">Hintersdorf</placeName>
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-05-25">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb575">Stadtpark</placeName>
+   </item>
+   <item target="1931-05-26">
+   </item>
+   <item target="1931-05-27">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-05-28"/>
+   <item target="1931-05-29">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb58">Josefstadt</placeName>
+   </item>
+   <item target="1931-05-30"/>
+   <item target="1931-05-31">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91552">Purkersdorf</placeName>
+      <placeName ref="pmb91091">Laab</placeName>
+      <placeName ref="pmb90979">Kalksburg</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-06-01"/>
+   <item target="1931-06-02"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92161">Beethovengasse</placeName>
+   </item>
+   <item target="1931-06-03">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-06-04">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb53786">Laxenburg</placeName>
+      <placeName ref="pmb968">Mödling</placeName>
+      <placeName ref="pmb92471">Radetzky</placeName>
+      <placeName ref="pmb91217">Mauer</placeName>
+   </item>
+   <item target="1931-06-05"/>
+   <item target="1931-06-06"/>
+   <item target="1931-06-07">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb90705">Gersthof</placeName>
+   </item>
+   <item target="1931-06-08">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-06-09">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb113">Türkenschanzpark</placeName>
+   </item>
+   <item target="1931-06-10"/>
+   <item target="1931-06-11">
+   </item>
+   <item target="1931-06-12"/>
+   <item target="1931-06-13">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92146">Anton Frankgasse</placeName>
+      <placeName ref="pmb92358">Langegasse</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-06-14">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb169">Pötzleinsdorf</placeName>
+      <placeName ref="pmb91669">Schafbergalpe</placeName>
+   </item>
+   <item target="1931-06-15">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92518">Schönbrunn</placeName>
+      <placeName ref="pmb92292">Hohe Warte</placeName>
+   </item>
+   <item target="1931-06-16"/>
+   <item target="1931-06-17"/>
+   <item target="1931-06-18">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92138">Alleeg.</placeName>
+   </item>
+   <item target="1931-06-19"/>
+   <item target="1931-06-20">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92202">Volksth.</placeName>
+   </item>
+   <item target="1931-06-21">
+   </item>
+   <item target="1931-06-22"/>
+   <item target="1931-06-23">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb169">Pötzleinsdorf</placeName>
+   </item>
+   <item target="1931-06-24"/>
+   <item target="1931-06-25">
+      <placeName ref="pmb14">Burgtheater</placeName>
+      <placeName ref="pmb58">Josefstadt</placeName>
+   </item>
+   <item target="1931-06-26">
+   </item>
+   <item target="1931-06-27">
+   </item>
+   <item target="1931-06-28">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92533">Sofienalpe</placeName>
+      <placeName ref="pmb942">Mauerbach</placeName>
+      <placeName ref="pmb92202">Volksth.</placeName>
+   </item>
+   <item target="1931-06-29">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb170">Neuwaldegg</placeName>
+      <placeName ref="pmb92202">Volksth.</placeName>
+   </item>
+   <item target="1931-06-30">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-07-01">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91217">Mauer</placeName>
+      <placeName ref="pmb968">Mödling</placeName>
+      <placeName ref="pmb44413">Brühl</placeName>
+   </item>
+   <item target="1931-07-02"/>
+   <item target="1931-07-03">
+   </item>
+   <item target="1931-07-04">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92316">Kaasgraben</placeName>
+   </item>
+   <item target="1931-07-05">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb90687">Galitzinberg</placeName>
+   </item>
+   <item target="1931-07-06">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+      <placeName ref="pmb685">Wurstlprater</placeName>
+   </item>
+   <item target="1931-07-07">
+   </item>
+   <item target="1931-07-08"/>
+   <item target="1931-07-09"/>
+   <item target="1931-07-10">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb62">Meidling</placeName>
+   </item>
+   <item target="1931-07-11">
+   </item>
+   <item target="1931-07-12">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-07-13">
+   </item>
+   <item target="1931-07-14">
+   </item>
+   <item target="1931-07-15"/>
+   <item target="1931-07-16">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-17">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-18">
+      <placeName ref="pmb91735">Semmering</placeName>
+      <placeName ref="pmb92375">Liechtensteinweg</placeName>
+   </item>
+   <item target="1931-07-19">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-07-20">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-21">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-22">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-23">
+      <placeName ref="pmb91735">Semmering</placeName>
+      <placeName ref="pmb91838">Steinhaus</placeName>
+      <placeName ref="pmb90667">Fröschnitzthal</placeName>
+      <placeName ref="pmb91464">Pfaffensattel</placeName>
+      <placeName ref="pmb91574">Reichenau</placeName>
+   </item>
+   <item target="1931-07-24">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-25">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-26">
+      <placeName ref="pmb91735">Semmering</placeName>
+      <placeName ref="pmb91838">Steinhaus</placeName>
+   </item>
+   <item target="1931-07-27">
+      <placeName ref="pmb91735">Semmering</placeName>
+   </item>
+   <item target="1931-07-28">
+      <placeName ref="pmb91735">Semmering</placeName>
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-07-29">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-07-30">
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-07-31">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92288">Hochschulstr.</placeName>
+      <placeName ref="pmb92574">Ungargasse</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-08-01">
+   </item>
+   <item target="1931-08-02">
+   </item>
+   <item target="1931-08-03">
+   </item>
+   <item target="1931-08-04">
+   </item>
+   <item target="1931-08-05"/>
+   <item target="1931-08-06">
+      <placeName ref="pmb90243">Amstetten</placeName>
+      <placeName ref="pmb91153">Linz</placeName>
+   </item>
+   <item target="1931-08-07">
+      <placeName ref="pmb91153">Linz</placeName>
+      <placeName ref="pmb91105">Lambach</placeName>
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-08">
+      <placeName ref="pmb874">Gmunden</placeName>
+      <placeName ref="pmb38726">Weyer</placeName>
+   </item>
+   <item target="1931-08-09">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-10">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-11">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-12">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-13">
+      <placeName ref="pmb874">Gmunden</placeName>
+      <placeName ref="pmb92431">Orth</placeName>
+   </item>
+   <item target="1931-08-14">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-15">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-16">
+      <placeName ref="pmb874">Gmunden</placeName>
+      <placeName ref="pmb88392">Traunkirchen</placeName>
+   </item>
+   <item target="1931-08-17">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-18">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-19">
+      <placeName ref="pmb874">Gmunden</placeName>
+      <placeName ref="pmb90237">Altmünster</placeName>
+   </item>
+   <item target="1931-08-20">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-21">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-22">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-23">
+      <placeName ref="pmb874">Gmunden</placeName>
+      <placeName ref="pmb38726">Weyer</placeName>
+   </item>
+   <item target="1931-08-24">
+      <placeName ref="pmb874">Gmunden</placeName>
+   </item>
+   <item target="1931-08-25">
+      <placeName ref="pmb874">Gmunden</placeName>
+      <placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-08-26"/>
+   <item target="1931-08-27">
+   </item>
+   <item target="1931-08-28">
+   </item>
+   <item target="1931-08-29">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92288">Hochschulstraße</placeName>
+   </item>
+   <item target="1931-08-30">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92292">Hohe Warte</placeName>
+   </item>
+   <item target="1931-08-31">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb113">Türkenschanzpark</placeName>
+   </item>
+   
+   <item target="1931-09-01">
+   </item>
+   <item target="1931-09-02"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meissl</placeName>
+   </item>
+   <item target="1931-09-03">
+   </item>
+   <item target="1931-09-04">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92202">Volksth.</placeName>
+   </item>
+   <item target="1931-09-05">
+   </item>
+   <item target="1931-09-06">
+      <placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92285">Himmelstr.</placeName>
+   </item>
+   <item target="1931-09-07"/>
+   <item target="1931-09-08">
+   </item>
+   <item target="1931-09-09"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb90705">Gersthof</placeName>
+   </item>
+   <item target="1931-09-10"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb58">Josefstadt</placeName>
+   </item>
+   <item target="1931-09-11"><placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-09-12"/>
+   <item target="1931-09-13"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb169">Pötzleinsdorf</placeName>
+   </item>
+   <item target="1931-09-14"/>
+   <item target="1931-09-15">
+      <placeName ref="pmb92292">Hohe Warte</placeName>
+   </item>
+   <item target="1931-09-16">
+      <placeName ref="pmb92202">Volksth.</placeName>
+      <placeName ref="pmb58">Josefstadt</placeName>
+   </item>
+   <item target="1931-09-17"/>
+   <item target="1931-09-18">
+   </item>
+   <item target="1931-09-19"/>
+   <item target="1931-09-20">
+   </item>
+   <item target="1931-09-21"/>
+   <item target="1931-09-22"><placeName ref="pmb50">Wien</placeName>
+   </item>
+   <item target="1931-09-23">
+   </item>
+   <item target="1931-09-24"/>
+   <item target="1931-09-25"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meissl</placeName>
+   </item>
+   <item target="1931-09-26">
+   </item>
+   <item target="1931-09-27">
+   </item>
+   <item target="1931-09-28">
+   </item>
+   <item target="1931-09-29"/>
+   <item target="1931-09-30"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb58">Josefstadt</placeName>
+   </item>
+   <item target="1931-10-01"/>
+   <item target="1931-10-02"/>
+   <item target="1931-10-03"/>
+   <item target="1931-10-04"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91663">Satzberg</placeName>
+   </item>
+   <item target="1931-10-05"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb169">Pötzleinsdorf</placeName>
+      <placeName ref="pmb243">Sommerhaidenweg</placeName>
+      <placeName ref="pmb170">Neuwaldegg</placeName>
+   </item>
+   <item target="1931-10-06"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb91530">Prater</placeName>
+   </item>
+   <item target="1931-10-07"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meissl</placeName>
+   </item>
+   <item target="1931-10-08"/>
+   <item target="1931-10-09"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meissl Schadn</placeName>
+   </item>
+   <item target="1931-10-10"/>
+   <item target="1931-10-11">
+   </item>
+   <item target="1931-10-12"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb92518">Schönbrunn</placeName>
+   </item>
+   <item target="1931-10-13">
+   </item>
+   <item target="1931-10-14"/>
+   <item target="1931-10-15"><placeName ref="pmb50">Wien</placeName>
+      <placeName ref="pmb96">Meissl</placeName>
+   </item>
+   <item target="1931-10-16"/>
+   <item target="1931-10-17"/>
+   <item target="1931-10-18">
+   </item>
+   <item target="1931-10-19">
+   </item>
+</list>

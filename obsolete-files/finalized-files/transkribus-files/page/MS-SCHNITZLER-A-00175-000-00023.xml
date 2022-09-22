@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.1:model_id=37545:lm=none:date=14_06_2022_09:28
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.1:model_id=37545:date=14_06_2022_09:28
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-14T09:16:32.466+02:00</Created>
+        <LastChange>2022-07-18T10:22:37.788+02:00</LastChange>
+        <TranskribusMetadata docId="1027861" pageId="43195867" pageNr="12" tsid="91049889" status="IN_PROGRESS" userId="111083" imgUrl="https://files.transkribus.eu/Get?id=OHJESKKAGYKADJTWWLHOYYKR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=HVSSBYOVOHVJEHSKBWSBGPED" imageId="35435101"/>
+    </Metadata>
+    <Page imageFilename="MS-SCHNITZLER-A-00175-000-00023.jpg" imageWidth="2276" imageHeight="3113">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1658309171323" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r1" custom="readingOrder {index:0;}">
+            <Coords points="449,422 449,2646 1929,2646 1929,422"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="447,655 1346,644 1346,591 1240,569 1073,602 876,569 724,603 447,582"/>
+                <Baseline points="453,633 497,633 541,633 586,633 630,633 675,633 719,633 763,632 808,632 852,632 897,631 941,630 985,630 1030,630 1074,629 1119,629 1163,629 1207,629 1252,629 1296,630 1341,630"/>
+                <Word id="r1l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="449,593 449,653 939,653 939,593"/>
+                    <TextEquiv>
+                        <Unicode>22.8.Kopenhagen</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="989,589 989,649 1076,649 1076,589"/>
+                    <TextEquiv>
+                        <Unicode>bis</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l1_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1126,589 1126,649 1349,649 1349,589"/>
+                    <TextEquiv>
+                        <Unicode>Berlin.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>22.8.Kopenhagen - Berlin.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="446,750 486,739 525,752 569,731 682,760 775,735 795,751 849,736 904,748 904,710 825,677 754,703 688,679 562,702 509,682 446,687"/>
+                <Baseline points="452,734 478,734 504,734 530,734 557,733 583,732 609,732 636,732 662,732 688,732 714,732 741,732 767,732 793,732 820,731 846,731 872,731 899,731"/>
+                <Word id="r1l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="448,692 448,752 674,752 674,692"/>
+                    <TextEquiv>
+                        <Unicode>23.-26.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="r1l2_w2" custom="readingOrder {index:1;}">
+                    <Coords points="687,692 687,752 881,752 881,692"/>
+                    <TextEquiv>
+                        <Unicode>Berlin</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>23.8.-26.8. Berlin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="448,841 566,865 650,837 1077,847 1077,825 978,784 580,801 448,779"/>
+                <Baseline points="453,830 483,831 514,832 545,833 576,833 607,833 638,833 669,833 700,833 731,831 762,831 792,831 823,831 854,831 885,831 916,831 947,833 978,833 1009,835 1040,836 1071,839"/>
+                <Word id="r1l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="450,791 450,851 1066,851 1066,791"/>
+                    <TextEquiv>
+                        <Unicode>27.u.28.8.München.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>27.8.u.28.8.München.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>22.8.Kopenhagen - Berlin.&#13;
+23.8.-26.8. Berlin&#13;
+27.8.u.28.8.München.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
