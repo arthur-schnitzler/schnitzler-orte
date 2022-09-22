@@ -34,7 +34,12 @@ df_data = {
     "day": []
 }
 for x in places:
-    coords = x.xpath('.//tei:geo', namespaces=ns)[0].text
+    pl_name = " ".join(x.xpath('.//tei:placeName', namespaces=ns)[0].text.split())
+    try:
+        coords = x.xpath('.//tei:geo', namespaces=ns)[0].text
+    except IndexError:
+        print(f"looks like place {pl_name} has no coords")
+        continue
     try:
         lat, lng = coords.split()[0:2]
     except AttributeError:
@@ -44,7 +49,7 @@ for x in places:
         df_data['lng'].append(float(lng))
     except ValueError:
         continue
-    df_data["name"].append(" ".join(x.xpath('.//tei:placeName', namespaces=ns)[0].text.split()))
+    df_data["name"].append(pl_name)
     df_data["day"].append(x.getparent().getparent().getparent().attrib['when'])
 
 df = pd.DataFrame(df_data)

@@ -14,7 +14,11 @@ print(len(places))
 items = []
 for x in places:
     name = x.xpath('.//tei:placeName', namespaces=ns)[0].text
-    coords = x.xpath('.//tei:geo', namespaces=ns)[0].text
+    try:
+        coords = x.xpath('.//tei:geo', namespaces=ns)[0].text
+    except IndexError:
+        print(f"looks like place {name} has no coords")
+        continue
     try:
         img = x.xpath('.//tei:link', namespaces=ns)[0].attrib['target']
     except IndexError:
