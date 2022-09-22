@@ -1,4 +1,4 @@
-MASTER_FILE = "./finalized-files/transformed-xml/24-manuelle-korrekturen.xml"
+MASTER_FILE = "./editions/schnitzler_places.xml"
 
 NAME_SPACES = {
     "tei": "http://www.tei-c.org/ns/1.0",
