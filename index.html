@@ -14,58 +14,125 @@
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
     <script type="text/javascript" src="./static/js/utils.js"></script>
     
-    <title>CMIFUN</title>
+    <title>Arthur Schnitzler – Aufenthalte</title>
     </head>
 
     <body>
-    <nav class="navbar navbar-expand-lg bg-light p-3">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Über das Projekt</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Visualisierungen
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="florish.html">Florish</a></li>
-            <li><a class="dropdown-item" href="itineraries.html">Aufenthalte pro Jahr</a></li>
-            <li><a class="dropdown-item" href="heatmap.html">Aufenthalte als Heatmap</a></li>
-            <li><a class="dropdown-item" href="bubblemap.html">Aufenthalte als Bubblemap</a></li>
-            <li><a class="dropdown-item" href="towers.html">Aufenthalte als 3D Türme</a></li>
-            <li><a class="dropdown-item" href="arcs.html">Reisen</a></li>
-            <li><a class="dropdown-item" href="travels.html">Reisen (Tabelle)</a></li>
-            <li><a class="dropdown-item" href="travel-net.html">Reisen (Netzwerk)</a></li>
-            <li><a class="dropdown-item" href="travel-net-map.html">Reisen (Netzwerk auf Karte)</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- Your site title as branding in the menu -->
+                    <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
+                        <img src="https://shared.acdh.oeaw.ac.at//schnitzler-orte/schnitzler-orte.jpg" class="img-fluid" alt="Schnitzler Tagebuch" itemprop="logo"/>
+                    </a><!-- end custom logo -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"/>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <!-- Your menu goes here -->
+                        <ul id="main-menu" class="navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false"> Links </a>
+                  <ul class="dropdown-menu">
+                     <li>
+                        <a class="dropdown-item"
+                           href="https://github.com/arthur-schnitzler/schnitzler-orte/tree/main/editions"
+                           >Datei bei gitHub</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="https://schnitzler.acdh.oeaw.ac.at">Schnitzler
+                           am ACDH-CH</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at"
+                           >Tagebuch</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="https://schnitzler-briefe.acdh.oeaw.ac.at"
+                           >Briefe</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false"> Visualisierungen </a>
+                  <ul class="dropdown-menu">
+                     <li>
+                        <a class="dropdown-item" href="florish.html">Florish</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="itineraries.html">Ziele nach Jahren</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="towers.html">Aufenthalte gewichtet</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="arcs.html">Bögen</a>
+                     </li>
+                     
+                     <li>
+                        <a class="dropdown-item" href="travel-net.html">Netzwerk</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="travel-net-map.html">Netzwerk auf
+                           Karte</a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="travels.html">Tabelle</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+
+                       
+                    </div>
+                    <!-- .collapse navbar-collapse -->
+                </div>
+                <!-- .container -->
+            </nav>
+            <!-- .site-navigation -->
+        </div>
+
+
+
    
     
-<div class="card p-3">
-    <div class="card-header">
-        <h1>Aufenthaltsorte von Arthur Schnitzler</h1>
-        <p>Der österreichische Schriftsteller Arthur Schnitzler (1862–1931) führte für den Großteil seines Lebens ein <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at">Tagebuch</a>, in dem er vermerkte,
-             wo er sich gerade aufhielt und welche Ausflüge er unternommen hatte. Er selbst ließ davon eine Exzerpt seiner Reisen erstellen, das heute als Typoskript mit 67 Seiten in seinem Nachlass in der Cambridge University Library liegt (Mappe A175). 
-             Diese Daten wurden als Ausgangspunkt genommen, um eine vollständige Auflistung seiner Aufenthaltsorte zu erreichen. Mit Hilfe des Tagebuchs wurden einzelne Korrekturen vorgenommen und die fehlenden Jahre 1928 – 1931 nachgetragen.</p>
-             <p>Die Daten sind insofern unvollständig, als eine mögliche feinere Granulierung, die genauere Punkte innerhalb von Städten, etwa Gebäude
-                und Sehenswürdigkeiten, nicht regelmäßig erfasst sind.
-             </p>
-             <p>Die Quelldatei kann bei <a href="https://github.com/arthur-schnitzler/schnitzler-orte/tree/main/editions">gitHub</a> 
-                geladen werden.</p>
-                <p>Mehrere Visualisierungen erlauben, den geografischen Raum zu ermessen, in dem sich Schnitzler seit seiner Volljährigkeit
-                    bewegt hat.</p>
+<div class="hfeed site" id="page">
+    <xsl:call-template name="nav_bar"/>
+    <div class="wrapper" id="wrapper-hero">
+    <!-- ******************* The Hero Area ******************* -->
+    <div class="wrapper" id="wrapper-hero-content"
+    style="background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-orte/schnitzler-orte-farbe.jpg);">
+    <div class="container-fluid-empty hero-light" id="wrapper-hero-inner"
+    tabindex="-1">
+    <div style="min-height: 250px;">
+        <div>
+              </div>
+    </div></div>
 
-                    <p/>
-                    <p><i>Die Website und die 
+</div>
+</div>
+
+<div class="container" style="margin-top:1em;">
+    <div class="row">
+        <h1 style="color:black; text-align: center;">Aufenthaltsorte von Arthur Schnitzler (1879–1931)</h1>
+
+        <div class="col-md-8" style="margin: 0 auto; ">
+            <p style="font-size:18px;line-height:27px;">Der österreichische Schriftsteller Arthur Schnitzler (1862–1931) führte für den Großteil seines Lebens ein <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at">Tagebuch</a>, in dem er vermerkte,
+             wo er sich gerade aufhielt und welche Ausflüge er unternommen hatte. Noch er selbst beauftragte, daraus ein Exzerpt seiner Reisen 
+             tz erstellen, das heute als Typoskript mit 67 Seiten in seinem Nachlass in der Cambridge University Library liegt (Mappe A175). 
+             </p>
+             <p  style="font-size:18px;line-height:27px;">Diese Daten wurden als Ausgangspunkt genommen, um eine vollständige Auflistung seiner Aufenthaltsorte zu schaffen. Mit Hilfe des Tagebuchs wurden einzelne Korrekturen vorgenommen und die fehlenden Jahre 1928–1931 nachgetragen. Die Daten sind insofern unvollständig, als eine mögliche feinere Granulierung, die genauere Punkte innerhalb von Städten, etwa Gebäude
+                und Sehenswürdigkeiten, nicht durchgängig erfasst sind. Die Quelldatei mit den Daten kann bei <a href="https://github.com/arthur-schnitzler/schnitzler-orte/tree/main/editions">gitHub</a> 
+                geladen werden.</p>
+            <p style="font-size:18px;line-height:27px;">Auf der vorliegenden Seite sind mehrere Visualisierungen umgesetzt, mit der der geografische Raum ermessbar wird, in dem sich Schnitzler seit seiner Volljährigkeit
+                    bewegt hat.</p>
+             <p style="font-size:18px;line-height:27px;">Bestimmte Uneinheitlichkeiten innerhalb der Daten, etwa ob einzelne Straßen
+            oder Gebäude ausgezeichnet sind, bestehen auf absehbare Zeit. Wir hoffen, nach und nach genauere Angaben zu ergänzen.</p>
+        
+                    <p  style="font-size:18px;line-height:27px;"/>
+                    <p style="font-size:18px;line-height:27px;"><i>Die Website und die 
                         Visualisierungen verantwortete Peter Andorfer. Die Daten wurden von Martin Anton Müller, Laura Puntigam und Laura Untner aufbereitet.</i></p>
              
 
@@ -78,110 +145,89 @@
             <div class="col-md">
                 <div class="card">
                     <div class="card-header">
-                        <a href="bubblemap.html">
-                            <h2>Bubblemap</h2>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <p>Euismod sollicitudin torquent magna tellus, congue rhoncus condimentum diam libero vehicula, fringilla posuere senectus ultrices convallis ad, quis platea senectus maecenas. Suspendisse inceptos hac vehicula tellus, etiam curae penatibus parturient, hymenaeos egestas nulla vestibulum erat tellus, sociosqu pede odio. Diam massa luctus ad natoque, nullam suscipit elementum cras eleifend, dui pretium luctus sapien porttitor, ultricies cum felis suscipit cras urna. A malesuada lorem lacinia, hendrerit lorem id laoreet neque netus praesent, eleifend quisque bibendum eget phasellus et, ornare in platea urna augue,. Vivamus quam habitant aptent.</p>
-<p>Laoreet felis rhoncus pretium elit, suspendisse ornare commodo blandit faucibus neque dictum, cursus libero auctor dictum, curabitur egestas dapibus. Aliquet lacinia laoreet gravida nostra, sociosqu class cubilia magna torquent, aliquam nostra odio venenatis, blandit eget proin dui, amet taciti nascetur id laoreet,. Sociosqu dis suscipit mauris, venenatis leo vitae natoque congue, dolor tempor cras sed inceptos, facilisi semper bibendum quam phasellus, platea donec tincidunt sociosqu, nisi. Est nulla auctor pellentesque, fames etiam dictum turpis tincidunt, congue porta etiam mi eget integer est, urna ut aenean. Nisi montes.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <div class="card-header">
-                        <a href="heatmap.html">
-                            <h2>Heatmap</h2>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <p>Ligula scelerisque inceptos non potenti sit, sociosqu nascetur rhoncus quisque maecenas, erat rutrum fringilla ipsum, posuere elementum sodales feugiat posuere hendrerit. Posuere nisi lectus cras at vivamus rutrum inceptos, ridiculus mi habitant fermentum eu urna, congue arcu. Suspendisse sit adipiscing ad consequat nam, tempus a suscipit ligula euismod, imperdiet egestas class.</p>
-<p>Penatibus potenti penatibus integer nec dui rutrum, cubilia dis mattis nisi tincidunt commodo, interdum turpis mauris nunc, orci nisl id elementum. Conubia volutpat varius pellentesque nisi, feugiat interdum ante magnis, habitant venenatis aliquet ut turpis hac, lacus varius sit. Curabitur.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="card">
-                    <div class="card-header">
-                        <a href="towers.html">
-                            <h2>3D Bar Map</h2>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <p>Nibh felis nibh aptent amet rhoncus lacinia, molestie cum diam mus nonummy eros, est dictumst placerat sem curabitur praesent, eros nisi. Quam aptent ridiculus fames torquent pede montes, aliquam quam sapien dictumst consectetuer justo, curae sapien sociis hendrerit. Lacus risus egestas sociosqu curae, sociis sit vel vestibulum, lacinia integer convallis senectus lacinia maecenas. Ipsum suspendisse.</p>
-<p>Nullam primis ligula neque phasellus sociis nisl, elementum platea fames quis, elit nibh donec bibendum, dui nulla tortor. Porta venenatis massa fusce neque facilisi, ligula pharetra sed conubia pretium, habitasse euismod montes aenean eget adipiscing penatibus vivamus,. Est tellus litora erat, fames amet enim nulla cubilia, cras nascetur facilisis metus lacus proin, hymenaeos risus per netus. Sollicitudin taciti scelerisque a.</p>
-<p>Lacus feugiat natoque vivamus proin, faucibus diam facilisis consectetuer dictum sociis, enim parturient hac consectetuer lobortis, cubilia dis dictum mattis, interdum dignissim posuere pharetra malesuada. Quisque cubilia interdum lobortis turpis, dapibus cum iaculis dapibus ut, cras at.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md">
-                <div class="card">
-                    <div class="card-header">
                         <a href="florish.html">
                             <h2>Florish</h2>
                         </a>
+                        <img
+                        src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/florish.jpg" width="100%" 
+                        />
                     </div>
+
                     <div class="card-body">
-                        <p>Taciti elementum potenti vestibulum curabitur, sodales litora pulvinar massa ad a, torquent eu cum platea, ridiculus curabitur a quam potenti etiam vestibulum, blandit parturient magnis. Sociosqu sit etiam vehicula, neque facilisis integer et dignissim, pharetra mus euismod ultrices morbi, justo vivamus montes nam pulvinar pellentesque,. Tempor orci natoque eu convallis etiam dolor vulputate, aptent aenean per primis eros pretium bibendum habitasse, eget aenean. Nisl aenean condimentum posuere aenean, tempus turpis tortor luctus rutrum, iaculis sit augue dapibus aliquet tellus iaculis,. Mollis interdum platea proin netus, hymenaeos platea cum vehicula.</p>
-<p>Platea dictum etiam semper porttitor, augue sociosqu sit platea aptent magna, consectetuer pulvinar tempor at laoreet cubilia montes, viverra tortor ipsum. Sit condimentum lacus lacinia ligula torquent fringilla faucibus, eu eget magna morbi, hac eu vehicula arcu nibh, placerat proin eu pulvinar. Conubia ut ultricies eleifend, venenatis vel id justo.</p>
+                        <p>Die Aufenthalte werden entlang einer Zeitachse
+                            dargestellt, die abgespielt werden kann.
+                        </p>
                     </div>
                 </div>
             </div>
-
             <div class="col-md">
                 <div class="card">
                     <div class="card-header">
                         <a href="itineraries.html">
-                            <h2>Aufenthalte pro Jahr</h2>
+                            <h2>Ziele nach Jahren
+                        </h2>
+                        <img
+                        src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/mit-postkarte.jpg" width="100%" 
+                        />
                         </a>
                     </div>
                     <div class="card-body">
-                         lipTeststsum
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-        <div class="col-md">
-                <div class="card">
-                    <div class="card-header">
-                        <a href="arcs.html">
-                            <h2>Schnitzler Reisen </h2>
-                        </a>
-                    </div>
-                    <div class="card-body">
-                        <p>Facilisis sociis commodo aptent ornare est lorem mattis ut, primis magnis auctor tortor massa urna mollis,. Morbi dictumst penatibus consectetuer penatibus mus per, accumsan pede.</p>
-<p>Dis purus scelerisque varius penatibus, montes iaculis senectus facilisi, imperdiet fames sit est proin, nostra facilisis neque conubia dignissim porttitor mattis, morbi varius. Taciti augue dapibus mollis.</p>
+                        <p>Aufenthalte eines Jahres durchblättern. Dazu
+                            werden Postkartenbilder des Ortes gezeigt.</p>
+
                     </div>
                 </div>
             </div>
             <div class="col-md">
                 <div class="card">
                     <div class="card-header">
-                        <a href="travels.html">
-                            <h2>Schnitzler Reisen (als Tabelle)</h2>
+                        <a href="arcs.html">
+                            <h2>Bögen </h2>
+                            <img
+                            src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/arcs.jpg" width="100%" 
+                            />
                         </a>
                     </div>
                     <div class="card-body">
-                        <p>Adipiscing id nascetur elementum penatibus purus rutrum, nisl velit massa eu at posuere, natoque nonummy ornare at accumsan, vehicula nam inceptos dis quisque, nec. Gravida scelerisque accumsan congue, vitae laoreet duis cursus, maecenas sagittis tincidunt maecenas, vulputate tempor ullamcorper adipiscing suspendisse nam, eget eu suscipit erat, suscipit elementum.</p>
-<p>Varius senectus porttitor est potenti et, nunc et suscipit molestie, malesuada risus luctus sapien neque, blandit sit elit fames litora. Consequat praesent suspendisse suscipit posuere condimentum, suscipit duis dolor convallis vivamus lectus, nonummy aliquam odio accumsan, posuere maecenas. Inceptos ultricies est curae nostra nisi facilisi, hymenaeos inceptos praesent laoreet erat amet.</p>
+                        <p>Von welchem Ort reiste er wohin? Durch Angabe eines
+                            Ausgangspunktes wird die Einbettung in die Reise
+                            sichtbar. Die Filtermöglichkeit beschränkt den
+                        Zeitraum.</p>
                     </div>
                 </div>
             </div>
+            </div>
+            <div class="row">
+
+
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="bubblemap.html">
+                            <h2>Bubblemap</h2>
+                        </a>
+                        <img
+                        src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/bubblemap.jpg" width="100%" 
+                        />
+                    </div>
+                    <div class="card-body">
+                     <p>Die Orte gewichtet nach Aufenthaltsdauer.</p>
+                    </div>
+                </div>
+            </div>
+            
             <div class="col-md">
                 <div class="card">
                     <div class="card-header">
                         <a href="travel-net.html">
-                            <h2>Schnitzler Reisen (als Netzwerk)</h2>
+                            <h2>Netzwerkdarstellung</h2>
+                            <img
+                            src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/netzwerk.jpg" width="100%" 
+                            />
                         </a>
                     </div>
                     <div class="card-body">
-                        <p>Est convallis purus fusce at justo, mauris cras libero molestie posuere auctor, pretium laoreet elit pede magna, quam adipiscing per molestie. Turpis eu hymenaeos sodales.</p>
-<p>Aptent sit vivamus justo mollis fusce, ornare potenti aliquam a tempus cubilia, aenean pulvinar ac sapien, porta lectus hymenaeos nam sit, sociosqu faucibus pede phasellus consectetuer,. Suscipit integer sem cursus, arcu posuere velit per, mattis ut habitasse magnis fusce gravida, porttitor semper morbi augue feugiat aliquam, lorem. Pede molestie lectus ullamcorper felis morbi justo, pharetra facilisi cubilia mi tortor, donec tincidunt a neque adipiscing dapibus, aliquam pulvinar luctus odio. Risus justo proin class montes, dui felis auctor imperdiet neque vivamus, volutpat ad et at posuere, ultrices ligula mi primis ornare. Fusce.</p>
-<p>Sagittis rhoncus dapibus nibh mus hendrerit eget sem bibendum, nec taciti augue massa faucibus, varius sollicitudin natoque rutrum conubia, nisi. Sollicitudin augue eu curabitur sapien, diam condimentum ultrices lacus nullam dolor eros, montes posuere lorem sociosqu purus, potenti mollis. Bibendum nostra laoreet hendrerit, aenean dictumst enim risus bibendum, quam.</p>
+                        <p>Die Aufenthaltsorte zueinander in Beziehung gesetzt.</p>
                     </div>
                 </div>
             </div>
@@ -189,15 +235,37 @@
                 <div class="card">
                     <div class="card-header">
                         <a href="travel-net-map.html">
-                            <h2>Schnitzler Reisen (als Netzwerk auf Karte)</h2>
+                            <h2>Netzwerkdarstellung auf einer Karte</h2>
+                            <img
+                            src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/netzwerk-geo.jpg" width="100%" 
+                            />
                         </a>
                     </div>
                     <div class="card-body">
-                        <p>Etiam eget neque urna rutrum ornare, viverra proin convallis fringilla sociosqu penatibus conubia, et aenean curae. Elementum tellus natoque nullam, vehicula hac eget faucibus pulvinar, vehicula augue nibh hendrerit, torquent sociis platea tempus, porta velit duis nullam. Potenti parturient convallis id porttitor dolor, erat imperdiet arcu nunc sociosqu, parturient adipiscing hac dictum duis tincidunt. At gravida eu volutpat, senectus magnis risus pellentesque, laoreet elementum ultrices nibh nunc platea dis lorem, tempus eget tincidunt. Malesuada aliquet fusce at quisque, quis semper cubilia feugiat amet, parturient faucibus dis per, amet est per erat.</p>
-<p>Et ante facilisis penatibus vitae lacus, ante habitant sit suscipit dignissim aliquet, dictum justo conubia habitasse id tortor. Torquent dictum porttitor eu magna metus imperdiet, viverra lorem maecenas volutpat sociis augue, class per molestie dignissim tempus odio,. Nisi eget erat pharetra mattis, hymenaeos cras tempus erat nostra duis ridiculus, volutpat habitasse metus per netus euismod, purus. Suscipit accumsan per mollis luctus, amet maecenas euismod tempor tortor tellus pede, rhoncus magna commodo nullam.</p>
+                        <p>Die Aufenthaltsorte als Beziehungen auf einer Karte Europas.</p>
+
                     </div>
                 </div>
             </div>
+        </div>
+      
+        <div class="row">
+        
+            
+          
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="travels.html">
+                            <h2>Tabellendarstellung</h2>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <p>Tabellendarstellung mit Exportmöglichkeit.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
