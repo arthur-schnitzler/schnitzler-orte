@@ -16107,6 +16107,13 @@
       <tag when="1925-01-09" pmb-place="45258"/>
       <tag when="1925-06-22" pmb-place="45258"/>
       <tag when="1925-06-23" pmb-place="45258"/>
+      <tag when="1928-08-17" pmb-place="45258"/>
+      <tag when="1928-09-01" pmb-place="45258"/>
+      <tag when="1928-09-02" pmb-place="45258"/>
+      <tag when="1928-09-03" pmb-place="45258"/>
+      <tag when="1929-08-20" pmb-place="45258"/>
+      <tag when="1929-08-21" pmb-place="45258"/>
+      <tag when="1930-10-08" pmb-place="45258"/>
    </ort>
    <ort xml:id="91030">
       <tag when="1880-08-01" pmb-place="91030"/>
@@ -17042,15 +17049,8 @@
       <tag when="1902-09-05" pmb-place="91794"/>
       <tag when="1928-06-14" pmb-place="91794"/>
    </ort>
-   <ort xml:id="91245">
-      <tag when="1881-07-19" pmb-place="91245"/>
-      <tag when="1881-07-20" pmb-place="91245"/>
-      <tag when="1907-07-03" pmb-place="91245"/>
-   </ort>
-   <ort xml:id="91247">
-      <tag when="1881-07-20" pmb-place="91247"/>
-      <tag when="1881-07-21" pmb-place="91247"/>
-   </ort>
+   <ort xml:id="91245"/>
+   <ort xml:id="91247"/>
    <ort xml:id="92011">
       <tag when="1881-07-21" pmb-place="92011"/>
       <tag when="1881-07-22" pmb-place="92011"/>
@@ -17146,6 +17146,10 @@
       <tag when="1925-01-30" pmb-place="44374"/>
       <tag when="1925-01-31" pmb-place="44374"/>
       <tag when="1925-02-01" pmb-place="44374"/>
+      <tag when="1930-07-17" pmb-place="44374"/>
+      <tag when="1930-07-18" pmb-place="44374"/>
+      <tag when="1930-07-19" pmb-place="44374"/>
+      <tag when="1930-07-20" pmb-place="44374"/>
    </ort>
    <ort xml:id="91298">
       <tag when="1882-08-07" pmb-place="91298"/>
@@ -17165,6 +17169,7 @@
       <tag when="1882-08-09" pmb-place="49135"/>
       <tag when="1900-08-25" pmb-place="49135"/>
       <tag when="1900-08-26" pmb-place="49135"/>
+      <tag when="1930-08-06" pmb-place="49135"/>
    </ort>
    <ort xml:id="90132">
       <tag when="1882-08-09" pmb-place="90132"/>
@@ -17479,10 +17484,7 @@
       <tag when="1924-06-19" pmb-place="91574"/>
       <tag when="1931-07-23" pmb-place="91574"/>
    </ort>
-   <ort xml:id="90989">
-      <tag when="1885-08-08" pmb-place="90989"/>
-      <tag when="1885-08-09" pmb-place="90989"/>
-   </ort>
+   <ort xml:id="90989"/>
    <ort xml:id="91973">
       <tag when="1885-08-09" pmb-place="91973"/>
       <tag when="1885-08-10" pmb-place="91973"/>
@@ -17527,10 +17529,7 @@
       <tag when="1885-08-18" pmb-place="92021"/>
       <tag when="1898-08-23" pmb-place="92021"/>
    </ort>
-   <ort xml:id="90641">
-      <tag when="1885-08-18" pmb-place="90641"/>
-      <tag when="1898-08-23" pmb-place="90641"/>
-   </ort>
+   <ort xml:id="90641"/>
    <ort xml:id="53632">
       <tag when="1885-08-18" pmb-place="53632"/>
       <tag when="1885-08-20" pmb-place="53632"/>
@@ -18262,6 +18261,7 @@
    <ort xml:id="88392">
       <tag when="1889-08-09" pmb-place="88392"/>
       <tag when="1889-08-10" pmb-place="88392"/>
+      <tag when="1931-08-16" pmb-place="88392"/>
    </ort>
    <ort xml:id="91928">
       <tag when="1889-08-10" pmb-place="91928"/>
@@ -18319,32 +18319,7 @@
    <ort xml:id="36515">
       <tag when="1889-08-17" pmb-place="36515"/>
    </ort>
-   <ort xml:id="88115">
-      <tag when="1890-07-20" pmb-place="88115"/>
-      <tag when="1891-06-04" pmb-place="88115"/>
-      <tag when="1891-07-07" pmb-place="88115"/>
-      <tag when="1891-07-10" pmb-place="88115"/>
-      <tag when="1891-07-16" pmb-place="88115"/>
-      <tag when="1891-07-20" pmb-place="88115"/>
-      <tag when="1891-07-24" pmb-place="88115"/>
-      <tag when="1891-07-26" pmb-place="88115"/>
-      <tag when="1891-07-27" pmb-place="88115"/>
-      <tag when="1893-05-21" pmb-place="88115"/>
-      <tag when="1893-05-22" pmb-place="88115"/>
-      <tag when="1894-07-25" pmb-place="88115"/>
-      <tag when="1900-10-12" pmb-place="88115"/>
-      <tag when="1900-10-13" pmb-place="88115"/>
-      <tag when="1900-10-14" pmb-place="88115"/>
-      <tag when="1900-10-15" pmb-place="88115"/>
-      <tag when="1900-10-16" pmb-place="88115"/>
-      <tag when="1900-10-17" pmb-place="88115"/>
-      <tag when="1900-10-19" pmb-place="88115"/>
-      <tag when="1900-10-20" pmb-place="88115"/>
-      <tag when="1900-10-21" pmb-place="88115"/>
-      <tag when="1913-04-26" pmb-place="88115"/>
-      <tag when="1913-04-27" pmb-place="88115"/>
-      <tag when="1913-04-28" pmb-place="88115"/>
-   </ort>
+   <ort xml:id="88115"/>
    <ort xml:id="92111">
       <tag when="1890-07-22" pmb-place="92111"/>
       <tag when="1890-07-23" pmb-place="92111"/>
@@ -19199,10 +19174,7 @@
    <ort xml:id="90535">
       <tag when="1893-08-23" pmb-place="90535"/>
    </ort>
-   <ort xml:id="91478">
-      <tag when="1893-08-24" pmb-place="91478"/>
-      <tag when="1893-08-25" pmb-place="91478"/>
-   </ort>
+   <ort xml:id="91478"/>
    <ort xml:id="44317">
       <tag when="1893-08-25" pmb-place="44317"/>
       <tag when="1899-08-05" pmb-place="44317"/>
@@ -19213,24 +19185,7 @@
    <ort xml:id="90519">
       <tag when="1893-08-26" pmb-place="90519"/>
    </ort>
-   <ort xml:id="90759">
-      <tag when="1893-08-29" pmb-place="90759"/>
-      <tag when="1893-08-30" pmb-place="90759"/>
-      <tag when="1893-08-31" pmb-place="90759"/>
-      <tag when="1898-07-11" pmb-place="90759"/>
-      <tag when="1898-07-12" pmb-place="90759"/>
-      <tag when="1898-07-13" pmb-place="90759"/>
-      <tag when="1898-07-14" pmb-place="90759"/>
-      <tag when="1898-07-15" pmb-place="90759"/>
-      <tag when="1898-07-16" pmb-place="90759"/>
-      <tag when="1898-07-17" pmb-place="90759"/>
-      <tag when="1899-04-01" pmb-place="90759"/>
-      <tag when="1899-04-02" pmb-place="90759"/>
-      <tag when="1922-06-08" pmb-place="90759"/>
-      <tag when="1922-06-09" pmb-place="90759"/>
-      <tag when="1922-06-10" pmb-place="90759"/>
-      <tag when="1922-06-11" pmb-place="90759"/>
-   </ort>
+   <ort xml:id="90759"/>
    <ort xml:id="90727">
       <tag when="1893-10-29" pmb-place="90727"/>
       <tag when="1899-06-19" pmb-place="90727"/>
@@ -19259,6 +19214,7 @@
       <tag when="1894-05-24" pmb-place="54767"/>
       <tag when="1895-06-02" pmb-place="54767"/>
       <tag when="1895-06-29" pmb-place="54767"/>
+      <tag when="1930-06-09" pmb-place="54767"/>
    </ort>
    <ort xml:id="90825">
       <tag when="1894-05-24" pmb-place="90825"/>
@@ -19380,13 +19336,7 @@
       <tag when="1914-04-14" pmb-place="531"/>
       <tag when="1914-04-15" pmb-place="531"/>
    </ort>
-   <ort xml:id="64265">
-      <tag when="1895-05-20" pmb-place="64265"/>
-      <tag when="1895-06-29" pmb-place="64265"/>
-      <tag when="1899-05-29" pmb-place="64265"/>
-      <tag when="1900-05-31" pmb-place="64265"/>
-      <tag when="1900-06-01" pmb-place="64265"/>
-   </ort>
+   <ort xml:id="64265"/>
    <ort xml:id="90233">
       <tag when="1895-06-02" pmb-place="90233"/>
    </ort>
@@ -19403,6 +19353,7 @@
    </ort>
    <ort xml:id="91077">
       <tag when="1895-06-28" pmb-place="91077"/>
+      <tag when="1928-07-17" pmb-place="91077"/>
    </ort>
    <ort xml:id="90182">
       <tag when="1895-06-28" pmb-place="90182"/>
@@ -19480,6 +19431,8 @@
       <tag when="1922-05-16" pmb-place="44172"/>
       <tag when="1923-07-07" pmb-place="44172"/>
       <tag when="1923-07-08" pmb-place="44172"/>
+      <tag when="1929-09-11" pmb-place="44172"/>
+      <tag when="1929-09-12" pmb-place="44172"/>
    </ort>
    <ort xml:id="414">
       <tag when="1895-07-15" pmb-place="414"/>
@@ -19669,20 +19622,7 @@
    <ort xml:id="49690">
       <tag when="1896-05-31" pmb-place="49690"/>
    </ort>
-   <ort xml:id="64301">
-      <tag when="1896-07-04" pmb-place="64301"/>
-      <tag when="1896-07-05" pmb-place="64301"/>
-      <tag when="1896-07-06" pmb-place="64301"/>
-      <tag when="1896-07-07" pmb-place="64301"/>
-      <tag when="1911-11-05" pmb-place="64301"/>
-      <tag when="1911-11-06" pmb-place="64301"/>
-      <tag when="1911-11-07" pmb-place="64301"/>
-      <tag when="1911-11-08" pmb-place="64301"/>
-      <tag when="1911-11-09" pmb-place="64301"/>
-      <tag when="1911-11-10" pmb-place="64301"/>
-      <tag when="1911-11-11" pmb-place="64301"/>
-      <tag when="1926-05-11" pmb-place="64301"/>
-   </ort>
+   <ort xml:id="64301"/>
    <ort xml:id="43368">
       <tag when="1896-07-04" pmb-place="43368"/>
       <tag when="1896-07-05" pmb-place="43368"/>
@@ -19699,9 +19639,7 @@
    <ort xml:id="90138">
       <tag when="1896-07-10" pmb-place="90138"/>
    </ort>
-   <ort xml:id="64401">
-      <tag when="1896-07-11" pmb-place="64401"/>
-   </ort>
+   <ort xml:id="64401"/>
    <ort xml:id="92029">
       <tag when="1896-07-11" pmb-place="92029"/>
       <tag when="1896-07-12" pmb-place="92029"/>
@@ -19787,24 +19725,7 @@
    <ort xml:id="42675">
       <tag when="1896-08-01" pmb-place="42675"/>
    </ort>
-   <ort xml:id="64393">
-      <tag when="1896-08-02" pmb-place="64393"/>
-      <tag when="1896-08-03" pmb-place="64393"/>
-      <tag when="1896-08-22" pmb-place="64393"/>
-      <tag when="1906-06-28" pmb-place="64393"/>
-      <tag when="1906-07-02" pmb-place="64393"/>
-      <tag when="1906-07-16" pmb-place="64393"/>
-      <tag when="1906-08-09" pmb-place="64393"/>
-      <tag when="1906-08-10" pmb-place="64393"/>
-      <tag when="1906-08-11" pmb-place="64393"/>
-      <tag when="1923-05-10" pmb-place="64393"/>
-      <tag when="1923-05-11" pmb-place="64393"/>
-      <tag when="1923-05-12" pmb-place="64393"/>
-      <tag when="1923-05-13" pmb-place="64393"/>
-      <tag when="1923-05-14" pmb-place="64393"/>
-      <tag when="1923-05-15" pmb-place="64393"/>
-      <tag when="1923-05-16" pmb-place="64393"/>
-   </ort>
+   <ort xml:id="64393"/>
    <ort xml:id="958">
       <tag when="1896-08-02" pmb-place="958"/>
       <tag when="1896-08-03" pmb-place="958"/>
@@ -19920,10 +19841,7 @@
    <ort xml:id="58725">
       <tag when="1897-06-01" pmb-place="58725"/>
    </ort>
-   <ort xml:id="64263">
-      <tag when="1897-06-01" pmb-place="64263"/>
-      <tag when="1897-06-02" pmb-place="64263"/>
-   </ort>
+   <ort xml:id="64263"/>
    <ort xml:id="91496">
       <tag when="1897-06-06" pmb-place="91496"/>
    </ort>
@@ -19937,12 +19855,8 @@
    <ort xml:id="90146">
       <tag when="1897-06-13" pmb-place="90146"/>
    </ort>
-   <ort xml:id="804">
-      <tag when="1898-02-11" pmb-place="804"/>
-   </ort>
-   <ort xml:id="19527">
-      <tag when="1898-02-11" pmb-place="19527"/>
-   </ort>
+   <ort xml:id="804"/>
+   <ort xml:id="19527"/>
    <ort xml:id="91857">
       <tag when="1898-04-21" pmb-place="91857"/>
       <tag when="1930-04-13" pmb-place="91857"/>
@@ -19964,6 +19878,7 @@
       <tag when="1898-06-05" pmb-place="55088"/>
       <tag when="1899-04-02" pmb-place="55088"/>
       <tag when="1899-04-03" pmb-place="55088"/>
+      <tag when="1929-06-29" pmb-place="55088"/>
    </ort>
    <ort xml:id="36189">
       <tag when="1898-06-05" pmb-place="36189"/>
@@ -20102,10 +20017,7 @@
    <ort xml:id="36477">
       <tag when="1898-08-13" pmb-place="36477"/>
    </ort>
-   <ort xml:id="91336">
-      <tag when="1898-08-13" pmb-place="91336"/>
-      <tag when="1898-08-14" pmb-place="91336"/>
-   </ort>
+   <ort xml:id="91336"/>
    <ort xml:id="92117">
       <tag when="1898-08-14" pmb-place="92117"/>
    </ort>
@@ -20113,6 +20025,9 @@
       <tag when="1898-08-14" pmb-place="50004"/>
       <tag when="1898-08-15" pmb-place="50004"/>
       <tag when="1898-08-16" pmb-place="50004"/>
+      <tag when="1929-08-21" pmb-place="50004"/>
+      <tag when="1929-08-22" pmb-place="50004"/>
+      <tag when="1929-09-04" pmb-place="50004"/>
    </ort>
    <ort xml:id="90472">
       <tag when="1898-08-14" pmb-place="90472"/>
@@ -20127,6 +20042,17 @@
       <tag when="1910-05-28" pmb-place="52051"/>
       <tag when="1910-05-29" pmb-place="52051"/>
       <tag when="1910-05-30" pmb-place="52051"/>
+      <tag when="1929-08-22" pmb-place="52051"/>
+      <tag when="1929-08-27" pmb-place="52051"/>
+      <tag when="1929-09-02" pmb-place="52051"/>
+      <tag when="1929-09-03" pmb-place="52051"/>
+      <tag when="1929-09-04" pmb-place="52051"/>
+      <tag when="1929-09-05" pmb-place="52051"/>
+      <tag when="1929-09-06" pmb-place="52051"/>
+      <tag when="1929-09-07" pmb-place="52051"/>
+      <tag when="1929-09-08" pmb-place="52051"/>
+      <tag when="1929-09-09" pmb-place="52051"/>
+      <tag when="1929-09-10" pmb-place="52051"/>
    </ort>
    <ort xml:id="40483">
       <tag when="1898-08-14" pmb-place="40483"/>
@@ -20141,6 +20067,7 @@
    </ort>
    <ort xml:id="64657">
       <tag when="1898-08-15" pmb-place="64657"/>
+      <tag when="1929-08-22" pmb-place="64657"/>
    </ort>
    <ort xml:id="562">
       <tag when="1898-08-16" pmb-place="562"/>
@@ -20260,11 +20187,7 @@
       <tag when="1899-05-28" pmb-place="91618"/>
       <tag when="1899-05-29" pmb-place="91618"/>
    </ort>
-   <ort xml:id="4845">
-      <tag when="1899-06-08" pmb-place="4845"/>
-      <tag when="1929-06-02" pmb-place="4845"/>
-      <tag when="1930-04-13" pmb-place="4845"/>
-   </ort>
+   <ort xml:id="4845"/>
    <ort xml:id="470">
       <tag when="1899-06-19" pmb-place="470"/>
       <tag when="1899-06-20" pmb-place="470"/>
@@ -20412,9 +20335,7 @@
       <tag when="1899-08-06" pmb-place="91932"/>
       <tag when="1907-08-13" pmb-place="91932"/>
    </ort>
-   <ort xml:id="90715">
-      <tag when="1899-08-07" pmb-place="90715"/>
-   </ort>
+   <ort xml:id="90715"/>
    <ort xml:id="90446">
       <tag when="1899-08-07" pmb-place="90446"/>
       <tag when="1899-08-08" pmb-place="90446"/>
@@ -20952,17 +20873,7 @@
    <ort xml:id="38518">
       <tag when="1900-08-19" pmb-place="38518"/>
    </ort>
-   <ort xml:id="90478">
-      <tag when="1900-08-19" pmb-place="90478"/>
-      <tag when="1914-07-20" pmb-place="90478"/>
-      <tag when="1923-08-15" pmb-place="90478"/>
-      <tag when="1923-08-16" pmb-place="90478"/>
-      <tag when="1923-09-05" pmb-place="90478"/>
-      <tag when="1923-09-06" pmb-place="90478"/>
-      <tag when="1923-09-07" pmb-place="90478"/>
-      <tag when="1924-08-07" pmb-place="90478"/>
-      <tag when="1924-08-22" pmb-place="90478"/>
-   </ort>
+   <ort xml:id="90478"/>
    <ort xml:id="91899">
       <tag when="1900-08-19" pmb-place="91899"/>
       <tag when="1900-08-20" pmb-place="91899"/>
@@ -21009,14 +20920,7 @@
    <ort xml:id="56147">
       <tag when="1901-03-27" pmb-place="56147"/>
    </ort>
-   <ort xml:id="91282">
-      <tag when="1901-03-27" pmb-place="91282"/>
-      <tag when="1905-03-06" pmb-place="91282"/>
-      <tag when="1911-04-17" pmb-place="91282"/>
-      <tag when="1911-04-20" pmb-place="91282"/>
-      <tag when="1911-04-21" pmb-place="91282"/>
-      <tag when="1911-04-23" pmb-place="91282"/>
-   </ort>
+   <ort xml:id="91282"/>
    <ort xml:id="994">
       <tag when="1901-03-28" pmb-place="994"/>
       <tag when="1901-03-29" pmb-place="994"/>
@@ -21361,6 +21265,7 @@
    </ort>
    <ort xml:id="45236">
       <tag when="1902-09-05" pmb-place="45236"/>
+      <tag when="1928-06-14" pmb-place="45236"/>
    </ort>
    <ort xml:id="91554">
       <tag when="1902-09-05" pmb-place="91554"/>
@@ -21398,6 +21303,7 @@
       <tag when="1912-04-06" pmb-place="230"/>
    </ort>
    <ort xml:id="44258">
+      <tag when="1898-02-11" pmb-place="44258"/>
       <tag when="1903-01-16" pmb-place="44258"/>
    </ort>
    <ort xml:id="88">
@@ -21501,14 +21407,7 @@
    <ort xml:id="461">
       <tag when="1903-08-21" pmb-place="461"/>
    </ort>
-   <ort xml:id="88117">
-      <tag when="1903-10-20" pmb-place="88117"/>
-      <tag when="1903-10-21" pmb-place="88117"/>
-      <tag when="1911-02-12" pmb-place="88117"/>
-      <tag when="1911-02-13" pmb-place="88117"/>
-      <tag when="1922-10-24" pmb-place="88117"/>
-      <tag when="1922-10-25" pmb-place="88117"/>
-   </ort>
+   <ort xml:id="88117"/>
    <ort xml:id="44521">
       <tag when="1904-05-03" pmb-place="44521"/>
       <tag when="1904-05-28" pmb-place="44521"/>
@@ -21695,11 +21594,7 @@
    <ort xml:id="847">
       <tag when="1905-03-07" pmb-place="847"/>
    </ort>
-   <ort xml:id="64763">
-      <tag when="1905-03-11" pmb-place="64763"/>
-      <tag when="1905-03-12" pmb-place="64763"/>
-      <tag when="1905-03-13" pmb-place="64763"/>
-   </ort>
+   <ort xml:id="64763"/>
    <ort xml:id="365">
       <tag when="1905-03-14" pmb-place="365"/>
       <tag when="1905-03-15" pmb-place="365"/>
@@ -21923,9 +21818,7 @@
    <ort xml:id="91542">
       <tag when="1907-07-02" pmb-place="91542"/>
    </ort>
-   <ort xml:id="91717">
-      <tag when="1907-07-03" pmb-place="91717"/>
-   </ort>
+   <ort xml:id="91717"/>
    <ort xml:id="90929">
       <tag when="1907-07-03" pmb-place="90929"/>
       <tag when="1907-07-04" pmb-place="90929"/>
@@ -21981,9 +21874,7 @@
       <tag when="1908-04-29" pmb-place="40812"/>
       <tag when="1908-04-30" pmb-place="40812"/>
    </ort>
-   <ort xml:id="4650">
-      <tag when="1908-04-30" pmb-place="4650"/>
-   </ort>
+   <ort xml:id="4650"/>
    <ort xml:id="89077">
       <tag when="1908-05-04" pmb-place="89077"/>
    </ort>
@@ -22048,10 +21939,7 @@
    <ort xml:id="60017">
       <tag when="1908-05-12" pmb-place="60017"/>
    </ort>
-   <ort xml:id="91639">
-      <tag when="1908-06-23" pmb-place="91639"/>
-      <tag when="1908-06-24" pmb-place="91639"/>
-   </ort>
+   <ort xml:id="91639"/>
    <ort xml:id="988">
       <tag when="1908-06-23" pmb-place="988"/>
       <tag when="1908-06-24" pmb-place="988"/>
@@ -22294,9 +22182,7 @@
    <ort xml:id="882">
       <tag when="1910-09-15" pmb-place="882"/>
    </ort>
-   <ort xml:id="64281">
-      <tag when="1910-09-18" pmb-place="64281"/>
-   </ort>
+   <ort xml:id="64281"/>
    <ort xml:id="49714">
       <tag when="1911-04-15" pmb-place="49714"/>
    </ort>
@@ -22489,14 +22375,7 @@
    <ort xml:id="51646">
       <tag when="1914-05-16" pmb-place="51646"/>
    </ort>
-   <ort xml:id="91155">
-      <tag when="1914-05-17" pmb-place="91155"/>
-      <tag when="1914-05-18" pmb-place="91155"/>
-      <tag when="1926-04-24" pmb-place="91155"/>
-      <tag when="1926-04-25" pmb-place="91155"/>
-      <tag when="1926-05-06" pmb-place="91155"/>
-      <tag when="1926-05-07" pmb-place="91155"/>
-   </ort>
+   <ort xml:id="91155"/>
    <ort xml:id="47658">
       <tag when="1914-05-20" pmb-place="47658"/>
       <tag when="1914-05-21" pmb-place="47658"/>
@@ -22878,13 +22757,7 @@
    <ort xml:id="91661">
       <tag when="1923-05-24" pmb-place="91661"/>
    </ort>
-   <ort xml:id="64261">
-      <tag when="1923-07-07" pmb-place="64261"/>
-      <tag when="1923-08-05" pmb-place="64261"/>
-      <tag when="1923-08-06" pmb-place="64261"/>
-      <tag when="1925-01-09" pmb-place="64261"/>
-      <tag when="1925-01-10" pmb-place="64261"/>
-   </ort>
+   <ort xml:id="64261"/>
    <ort xml:id="491">
       <tag when="1923-08-06" pmb-place="491"/>
       <tag when="1923-08-07" pmb-place="491"/>
@@ -22896,10 +22769,7 @@
       <tag when="1923-08-13" pmb-place="491"/>
       <tag when="1923-08-14" pmb-place="491"/>
    </ort>
-   <ort xml:id="64485">
-      <tag when="1923-08-14" pmb-place="64485"/>
-      <tag when="1923-08-15" pmb-place="64485"/>
-   </ort>
+   <ort xml:id="64485"/>
    <ort xml:id="58779">
       <tag when="1923-08-15" pmb-place="58779"/>
    </ort>
@@ -22924,14 +22794,7 @@
    <ort xml:id="43995">
       <tag when="1923-09-06" pmb-place="43995"/>
    </ort>
-   <ort xml:id="64255">
-      <tag when="1923-09-07" pmb-place="64255"/>
-      <tag when="1923-09-08" pmb-place="64255"/>
-      <tag when="1923-09-09" pmb-place="64255"/>
-      <tag when="1923-09-10" pmb-place="64255"/>
-      <tag when="1923-09-12" pmb-place="64255"/>
-      <tag when="1923-09-14" pmb-place="64255"/>
-   </ort>
+   <ort xml:id="64255"/>
    <ort xml:id="91159">
       <tag when="1923-09-08" pmb-place="91159"/>
       <tag when="1923-09-10" pmb-place="91159"/>
@@ -22940,9 +22803,7 @@
       <tag when="1923-09-13" pmb-place="91159"/>
       <tag when="1923-09-14" pmb-place="91159"/>
    </ort>
-   <ort xml:id="64215">
-      <tag when="1923-09-11" pmb-place="64215"/>
-   </ort>
+   <ort xml:id="64215"/>
    <ort xml:id="90260">
       <tag when="1923-09-14" pmb-place="90260"/>
    </ort>
@@ -23416,19 +23277,12 @@
    <ort xml:id="90502">
       <tag when="1928-04-15" pmb-place="90502"/>
    </ort>
-   <ort xml:id="455">
-      <tag when="1928-04-16" pmb-place="455"/>
-   </ort>
+   <ort xml:id="455"/>
    <ort xml:id="91014">
       <tag when="1928-04-17" pmb-place="91014"/>
    </ort>
-   <ort xml:id="3721">
-      <tag when="1928-04-18" pmb-place="3721"/>
-   </ort>
-   <ort xml:id="1076">
-      <tag when="1928-04-18" pmb-place="1076"/>
-      <tag when="1928-04-19" pmb-place="1076"/>
-   </ort>
+   <ort xml:id="3721"/>
+   <ort xml:id="1076"/>
    <ort xml:id="505">
       <tag when="1928-04-18" pmb-place="505"/>
       <tag when="1928-04-19" pmb-place="505"/>
@@ -23459,9 +23313,7 @@
    <ort xml:id="92271">
       <tag when="1928-04-23" pmb-place="92271"/>
    </ort>
-   <ort xml:id="1075">
-      <tag when="1928-04-26" pmb-place="1075"/>
-   </ort>
+   <ort xml:id="1075"/>
    <ort xml:id="90757">
       <tag when="1928-04-29" pmb-place="90757"/>
    </ort>
@@ -23475,10 +23327,7 @@
       <tag when="1928-05-03" pmb-place="91143"/>
       <tag when="1928-07-29" pmb-place="91143"/>
    </ort>
-   <ort xml:id="2734">
-      <tag when="1928-05-15" pmb-place="2734"/>
-      <tag when="1928-07-12" pmb-place="2734"/>
-   </ort>
+   <ort xml:id="2734"/>
    <ort xml:id="90889">
       <tag when="1928-05-15" pmb-place="90889"/>
       <tag when="1928-07-12" pmb-place="90889"/>
@@ -23509,13 +23358,7 @@
    <ort xml:id="92289">
       <tag when="1928-05-27" pmb-place="92289"/>
    </ort>
-   <ort xml:id="8062">
-      <tag when="1928-05-28" pmb-place="8062"/>
-      <tag when="1928-06-29" pmb-place="8062"/>
-      <tag when="1929-06-09" pmb-place="8062"/>
-      <tag when="1929-07-14" pmb-place="8062"/>
-      <tag when="1929-08-04" pmb-place="8062"/>
-   </ort>
+   <ort xml:id="8062"/>
    <ort xml:id="1246">
       <tag when="1928-05-28" pmb-place="1246"/>
       <tag when="1929-07-14" pmb-place="1246"/>
@@ -23558,9 +23401,7 @@
    <ort xml:id="92107">
       <tag when="1928-06-14" pmb-place="92107"/>
    </ort>
-   <ort xml:id="18143">
-      <tag when="1928-06-14" pmb-place="18143"/>
-   </ort>
+   <ort xml:id="18143"/>
    <ort xml:id="39334">
       <tag when="1928-06-14" pmb-place="39334"/>
    </ort>
@@ -23579,9 +23420,7 @@
    <ort xml:id="92225">
       <tag when="1928-06-16" pmb-place="92225"/>
    </ort>
-   <ort xml:id="4043">
-      <tag when="1928-06-19" pmb-place="4043"/>
-   </ort>
+   <ort xml:id="4043"/>
    <ort xml:id="92533">
       <tag when="1928-06-29" pmb-place="92533"/>
       <tag when="1928-08-03" pmb-place="92533"/>
@@ -23590,30 +23429,182 @@
       <tag when="1931-05-03" pmb-place="92533"/>
       <tag when="1931-06-28" pmb-place="92533"/>
    </ort>
-   <ort xml:id="289">
-      <tag when="1928-06-29" pmb-place="289"/>
-      <tag when="1928-08-03" pmb-place="289"/>
-      <tag when="1928-08-12" pmb-place="289"/>
-      <tag when="1929-04-28" pmb-place="289"/>
-      <tag when="1929-05-26" pmb-place="289"/>
-      <tag when="1929-06-09" pmb-place="289"/>
-      <tag when="1929-07-14" pmb-place="289"/>
-      <tag when="1929-08-04" pmb-place="289"/>
-      <tag when="1929-10-06" pmb-place="289"/>
-      <tag when="1931-05-03" pmb-place="289"/>
-      <tag when="1931-05-24" pmb-place="289"/>
-   </ort>
+   <ort xml:id="289"/>
    <ort xml:id="91955">
       <tag when="1928-06-29" pmb-place="91955"/>
       <tag when="1929-08-04" pmb-place="91955"/>
    </ort>
    <ort xml:id="">
+      <tag when="1881-07-19" pmb-place=""/>
+      <tag when="1881-07-20" pmb-place=""/>
+      <tag when="1881-07-20" pmb-place=""/>
+      <tag when="1881-07-21" pmb-place=""/>
+      <tag when="1885-08-08" pmb-place=""/>
+      <tag when="1885-08-09" pmb-place=""/>
+      <tag when="1885-08-18" pmb-place=""/>
+      <tag when="1890-07-20" pmb-place=""/>
+      <tag when="1891-06-04" pmb-place=""/>
+      <tag when="1891-07-07" pmb-place=""/>
+      <tag when="1891-07-10" pmb-place=""/>
+      <tag when="1891-07-16" pmb-place=""/>
+      <tag when="1891-07-20" pmb-place=""/>
+      <tag when="1891-07-24" pmb-place=""/>
+      <tag when="1891-07-26" pmb-place=""/>
+      <tag when="1891-07-27" pmb-place=""/>
+      <tag when="1893-05-21" pmb-place=""/>
+      <tag when="1893-05-22" pmb-place=""/>
+      <tag when="1893-08-24" pmb-place=""/>
+      <tag when="1893-08-25" pmb-place=""/>
+      <tag when="1893-08-29" pmb-place=""/>
+      <tag when="1893-08-30" pmb-place=""/>
+      <tag when="1893-08-31" pmb-place=""/>
+      <tag when="1894-07-25" pmb-place=""/>
+      <tag when="1895-05-20" pmb-place=""/>
+      <tag when="1895-06-29" pmb-place=""/>
+      <tag when="1896-07-04" pmb-place=""/>
+      <tag when="1896-07-05" pmb-place=""/>
+      <tag when="1896-07-06" pmb-place=""/>
+      <tag when="1896-07-07" pmb-place=""/>
+      <tag when="1896-07-11" pmb-place=""/>
+      <tag when="1896-08-02" pmb-place=""/>
+      <tag when="1896-08-03" pmb-place=""/>
+      <tag when="1896-08-22" pmb-place=""/>
+      <tag when="1897-06-01" pmb-place=""/>
+      <tag when="1897-06-02" pmb-place=""/>
+      <tag when="1898-07-11" pmb-place=""/>
+      <tag when="1898-07-12" pmb-place=""/>
+      <tag when="1898-07-13" pmb-place=""/>
+      <tag when="1898-07-14" pmb-place=""/>
+      <tag when="1898-07-15" pmb-place=""/>
+      <tag when="1898-07-16" pmb-place=""/>
+      <tag when="1898-07-17" pmb-place=""/>
+      <tag when="1898-08-13" pmb-place=""/>
+      <tag when="1898-08-14" pmb-place=""/>
+      <tag when="1898-08-23" pmb-place=""/>
+      <tag when="1899-04-01" pmb-place=""/>
+      <tag when="1899-04-02" pmb-place=""/>
+      <tag when="1899-05-29" pmb-place=""/>
+      <tag when="1899-08-07" pmb-place=""/>
+      <tag when="1900-05-31" pmb-place=""/>
+      <tag when="1900-06-01" pmb-place=""/>
+      <tag when="1900-08-19" pmb-place=""/>
+      <tag when="1900-10-12" pmb-place=""/>
+      <tag when="1900-10-13" pmb-place=""/>
+      <tag when="1900-10-14" pmb-place=""/>
+      <tag when="1900-10-15" pmb-place=""/>
+      <tag when="1900-10-16" pmb-place=""/>
+      <tag when="1900-10-17" pmb-place=""/>
+      <tag when="1900-10-19" pmb-place=""/>
+      <tag when="1900-10-20" pmb-place=""/>
+      <tag when="1900-10-21" pmb-place=""/>
+      <tag when="1901-03-27" pmb-place=""/>
+      <tag when="1903-10-20" pmb-place=""/>
+      <tag when="1903-10-21" pmb-place=""/>
+      <tag when="1905-03-06" pmb-place=""/>
+      <tag when="1905-03-11" pmb-place=""/>
+      <tag when="1905-03-12" pmb-place=""/>
+      <tag when="1905-03-13" pmb-place=""/>
+      <tag when="1906-06-28" pmb-place=""/>
+      <tag when="1906-07-02" pmb-place=""/>
+      <tag when="1906-07-16" pmb-place=""/>
+      <tag when="1906-08-09" pmb-place=""/>
+      <tag when="1906-08-10" pmb-place=""/>
+      <tag when="1906-08-11" pmb-place=""/>
+      <tag when="1907-07-03" pmb-place=""/>
+      <tag when="1907-07-03" pmb-place=""/>
+      <tag when="1908-04-30" pmb-place=""/>
+      <tag when="1908-06-23" pmb-place=""/>
+      <tag when="1908-06-24" pmb-place=""/>
+      <tag when="1910-09-18" pmb-place=""/>
+      <tag when="1911-02-12" pmb-place=""/>
+      <tag when="1911-02-13" pmb-place=""/>
+      <tag when="1911-04-17" pmb-place=""/>
+      <tag when="1911-04-20" pmb-place=""/>
+      <tag when="1911-04-21" pmb-place=""/>
+      <tag when="1911-04-23" pmb-place=""/>
+      <tag when="1911-11-05" pmb-place=""/>
+      <tag when="1911-11-06" pmb-place=""/>
+      <tag when="1911-11-07" pmb-place=""/>
+      <tag when="1911-11-08" pmb-place=""/>
+      <tag when="1911-11-09" pmb-place=""/>
+      <tag when="1911-11-10" pmb-place=""/>
+      <tag when="1911-11-11" pmb-place=""/>
+      <tag when="1913-04-26" pmb-place=""/>
+      <tag when="1913-04-27" pmb-place=""/>
+      <tag when="1913-04-28" pmb-place=""/>
+      <tag when="1914-05-17" pmb-place=""/>
+      <tag when="1914-05-18" pmb-place=""/>
+      <tag when="1914-07-20" pmb-place=""/>
+      <tag when="1922-06-08" pmb-place=""/>
+      <tag when="1922-06-09" pmb-place=""/>
+      <tag when="1922-06-10" pmb-place=""/>
+      <tag when="1922-06-11" pmb-place=""/>
+      <tag when="1922-10-24" pmb-place=""/>
+      <tag when="1922-10-25" pmb-place=""/>
+      <tag when="1923-05-10" pmb-place=""/>
+      <tag when="1923-05-11" pmb-place=""/>
+      <tag when="1923-05-12" pmb-place=""/>
+      <tag when="1923-05-13" pmb-place=""/>
+      <tag when="1923-05-14" pmb-place=""/>
+      <tag when="1923-05-15" pmb-place=""/>
+      <tag when="1923-05-16" pmb-place=""/>
+      <tag when="1923-07-07" pmb-place=""/>
+      <tag when="1923-08-05" pmb-place=""/>
+      <tag when="1923-08-06" pmb-place=""/>
+      <tag when="1923-08-14" pmb-place=""/>
+      <tag when="1923-08-15" pmb-place=""/>
+      <tag when="1923-08-15" pmb-place=""/>
+      <tag when="1923-08-16" pmb-place=""/>
+      <tag when="1923-09-05" pmb-place=""/>
+      <tag when="1923-09-06" pmb-place=""/>
+      <tag when="1923-09-07" pmb-place=""/>
+      <tag when="1923-09-07" pmb-place=""/>
+      <tag when="1923-09-08" pmb-place=""/>
+      <tag when="1923-09-09" pmb-place=""/>
+      <tag when="1923-09-10" pmb-place=""/>
+      <tag when="1923-09-11" pmb-place=""/>
+      <tag when="1923-09-12" pmb-place=""/>
+      <tag when="1923-09-14" pmb-place=""/>
+      <tag when="1924-08-07" pmb-place=""/>
+      <tag when="1924-08-22" pmb-place=""/>
+      <tag when="1925-01-09" pmb-place=""/>
+      <tag when="1925-01-10" pmb-place=""/>
+      <tag when="1926-04-24" pmb-place=""/>
+      <tag when="1926-04-25" pmb-place=""/>
+      <tag when="1926-05-06" pmb-place=""/>
+      <tag when="1926-05-07" pmb-place=""/>
+      <tag when="1926-05-11" pmb-place=""/>
       <tag when="1928-07-01" pmb-place=""/>
       <tag when="1928-09-06" pmb-place=""/>
       <tag when="1929-08-18" pmb-place=""/>
       <tag when="1929-08-18" pmb-place=""/>
       <tag when="1929-08-21" pmb-place=""/>
+      <tag when="1929-09-12" pmb-place=""/>
+      <tag when="1929-09-13" pmb-place=""/>
+      <tag when="1929-09-14" pmb-place=""/>
+      <tag when="1929-09-15" pmb-place=""/>
+      <tag when="1929-09-16" pmb-place=""/>
+      <tag when="1929-09-17" pmb-place=""/>
+      <tag when="1929-09-18" pmb-place=""/>
+      <tag when="1929-09-19" pmb-place=""/>
+      <tag when="1929-09-20" pmb-place=""/>
+      <tag when="1929-09-21" pmb-place=""/>
+      <tag when="1930-08-26" pmb-place=""/>
+      <tag when="1930-08-27" pmb-place=""/>
+      <tag when="1930-08-28" pmb-place=""/>
+      <tag when="1930-08-29" pmb-place=""/>
+      <tag when="1930-08-30" pmb-place=""/>
+      <tag when="1930-08-31" pmb-place=""/>
+      <tag when="1930-09-01" pmb-place=""/>
+      <tag when="1930-09-02" pmb-place=""/>
+      <tag when="1930-09-03" pmb-place=""/>
       <tag when="1930-09-04" pmb-place=""/>
+      <tag when="1930-09-04" pmb-place=""/>
+      <tag when="1930-09-05" pmb-place=""/>
+      <tag when="1930-09-06" pmb-place=""/>
+      <tag when="1930-09-07" pmb-place=""/>
+      <tag when="1930-09-08" pmb-place=""/>
+      <tag when="1930-09-09" pmb-place=""/>
    </ort>
    <ort xml:id="92441">
       <tag when="1928-07-02" pmb-place="92441"/>
@@ -23626,10 +23617,7 @@
       <tag when="1931-04-24" pmb-place="62"/>
       <tag when="1931-07-10" pmb-place="62"/>
    </ort>
-   <ort xml:id="991">
-      <tag when="1928-07-08" pmb-place="991"/>
-      <tag when="1929-05-12" pmb-place="991"/>
-   </ort>
+   <ort xml:id="991"/>
    <ort xml:id="90753">
       <tag when="1928-07-11" pmb-place="90753"/>
       <tag when="1929-10-11" pmb-place="90753"/>
@@ -23643,22 +23631,12 @@
       <tag when="1929-10-06" pmb-place="942"/>
       <tag when="1931-06-28" pmb-place="942"/>
    </ort>
-   <ort xml:id="24136">
-      <tag when="1928-07-15" pmb-place="24136"/>
-      <tag when="1929-06-02" pmb-place="24136"/>
-   </ort>
-   <ort xml:id="17429">
-      <tag when="1928-07-17" pmb-place="17429"/>
-   </ort>
+   <ort xml:id="24136"/>
+   <ort xml:id="17429"/>
    <ort xml:id="92449">
       <tag when="1928-07-24" pmb-place="92449"/>
    </ort>
-   <ort xml:id="473">
-      <tag when="1928-08-12" pmb-place="473"/>
-      <tag when="1928-08-15" pmb-place="473"/>
-      <tag when="1929-04-28" pmb-place="473"/>
-      <tag when="1931-05-03" pmb-place="473"/>
-   </ort>
+   <ort xml:id="473"/>
    <ort xml:id="90821">
       <tag when="1928-08-12" pmb-place="90821"/>
       <tag when="1929-05-05" pmb-place="90821"/>
@@ -23667,15 +23645,7 @@
    <ort xml:id="92059">
       <tag when="1928-08-12" pmb-place="92059"/>
    </ort>
-   <ort xml:id="38129">
-      <tag when="1928-08-17" pmb-place="38129"/>
-      <tag when="1928-09-01" pmb-place="38129"/>
-      <tag when="1928-09-02" pmb-place="38129"/>
-      <tag when="1928-09-03" pmb-place="38129"/>
-      <tag when="1929-08-20" pmb-place="38129"/>
-      <tag when="1929-08-21" pmb-place="38129"/>
-      <tag when="1930-10-08" pmb-place="38129"/>
-   </ort>
+   <ort xml:id="38129"/>
    <ort xml:id="90225">
       <tag when="1928-08-18" pmb-place="90225"/>
    </ort>
@@ -23697,9 +23667,7 @@
    <ort xml:id="91139">
       <tag when="1928-08-27" pmb-place="91139"/>
    </ort>
-   <ort xml:id="22564">
-      <tag when="1928-08-27" pmb-place="22564"/>
-   </ort>
+   <ort xml:id="22564"/>
    <ort xml:id="51263">
       <tag when="1928-09-02" pmb-place="51263"/>
    </ort>
@@ -23844,9 +23812,7 @@
    <ort xml:id="91451">
       <tag when="1929-05-09" pmb-place="91451"/>
    </ort>
-   <ort xml:id="23511">
-      <tag when="1929-05-15" pmb-place="23511"/>
-   </ort>
+   <ort xml:id="23511"/>
    <ort xml:id="55901">
       <tag when="1929-05-28" pmb-place="55901"/>
    </ort>
@@ -23867,10 +23833,7 @@
       <tag when="1930-05-11" pmb-place="91482"/>
       <tag when="1931-05-14" pmb-place="91482"/>
    </ort>
-   <ort xml:id="7390">
-      <tag when="1929-06-23" pmb-place="7390"/>
-      <tag when="1930-05-12" pmb-place="7390"/>
-   </ort>
+   <ort xml:id="7390"/>
    <ort xml:id="91538">
       <tag when="1929-06-29" pmb-place="91538"/>
    </ort>
@@ -23880,9 +23843,7 @@
    <ort xml:id="91316">
       <tag when="1929-06-29" pmb-place="91316"/>
    </ort>
-   <ort xml:id="19892">
-      <tag when="1929-06-29" pmb-place="19892"/>
-   </ort>
+   <ort xml:id="19892"/>
    <ort xml:id="34354">
       <tag when="1929-07-14" pmb-place="34354"/>
       <tag when="1929-08-04" pmb-place="34354"/>
@@ -23906,14 +23867,8 @@
       <tag when="1929-07-21" pmb-place="92168"/>
       <tag when="1930-10-30" pmb-place="92168"/>
    </ort>
-   <ort xml:id="8055">
-      <tag when="1929-08-21" pmb-place="8055"/>
-      <tag when="1929-08-22" pmb-place="8055"/>
-      <tag when="1929-09-04" pmb-place="8055"/>
-   </ort>
-   <ort xml:id="12220">
-      <tag when="1929-08-22" pmb-place="12220"/>
-   </ort>
+   <ort xml:id="8055"/>
+   <ort xml:id="12220"/>
    <ort xml:id="91808">
       <tag when="1929-08-22" pmb-place="91808"/>
    </ort>
@@ -23934,19 +23889,7 @@
       <tag when="1929-09-01" pmb-place="90460"/>
       <tag when="1929-09-02" pmb-place="90460"/>
    </ort>
-   <ort xml:id="5260">
-      <tag when="1929-08-22" pmb-place="5260"/>
-      <tag when="1929-08-27" pmb-place="5260"/>
-      <tag when="1929-09-02" pmb-place="5260"/>
-      <tag when="1929-09-03" pmb-place="5260"/>
-      <tag when="1929-09-04" pmb-place="5260"/>
-      <tag when="1929-09-05" pmb-place="5260"/>
-      <tag when="1929-09-06" pmb-place="5260"/>
-      <tag when="1929-09-07" pmb-place="5260"/>
-      <tag when="1929-09-08" pmb-place="5260"/>
-      <tag when="1929-09-09" pmb-place="5260"/>
-      <tag when="1929-09-10" pmb-place="5260"/>
-   </ort>
+   <ort xml:id="5260"/>
    <ort xml:id="91141">
       <tag when="1929-08-24" pmb-place="91141"/>
    </ort>
@@ -23965,43 +23908,12 @@
    <ort xml:id="92579">
       <tag when="1929-09-07" pmb-place="92579"/>
    </ort>
-   <ort xml:id="10125">
-      <tag when="1929-09-10" pmb-place="10125"/>
-   </ort>
+   <ort xml:id="10125"/>
    <ort xml:id="872">
       <tag when="1929-09-11" pmb-place="872"/>
    </ort>
-   <ort xml:id="1145">
-      <tag when="1929-09-11" pmb-place="1145"/>
-      <tag when="1929-09-12" pmb-place="1145"/>
-   </ort>
-   <ort xml:id="91211">
-      <tag when="1929-09-12" pmb-place="91211"/>
-      <tag when="1929-09-13" pmb-place="91211"/>
-      <tag when="1929-09-14" pmb-place="91211"/>
-      <tag when="1929-09-15" pmb-place="91211"/>
-      <tag when="1929-09-16" pmb-place="91211"/>
-      <tag when="1929-09-17" pmb-place="91211"/>
-      <tag when="1929-09-18" pmb-place="91211"/>
-      <tag when="1929-09-19" pmb-place="91211"/>
-      <tag when="1929-09-20" pmb-place="91211"/>
-      <tag when="1929-09-21" pmb-place="91211"/>
-      <tag when="1930-08-26" pmb-place="91211"/>
-      <tag when="1930-08-27" pmb-place="91211"/>
-      <tag when="1930-08-28" pmb-place="91211"/>
-      <tag when="1930-08-29" pmb-place="91211"/>
-      <tag when="1930-08-30" pmb-place="91211"/>
-      <tag when="1930-08-31" pmb-place="91211"/>
-      <tag when="1930-09-01" pmb-place="91211"/>
-      <tag when="1930-09-02" pmb-place="91211"/>
-      <tag when="1930-09-03" pmb-place="91211"/>
-      <tag when="1930-09-04" pmb-place="91211"/>
-      <tag when="1930-09-05" pmb-place="91211"/>
-      <tag when="1930-09-06" pmb-place="91211"/>
-      <tag when="1930-09-07" pmb-place="91211"/>
-      <tag when="1930-09-08" pmb-place="91211"/>
-      <tag when="1930-09-09" pmb-place="91211"/>
-   </ort>
+   <ort xml:id="1145"/>
+   <ort xml:id="91211"/>
    <ort xml:id="90565">
       <tag when="1929-09-13" pmb-place="90565"/>
    </ort>
@@ -24026,9 +23938,7 @@
       <tag when="1929-12-30" pmb-place="91975"/>
       <tag when="1930-01-11" pmb-place="91975"/>
    </ort>
-   <ort xml:id="974">
-      <tag when="1929-12-30" pmb-place="974"/>
-   </ort>
+   <ort xml:id="974"/>
    <ort xml:id="92484">
       <tag when="1930-01-06" pmb-place="92484"/>
    </ort>
@@ -24043,9 +23953,7 @@
    <ort xml:id="92547">
       <tag when="1930-02-20" pmb-place="92547"/>
    </ort>
-   <ort xml:id="23775">
-      <tag when="1930-03-30" pmb-place="23775"/>
-   </ort>
+   <ort xml:id="23775"/>
    <ort xml:id="90558">
       <tag when="1930-03-30" pmb-place="90558"/>
    </ort>
@@ -24062,9 +23970,7 @@
       <tag when="1930-04-21" pmb-place="91592"/>
       <tag when="1930-06-01" pmb-place="91592"/>
    </ort>
-   <ort xml:id="8880">
-      <tag when="1930-04-21" pmb-place="8880"/>
-   </ort>
+   <ort xml:id="8880"/>
    <ort xml:id="91887">
       <tag when="1930-04-21" pmb-place="91887"/>
       <tag when="1930-06-01" pmb-place="91887"/>
@@ -24099,9 +24005,7 @@
       <tag when="1931-01-18" pmb-place="92471"/>
       <tag when="1931-06-04" pmb-place="92471"/>
    </ort>
-   <ort xml:id="11543">
-      <tag when="1930-06-09" pmb-place="11543"/>
-   </ort>
+   <ort xml:id="11543"/>
    <ort xml:id="92351">
       <tag when="1930-06-09" pmb-place="92351"/>
    </ort>
@@ -24111,11 +24015,7 @@
    <ort xml:id="92364">
       <tag when="1930-06-17" pmb-place="92364"/>
    </ort>
-   <ort xml:id="2520">
-      <tag when="1930-06-19" pmb-place="2520"/>
-      <tag when="1930-06-24" pmb-place="2520"/>
-      <tag when="1931-06-04" pmb-place="2520"/>
-   </ort>
+   <ort xml:id="2520"/>
    <ort xml:id="662">
       <tag when="1930-06-24" pmb-place="662"/>
       <tag when="1930-06-29" pmb-place="662"/>
@@ -24131,10 +24031,6 @@
       <tag when="1930-07-17" pmb-place="2448"/>
    </ort>
    <ort xml:id="1059">
-      <tag when="1930-07-17" pmb-place="1059"/>
-      <tag when="1930-07-18" pmb-place="1059"/>
-      <tag when="1930-07-19" pmb-place="1059"/>
-      <tag when="1930-07-20" pmb-place="1059"/>
       <tag when="1930-07-21" pmb-place="1059"/>
       <tag when="1930-07-22" pmb-place="1059"/>
       <tag when="1930-07-23" pmb-place="1059"/>
@@ -24182,21 +24078,13 @@
    <ort xml:id="90434">
       <tag when="1930-08-01" pmb-place="90434"/>
    </ort>
-   <ort xml:id="1046">
-      <tag when="1930-08-06" pmb-place="1046"/>
-   </ort>
-   <ort xml:id="9443">
-      <tag when="1930-08-10" pmb-place="9443"/>
-   </ort>
+   <ort xml:id="1046"/>
+   <ort xml:id="9443"/>
    <ort xml:id="90933">
       <tag when="1930-08-10" pmb-place="90933"/>
    </ort>
-   <ort xml:id="8176">
-      <tag when="1930-08-10" pmb-place="8176"/>
-   </ort>
-   <ort xml:id="13786">
-      <tag when="1930-08-30" pmb-place="13786"/>
-   </ort>
+   <ort xml:id="8176"/>
+   <ort xml:id="13786"/>
    <ort xml:id="92257">
       <tag when="1930-08-30" pmb-place="92257"/>
    </ort>
@@ -24304,9 +24192,7 @@
    <ort xml:id="92431">
       <tag when="1931-08-13" pmb-place="92431"/>
    </ort>
-   <ort xml:id="88391">
-      <tag when="1931-08-16" pmb-place="88391"/>
-   </ort>
+   <ort xml:id="88391"/>
    <ort xml:id="92285">
       <tag when="1931-09-06" pmb-place="92285"/>
    </ort>
