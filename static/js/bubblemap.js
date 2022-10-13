@@ -62,7 +62,7 @@
         type: 'mapbubble',
         accessibility: {
           point: {
-            valueDescriptionFormat: '{point.count} Besuche in: {point.name}'
+            valueDescriptionFormat: '{point.count} Tage in: {point.name}'
           }
         },
         name: 'Schnitzlers Aufenthalte',
