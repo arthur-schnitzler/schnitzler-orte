@@ -28,7 +28,7 @@
     },
   
       tooltip: {
-        pointFormat: '{point.count} Besuche: in <strong>{point.name}</strong>'
+        pointFormat: '{point.count} Tage in <strong>{point.name}</strong>'
       },
   
       xAxis: {
