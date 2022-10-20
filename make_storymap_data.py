@@ -8,16 +8,25 @@ main_file = MASTER_FILE
 
 START_YEAR, END_YEAR = 1879, 1932
 
-
-doc = TeiReader(main_file)
-places = doc.any_xpath('.//tei:place')
 ns = {
     "tei": "http://www.tei-c.org/ns/1.0"
 }
 
-
 def get_name(node):
     return " ".join(node.xpath('./tei:placeName/text()', namespaces=ns)[0].split())
+
+
+doc = TeiReader(main_file)
+all_places = doc.any_xpath('.//tei:place')
+places = []
+for x in all_places:
+    add_name = True
+    name = get_name(x)
+    for s in FILTER_WORDS:
+        if s in name.lower():
+            add_name = False
+    if add_name:
+        places.append(x)
 
 no_match = set()
 for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YEAR))):
@@ -38,13 +47,6 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
         if f'{year}' in cur_date:
             parent = x.getparent()
             name = get_name(x)
-            stop_working = False
-            for s in FILTER_WORDS:
-                if s in name.lower():
-                    stop_working = True
-                    break
-            if stop_working:
-                continue
             slide = {}
             try:
                 next_place = places[i + 1]
@@ -93,12 +95,3 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
                 story_map_data['storymap']['slides'].append(slide)
     with open(f'./html/data/{year}.json', 'w') as f:
         json.dump(story_map_data, f)
-        
-
-
-
-
-
-
-
-
