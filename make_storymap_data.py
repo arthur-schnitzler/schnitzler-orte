@@ -1,7 +1,7 @@
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
-from config import MASTER_FILE
+from config import MASTER_FILE, FILTER_WORDS
 
 
 main_file = MASTER_FILE
@@ -38,6 +38,13 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
         if f'{year}' in cur_date:
             parent = x.getparent()
             name = get_name(x)
+            stop_working = False
+            for s in FILTER_WORDS:
+                if s in name.lower():
+                    stop_working = True
+                    break
+            if stop_working:
+                continue
             slide = {}
             try:
                 next_place = places[i + 1]
