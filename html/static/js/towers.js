@@ -1,4 +1,4 @@
-const { DeckGL, HexagonLayer } = deck;
+const { DeckGL, ColumnLayer } = deck;
 
 const deckgl = new DeckGL({
     container: 'viscontainer',
@@ -39,25 +39,39 @@ function renderLayer() {
         options[key] = Number(value);
     });
 
-    const hexagonLayer = new HexagonLayer({
-        id: 'heatmap',
-        colorRange: COLOR_RANGE,
+    const columnlayer = new ColumnLayer({
+        id: 'column-layer',
         data,
-        radius: 1500,
-        elevationRange: [0, 1000],
-        elevationScale: 250,
+        diskResolution: 6,
+        radius: 3500,
         extruded: true,
-        getPosition: d => d,
+        pickable: true,
+        elevationScale: 50,
+        getPosition: d => d.centroid,
+        getFillColor: d => [d.value / 50, 250, d.value / 100, 255],
+        getLineColor: [0, 0, 0],
+        getElevation: d => d.value,
+        autoHighlight: true,
         ...options
     });
 
     deckgl.setProps({
-        layers: [hexagonLayer]
+        layers: [columnlayer],
+        getTooltip: ({ object }) => object && `${object.name}, Tage: ${object.value}`,
     });
 }
 
 d3.csv('data/places.csv')
     .then(response => {
-        data = response.map(d => [Number(d.lng), Number(d.lat)]);
+        data = response.map(
+            d => ({
+                "centroid": [
+                    Number(d.lng), Number(d.lat),
+                ],
+                "value": Number(d.amount),
+                "name": d.name,
+                "pmb": d.pmb
+            })
+        );
         renderLayer();
     });
