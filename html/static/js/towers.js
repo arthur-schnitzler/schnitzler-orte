@@ -57,7 +57,20 @@ function renderLayer() {
 
     deckgl.setProps({
         layers: [columnlayer],
-        getTooltip: ({ object }) => object && `${object.name}, Tage: ${object.value}`,
+        // getTooltip: ({ object }) => object && `${object.name}, Tage: ${object.value}`,
+        getTooltip: ({object}) => object && {
+            html: `
+            <h2>
+                <a href="${object.pmb}">${object.name}</a>
+            </h2>
+            <div>Tage: ${object.value}</div>
+            <div>
+                <img src="${object.image}" class="img-thumbnail"/>
+            </div>`,
+            style: {
+              backgroundColor: '#ffffff'
+            }
+          }
     });
 }
 
@@ -70,7 +83,8 @@ d3.csv('data/places.csv')
                 ],
                 "value": Number(d.amount),
                 "name": d.name,
-                "pmb": d.pmb
+                "pmb": d.pmb,
+                "image": d.image
             })
         );
         renderLayer();
