@@ -4,9 +4,9 @@ const deckgl = new DeckGL({
     container: 'viscontainer',
     mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json',
     initialViewState: {
-        longitude: 15.8377883,
+        longitude: 13.8377883,
         latitude: 47.6980143,
-        zoom: 10,
+        zoom: 7,
         minZoom: 1,
         maxZoom: 15,
         pitch: 60.5
@@ -16,7 +16,7 @@ const deckgl = new DeckGL({
 
 let data = null;
 
-const OPTIONS = ['radius', 'coverage', 'upperPercentile'];
+const OPTIONS = ['radius',];
 
 const COLOR_RANGE = [
     [1, 152, 189],
