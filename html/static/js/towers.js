@@ -57,7 +57,6 @@ function renderLayer() {
 
     deckgl.setProps({
         layers: [columnlayer],
-        // getTooltip: ({ object }) => object && `${object.name}, Tage: ${object.value}`,
         getTooltip: ({object}) => object && {
             html: `
             <h2>
@@ -65,7 +64,11 @@ function renderLayer() {
             </h2>
             <div>Tage: ${object.value}</div>
             <div>
-                <img src="${object.image}" class="img-thumbnail"/>
+                ${
+                    object.image === 'False'
+                    ? 'kein Bild vorhanden'
+                    : `<img src="${object.image}" class="img-thumbnail"/>`
+                }
             </div>`,
             style: {
               backgroundColor: '#ffffff'
