@@ -1,5 +1,22 @@
 const { DeckGL, ColumnLayer } = deck;
 
+function showPopUp(object){
+    const options = {focus: true}
+    var myModalPayload = `
+    <div>Tage: ${object.value}</div>
+    <div>
+        ${
+            object.image === 'False'
+            ? 'kein Bild vorhanden'
+            : `<img src="${object.image}" class="img-thumbnail"/>`
+        }
+    </div>`;
+    var myModal = new bootstrap.Modal(document.getElementById('myModal'), options);
+    document.getElementById('myModalLabel').innerHTML = `<a href="${object.pmb}">${object.name}</a>`
+    document.getElementById('modalBody').innerHTML = myModalPayload
+    myModal.toggle();
+  }
+
 const deckgl = new DeckGL({
     container: 'viscontainer',
     mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json',
@@ -52,6 +69,7 @@ function renderLayer() {
         getLineColor: [0, 0, 0],
         getElevation: d => d.value,
         autoHighlight: true,
+        onClick: (info, event) => showPopUp(info.object),
         ...options
     });
 
@@ -59,17 +77,10 @@ function renderLayer() {
         layers: [columnlayer],
         getTooltip: ({object}) => object && {
             html: `
-            <h2>
-                <a href="${object.pmb}">${object.name}</a>
-            </h2>
-            <div>Tage: ${object.value}</div>
-            <div>
-                ${
-                    object.image === 'False'
-                    ? 'kein Bild vorhanden'
-                    : `<img src="${object.image}" class="img-thumbnail"/>`
-                }
-            </div>`,
+            <h3>
+                ${object.name}
+            </h3>
+            <div>Klick für mehr Informationen</div>`,
             style: {
               backgroundColor: '#ffffff'
             }
