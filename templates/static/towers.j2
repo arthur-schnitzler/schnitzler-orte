@@ -7,7 +7,7 @@
 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
 
 <style type="text/css">
-    #viscontainer {
+  #viscontainer {
     font-family: Helvetica, Arial, sans-serif;
     width: 100vmax;
     height: 1000px;
@@ -38,18 +38,32 @@
 
 {% block content %}
 <div class="card p-2">
-    <div class="card-header">
-        <h1>Schnitzlers Aufenthalte auf der Welt</h1>
-        <div id="control-panel">
-            <div>
-              <label>Radius</label>
-              <input id="radius" type="range" min="1000" max="20000" step="1000" value="1000"></input>
-              <span id="radius-value"></span>
-            </div>
-          </div>
+  <div class="card-header">
+    <h1>Schnitzlers Aufenthalte auf der Welt</h1>
+    <div id="control-panel">
+      <div>
+        <label>Radius</label>
+        <input id="radius" type="range" min="1000" max="20000" step="1000" value="1000"></input>
+        <span id="radius-value"></span>
+      </div>
     </div>
-    <div class="card-body">
-        <div id="viscontainer"></div>
+  </div>
+  <div class="card-body">
+    <div id="viscontainer"></div>
+  </div>
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true" style="text-align: center;">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="myModalLabel">Modal title</h3>
+        </div>
+        <div class="modal-body" id="modalBody">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <script src="static/js/towers.js"></script>
