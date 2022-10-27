@@ -23,7 +23,7 @@ for x in tqdm(places, total=len(places)):
     item["pmb"] = xml_id
     try:
         image = x.xpath('./tei:link/@target', namespaces=ns)[0]
-        item["image"] = image.replace("full/full/0/native.jpg", "full/400,/0/default.jpg")
+        item["image"] = image.replace("full/full/0/native.jpg", "full/800,/0/default.jpg")
     except IndexError:
         item["image"] = False
     try:
