@@ -2,6 +2,7 @@ const { DeckGL, ColumnLayer } = deck;
 
 function showPopUp(object){
     const options = {focus: true}
+    console.log(object)
     var myModalPayload = `
     <div>Tage: ${object.value}</div>
     <div>
@@ -10,9 +11,18 @@ function showPopUp(object){
             ? 'kein Bild vorhanden'
             : `<img src="${object.image}" class="img-thumbnail"/>`
         }
+    </div>
+    
+    <div>
+        <a target="_blank" href="${object.schnitzler_tagebuch}" class="badge rounded-pill bg-success" style="color: white">Schnitzler Tagebuch</a>
+    </div>
+    <div>
+        ${
+            object.schnitzler_briefe ? `<a target="_blank" href="${object.schnitzler_briefe}" class="badge rounded-pill bg-danger">Schnitzler Briefe</a>` : ''
+        }
     </div>`;
     var myModal = new bootstrap.Modal(document.getElementById('myModal'), options);
-    document.getElementById('myModalLabel').innerHTML = `<a href="${object.pmb}">${object.name}</a>`
+    document.getElementById('myModalLabel').innerHTML = `${object.name}`
     document.getElementById('modalBody').innerHTML = myModalPayload
     myModal.toggle();
   }
@@ -98,7 +108,9 @@ d3.csv('data/places.csv')
                 "value": Number(d.amount),
                 "name": d.name,
                 "pmb": d.pmb,
-                "image": d.image
+                "image": d.image,
+                "schnitzler_briefe": d.schnitzler_briefe,
+                "schnitzler_tagebuch": d.schnitzler_tagebuch
             })
         );
         renderLayer();

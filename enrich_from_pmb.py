@@ -38,7 +38,7 @@ for x in doc.any_xpath(".//tei:place"):
     for key, value in match.items():
         idno = ET.Element('{http://www.tei-c.org/ns/1.0}idno')
         idno.attrib['type'] = "website"
-        idno.attrib['subtype'] = key
+        idno.attrib['subtype'] = key.replace('-', '_')
         idno.text = value
         x.append(idno)
 doc.tree_to_file(MASTER_ENRICHED)

@@ -26,6 +26,8 @@ for x in tqdm(places, total=len(places)):
         item["image"] = image.replace("full/full/0/native.jpg", "full/800,/0/default.jpg")
     except IndexError:
         item["image"] = False
+    for idno in x.xpath('.//tei:idno[@type="website"]', namespaces=ns):
+        item[idno.attrib["subtype"]] = idno.text
     try:
         coords = x.xpath('.//tei:geo', namespaces=ns)[0].text
     except IndexError:
