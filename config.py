@@ -1,4 +1,5 @@
 MASTER_FILE = "./editions/schnitzler_places.xml"
+MASTER_ENRICHED = "./editions/schnitzler_places_enriched.xml"
 
 NAME_SPACES = {
     "tei": "http://www.tei-c.org/ns/1.0",
@@ -14,3 +15,5 @@ FILTER_WORDS = [
     "gasse",
     "allee"
 ]
+
+PMB_LISTPLACE_DUMP = "https://oeawcloud.oeaw.ac.at/index.php/s/Kbnien5KfnPaFsK/download/listplace.xml"

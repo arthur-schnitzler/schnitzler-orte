@@ -1,10 +1,10 @@
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
-from config import MASTER_FILE, FILTER_WORDS
+from config import MASTER_ENRICHED, FILTER_WORDS
 
 
-main_file = MASTER_FILE
+main_file = MASTER_ENRICHED
 
 START_YEAR, END_YEAR = 1879, 1932
 

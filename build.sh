@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Enrich"
+python enrich_from_pmb.py
+
 echo "Prepare Storymap data"
 python make_storymap_data.py
 

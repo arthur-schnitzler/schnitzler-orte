@@ -1,10 +1,10 @@
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from collections import Counter
-from config import MASTER_FILE
+from config import MASTER_ENRICHED
 
 
-main_file = MASTER_FILE
+main_file = MASTER_ENRICHED
 ns = {
     "tei": "http://www.tei-c.org/ns/1.0"
 }

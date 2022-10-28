@@ -7,9 +7,9 @@ from collections import Counter
 from acdh_tei_pyutils.tei import TeiReader
 from geopy import distance
 
-from config import MASTER_FILE, NAME_SPACES
+from config import MASTER_ENRICHED, NAME_SPACES
 
-main_file = MASTER_FILE
+main_file = MASTER_ENRICHED
 ns = NAME_SPACES
 
 
