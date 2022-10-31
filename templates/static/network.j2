@@ -1,0 +1,25 @@
+{% extends "templates/partials/base.j2" %}
+{% block title %}Arthur Schnitzler – Reisen als Netzwerk{% endblock %}
+{% block scriptHeader %}
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/graphology/0.25.1/graphology.umd.min.js" integrity="sha512-GmmewWpb5XLYSZhn6Ie7WR5/R8Qtu6rPWWiAZyImgcbrUAZnLRiIZ3tKu61dW3uWxPgApt3l54bL5oD3ZYdCXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/2.3.1/sigma.min.js" integrity="sha512-rU8OO+H1WUkbSf/0Enr4ZVFw2Kydx9kK0b805tWXgrcyyJu/S4YM09xxYlCeh/BHf2WqL89ioXIppy8ghHB1sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+    #viscontainer {
+        height: 800px;
+    }
+</style>
+{% endblock scriptHeader %}
+
+
+{% block content %}
+<div class="card p-2">
+    <div class="card-header">
+        <h1>Reisen als Netzwerk</h1>
+    </div>
+    <div class="card-body">
+        <div id="viscontainer"></div>
+  </div>
+</div>
+<script src="static/js/network.js"></script>
+{% endblock %}
