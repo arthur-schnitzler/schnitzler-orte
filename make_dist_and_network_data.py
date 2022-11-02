@@ -165,6 +165,7 @@ for node in nx.nodes(G):
         "key": node,
         "attributes": dict(G.nodes[node])
     }
+    item["attributes"]["label"] = node
     data["nodes"].append(item)
 
 for edge in nx.edges(G):
