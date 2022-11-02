@@ -67,7 +67,7 @@ for edge in nx.edges(G):
         "key": edge_dict['key'],
         "source": edge[0],
         "target": edge[1],
-        "attributes": edge_dict
+        # "attributes": edge_dict
     }
     data["edges"].append(item)
 

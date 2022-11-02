@@ -7,27 +7,6 @@ d3.json(url)
     .then(response => {
         data = response;
         console.log(data);
-        hansi = {
-          attributes: {
-            name: 'My Graph'
-          },
-          options: {
-            allowSelfLoops: true,
-            multi: false,
-            type: 'mixed'
-          },
-          nodes: [
-            {key: 'Thomas', attributes: {x: 1, y: 1}},
-            {key: 'Eric', attributes: {x: 2, y: 2}}
-          ],
-          edges: [
-            {
-              key: 'T->E',
-              source: 'Thomas',
-              target: 'Eric'
-            }
-          ]
-        }
         const graph = graphology.Graph.from(data);
         const OPTIONS = {
           allowInvalidContainer: true,

@@ -26,6 +26,7 @@ def get_distance(row):
         dist = distance.distance(point_a, point_b).km
     return dist
 
+print(f"converting {main_file} into a DataFrame")
 doc = TeiReader(main_file)
 places = doc.any_xpath('.//tei:place')
 domains = [
@@ -103,7 +104,9 @@ df.drop(
 
 # drop rows without movement
 df.drop(df.loc[df['name'] == df['next_name']].index, inplace=True)
-df.to_csv('hansi.csv', index=False)
+# df.to_csv('hansi.csv', index=False)
+
+print("create graphology.js network graph data")
 domains = [
     "gnd",
     "schnitzler_bahr",
@@ -125,6 +128,7 @@ for i, row in df.iterrows():
     G.edges[row['name'], row['next_name']]["key"] = f"edge_key__{i}"
 
 # add network coords
+print("calculating spring layout")
 pos = nx.spring_layout(G, iterations=30, seed=1721)
 for key, value in pos.items():
     G.nodes[key]['x'] = float(value[0])
@@ -143,7 +147,10 @@ for com in nx.community.label_propagation_communities(G):
 
 # serialize into graphology format
 data = {
-    "attributes": {},
+    "attributes": {
+        "name": "Schnitzler Reisen als Netzwerk",
+        "description": "Der Graph zeigt Schnitzler Reisen von Ort A zu B. Je größer ein Knoten, desto mehr andere Orte verbindet er."
+    },
     "options": {
         "type": "undirected",
         "multi": True,
@@ -166,10 +173,12 @@ for edge in nx.edges(G):
         "key": edge_dict['key'],
         "source": edge[0],
         "target": edge[1],
-        "attributes": edge_dict["day"]
+        "attributes": {
+            "day": edge_dict["day"]
+        }
     }
     data["edges"].append(item)
-
+print("dumping graph data")
 with open("./html/data/network.json", 'w') as f:
     json.dump(data, f, ensure_ascii=False)
 
