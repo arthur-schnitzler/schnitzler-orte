@@ -3,3 +3,4 @@ acdh-tei-pyutils
 geopy
 jinja2
 pandas
+networkx

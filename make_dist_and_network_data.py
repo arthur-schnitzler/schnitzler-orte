@@ -1,9 +1,10 @@
 import os
 import json
 import pandas as pd
+import networkx as nx
 
 from collections import Counter
-
+from random import randint
 from acdh_tei_pyutils.tei import TeiReader
 from geopy import distance
 
@@ -27,11 +28,28 @@ def get_distance(row):
 
 doc = TeiReader(main_file)
 places = doc.any_xpath('.//tei:place')
+domains = [
+    "gnd",
+    "schnitzler_bahr",
+    "schnitzler_briefe",
+    "legalkraus",
+    "schnitzler_tagebuch",
+    "wikidata"    
+]
+
 df_data = {
     "name": [],
     "lat": [],
     "lng": [],
-    "day": []
+    "day": [],
+    "pmb": [],
+    "akon": [],
+    "gnd": [],
+    "schnitzler_tagebuch": [],
+    "schnitzler_bahr": [],
+    "schnitzler_briefe": [],
+    "legalkraus": [],
+    "wikidata": []
 }
 for x in places:
     pl_name = " ".join(x.xpath('.//tei:placeName', namespaces=ns)[0].text.split())
@@ -49,6 +67,23 @@ for x in places:
         df_data['lng'].append(float(lng))
     except ValueError:
         continue
+    for domain in domains:
+        try:
+            uri = x.xpath(f'./tei:idno[@subtype="{domain}"]/text()', namespaces=ns)[0]
+        except IndexError:
+            uri = "no_url"
+        df_data[domain].append(uri)
+    try:
+        akon = x.xpath('./tei:link/@target', namespaces=ns)[0]
+    except IndexError:
+        akon = "no url"
+    df_data["akon"].append(akon)
+    try:
+        pmb = x.xpath('./tei:idno[@type="pmb"]/text()', namespaces=ns)[0]
+    except IndexError:
+        pmb = "no url"
+    df_data["pmb"].append(pmb)
+    
     df_data["name"].append(pl_name)
     df_data["day"].append(x.getparent().getparent().getparent().attrib['when'])
 
@@ -68,6 +103,75 @@ df.drop(
 
 # drop rows without movement
 df.drop(df.loc[df['name'] == df['next_name']].index, inplace=True)
+df.to_csv('hansi.csv', index=False)
+domains = [
+    "gnd",
+    "schnitzler_bahr",
+    "schnitzler_briefe",
+    "legalkraus",
+    "schnitzler_tagebuch",
+    "wikidata",
+    "pmb"
+]
+
+G = nx.Graph()
+for i, row in df.iterrows():
+    G.add_node(row['name'])
+    for domain in domains:
+        G.nodes[row['name']][domain] = row[domain]
+for i, row in df.iterrows():
+    G.add_edge(row['name'], row['next_name'])
+    G.edges[row['name'], row['next_name']]["day"] = row["day"]
+    G.edges[row['name'], row['next_name']]["key"] = f"edge_key__{i}"
+
+# add network coords
+pos = nx.spring_layout(G, iterations=30, seed=1721)
+for key, value in pos.items():
+    G.nodes[key]['x'] = float(value[0])
+    G.nodes[key]['y'] = float(value[1])
+
+# add node size taken from centrality
+degree_centrality = nx.centrality.degree_centrality(G)
+for key, value in degree_centrality.items():
+    G.nodes[key]['centrality'] = value * 100
+
+# add cluster and colors
+for com in nx.community.label_propagation_communities(G):
+    color = "#%06X" % randint(0, 0xFFFFFF)  # creates random RGB color
+    for node in list(com):  # fill colors list with the particular color for the community nodes
+        G.nodes[node]["color"] = color
+
+# serialize into graphology format
+data = {
+    "attributes": {},
+    "options": {
+        "type": "undirected",
+        "multi": True,
+        "allowSelfLoops": True
+    },
+    "nodes": [],
+    "edges": []
+}
+
+for node in nx.nodes(G):
+    item = {
+        "key": node,
+        "attributes": dict(G.nodes[node])
+    }
+    data["nodes"].append(item)
+
+for edge in nx.edges(G):
+    edge_dict = dict(G.edges[edge])
+    item = {
+        "key": edge_dict['key'],
+        "source": edge[0],
+        "target": edge[1],
+        "attributes": edge_dict["day"]
+    }
+    data["edges"].append(item)
+
+with open("./html/data/network.json", 'w') as f:
+    json.dump(data, f, ensure_ascii=False)
 
 # create arc-data
 
