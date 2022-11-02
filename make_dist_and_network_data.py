@@ -137,7 +137,12 @@ for key, value in pos.items():
 # add node size taken from centrality
 degree_centrality = nx.centrality.degree_centrality(G)
 for key, value in degree_centrality.items():
-    G.nodes[key]['centrality'] = value * 100
+    size = value * 100 + 3
+    if size < 1:
+        size = 1
+    elif size > 10:
+        size = 10 + value * 10
+    G.nodes[key]['size'] = size
 
 # add cluster and colors
 for com in nx.community.label_propagation_communities(G):
