@@ -4,3 +4,4 @@ geopy
 jinja2
 pandas
 networkx
+scipy
