@@ -3,55 +3,24 @@ const container = document.getElementById("viscontainer");
 
 const url = "./data/network.json"
 
+function logEvent(item, graph) {
+  const label = graph.getNodeAttribute(item, "label")
+  console.log(item, label)
+}
+
 d3.json(url)
     .then(response => {
         data = response;
         console.log(data);
-        hansi = {
-          attributes: {
-            name: 'My Graph'
-          },
-          options: {
-            allowSelfLoops: true,
-            multi: false,
-            type: 'mixed'
-          },
-          nodes: [
-            {key: 'Thomas', attributes: {x: 1, y: 1}},
-            {key: 'Eric', attributes: {x: 2, y: 2}}
-          ],
-          edges: [
-            {
-              key: 'T->E',
-              source: 'Thomas',
-              target: 'Eric'
-            }
-          ]
-        }
         const graph = graphology.Graph.from(data);
         const OPTIONS = {
           allowInvalidContainer: true,
+          enableEdgeHoverEvents: "debounce",
       }
       
       const renderer = new Sigma(graph, container, OPTIONS);
+      renderer.on('clickNode', ({ node }) => logEvent(node, graph));
     });
 
 
-// graph.addNode("John", { size: 5, label: "John", color: "blue" });
-// graph.addNode("Mary", { size: 3, label: "Mary", color: "red" });
-// graph.addNode("hansi", { size: 3, label: "hansi", color: "yellow" });
-
-// graph.addEdge("John", "Mary");
-// graph.addEdge("John", "hansi");
-// graph.addEdge("John", "hansi");
-
-
-
-
-// graph.nodes().forEach((node, i) => {
-//   const angle = (i * 2 * Math.PI) / graph.order;
-//   graph.setNodeAttribute(node, "x", 100 * Math.cos(angle));
-//   graph.setNodeAttribute(node, "y", 100 * Math.sin(angle));
-// });
-// console.log(graph);
 
