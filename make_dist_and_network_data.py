@@ -84,7 +84,6 @@ for x in places:
     except IndexError:
         pmb = "no url"
     df_data["pmb"].append(pmb)
-    
     df_data["name"].append(pl_name)
     df_data["day"].append(x.getparent().getparent().getparent().attrib['when'])
 
@@ -114,7 +113,8 @@ domains = [
     "legalkraus",
     "schnitzler_tagebuch",
     "wikidata",
-    "pmb"
+    "pmb",
+    "akon"
 ]
 
 G = nx.Graph()
