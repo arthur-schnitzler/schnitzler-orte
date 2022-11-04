@@ -126,7 +126,7 @@
     
 <div class="card p-2">
     <div class="card-header">
-        <h1>Reisen als Netzwerk</h1>
+        <h1>Reisen als Netzwerk <button class="btn bi bi-info-circle" data-bs-toggle="modal" data-bs-target="#exampleModal"></button></h1>
           <div id="search">
       <input type="search" id="search-input" list="suggestions" placeholder="Suche nach einem Ort..." />
       <datalist id="suggestions"></datalist>
@@ -134,6 +134,25 @@
     </div>
     <div class="card-body">
         <div id="viscontainer"></div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Über das Netzwerk</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Das Netzwerk zeichnet Schnitzlers Bewegungen von Ort zu Ort zu auf. Die einzelnen Knoten (nodes) representieren einen Ort den Schnitzler in seinem Leben einmal oder mehrmals besuchte.<br/>
+        Die <strong>Größe des Knotens</strong> spiegelt die Zentralität <a href="https://networkx.org/nx-guides/content/exploratory_notebooks/facebook_notebook.html#degree-centrality">(Degree Centrality)</a> eines Orte wider. Kurz gesagt, ein größerer Knoten steht mir mehr anderen Knoten in Verbindung als ein kleinerer Knoten.<br />
+        Die <strong>Farbe der Knoten</strong> entspricht ihrer jeweiligen Zugehörigkeit zu einer sogenannten <strong>Netzwerk Gemeinschaft</strong> <a href="https://networkx.org/nx-guides/content/exploratory_notebooks/facebook_notebook.html#network-communities">Network Communities</a>.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+      </div>
+    </div>
   </div>
 </div>
 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true" style="text-align: center;">

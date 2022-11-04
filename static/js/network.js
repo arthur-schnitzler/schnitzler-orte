@@ -10,10 +10,7 @@ const OPTIONS = {
     enableEdgeHoverEvents: "debounce",
 }
 
-function logEvent(nodeId, graph) {
-    const label = graph.getNodeAttribute(nodeId, "label")
-    console.log(nodeId, label)
-}
+
 
 function showPopUp(nodeId, graph) {
     const options = { focus: true }
