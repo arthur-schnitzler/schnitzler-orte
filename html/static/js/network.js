@@ -26,7 +26,9 @@ function showPopUp(nodeId, graph) {
       <a target="_blank" href="${graph.getNodeAttribute(nodeId, "schnitzler_tagebuch")}" class="badge rounded-pill bg-success" style="color: white">Schnitzler Tagebuch</a>
   </div>
   <div>
-      ${graph.getNodeAttribute(nodeId, "schnitzler_briefe") ? `<a target="_blank" href="${graph.getNodeAttribute(nodeId, "schnitzler_briefe")}" class="badge rounded-pill bg-danger">Schnitzler Briefe</a>` : ''
+      ${graph.getNodeAttribute(nodeId, "schnitzler_briefe") === 'no url'
+            ? ''
+            :`<a target="_blank" href="${graph.getNodeAttribute(nodeId, "schnitzler_briefe")}" class="badge rounded-pill bg-danger">Schnitzler Briefe</a>` 
         }
   </div>`;
     var myModal = new bootstrap.Modal(document.getElementById('myModal'), options);
@@ -116,19 +118,19 @@ d3.json(url)
         });
         renderer.setSetting("nodeReducer", (node, data) => {
             const res = { ...data };
-        
+
             if (state.hoveredNeighbors && !state.hoveredNeighbors.has(node) && state.hoveredNode !== node) {
                 res.label = "";
                 res.color = "#f6f6f6";
             }
-        
+
             if (state.selectedNode === node) {
                 res.highlighted = true;
             } else if (state.suggestions && !state.suggestions.has(node)) {
                 res.label = "";
                 res.color = "#f6f6f6";
             }
-        
+
             return res;
         });
 

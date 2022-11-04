@@ -12,6 +12,7 @@ from config import MASTER_ENRICHED, NAME_SPACES
 
 main_file = MASTER_ENRICHED
 ns = NAME_SPACES
+GEXF_OUT = './html/data/network.xml'
 
 
 print(f"running {os.path.basename(__file__)}")
@@ -72,7 +73,7 @@ for x in places:
         try:
             uri = x.xpath(f'./tei:idno[@subtype="{domain}"]/text()', namespaces=ns)[0]
         except IndexError:
-            uri = "no_url"
+            uri = "no url"
         df_data[domain].append(uri)
     try:
         akon = x.xpath('./tei:link/@target', namespaces=ns)[0]
@@ -117,15 +118,17 @@ domains = [
     "akon"
 ]
 
-G = nx.Graph()
+G = nx.MultiGraph()
 for i, row in df.iterrows():
     G.add_node(row['name'])
     for domain in domains:
         G.nodes[row['name']][domain] = row[domain]
 for i, row in df.iterrows():
-    G.add_edge(row['name'], row['next_name'])
-    G.edges[row['name'], row['next_name']]["day"] = row["day"]
-    G.edges[row['name'], row['next_name']]["key"] = f"edge_key__{i}"
+    G.add_edges_from(
+        [
+            (row['name'], row['next_name'], {"day": row["day"], "edge_key": f"edge_{i}"}),
+        ]
+    )
 
 # add network coords
 print("calculating spring layout")
@@ -137,11 +140,11 @@ for key, value in pos.items():
 # add node size taken from centrality
 degree_centrality = nx.centrality.degree_centrality(G)
 for key, value in degree_centrality.items():
-    size = value * 100 + 3
-    if size < 1:
-        size = 1
-    elif size > 10:
-        size = 10 + value * 10
+    size = value * 100
+    if size < 2:
+        size = 2
+    elif size > 5:
+        size = 5 + value
     G.nodes[key]['size'] = size
 
 # add cluster and colors
@@ -149,6 +152,13 @@ for com in nx.community.label_propagation_communities(G):
     color = "#%06X" % randint(0, 0xFFFFFF)  # creates random RGB color
     for node in list(com):  # fill colors list with the particular color for the community nodes
         G.nodes[node]["color"] = color
+
+# add edge weight
+c = Counter(G.edges()) 
+for u, v, d in G.edges(data=True):
+    d['weight'] = c[u, v]
+# print(f"dumping graph data as gexf into {GEXF_OUT}")
+# nx.write_gexf(G, GEXF_OUT)
 
 # serialize into graphology format
 data = {
@@ -173,20 +183,21 @@ for node in nx.nodes(G):
     item["attributes"]["label"] = node
     data["nodes"].append(item)
 
-for edge in nx.edges(G):
-    edge_dict = dict(G.edges[edge])
+for u, v, d in G.edges(data=True):
     item = {
-        "key": edge_dict['key'],
-        "source": edge[0],
-        "target": edge[1],
+        "key": d['edge_key'],
+        "source": u,
+        "target": v,
         "attributes": {
-            "day": edge_dict["day"]
+            "day": d["day"],
+            "weight": d['weight'],
         }
     }
     data["edges"].append(item)
 print("dumping graph data")
 with open("./html/data/network.json", 'w') as f:
     json.dump(data, f, ensure_ascii=False)
+
 
 # create arc-data
 
