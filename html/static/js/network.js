@@ -8,6 +8,7 @@ const searchSuggestions = document.getElementById("suggestions");
 const OPTIONS = {
     allowInvalidContainer: true,
     enableEdgeHoverEvents: "debounce",
+    defaultEdgeColor: "#f5ccff",
 }
 
 
@@ -28,7 +29,7 @@ function showPopUp(nodeId, graph) {
   <div>
       ${graph.getNodeAttribute(nodeId, "schnitzler_briefe") === 'no url'
             ? ''
-            :`<a target="_blank" href="${graph.getNodeAttribute(nodeId, "schnitzler_briefe")}" class="badge rounded-pill bg-danger">Schnitzler Briefe</a>` 
+            : `<a target="_blank" href="${graph.getNodeAttribute(nodeId, "schnitzler_briefe")}" class="badge rounded-pill bg-danger">Schnitzler Briefe</a>`
         }
   </div>`;
     var myModal = new bootstrap.Modal(document.getElementById('myModal'), options);
@@ -129,6 +130,24 @@ d3.json(url)
             } else if (state.suggestions && !state.suggestions.has(node)) {
                 res.label = "";
                 res.color = "#f6f6f6";
+            }
+
+            return res;
+        });
+        // Render edges accordingly to the internal state:
+        // 1. If a node is hovered, the edge is hidden if it is not connected to the
+        //    node
+        // 2. If there is a query, the edge is only visible if it connects two
+        //    suggestions
+        renderer.setSetting("edgeReducer", (edge, data) => {
+            const res = { ...data };
+
+            if (state.hoveredNode && !graph.hasExtremity(edge, state.hoveredNode)) {
+                res.hidden = true;
+            }
+
+            if (state.suggestions && (!state.suggestions.has(graph.source(edge)) || !state.suggestions.has(graph.target(edge)))) {
+                res.hidden = true;
             }
 
             return res;

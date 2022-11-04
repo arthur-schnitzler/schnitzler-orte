@@ -184,13 +184,23 @@ for node in nx.nodes(G):
     data["nodes"].append(item)
 
 for u, v, d in G.edges(data=True):
+    weight = d["weight"]
+    if weight > 10:
+        weight = 10
+        color = "#ffe6ff"
+    elif weight <= 10 and weight > 5:
+        color = "#ffe6ff"
+    else:
+        color = "#ff99ff"
+
     item = {
         "key": d['edge_key'],
         "source": u,
         "target": v,
         "attributes": {
             "day": d["day"],
-            "weight": d['weight'],
+            "size": weight,
+            "color": color,
         }
     }
     data["edges"].append(item)
