@@ -7,9 +7,9 @@ The result is the XML file in ../editions
 The associated website offers several visualizations.
 
 # Data curation by 
-Martin Anton Müller
-Laura Puntigam
-Laura Untner
+- Martin Anton Müller
+- Laura Puntigam
+- Laura Untner
 
 # Visualisations and website by
-Peter Andorfer
+- Peter Andorfer
