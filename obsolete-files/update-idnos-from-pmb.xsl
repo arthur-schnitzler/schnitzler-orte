@@ -5,7 +5,7 @@
     <xsl:mode on-no-match="shallow-copy"/>
     <xsl:output method="xml" indent="yes"/>
     
-    <xsl:param name="placeName" select="document('listplace.xml')"/>
+    <xsl:param name="placeName" select="document('../../schnitzler-entities/indices/listplace.xml')/tei:TEI/tei:text[1]/tei:body[1]/tei:listPlace[1]"/>
     <xsl:key name="placeName-lookup" match="tei:place" use="tei:idno[@subtype='pmb']"/>
     
     <!-- diese datei angewandt auf schnitzler-places und mit einer
@@ -16,14 +16,16 @@
     
     erlaubt, den standardwert der pmb-nummer zu setzen, wenn sich
     etwas geändert haben sollte, etwa durch merge
+    
+    aber heute HAT ES NICHT FUNKTIONIERT! OH WELL!
     -->
     
     
     <xsl:template match="tei:listPlace/tei:place">
         <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:variable name="nummer" select="replace(substring-after(tei:idno[@type='pmb'], 'entity/'), '/', '')"/>
-            <xsl:variable name="nummer-lookup" select="key('placeName-lookup', $nummer, $placeName)"/>
-            <xsl:copy-of select="$nummer-lookup/tei:placeName[1]|$nummer-lookup/tei:location[1]"></xsl:copy-of>
+            <xsl:variable name="nummer-lookup" select="key('placeName-lookup', $nummer, $placeName)/@xml:id"/>
+            <xsl:copy-of select="$placeName/tei:place[@xml:id=$nummer-lookup]/tei:placeName[1]|$placeName/tei:place[@xml:id=$nummer-lookup]/tei:location[1]"></xsl:copy-of>
                 <xsl:copy-of select="tei:link"/>
             <xsl:copy-of select="tei:idno[not(@type='pmb')]"></xsl:copy-of>
             <xsl:element name="idno" namespace="http://www.tei-c.org/ns/1.0">
