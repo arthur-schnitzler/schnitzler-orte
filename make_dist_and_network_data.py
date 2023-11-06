@@ -7,6 +7,7 @@ from collections import Counter
 from random import randint
 from acdh_tei_pyutils.tei import TeiReader
 from geopy import distance
+from lxml import etree as ET
 
 from config import MASTER_ENRICHED, NAME_SPACES
 
@@ -53,7 +54,9 @@ df_data = {
     "legalkraus": [],
     "wikidata": []
 }
+counter = 0
 for x in places:
+    counter += 1
     pl_name = " ".join(x.xpath('.//tei:placeName', namespaces=ns)[0].text.split())
     try:
         coords = x.xpath('.//tei:geo', namespaces=ns)[0].text
@@ -89,7 +92,11 @@ for x in places:
     try:
         df_data["day"].append(x.getparent().getparent().getparent().attrib['when'])
     except KeyError:
-        continue
+        event = x.getparent().getparent().getparent().getparent()
+        # print(f"{counter}  ###############")
+        # print(ET.tostring(event))
+        # print("#################\n\n\n")
+        df_data["day"].append(x.getparent().getparent().getparent().getparent().attrib['when'])
 
 df = pd.DataFrame(df_data)
 # add values from next row to the current one
