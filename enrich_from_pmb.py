@@ -5,6 +5,7 @@ from config import MASTER_FILE, NAME_SPACES, PMB_LISTPLACE_DUMP, MASTER_ENRICHED
 
 print(f"fetching PMB Places from {PMB_LISTPLACE_DUMP}")
 doc = TeiReader(PMB_LISTPLACE_DUMP)
+doc.tree_to_file("hansi.xml")
 
 data = {}
 for x in doc.any_xpath('.//tei:place[@xml:id]'):
@@ -14,7 +15,11 @@ for x in doc.any_xpath('.//tei:place[@xml:id]'):
         else:
             data[f"{y}/"] = {}
         for idno in x.xpath('./tei:idno', namespaces=NAME_SPACES):
-            domain = idno.attrib['subtype']
+            try:
+                domain = idno.attrib['subtype']
+            except KeyError:
+                print(f"no idno type subtype for {y}")
+                continue
             uri = idno.text
             if domain == "pmb":
                 continue

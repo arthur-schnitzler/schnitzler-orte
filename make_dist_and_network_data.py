@@ -86,7 +86,10 @@ for x in places:
         pmb = "no url"
     df_data["pmb"].append(pmb)
     df_data["name"].append(pl_name)
-    df_data["day"].append(x.getparent().getparent().getparent().attrib['when'])
+    try:
+        df_data["day"].append(x.getparent().getparent().getparent().attrib['when'])
+    except KeyError:
+        continue
 
 df = pd.DataFrame(df_data)
 # add values from next row to the current one

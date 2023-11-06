@@ -6,7 +6,7 @@ import shutil
 templateLoader = jinja2.FileSystemLoader(searchpath=".")
 templateEnv = jinja2.Environment(loader=templateLoader)
 
-print('Hello, let's start building')
+print("Hello, let's start building")
 
 # Clear the existing HTML files in the "./html" folder
 for x in glob.glob('./html/*.html'):
