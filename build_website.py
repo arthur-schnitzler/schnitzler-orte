@@ -2,6 +2,19 @@ import glob
 import jinja2
 import os
 import shutil
+import requests
+
+print("fetch imprint")
+r = requests.get("https://imprint.acdh.oeaw.ac.at/20818/")
+imprint_text = r.text
+imprint = """{% extends "templates/partials/base.j2" %}
+{% block content %}
+<div class="container">
+"""
+imprint += imprint_text
+imprint += "\n</div>\n{% endblock %}"
+with open("./templates/static/imprint.j2", "w", encoding="utf-8") as f:
+    f.write(imprint)
 
 templateLoader = jinja2.FileSystemLoader(searchpath=".")
 templateEnv = jinja2.Environment(loader=templateLoader)
