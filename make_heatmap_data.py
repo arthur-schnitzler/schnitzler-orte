@@ -5,22 +5,20 @@ from config import MASTER_ENRICHED
 
 
 main_file = MASTER_ENRICHED
-ns = {
-    "tei": "http://www.tei-c.org/ns/1.0"
-}
+ns = {"tei": "http://www.tei-c.org/ns/1.0"}
 doc = TeiReader(main_file)
-places = doc.any_xpath('.//tei:place')
+places = doc.any_xpath(".//tei:place")
 print(len(places))
 items = []
 for x in places:
-    name = x.xpath('.//tei:placeName', namespaces=ns)[0].text
+    name = x.xpath(".//tei:placeName", namespaces=ns)[0].text
     try:
-        coords = x.xpath('.//tei:geo', namespaces=ns)[0].text
+        coords = x.xpath(".//tei:geo", namespaces=ns)[0].text
     except IndexError:
         print(f"looks like place {name} has no coords")
         continue
     try:
-        img = x.xpath('.//tei:link', namespaces=ns)[0].attrib['target']
+        img = x.xpath(".//tei:link", namespaces=ns)[0].attrib["target"]
     except IndexError:
         img = ""
     try:
@@ -38,16 +36,11 @@ for key, value in data_raw.items():
     name, coords, img = key.split("__")
     lat, lng = coords.split()[0:2]
     try:
-        item = {
-            "name": name,
-            "lat": float(lat),
-            "lng": float(lng),
-            "count": int(value)
-        }
+        item = {"name": name, "lat": float(lat), "lng": float(lng), "count": int(value)}
     except ValueError:
         continue
     data.append(item)
-newlist = sorted(data, key=lambda d: d['count'], reverse=True) 
+newlist = sorted(data, key=lambda d: d["count"], reverse=True)
 
-with open('./html/data/heatmap.json', 'w') as f:
+with open("./html/data/heatmap.json", "w") as f:
     json.dump(newlist, f, ensure_ascii=False)

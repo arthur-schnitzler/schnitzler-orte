@@ -8,15 +8,15 @@ doc = TeiReader(PMB_LISTPLACE_DUMP)
 doc.tree_to_file("hansi.xml")
 
 data = {}
-for x in doc.any_xpath('.//tei:place[@xml:id]'):
+for x in doc.any_xpath(".//tei:place[@xml:id]"):
     for y in x.xpath('./tei:idno[@subtype="pmb"]/text()', namespaces=NAME_SPACES):
-        if y.endswith('/'):
+        if y.endswith("/"):
             data[y] = {}
         else:
             data[f"{y}/"] = {}
-        for idno in x.xpath('./tei:idno', namespaces=NAME_SPACES):
+        for idno in x.xpath("./tei:idno", namespaces=NAME_SPACES):
             try:
-                domain = idno.attrib['subtype']
+                domain = idno.attrib["subtype"]
             except KeyError:
                 print(f"no idno type subtype for {y}")
                 continue
@@ -26,7 +26,7 @@ for x in doc.any_xpath('.//tei:place[@xml:id]'):
             elif domain == "geonames":
                 continue
             else:
-                if y.endswith('/'):
+                if y.endswith("/"):
                     data[y][domain] = uri
                 else:
                     data[f"{y}/"][domain] = uri
@@ -41,9 +41,9 @@ for x in doc.any_xpath(".//tei:place"):
     pmb = x.xpath('./tei:idno[@type="pmb"]/text()', namespaces=NAME_SPACES)[0]
     match = data[pmb]
     for key, value in match.items():
-        idno = ET.Element('{http://www.tei-c.org/ns/1.0}idno')
-        idno.attrib['type'] = "website"
-        idno.attrib['subtype'] = key.replace('-', '_')
+        idno = ET.Element("{http://www.tei-c.org/ns/1.0}idno")
+        idno.attrib["type"] = "website"
+        idno.attrib["subtype"] = key.replace("-", "_")
         idno.text = value
         x.append(idno)
 doc.tree_to_file(MASTER_ENRICHED)

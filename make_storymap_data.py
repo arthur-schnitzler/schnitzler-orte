@@ -8,16 +8,15 @@ main_file = MASTER_ENRICHED
 
 START_YEAR, END_YEAR = 1879, 1932
 
-ns = {
-    "tei": "http://www.tei-c.org/ns/1.0"
-}
+ns = {"tei": "http://www.tei-c.org/ns/1.0"}
+
 
 def get_name(node):
-    return " ".join(node.xpath('./tei:placeName/text()', namespaces=ns)[0].split())
+    return " ".join(node.xpath("./tei:placeName/text()", namespaces=ns)[0].split())
 
 
 doc = TeiReader(main_file)
-all_places = doc.any_xpath('.//tei:place')
+all_places = doc.any_xpath(".//tei:place")
 places = []
 for x in all_places:
     add_name = True
@@ -39,12 +38,12 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
             "map_type": "",
             "map_subdomains": "",
             "attribution": "",
-            "slides": []
-        }   
+            "slides": [],
+        }
     }
     for i, x in enumerate(places):
-        cur_date = x.xpath('.//ancestor::tei:event[1]', namespaces=ns)[0].attrib['when']
-        if f'{year}' in cur_date:
+        cur_date = x.xpath(".//ancestor::tei:event[1]", namespaces=ns)[0].attrib["when"]
+        if f"{year}" in cur_date:
             parent = x.getparent()
             name = get_name(x)
             slide = {}
@@ -57,26 +56,28 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
             if name == next_name:
                 continue
             else:
-                date = x.xpath('.//ancestor::tei:event[1]', namespaces=ns)[0].attrib['when']
-                slide['text'] = {
-                    'headline': name,
-                    "text": f"Schnitzler war am {date} in {name}"
+                date = x.xpath(".//ancestor::tei:event[1]", namespaces=ns)[0].attrib[
+                    "when"
+                ]
+                slide["text"] = {
+                    "headline": name,
+                    "text": f"Schnitzler war am {date} in {name}",
                 }
                 try:
-                    akon = x.xpath('.//tei:link', namespaces=ns)[0].attrib['target']
+                    akon = x.xpath(".//tei:link", namespaces=ns)[0].attrib["target"]
                 except IndexError:
                     akon = None
                 if akon is not None:
-                    slide['media'] = {
+                    slide["media"] = {
                         "caption": f"Postkarte von {name}",
                         "credit": "ÖNB",
-                        "url": f"{akon}"
+                        "url": f"{akon}",
                     }
                 # try:
                 try:
-                    coords = x.xpath('.//tei:geo/text()', namespaces=ns)[0]
+                    coords = x.xpath(".//tei:geo/text()", namespaces=ns)[0]
                 except IndexError:
-                    print(name, x.xpath('.//tei:geo[0]/text()', namespaces=ns))
+                    print(name, x.xpath(".//tei:geo[0]/text()", namespaces=ns))
                     continue
                 lat, lon = coords.split()[0:2]
                 # except (ValueError, IndexError):
@@ -87,11 +88,11 @@ for year in tqdm(range(START_YEAR, END_YEAR), total=len(range(START_YEAR, END_YE
                         "lat": float(lat),
                         "line": True,
                         "lon": float(lon),
-                        "zoom": 12
+                        "zoom": 12,
                     }
                 except ValueError:
                     continue
-                slide['date'] = date
-                story_map_data['storymap']['slides'].append(slide)
-    with open(f'./html/data/{year}.json', 'w') as f:
+                slide["date"] = date
+                story_map_data["storymap"]["slides"].append(slide)
+    with open(f"./html/data/{year}.json", "w") as f:
         json.dump(story_map_data, f)
