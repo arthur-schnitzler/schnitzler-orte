@@ -10,7 +10,7 @@
     <!-- Das hier hat als Input relations.csv -> gSheet -> download
     as excel -> import in Oxygen -->
     
-    <xsl:template match="root">
+    <xsl:template match="*:root|*:Items">
         <xsl:element name="TEI" namespace="http://www.tei-c.org/ns/1.0">
             <tei:teiHeader>
                 <tei:fileDesc>
@@ -65,7 +65,7 @@
         </xsl:element>
      </xsl:template>
     
-    <xsl:template match="row[relation_type='gelebt in' and not(relation_start_date = 'nodate' )]">
+    <xsl:template match="row[relation_type='gelebt in' and not(relation_start_date = 'nodate' )]|item[relation_type='gelebt in' and not(relation_start_date = 'nodate' )]">
         <xsl:variable name="from" select="xs:date(substring(relation_start_date, 1, 10))" as="xs:date"/>
         <xsl:variable name="to" as="xs:date">
             <xsl:choose>
@@ -84,27 +84,52 @@
         <xsl:variable name="ort" select="target"/>
         <xsl:variable name="place-id" select="target_id"/>
         <xsl:variable name="eventName" select="relation_name"/>
-        <xsl:for-each select="tokenize($loopstring, 'x')">
-            <xsl:variable name="i" select="position() - 1"/>
-            <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:attribute name="when">
-                    <xsl:value-of select="$from + xs:dayTimeDuration(concat('P', $i, 'D'))"/>
-                </xsl:attribute>
-                <xsl:element name="eventName" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:value-of select="$eventName"/>
-                </xsl:element>
-                <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+        <xsl:choose>
+            <xsl:when test="$duration=0">
+                <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:attribute name="when">
+                        <xsl:value-of select="$from"/>
+                    </xsl:attribute>
+                    <xsl:element name="eventName" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:value-of select="$eventName"/>
+                    </xsl:element>
+                    <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:attribute name="corresp">
                                 <xsl:value-of select="concat('#pmb', $place-id)"/>
                             </xsl:attribute>
                             <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:value-of select="$ort"/>
                             </xsl:element>
+                        </xsl:element>
                     </xsl:element>
-            </xsl:element>
-            </xsl:element>
-        </xsl:for-each>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:for-each select="tokenize($loopstring, 'x')">
+                    <xsl:variable name="i" select="position() - 1"/>
+                    <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:attribute name="when">
+                            <xsl:value-of select="$from + xs:dayTimeDuration(concat('P', $i, 'D'))"/>
+                        </xsl:attribute>
+                        <xsl:element name="eventName" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:value-of select="$eventName"/>
+                        </xsl:element>
+                        <xsl:element name="listPlace" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
+                                <xsl:attribute name="corresp">
+                                    <xsl:value-of select="concat('#pmb', $place-id)"/>
+                                </xsl:attribute>
+                                <xsl:element name="placeName" namespace="http://www.tei-c.org/ns/1.0">
+                                    <xsl:value-of select="$ort"/>
+                                </xsl:element>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:element>
+                </xsl:for-each>
+            </xsl:otherwise>
+        </xsl:choose>
+        
         
         
         
