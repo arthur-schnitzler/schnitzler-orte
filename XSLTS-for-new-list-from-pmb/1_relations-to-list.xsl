@@ -7,8 +7,16 @@
     <xsl:output indent="true" ></xsl:output>
     <!-- Main template to match the row element -->
     
-    <!-- Das hier hat als Input relations.csv -> gSheet -> download
+    <!-- Das hier hat als Input relations.csv
+        
+        Variante 1: 
+        -> TextSoap, spitze Klammern entfernen -> xCSV zu 0_relations.xml
+        -> remove //item[not(source_id='2121')]
+        
+        Variante 2:
+        -> gSheet -> download
     as excel -> import in Oxygen -->
+    
     
     <xsl:template match="*:root|*:Items">
         <xsl:element name="TEI" namespace="http://www.tei-c.org/ns/1.0">
