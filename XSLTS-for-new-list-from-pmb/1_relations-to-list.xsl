@@ -73,7 +73,7 @@
         </xsl:element>
      </xsl:template>
     
-    <xsl:template match="row[relation_type='gelebt in' and not(relation_start_date = 'nodate' )]|item[relation_type='gelebt in' and not(relation_start_date = 'nodate' )]">
+    <xsl:template match="row[source_id='2121' and relation_type='gelebt in' and not(relation_start_date = 'nodate' )]|item[relation_type='gelebt in' and not(relation_start_date = 'nodate' )]">
         <xsl:variable name="from" select="xs:date(substring(relation_start_date, 1, 10))" as="xs:date"/>
         <xsl:variable name="to" as="xs:date">
             <xsl:choose>
