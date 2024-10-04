@@ -13,7 +13,7 @@
         die Liste laden: https://pmb.acdh.oeaw.ac.at/export/ -->
     
     <xsl:param name="listPlace" select="document('listPlace.xml')" as="node()"/>
-    <xsl:key name="listPlace-lookup" match="tei:place" use="replace(@xml:id, 'place__', '')"/>
+    <xsl:key name="listPlace-lookup" match="tei:place" use="replace(replace(@xml:id, 'place__', ''), 'pmb', '')"/>
     
     <xsl:template match="tei:place">
         <xsl:element name="place" namespace="http://www.tei-c.org/ns/1.0">
