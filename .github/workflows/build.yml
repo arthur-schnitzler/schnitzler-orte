@@ -1,31 +1,40 @@
 name: Build and publish
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   build_pages:
     name: Publish Schnitzler-Orte as GitHub Pages Website
     runs-on: ubuntu-latest
+
     steps:
-    - name: Perform Checkout
-      uses: actions/checkout@v4
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.8
-    - uses: actions/cache@v4
-      with:
-        path: ${{ env.pythonLocation }}
-        key: ${{ env.pythonLocation }}-${{ hashFiles('requirements.txt') }}
-    - name: Build Static Sites
-      run: |
-        pip install -r requirements.txt
-        rm -rf ./html/data
-        mkdir ./html/data
-        ./build.sh
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
-        publish_dir: ./html
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'  # Alternativ: '3.11' für breitere Kompatibilität
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies and build site
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          rm -rf ./html/data
+          mkdir -p ./html/data
+          ./build.sh
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./html
