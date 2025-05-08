@@ -1,7 +1,7 @@
-name: Update schnitzler_places.xml from wienerschnitzler-nested
+name: Update schnitzler_places.xml
 
 on:
-  workflow_dispatch:  # Manuell auslösbar über GitHub UI
+  workflow_dispatch:
   push:
     paths:
       - 'xslts/import-from-wienerschnitzler-nested.xsl'
@@ -15,7 +15,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Saxon HE (XSLT 3.0 processor)
+      - name: Set up Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Download Saxon HE (XSLT 3.0 processor)
         run: |
           curl -L -o saxon-he.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.4/Saxon-HE-12.4.jar
 
@@ -25,3 +30,13 @@ jobs:
             -s:editions/schnitzler_places.xml \
             -xsl:xslts/import-from-wienerschnitzler-nested.xsl \
             -o:editions/schnitzler_places.xml
+
+      - name: Commit and push changes
+        run: |
+          if git status --porcelain | grep "editions/schnitzler_places.xml"; then
+            git add editions/schnitzler_places.xml
+            git commit -m "Update schnitzler_places.xml via XSLT transformation"
+            git push
+          else
+            echo "No changes to commit."
+          fi
