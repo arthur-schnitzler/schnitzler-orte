@@ -56,53 +56,60 @@ df_data = {
     "legalkraus": [],
     "wikidata": [],
 }
+
 counter = 0
+# Begin looping through the places
 for x in places:
-    counter += 1
     pl_name = " ".join(x.xpath(".//tei:placeName", namespaces=ns)[0].text.split())
     try:
-        coords = x.xpath(".//tei:geo", namespaces=ns)[0].text
-    except IndexError:
-        print(f"looks like place {pl_name} has no coords")
-        continue
-    try:
-        lat, lng = coords.split()[0:2]
-    except AttributeError:
-        continue
-    try:
+        geo = x.xpath("./tei:location/tei:geo", namespaces=ns)
+        if len(geo) > 0:
+            lat, lng = geo[0].text.split()
+            lat = lat.replace(",", ".")
+            lng = lng.replace(",", ".")
+        else:
+            coords = x.xpath(".//tei:geo", namespaces=ns)[0].text
+            lat, lng = coords.split()[0:2]
+            lat = lat.replace(",", ".")
+            lng = lng.replace(",", ".")
         df_data["lat"].append(float(lat))
         df_data["lng"].append(float(lng))
-    except ValueError:
+    except (IndexError, ValueError, AttributeError):
+        print(f"Skipping {pl_name} due to coordinate error.")
         continue
+
+    try:
+        df_data["name"].append(pl_name)
+        df_data["day"].append(x.getparent().getparent().getparent().attrib["when"])
+    except KeyError:
+        try:
+            event = x.getparent().getparent().getparent().getparent()
+            df_data["day"].append(event.attrib["when"])
+        except Exception:
+            df_data["day"].append("0000-00-00")
+
+    try:
+        pmb = x.xpath('./tei:idno[@subtype="pmb"]/text()', namespaces=ns)[0]
+    except IndexError:
+        pmb = "no url"
+    df_data["pmb"].append(pmb)
+
+    try:
+        akon = x.xpath("./tei:link/@target", namespaces=ns)[0]
+    except IndexError:
+        akon = "no url"
+    df_data["akon"].append(akon)
+
     for domain in domains:
         try:
             uri = x.xpath(f'./tei:idno[@subtype="{domain}"]/text()', namespaces=ns)[0]
         except IndexError:
             uri = "no url"
         df_data[domain].append(uri)
-    try:
-        akon = x.xpath("./tei:link/@target", namespaces=ns)[0]
-    except IndexError:
-        akon = "no url"
-    df_data["akon"].append(akon)
-    try:
-        pmb = x.xpath('./tei:idno[@subtype="pmb"]/text()', namespaces=ns)[0]
-    except IndexError:
-        pmb = "no url"
-    df_data["pmb"].append(pmb)
-    df_data["name"].append(pl_name)
-    try:
-        df_data["day"].append(x.getparent().getparent().getparent().attrib["when"])
-    except KeyError:
-        event = x.getparent().getparent().getparent().getparent()
-        # print(f"{counter}  ###############")
-        # print(ET.tostring(event))
-        # print("#################\n\n\n")
-        df_data["day"].append(
-            x.getparent().getparent().getparent().getparent().attrib["when"]
-        )
 
+# Now that we have gathered the data, we create the DataFrame
 df = pd.DataFrame(df_data)
+
 # add values from next row to the current one
 df = pd.concat(
     [
@@ -113,8 +120,11 @@ df = pd.concat(
 ).fillna(0.0)
 
 # drop last row
-df.drop(index=df.index[-1], axis=0, inplace=True)
-
+if not df.empty:
+    df.drop(index=df.index[-1], axis=0, inplace=True)
+else:
+    print("WARNUNG: DataFrame ist leer – keine Zeile zum Löschen vorhanden.")
+    
 # drop rows without movement
 df.drop(df.loc[df["name"] == df["next_name"]].index, inplace=True)
 # df.to_csv('hansi.csv', index=False)
@@ -254,6 +264,11 @@ for g, gdf in df.groupby("name"):
 
 with open("./html/data/travel-net-map.json", "w") as f:
     json.dump(graph_data, f, ensure_ascii=False)
+
+if df.empty:
+    print("FEHLER: Kann keine Distanzen berechnen, weil DataFrame leer ist.")
+else:
+    df["distance"] = df.apply(lambda row: get_distance(row), axis=1)
 
 # calculate distance
 df["distance"] = df.apply(lambda row: get_distance(row), axis=1)
