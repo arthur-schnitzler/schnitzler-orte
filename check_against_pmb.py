@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 
 SCHNITZLER_ORTE_CSV = "./finalized-files/places.csv"
-PMB_LISTPLACE = "https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-entities/main/indices/listplace.xml"
+PMB_LISTPLACE = "https://raw.githubusercontent.com/wiener-moderne-verein/wienerschnitzler-data/refs/heads/main/data/indices/listplace.xml"
 POSTKARTEN_DUMP = "https://labs.onb.ac.at/gitlab/labs-team/raw-metadata/raw/master/akon_postcards_public_domain.zip?inline=false"
 
 print(f"downloading AKON Data from {POSTKARTEN_DUMP}")
