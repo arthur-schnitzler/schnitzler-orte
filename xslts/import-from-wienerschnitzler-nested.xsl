@@ -23,6 +23,9 @@
                             <xsl:for-each select="$nestedListEvent//*:event">
                                 <xsl:element name="event" namespace="http://www.tei-c.org/ns/1.0">
                                     <xsl:copy-of select="@*"/>
+                                    <xsl:element name="eventName" namespace="http://www.tei-c.org/ns/1.0">
+                                        <xsl:value-of select="@when"/>
+                                    </xsl:element>
                                     <xsl:element name="listPlace"
                                         namespace="http://www.tei-c.org/ns/1.0">
                                         <xsl:for-each
@@ -30,9 +33,6 @@
                                             <xsl:variable name="current-pmbnr" select="replace(replace(., 'pmb', ''), '#', '')"/>
                                             <xsl:element name="place"
                                                 namespace="http://www.tei-c.org/ns/1.0">
-                                                <xsl:attribute name="ref">
-                                                  <xsl:value-of select="concat('#', .)"/>
-                                                </xsl:attribute>
                                                 <xsl:copy-of
                                                   select="key('placeLookup', replace(., '#', ''), $listplace)/tei:placeName[1]"/>
                                                 <xsl:copy-of
