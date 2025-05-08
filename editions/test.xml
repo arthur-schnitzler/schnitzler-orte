@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions"
+    xmlns:foo="whatever" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <tei:teiHeader>
+        <tei:fileDesc>
+            <tei:titleStmt>
+                <tei:title>Arthur Schnitzlers Aufenthaltsorte</tei:title>
+                <tei:respStmt>
+                    <tei:resp>providing the content</tei:resp>
+                    <tei:name>Arthur Schnitzler</tei:name>
+                    <tei:name>Martin Anton Müller</tei:name>
+                    <tei:name>Laura Puntigam</tei:name>
+                    <tei:name>Laura Untner</tei:name>
+                </tei:respStmt>
+            </tei:titleStmt>
+            <tei:publicationStmt>
+                <tei:publisher>
+                    <tei:orgName>Austrian Centre for Digital Humanities, Austrian Academy of Sciences </tei:orgName>
+                    <tei:address>
+                        <tei:addrLine>Bäckerstraße 13</tei:addrLine>
+                        <tei:addrLine>1010 Vienna</tei:addrLine>
+                    </tei:address>
+                </tei:publisher>
+                <tei:pubPlace ref="http://d-nb.info/gnd/4066009-6">Vienna</tei:pubPlace>
+                <tei:date when="2024">2024</tei:date>
+                <tei:availability>
+                    <tei:licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <tei:p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License
+                            applies to this text.</tei:p>
+                        <tei:p>The CC BY 4.0 License also applies to this TEI XML file.</tei:p>
+                    </tei:licence>
+                </tei:availability>
+            </tei:publicationStmt>
+            <tei:sourceDesc>
+                <tei:p>The idea was to digitize the list of travels by Arthur Schnitzler that survives
+                    in his papers stored in the Cambridge University Library, folder A 175. The goal was
+                    not an edition of that list but to extract the information from the list and connect
+                    the timespans with geonames-IDs and locations. Therefore errors and mistakes of the
+                    list were changed without keeping track of the deleted information. Sometimes the
+                    diary was used to correct entries.</tei:p>
+            </tei:sourceDesc>
+        </tei:fileDesc>
+    </tei:teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Aufenthaltsorte</head>
+                <listEvent>
+                    <event when="1914-02-01">
+                        <eventName>Am 1. 2. 1914 war Schnitzler in München, Salzburg, Österreichischer
+                            Hof</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>München</placeName>
+                                <location type="coords">
+                                    <geo>48,13743 11,57549</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__314">Bayern</placeName>
+                                    <geo>49,0 11,5</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__151">Deutschland</placeName>
+                                    <geo>51,5 10,5</geo>
+                                </location>
+                                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4127793-4</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/38129/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+                                <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+                                <idno type="URL" subtype="legalkraus"
+                                    >https://kraus.wienbibliothek.at/register/orte/pmb45258</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >http://www.wikidata.org/entity/Q1726</idno>
+                                <idno type="URL" subtype="wikipedia"
+                                    >https://de.wikipedia.org/wiki/M%C3%BCnchen</idno>
+                                <idno type="URL" subtype="schnitzler-interviews"
+                                    >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb45258.html</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html</idno>
+                            </place>
+                            <place>
+                                <placeName>Salzburg</placeName>
+                                <location type="coords">
+                                    <geo>47,80067 13,04532</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__697">Salzburg (Land)</placeName>
+                                    <geo>47,41667 13,25</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30.html</idno>
+                                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30/</idno>
+                                <idno type="URL" subtype="legalkraus"
+                                    >https://kraus.wienbibliothek.at/register/orte/pmb30</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/91649/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/93885/</idno>
+                                <idno type="URL" subtype="geonames">https://sws.geonames.org/2766818/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/94039/</idno>
+                                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/4076982-3</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >http://www.wikidata.org/entity/Q34713</idno>
+                                <idno type="URL" subtype="wikipedia"
+                                    >https://de.wikipedia.org/wiki/Salzburg</idno>
+                                <idno type="URL" subtype="schnitzler-interviews"
+                                    >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb30.html</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30.html</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30.html</idno>
+                            </place>
+                            <place>
+                                <placeName>Österreichischer Hof</placeName>
+                                <location type="coords">
+                                    <geo>47,802045 13,043401</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__30">Salzburg</placeName>
+                                    <geo>47,80067 13,04532</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb230.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/230/</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >http://www.wikidata.org/entity/Q1631024</idno>
+                                <idno type="URL" subtype="wikipedia"
+                                    >https://de.wikipedia.org/wiki/Hotel_Sacher_Salzburg</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb230.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1869-01-01">
+                        <eventName>Am 1. 1. 1869 war Schnitzler in Thalhof</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Thalhof</placeName>
+                                <location type="coords">
+                                    <geo>47,70466 15,84704</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__483">Reichenau an der Rax</placeName>
+                                    <geo>47,7 15,83333</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb796.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/796/</idno>
+                                <idno type="URL" subtype="geonames">https://sws.geonames.org/2763740/</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb796.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1869-01-02">
+                        <eventName>Am 2. 1. 1869 war Schnitzler in Thalhof</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Thalhof</placeName>
+                                <location type="coords">
+                                    <geo>47,70466 15,84704</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__483">Reichenau an der Rax</placeName>
+                                    <geo>47,7 15,83333</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb796.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/796/</idno>
+                                <idno type="URL" subtype="geonames">https://sws.geonames.org/2763740/</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb796.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1871-01-01">
+                        <eventName>Am 1. 1. 1871 war Schnitzler in Grand Hotel de L’Europe, G.
+                            Jung</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Grand Hotel de L’Europe, G. Jung</placeName>
+                                <location type="coords">
+                                    <geo>47,81233 13,043176</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__30">Salzburg</placeName>
+                                    <geo>47,80067 13,04532</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb152.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/152/</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb152.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1872-06-01">
+                        <eventName>Am 1. 6. 1872 war Schnitzler in Seewirt</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Seewirt</placeName>
+                                <location type="coords">
+                                    <geo>47,6417 13,77189</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__34401">Altaussee</placeName>
+                                    <geo>47,6698 13,78453</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb106.html</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/106/</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb106.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1876-03-15">
+                        <eventName>Am 15. 3. 1876 war Schnitzler in Ronacher</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Ronacher</placeName>
+                                <location type="coords">
+                                    <geo>48,205139 16,375</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__51">I., Innere Stadt</placeName>
+                                    <geo>48,20769 16,37049</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__53775">Seilerstätte</placeName>
+                                    <geo>48,205327604596654 16,374796288594265</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb19.html</idno>
+                                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/92490/</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >http://www.wikidata.org/entity/Q1244587</idno>
+                                <idno type="URL" subtype="wikipedia"
+                                    >https://de.wikipedia.org/wiki/Ronacher</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb19.html</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb19.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1876-04-27">
+                        <eventName>Am 27. 4. 1876 war Schnitzler in Ronacher</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Ronacher</placeName>
+                                <location type="coords">
+                                    <geo>48,205139 16,375</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__51">I., Innere Stadt</placeName>
+                                    <geo>48,20769 16,37049</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__53775">Seilerstätte</placeName>
+                                    <geo>48,205327604596654 16,374796288594265</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb19.html</idno>
+                                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/92490/</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >http://www.wikidata.org/entity/Q1244587</idno>
+                                <idno type="URL" subtype="wikipedia"
+                                    >https://de.wikipedia.org/wiki/Ronacher</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb19.html</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb19.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1876-05-08">
+                        <eventName>Am 8. 5. 1876 war Schnitzler in Ronacher</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Ronacher</placeName>
+                                <location type="coords">
+                                    <geo>48,205139 16,375</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__51">I., Innere Stadt</placeName>
+                                    <geo>48,20769 16,37049</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__53775">Seilerstätte</placeName>
+                                    <geo>48,205327604596654 16,374796288594265</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb19.html</idno>
+                                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19/</idno>
+                                <idno type="URL" subtype="pmb"
+                                    >https://pmb.acdh.oeaw.ac.at/entity/92490/</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >http://www.wikidata.org/entity/Q1244587</idno>
+                                <idno type="URL" subtype="wikipedia"
+                                    >https://de.wikipedia.org/wiki/Ronacher</idno>
+                                <idno type="URL" subtype="schnitzler-tagebuch"
+                                    >https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb19.html</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb19.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    <event when="1876-06-29">
+                        <eventName>Am 29. 6. 1876 war Schnitzler in Oper</eventName>
+                        <listPlace>
+                            <place>
+                                <placeName>Oper</placeName>
+                                <location type="coords">
+                                    <geo>48,203 16,3691</geo>
+                                </location>
+                                <location type="located_in_place">
+                                    <placeName key="place__51">I., Innere Stadt</placeName>
+                                    <geo>48,20769 16,37049</geo>
+                                </location>
+                                <idno type="URL" subtype="schnitzler-bahr"
+                                    >https://schnitzler-bahr.acdh.oeaw.ac.at/pmb15.html</idno>
+                                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15/</idno>
+                                <idno type="URL" subtype="wikidata"
+                                    >http://www.wikidata.org/entity/Q209937</idno>
+                                <idno type="URL" subtype="wikipedia"
+                                    >https://de.wikipedia.org/wiki/Wiener_Staatsoper</idno>
+                                <idno type="URL" subtype="schnitzler-interviews"
+                                    >https://schnitzler-interviews.acdh.oeaw.ac.at/pmb15.html</idno>
+                                <idno type="URL" subtype="schnitzler-briefe"
+                                    >https://schnitzler-briefe.acdh.oeaw.ac.at/pmb15.html</idno>
+                            </place>
+                        </listPlace>
+                    </event>
+                    
+                </listEvent>
+            </div>
+        </body>
+    </text>
+</TEI>
+            
+                
