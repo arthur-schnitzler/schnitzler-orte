@@ -27,6 +27,7 @@
                                         namespace="http://www.tei-c.org/ns/1.0">
                                         <xsl:for-each
                                             select="child::tei:listPlace[1]/tei:place/@corresp">
+                                            <xsl:variable name="current-pmbnr" select="replace(replace(., 'pmb', ''), '#', '')"/>
                                             <xsl:element name="place"
                                                 namespace="http://www.tei-c.org/ns/1.0">
                                                 <xsl:attribute name="ref">
@@ -35,9 +36,14 @@
                                                 <xsl:copy-of
                                                   select="key('placeLookup', replace(., '#', ''), $listplace)/tei:placeName[1]"/>
                                                 <xsl:copy-of
-                                                  select="key('placeLookup', replace(., '#', ''), $listplace)/tei:location"/>
+                                                    select="key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='coords'][1]"/>
                                                 <xsl:copy-of
-                                                  select="key('placeLookup', replace(., '#', ''), $listplace)/tei:idno"
+                                                    select="key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='located_in_place'][1]"/>
+                                                <xsl:copy-of
+                                                  select="key('placeLookup', replace(., '#', ''), $listplace)/tei:idno[contains(@subtype, 'schnitzler')]"
+                                                />
+                                                <xsl:copy-of
+                                                    select="key('placeLookup', replace(., '#', ''), $listplace)/tei:idno[contains(@subtype, 'pmb') and contains(., $current-pmbnr)]"
                                                 />
                                             </xsl:element>
                                         </xsl:for-each>

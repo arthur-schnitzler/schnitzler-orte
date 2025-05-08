@@ -93,7 +93,7 @@ for x in tqdm(places, total=len(places)):
         )
         continue
     if isinstance(pmb, str):
-        x.xpath('.//*[@type="pmb"]')[0].text = pmb
+        x.xpath('.//*[@subtype="pmb"]')[0].text = pmb
     if isinstance(akon, str):
         x.xpath(
             ".//tei:link[@target]", namespaces={"tei": "http://www.tei-c.org/ns/1.0"}

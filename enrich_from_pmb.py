@@ -38,7 +38,7 @@ for bad in doc.any_xpath('.//tei:idno[@type="website"]'):
 
 print(f"adding IDNOS into {MASTER_FILE} and save it into {MASTER_ENRICHED}")
 for x in doc.any_xpath(".//tei:place"):
-    pmb = x.xpath('./tei:idno[@type="pmb"]/text()', namespaces=NAME_SPACES)[0]
+    pmb = x.xpath('./tei:idno[@subtype="pmb"]/text()', namespaces=NAME_SPACES)[0]
     match = data[pmb]
     for key, value in match.items():
         idno = ET.Element("{http://www.tei-c.org/ns/1.0}idno")

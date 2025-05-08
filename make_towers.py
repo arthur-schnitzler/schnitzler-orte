@@ -12,7 +12,7 @@ doc = TeiReader(main_file)
 places = doc.any_xpath(".//tei:place")
 data = {}
 for x in tqdm(places, total=len(places)):
-    xml_id = x.xpath('./tei:idno[@type="pmb"]/text()', namespaces=ns)[0]
+    xml_id = x.xpath('./tei:idno[@subtype="pmb"]/text()', namespaces=ns)[0]
     try:
         item = data[xml_id]
         item["amount"] = item["amount"] + 1

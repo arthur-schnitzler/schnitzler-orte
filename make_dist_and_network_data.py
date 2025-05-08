@@ -86,7 +86,7 @@ for x in places:
         akon = "no url"
     df_data["akon"].append(akon)
     try:
-        pmb = x.xpath('./tei:idno[@type="pmb"]/text()', namespaces=ns)[0]
+        pmb = x.xpath('./tei:idno[@subtype="pmb"]/text()', namespaces=ns)[0]
     except IndexError:
         pmb = "no url"
     df_data["pmb"].append(pmb)
