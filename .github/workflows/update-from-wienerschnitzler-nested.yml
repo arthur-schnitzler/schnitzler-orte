@@ -1,0 +1,27 @@
+name: Update schnitzler_places.xml from wienerschnitzler-nested
+
+on:
+  workflow_dispatch:  # Manuell auslösbar über GitHub UI
+  push:
+    paths:
+      - 'xslts/import-from-wienerschnitzler-nested.xsl'
+      - 'editions/schnitzler_places.xml'
+
+jobs:
+  transform:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Saxon HE (XSLT 3.0 processor)
+        run: |
+          curl -L -o saxon-he.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.4/Saxon-HE-12.4.jar
+
+      - name: Apply XSLT transformation
+        run: |
+          java -jar saxon-he.jar \
+            -s:editions/schnitzler_places.xml \
+            -xsl:xslts/import-from-wienerschnitzler-nested.xsl \
+            -o:editions/schnitzler_places.xml
