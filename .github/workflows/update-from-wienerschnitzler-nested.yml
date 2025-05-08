@@ -23,13 +23,13 @@ jobs:
       - name: Download Saxon HE (XSLT 3.0 processor)
         run: |
           curl -L -o saxon-he.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.4/Saxon-HE-12.4.jar
-
+          curl -L -o xmlresolver.jar https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/4.5.1/xmlresolver-4.5.1.jar
       - name: Apply XSLT transformation
         run: |
-          java -jar saxon-he.jar \
-            -s:editions/schnitzler_places.xml \
-            -xsl:xslts/import-from-wienerschnitzler-nested.xsl \
-            -o:editions/schnitzler_places.xml
+          java -cp "saxon-he.jar:xmlresolver.jar" net.sf.saxon.Transform \
+             -s:editions/schnitzler_places.xml \
+             -xsl:xslts/import-from-wienerschnitzler-nested.xsl \
+             -o:editions/schnitzler_places.xml
 
       - name: Commit and push changes
         run: |
