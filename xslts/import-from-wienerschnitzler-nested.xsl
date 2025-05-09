@@ -35,10 +35,28 @@
                                                 namespace="http://www.tei-c.org/ns/1.0">
                                                 <xsl:copy-of
                                                   select="key('placeLookup', replace(., '#', ''), $listplace)/tei:placeName[1]"/>
-                                                <xsl:copy-of
-                                                    select="key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='coords'][1]"/>
-                                                <xsl:copy-of
-                                                    select="key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='located_in_place'][1]"/>
+                                                <xsl:if test="key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='coords'][1]/tei:geo[1]">
+                                                    <xsl:element name="location" namespace="http://www.tei-c.org/ns/1.0">
+                                                        <xsl:attribute name="type">
+                                                            <xsl:text>coords</xsl:text>
+                                                        </xsl:attribute>
+                                                        <xsl:element name="geo" namespace="http://www.tei-c.org/ns/1.0">
+                                                            <xsl:value-of select="replace(key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='coords'][1]/tei:geo[1], ',', '.')"/>
+                                                    </xsl:element>
+                                                    </xsl:element>
+                                                    
+                                                </xsl:if>
+                                                <xsl:if test="key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='located_in_place'][1]/tei:geo[1]">
+                                                    <xsl:element name="location" namespace="http://www.tei-c.org/ns/1.0">
+                                                        <xsl:attribute name="type">
+                                                            <xsl:text>located_in_place</xsl:text>
+                                                        </xsl:attribute>
+                                                        <xsl:element name="geo" namespace="http://www.tei-c.org/ns/1.0">
+                                                            <xsl:value-of select="replace(key('placeLookup', replace(., '#', ''), $listplace)/tei:location[@type='located_in_place'][1]/tei:geo[1], ',', '.')"/>
+                                                        </xsl:element>
+                                                    </xsl:element>
+                                                    
+                                                </xsl:if>
                                                 <xsl:copy-of
                                                   select="key('placeLookup', replace(., '#', ''), $listplace)/tei:idno[contains(@subtype, 'schnitzler')]"
                                                 />
