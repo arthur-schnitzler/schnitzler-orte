@@ -8,17 +8,22 @@ ns = NAME_SPACES
 
 doc = TeiReader(main_file)
 places = doc.any_xpath(".//tei:place")
+print(f"{len(places)} place-Elemente gefunden")
 data = {}
-
-for x in tqdm(places, total=len(places)):
+for i, x in enumerate(tqdm(places, total=len(places))):
+    print(f"\nVerarbeite place {i+1}")
     try:
-        xml_id = x.xpath('./tei:idno[@subtype="pmb"]/text()', namespaces=ns)[0]
+        xml_id_nodes = x.xpath('./tei:idno[@subtype="pmb"][1]/text()', namespaces=ns)
+        if not xml_id_nodes:
+            continue
+        xml_id = xml_id_nodes[0]
     except IndexError:
         continue  # Wenn kein xml_id vorhanden ist, überspringe diesen Eintrag
 
     try:
         item = data[xml_id]
         item["amount"] = item.get("amount", 0) + 1
+        print(f"  → xml_id gefunden: {xml_id}")
     except KeyError:
         item = {"amount": 1}
 
@@ -26,6 +31,7 @@ for x in tqdm(places, total=len(places)):
     try:
         image = x.xpath("./tei:link/@target", namespaces=ns)[0]
         item["image"] = image.replace("full/full/0/native.jpg", "full/800,/0/default.jpg")
+        print(f"  → xml_id gefunden: {xml_id}")
     except IndexError:
         item["image"] = False
     
@@ -36,8 +42,9 @@ for x in tqdm(places, total=len(places)):
         coords = x.xpath(".//tei:geo", namespaces=ns)[0].text
         if coords:
             lat, lng = coords.split()[0:2]
-            item["lat"] = float(lat)
-            item["lng"] = float(lng)
+            item["lat"] = float(lat.replace(",", "."))
+            item["lng"] = float(lng.replace(",", "."))
+        print(f"  → xml_id gefunden: {xml_id}")
     except (IndexError, AttributeError, ValueError):
         continue  # Wenn Koordinaten fehlen oder fehlerhaft sind, überspringe diesen Eintrag
 
