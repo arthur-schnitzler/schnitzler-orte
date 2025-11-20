@@ -364,4 +364,8 @@ L.networkLayer = function (options) {
 	return new L.NetworkLayer(options);
 };
 
+// Make it available globally to prevent StoryMap from breaking it
+window.LeafletNetworkLayer = L.NetworkLayer;
+window.leafletNetworkLayer = L.networkLayer;
+
 console.log('leaflet-network.js loaded, L.networkLayer is', typeof L.networkLayer);

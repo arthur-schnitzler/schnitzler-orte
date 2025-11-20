@@ -1,8 +1,10 @@
 // taken from https://github.com/danwild/leaflet-network
 
 console.log('travel-net-map.js loading, L.networkLayer is', typeof L.networkLayer);
+console.log('travel-net-map.js loading, L.NetworkLayer is', typeof L.NetworkLayer);
 
-// Save reference to L.networkLayer before it gets overwritten
+// Save reference to both L.NetworkLayer and L.networkLayer before they get overwritten by StoryMap
+var NetworkLayerClass = L.NetworkLayer;
 var networkLayerConstructor = L.networkLayer;
 
 function init(data){
@@ -29,8 +31,8 @@ function init(data){
 
 		var globalWeightMode = true;
 
-		// init the network layer using saved reference
-		var networkLayer = networkLayerConstructor({
+		// init the network layer using saved global reference
+		var networkLayer = window.leafletNetworkLayer({
 
 			data: data,
 			globalWeightMode: globalWeightMode,
