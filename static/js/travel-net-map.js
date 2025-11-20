@@ -59,6 +59,9 @@ $(document).ready(function(){
 			}
 		});
 
+		// add network layer to the map
+		networkLayer.addTo(map);
+
 		// add layer as an overlay
 		layerControl.addOverlay(networkLayer, 'Network Example');
 

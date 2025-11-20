@@ -29,7 +29,7 @@ function showPopUp(object){
 
 const deckgl = new DeckGL({
     container: 'viscontainer',
-    mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-nolabels-gl-style/style.json',
+    mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
     initialViewState: {
         longitude: 13.8377883,
         latitude: 47.6980143,
