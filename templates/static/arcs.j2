@@ -5,21 +5,6 @@
 <script src="https://unpkg.com/deck.gl@8.8.0/dist.min.js"></script>
 <script src="https://unpkg.com/@deck.gl/extensions@8.8.0/dist.min.js"></script>
 
-<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
-<link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
-
-<script>
- document.addEventListener("DOMContentLoaded", () => {
-  mapboxgl.accessToken = '...';
-  const map = new mapboxgl.Map({
-    container: 'viscontainer',
-    style: 'mapbox://styles/mapbox/light-v10',
-    center: [13.4050, 52.5200],
-    zoom: 5
-  });
-});
-</script>
-
 <style type="text/css">
     #viscontainer {
     font-family: Helvetica, Arial, sans-serif;

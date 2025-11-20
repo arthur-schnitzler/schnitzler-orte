@@ -139,3 +139,6 @@ editions/schnitzler_places_enriched.xml
 hansi.xml
 templates/static/imprint.j2
 play.ipynb
+
+# Claude Code files
+*claude*
