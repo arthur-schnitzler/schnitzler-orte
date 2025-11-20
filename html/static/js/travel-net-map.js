@@ -2,6 +2,9 @@
 
 console.log('travel-net-map.js loading, L.networkLayer is', typeof L.networkLayer);
 
+// Save reference to L.networkLayer before it gets overwritten
+var networkLayerConstructor = L.networkLayer;
+
 function init(data){
 
 		//var map = L.map('map').setView([-25, 134], 5);
@@ -26,8 +29,8 @@ function init(data){
 
 		var globalWeightMode = true;
 
-		// init the network layer
-		var networkLayer = L.networkLayer({
+		// init the network layer using saved reference
+		var networkLayer = networkLayerConstructor({
 
 			data: data,
 			globalWeightMode: globalWeightMode,
