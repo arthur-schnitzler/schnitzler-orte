@@ -155,6 +155,14 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
   */
 	update: function update() {
 		var self = this;
+		console.log('Update called');
+
+		// Update SVG position to match map bounds
+		var topLeft = this._map.containerPointToLayerPoint([0, 0]);
+		if (this._svgGroup1) {
+			this._svgGroup1.attr("transform", "translate(" + -topLeft.x + "," + -topLeft.y + ")");
+		}
+
 		self._drawConnections(this._targetId);
 		if (!this._targetId) self._svgGroup1.selectAll("circle").style("opacity", 0.5).attr("r", self.options.nodeRadius);
 		this._svgGroup1.selectAll("circle").attr("transform", function (d) {
