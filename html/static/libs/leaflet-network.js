@@ -136,7 +136,7 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 		}).on('mouseenter', this.options.onMouseEnterNode).on('mouseleave', this.options.onMouseLeaveNode);
 
 		this._map = map;
-		this._map.on("moveend viewreset", this.update, this);
+		this._map.on("moveend move zoom viewreset zoomend", this.update, this);
 		this.update();
 	},
 
