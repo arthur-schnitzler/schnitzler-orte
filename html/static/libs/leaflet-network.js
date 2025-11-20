@@ -25,6 +25,9 @@
 
 'use strict';
 
+// Save the original Leaflet object before StoryMap overwrites it
+var OriginalLeaflet = L;
+
 L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 
 	/*------------------------------------ LEAFLET CONFIG ------------------------------------------*/
@@ -90,8 +93,8 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 		});
 		this._linearWidthScale = d3.scaleLinear().domain(scaleDomain).range(this.options.lineWidthRange);
 
-		// initialize the SVG layer
-		this._mapSvg = L.svg();
+		// initialize the SVG layer using the saved original Leaflet
+		this._mapSvg = OriginalLeaflet.svg();
 		this._mapSvg.addTo(map);
 
 		// we simply pick up the SVG from the map object
@@ -104,7 +107,7 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 
 		// add a leaflet position to each site
 		data.forEach(function (site) {
-			site.properties.LatLng = new L.LatLng(site.properties.lat, site.properties.lon);
+			site.properties.LatLng = new OriginalLeaflet.LatLng(site.properties.lat, site.properties.lon);
 		});
 
 		// create site circles
