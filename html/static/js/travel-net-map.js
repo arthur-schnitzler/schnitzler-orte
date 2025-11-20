@@ -1,5 +1,7 @@
 // taken from https://github.com/danwild/leaflet-network
 
+console.log('travel-net-map.js loading, L.networkLayer is', typeof L.networkLayer);
+
 function init(data){
 
 		//var map = L.map('map').setView([-25, 134], 5);

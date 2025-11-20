@@ -363,3 +363,5 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 L.networkLayer = function (options) {
 	return new L.NetworkLayer(options);
 };
+
+console.log('leaflet-network.js loaded, L.networkLayer is', typeof L.networkLayer);
