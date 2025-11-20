@@ -75,10 +75,8 @@ console.log('Saved Leaflet version:', L.version, 'has svg:', typeof L.svg);
 <script>
 // Wait for everything to load
 window.addEventListener('load', function() {
-    console.log('Before loading script, window.OriginalLeaflet:', typeof window.OriginalLeaflet, window.OriginalLeaflet ? window.OriginalLeaflet.version : 'N/A');
-    console.log('Before loading script, window.OriginalLeaflet.svg:', window.OriginalLeaflet ? typeof window.OriginalLeaflet.svg : 'N/A');
     var script = document.createElement('script');
-    script.src = 'static/js/travel-net-map.js?v=8';
+    script.src = 'static/js/travel-net-map.js?v=9';
     document.body.appendChild(script);
 });
 </script>
