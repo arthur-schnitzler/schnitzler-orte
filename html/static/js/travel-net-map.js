@@ -59,10 +59,10 @@ $(document).ready(function(){
 			}
 		});
 
-		// add network layer to the map
-		networkLayer.addTo(map);
+		// add network layer to the map (enabled by default)
+		map.addLayer(networkLayer);
 
-		// add layer as an overlay
+		// add layer as an overlay (already added, so checkbox will be checked)
 		layerControl.addOverlay(networkLayer, 'Network Example');
 
 		// example of changin displayMode option
