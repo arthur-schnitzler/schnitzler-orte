@@ -69,6 +69,8 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 
 		// Use the saved Leaflet instance from window
 		var OriginalLeaflet = window.OriginalLeaflet || L;
+		console.log('In onAdd, OriginalLeaflet is:', typeof OriginalLeaflet, OriginalLeaflet.version);
+		console.log('In onAdd, OriginalLeaflet.svg is:', typeof OriginalLeaflet.svg);
 
 		// delete self-connections
 		var data = this.options.data.map(function (d) {
