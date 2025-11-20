@@ -360,12 +360,19 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 
 });
 
+// Save the NetworkLayer class immediately
+var SavedNetworkLayer = L.NetworkLayer;
+
 L.networkLayer = function (options) {
-	return new L.NetworkLayer(options);
+	return new SavedNetworkLayer(options);
 };
 
 // Make it available globally to prevent StoryMap from breaking it
-window.LeafletNetworkLayer = L.NetworkLayer;
-window.leafletNetworkLayer = L.networkLayer;
+window.LeafletNetworkLayer = SavedNetworkLayer;
+window.leafletNetworkLayer = function(options) {
+	return new SavedNetworkLayer(options);
+};
 
 console.log('leaflet-network.js loaded, L.networkLayer is', typeof L.networkLayer);
+console.log('leaflet-network.js saved, window.leafletNetworkLayer is', typeof window.leafletNetworkLayer);
+console.log('leaflet-network.js saved, window.LeafletNetworkLayer is', typeof window.LeafletNetworkLayer);
