@@ -32,16 +32,21 @@ function renderLayer() {
     document.getElementById('filter-min-value').innerHTML = minVal;
     const maxVal = document.getElementById('filter-max').value;
     document.getElementById('filter-max-value').innerHTML = maxVal;
-    const filterRangeValues = [Number(minVal), Number(maxVal)]
-    options["filterRange"] = filterRangeValues
     OPTIONS.forEach(key => {
         const value = document.getElementById(key).value;
         document.getElementById(key + '-value').innerHTML = value;
         options[key] = Number(value);
     });
     const searchString = document.getElementById('searchPlaceInput').value;
+    const searchAdresse = document.getElementById('searchAdesseInput').value;
+
+    // Filter data by search strings and year range
     const myData = data.filter(function (el) {
-        return el.from.name.includes(searchString) && el.to.name.includes(document.getElementById('searchAdesseInput').value);
+        const year = Number(el.from.year);
+        const yearInRange = (year === 0) || (year >= Number(minVal) && year <= Number(maxVal));
+        return el.from.name.includes(searchString) &&
+               el.to.name.includes(searchAdresse) &&
+               yearInRange;
     });
 
     const greatCircleLayer = new ArcLayer({
@@ -55,10 +60,7 @@ function renderLayer() {
         widthMinPixels: 1,
         getTilt: 2,
         pickable: true,
-        getFilterValue: d => Number(d.from.year),
         autoHighlight: true,
-        // filterRange: [1500, 1600],
-        extensions: [new DataFilterExtension({ filterSize: 1 })],
         ...options
     });
 
