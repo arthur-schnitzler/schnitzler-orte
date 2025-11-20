@@ -14,6 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
+// Save the correct Leaflet before StoryMap loads
+window.OriginalLeaflet = L;
+console.log('Saved Leaflet version:', L.version, 'has svg:', typeof L.svg);
+
 // Wait for Leaflet to load, then load network plugin
 (function() {
     var script = document.createElement('script');
@@ -71,8 +75,9 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
 // Wait for everything to load
 window.addEventListener('load', function() {
+    console.log('Before loading script, window.OriginalLeaflet:', typeof window.OriginalLeaflet, window.OriginalLeaflet ? window.OriginalLeaflet.version : 'N/A');
     var script = document.createElement('script');
-    script.src = 'static/js/travel-net-map.js?v=6';
+    script.src = 'static/js/travel-net-map.js?v=7';
     document.body.appendChild(script);
 });
 </script>

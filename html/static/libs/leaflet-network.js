@@ -25,9 +25,6 @@
 
 'use strict';
 
-// Save the original Leaflet object before StoryMap overwrites it
-var OriginalLeaflet = L;
-
 L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 
 	/*------------------------------------ LEAFLET CONFIG ------------------------------------------*/
@@ -69,6 +66,9 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 
 		var self = this;
 		this._active = true;
+
+		// Use the saved Leaflet instance from window
+		var OriginalLeaflet = window.OriginalLeaflet || L;
 
 		// delete self-connections
 		var data = this.options.data.map(function (d) {
