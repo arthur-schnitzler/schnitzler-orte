@@ -1,4 +1,54 @@
 {% extends "templates/partials/base.j2" %}
+
+{% block scriptHeader %}
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Arthur Schnitzler – Aufenthaltsorte",
+  "url": "https://schnitzler-orte.acdh.oeaw.ac.at/",
+  "description": "Visualisierung der Aufenthaltsorte des österreichischen Schriftstellers Arthur Schnitzler (1879-1931) basierend auf seinen Tagebucheinträgen.",
+  "inLanguage": "de",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Peter Andorfer",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "ACDH-CH"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Martin Anton Müller"
+    },
+    {
+      "@type": "Person",
+      "name": "Laura Puntigam"
+    },
+    {
+      "@type": "Person",
+      "name": "Laura Untner"
+    }
+  ],
+  "about": {
+    "@type": "Person",
+    "name": "Arthur Schnitzler",
+    "birthDate": "1862",
+    "deathDate": "1931",
+    "nationality": "Austrian",
+    "jobTitle": "Schriftsteller"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ACDH-CH",
+    "url": "https://www.oeaw.ac.at/acdh/"
+  }
+}
+</script>
+{% endblock %}
+
 {% block content %}
 <div class="hfeed site" id="page">
     <div class="wrapper" id="wrapper-hero">
@@ -25,17 +75,16 @@
              zu erstellen. Das Ergebnis ist ein Typoskript mit 67 Seiten, das heute in seinem Nachlass in der Cambridge University Library liegt (Mappe A175). 
              </p>
              <p  style="font-size:18px;line-height:27px;">Diese Liste wurde von uns im Jahr 2023 zu einer vollständigen Auflistung seiner Aufenthaltsorte ausgearbeitet. 2025 wurde
-             nochmals eine Verfeinerung vorgenommen, so dass nun auch Häuser und Straßen berücksichtigt sind. Die detaillierte Website <a href="https://wienerschnitzler.org/">wienerschnitzler.org</a>
-             findet sich <a href="https://wienerschnitzler.org/">hier</a>. Sie macht die vorliegende Website weitgehend obsolet. Trotzdem wurde von
+             nochmals eine Verfeinerung vorgenommen, so dass nun auch Häuser und Straßen berücksichtigt sind. Die detaillierte Website findet sich auf
+             <a href="https://wienerschnitzler.org/" target="_blank" rel="noopener noreferrer">wienerschnitzler.org</a>. Sie macht die vorliegende Website weitgehend obsolet. Trotzdem wurde von
              den korrigierten Daten der neuen Website die vorliegenden Daten zurückgerechnet und korrigiert.</p>
-             <p>Die Quelldatei mit den Daten kann bei <a href="https://github.com/arthur-schnitzler/schnitzler-orte/tree/main/editions">gitHub</a> 
+             <p>Die Quelldatei mit den Daten kann bei <a href="https://github.com/arthur-schnitzler/schnitzler-orte/tree/main/editions" target="_blank" rel="noopener noreferrer">GitHub</a>
                 geladen werden.</p>
-            
+
         <p style="font-size:18px;line-height:27px;">Auf der vorliegenden Seite sind mehrere Visualisierungen umgesetzt, mit der der geografische Raum ermessbar wird, in dem sich Schnitzler seit seiner Volljährigkeit
                     bewegt hat. Der experimentelle Charakter soll explizit betont sein. Visualisierungen können jederzeit hinzukommen oder
                     verschwinden.</p>
-                    <p  style="font-size:18px;line-height:27px;"/>
-                    <p style="font-size:18px;line-height:27px;"><i>Die Website und die 
+                    <p style="font-size:18px;line-height:27px;"><i>Die Website und die
                         Visualisierungen verantwortete Peter Andorfer. Die Daten wurden von Martin Anton Müller, Laura Puntigam und Laura Untner aufbereitet.</i></p>
              
 
@@ -52,7 +101,10 @@
                             <h2>Reiseabfolge</h2>
                         </a>
                         <img
-                        src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/flourish.jpg" width="100%" 
+                        src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/flourish.jpg"
+                        alt="Screenshot der animierten Reiseabfolge-Visualisierung"
+                        width="100%"
+                        loading="lazy"
                         />
                     </div>
 
@@ -70,7 +122,10 @@
                             <h2>Ziele nach Jahren
                         </h2>
                         <img
-                        src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/mit-postkarte.jpg" width="100%" 
+                        src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/mit-postkarte.jpg"
+                        alt="Screenshot der Ziele nach Jahren Visualisierung mit historischen Postkartenbildern"
+                        width="100%"
+                        loading="lazy"
                         />
                         </a>
                     </div>
@@ -87,7 +142,10 @@
                         <a href="arcs.html">
                             <h2>Beziehungen zwischen Orten</h2>
                             <img
-                            src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/arcs.jpg" width="100%" 
+                            src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/arcs.jpg"
+                            alt="Screenshot der Beziehungen zwischen Orten - Arc-Visualisierung auf Karte"
+                            width="100%"
+                            loading="lazy"
                             />
                         </a>
                     </div>
@@ -110,7 +168,10 @@
                             <h2>Netzwerkdarstellung</h2>
                         </a>
                         <img
-                        src="/img/network.png" width="100%" 
+                        src="./img/network.png"
+                        alt="Screenshot der Netzwerkdarstellung der Reisen"
+                        width="100%"
+                        loading="lazy"
                         />
                     </div>
                     <div class="card-body">
@@ -125,7 +186,10 @@
                         <a href="towers.html">
                             <h2>Quantitativ</h2>
                             <img
-                            src="/img/network_on_map.png" width="100%" 
+                            src="./img/network_on_map.png"
+                            alt="Screenshot der quantitativen Darstellung der Aufenthaltstage auf Karte"
+                            width="100%"
+                            loading="lazy"
                             />
                         </a>
                     </div>
@@ -140,7 +204,10 @@
                         <a href="travel-net-map.html">
                             <h2>Netzwerkdarstellung auf einer Karte</h2>
                             <img
-                            src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/netzwerk-geo.jpg" width="100%" 
+                            src="https://shared.acdh.oeaw.ac.at/schnitzler-orte/netzwerk-geo.jpg"
+                            alt="Screenshot der Netzwerkdarstellung auf geografischer Europakarte"
+                            width="100%"
+                            loading="lazy"
                             />
                         </a>
                     </div>

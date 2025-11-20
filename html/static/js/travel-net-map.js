@@ -17,7 +17,7 @@ $(document).ready(function(){
 		//var map = L.map('map').setView([-25, 134], 5);
 
 		// create a basemap
-		var canvas = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+		var canvas = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 			subdomains: 'abcd',
 			maxZoom: 19
