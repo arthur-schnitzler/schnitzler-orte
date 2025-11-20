@@ -24,14 +24,7 @@
     <script>
       var select = document.getElementById("selectNumber");
       // Generate array of years from 1879 to 1931 (inclusive)
-      const range = (start, end, step = 1) => {
-        const result = [];
-        for (let i = start; i < end; i += step) {
-          result.push(i);
-        }
-        return result;
-      };
-      const options = range(1879, 1932, 1);
+      const options = Array.from(range(1879, 1932, 1));
       for(var i = 0; i < options.length; i++) {
           var opt = options[i];
           var el = document.createElement("option");
