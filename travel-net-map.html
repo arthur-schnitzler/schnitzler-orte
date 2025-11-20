@@ -50,11 +50,31 @@
     <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js" defer></script>
     <script type="text/javascript" src="./static/js/utils.js" defer></script>
     
+<!-- Prevent StoryMap from loading on this page -->
+<style>body { display: none; }</style>
+<script>
+// Remove storymap script before it loads
+document.addEventListener('DOMContentLoaded', function() {
+    document.body.style.display = 'block';
+});
+</script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="static/libs/leaflet-network.js"></script>
+<script>
+// Wait for Leaflet to load, then load network plugin
+(function() {
+    var script = document.createElement('script');
+    script.src = 'static/libs/leaflet-network.js';
+    script.onload = function() {
+        console.log('leaflet-network loaded, saving to window');
+        window.LeafletNetworkLayer = L.NetworkLayer;
+        window.leafletNetworkLayer = L.networkLayer;
+    };
+    document.head.appendChild(script);
+})();
+</script>
 
 <style>
 
@@ -267,7 +287,14 @@
         </div>
 </div>
     
-<script src="static/js/travel-net-map.js?v=3"></script>
+<script>
+// Wait for everything to load
+window.addEventListener('load', function() {
+    var script = document.createElement('script');
+    script.src = 'static/js/travel-net-map.js?v=4';
+    document.body.appendChild(script);
+});
+</script>
 
   </body>
 
