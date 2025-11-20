@@ -1,18 +1,6 @@
 // taken from https://github.com/danwild/leaflet-network
 
-$(document).ready(function(){
-
-	$.get('data/travel-net-map.json', function(data, resType){
-
-		if(resType == 'success'){
-			init(data);
-		}
-		else {
-			console.log('failed to load data');
-		}
-	});
-
-	function init(data){
+function init(data){
 
 		//var map = L.map('map').setView([-25, 134], 5);
 
@@ -80,7 +68,15 @@ $(document).ready(function(){
 			globalWeightMode = !globalWeightMode;
 			networkLayer.setOptions({ globalWeightMode: globalWeightMode });
 		});
-	}
+}
 
-
+$(document).ready(function(){
+	$.get('data/travel-net-map.json', function(data, resType){
+		if(resType == 'success'){
+			init(data);
+		}
+		else {
+			console.log('failed to load data');
+		}
+	});
 });
