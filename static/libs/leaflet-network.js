@@ -95,12 +95,20 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 		});
 		this._linearWidthScale = d3.scaleLinear().domain(scaleDomain).range(this.options.lineWidthRange);
 
-		// initialize the SVG layer using the saved original Leaflet
-		this._mapSvg = OriginalLeaflet.svg();
-		this._mapSvg.addTo(map);
+		// Get or create SVG element directly in the map container
+		var mapContainer = d3.select('#' + map.getContainer().id);
+		var svg = mapContainer.select("svg");
 
-		// we simply pick up the SVG from the map object
-		var svg = d3.select('#' + map.getContainer().id).select("svg");
+		// If no SVG exists, create one
+		if (svg.empty()) {
+			svg = mapContainer.append("svg")
+				.style("position", "absolute")
+				.style("top", 0)
+				.style("left", 0)
+				.style("width", "100%")
+				.style("height", "100%")
+				.style("z-index", 200);
+		}
 
 		// leaflet svg has pointer events disabled by default..
 		svg.attr("pointer-events", "all");
@@ -134,7 +142,10 @@ L.NetworkLayer = (L.Layer ? L.Layer : L.Class).extend({
 
 	onRemove: function onRemove(map) {
 		this._active = false;
-		this._mapSvg.removeFrom(map);
+		// Remove SVG groups
+		if (this._svgGroup1) {
+			this._svgGroup1.remove();
+		}
 	},
 
 	/*------------------------------------ PUBLIC METHODS ------------------------------------------*/
