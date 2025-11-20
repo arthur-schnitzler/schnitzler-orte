@@ -32,6 +32,14 @@ function init(data){
 		var globalWeightMode = true;
 
 		// init the network layer using saved global reference
+		console.log('In init, window.leafletNetworkLayer is', typeof window.leafletNetworkLayer);
+		console.log('In init, window.LeafletNetworkLayer is', typeof window.LeafletNetworkLayer);
+
+		if (typeof window.leafletNetworkLayer !== 'function') {
+			console.error('window.leafletNetworkLayer is not available!');
+			return;
+		}
+
 		var networkLayer = window.leafletNetworkLayer({
 
 			data: data,
