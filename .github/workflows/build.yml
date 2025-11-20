@@ -33,6 +33,19 @@ jobs:
           mkdir -p ./html/data
           ./build.sh
 
+      - name: Verify build output
+        run: |
+          echo "Checking generated files..."
+          ls -la ./html/data/ | head -20
+          echo "Total JSON files: $(ls -1 ./html/data/*.json 2>/dev/null | wc -l)"
+          echo "Total CSV files: $(ls -1 ./html/data/*.csv 2>/dev/null | wc -l)"
+          echo "Total HTML files: $(ls -1 ./html/*.html 2>/dev/null | wc -l)"
+          echo "Checking critical data files..."
+          test -f ./html/data/arc-data.json && echo "✓ arc-data.json exists" || echo "✗ arc-data.json MISSING"
+          test -f ./html/data/network.json && echo "✓ network.json exists" || echo "✗ network.json MISSING"
+          test -f ./html/data/travel-net-map.json && echo "✓ travel-net-map.json exists" || echo "✗ travel-net-map.json MISSING"
+          test -f ./html/sitemap.xml && echo "✓ sitemap.xml exists" || echo "✗ sitemap.xml MISSING"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
